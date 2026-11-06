@@ -1,0 +1,398 @@
+{
+  "source_repository": "https://github.com/MontrealAI/AGI-Alpha-Invention-Flywheel-Lab",
+  "source_commit": "de6839a4da2275dbe4cda00c2d3b5625210e02c5",
+  "destination_repository": "https://github.com/MontrealAI/CONTINUITY",
+  "method": "Dedicated files copied byte-for-byte; source repository unchanged.",
+  "files": {
+    "continuity_omega/__init__.py": {
+      "bytes": 178,
+      "sha256": "b7de658c6d80c49338fc65f066461a59688fa26acf61569930ee1dd553d53a14",
+      "git_blob": "cb5e5e7e42464372b3dbaceba800b848e66f05e2"
+    },
+    "continuity_omega/__main__.py": {
+      "bytes": 47,
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "git_blob": "13be635566e79adccc98892cc67a44e636908b35"
+    },
+    "continuity_omega/checker.py": {
+      "bytes": 13342,
+      "sha256": "860e4725f61ef7489ca89d210a42447f48d9ef4f27ea002b631ad9c81fe1d277",
+      "git_blob": "0f0bbd32000b35453958f31b18bbf868c7ce1ad5"
+    },
+    "continuity_omega/cli.py": {
+      "bytes": 4530,
+      "sha256": "d665f47e19e4c4b4391f54196cefa4004478af7b601a0ed7ff23e4abe3cdfb1d",
+      "git_blob": "8b6efcb1c041663a3078f6a1bbf2c35aa8b2bf4f"
+    },
+    "continuity_omega/demo.py": {
+      "bytes": 3332,
+      "sha256": "4fe75e34c600efe11cd5477afc18a2de09e51dc173a017f5f8e63a6da9b5e576",
+      "git_blob": "f1e057d76f182d4bf731125d2a7ab8350dbdceed"
+    },
+    "continuity_omega/engine.py": {
+      "bytes": 12344,
+      "sha256": "8629ded8485ec16166fd16bb31eb96bddd7c64896a562e9ccd45a7d7c70fcf62",
+      "git_blob": "d0609357a5f8f0508b0d6e6a200b97e45be203e3"
+    },
+    "docs/continuity-omega-paper/.gitignore": {
+      "bytes": 20,
+      "sha256": "c7cd0fc55d4b88bc4ed87b1cdc33670d9046174ab762188a0f2ce10290bb56e0",
+      "git_blob": "3d43339293004eaa6de63cf66c6ef986a0922141"
+    },
+    "docs/continuity-omega-paper/CITATION.cff": {
+      "bytes": 864,
+      "sha256": "f3928ccbb996d05cf540570888f7c336d8b38266026b07cfe25b46a5ec74ee5a",
+      "git_blob": "a1fe4c642290e9376cf96054f7b37e3dfb6477a1"
+    },
+    "docs/continuity-omega-paper/CITATION.fr.cff": {
+      "bytes": 967,
+      "sha256": "ae7a5b433992bd05b303e0feda7d50dbb8bcc04d29ea2909c79445dd02517cd4",
+      "git_blob": "14d559d8246a9709fa96343d54877a001d60e675"
+    },
+    "docs/continuity-omega-paper/CLAIMS.fr.json": {
+      "bytes": 20938,
+      "sha256": "38e4b7f7ee0feab7d3126910bd5c06c76fa563728167943a8c359da20e58bc09",
+      "git_blob": "df6b029d426be4ae07201dc64ff1074366419934"
+    },
+    "docs/continuity-omega-paper/CLAIMS.json": {
+      "bytes": 16873,
+      "sha256": "4058726b0bef2034e2cf7f014fbaf51533abf86a01d72d3de1fb99219df52a71",
+      "git_blob": "840702583a50e8787f2d97f366cf049ba84783ba"
+    },
+    "docs/continuity-omega-paper/CONTINUITY_OMEGA.pdf": {
+      "bytes": 292850,
+      "sha256": "86d0bc985a377da1499bb75a5b1e9d1a4ab0c805345aad47b450f5707cf0ad2a",
+      "git_blob": "85d845d76c0007f5b509c4a7461966750d50d9fc"
+    },
+    "docs/continuity-omega-paper/CONTINUITY_OMEGA.tex": {
+      "bytes": 83727,
+      "sha256": "70109d160aa544cb3cb3734404129f6175c2b42c93b2e1adc781a957c78def2c",
+      "git_blob": "29e1910c6fa0ec9eb579ced3d7c4f76818ddb648"
+    },
+    "docs/continuity-omega-paper/CONTINUITY_OMEGA_FR.pdf": {
+      "bytes": 306911,
+      "sha256": "616b9d77ed23e18e33ae9056921efd7b710ed77e721a1dc205c033cb583e603f",
+      "git_blob": "0e13e2c5aadc224549691cc8244ff46d10688d19"
+    },
+    "docs/continuity-omega-paper/CONTINUITY_OMEGA_FR.tex": {
+      "bytes": 101782,
+      "sha256": "2ef07cbfa6e5c5557919d8e1cc5bc7a5b4354e8be5c556925e0286d571a01c1c",
+      "git_blob": "919cb11f59def95d6ff888b0ffdf150aa515f299"
+    },
+    "docs/continuity-omega-paper/EVIDENCE.fr.md": {
+      "bytes": 11110,
+      "sha256": "aa646e972fcee2451f808c0d07d3376d6a0c4d6cdb80d081d1aeb09f5dc3d787",
+      "git_blob": "0384eec1adc94de248011ff2da32f08e5d76c13f"
+    },
+    "docs/continuity-omega-paper/EVIDENCE.md": {
+      "bytes": 9127,
+      "sha256": "382d5529c3c7f2c4f1079bed31f4cd1cca1100938005641bf439b28eed4c0666",
+      "git_blob": "01c568ce8c6933ef3ddebffbd7272e71adbb74f5"
+    },
+    "docs/continuity-omega-paper/PUBLICATION.json": {
+      "bytes": 10058,
+      "sha256": "ae291ff6971ead62de9b4bac0fa724f2b593ffa052abb0893a6e56e50f2cd910",
+      "git_blob": "cdd43680cdf5d50d5a6e7520a40cc424742b838b"
+    },
+    "docs/continuity-omega-paper/README.fr.md": {
+      "bytes": 14657,
+      "sha256": "8f63046038df369fd38e011174b20d2a08a27c283ad463adfa5cd2102e1d5b63",
+      "git_blob": "9318d6d6546bdc80d991bd9b6363088f42584c17"
+    },
+    "docs/continuity-omega-paper/README.md": {
+      "bytes": 11635,
+      "sha256": "b809c648fe57102e2ede8dbb585e6df349391c9fa5cec208c19b41af85b40375",
+      "git_blob": "2bf518069ec4d6907273c2c2c5b725e87f0c15aa"
+    },
+    "docs/continuity-omega-paper/RELEASE_NOTES.md": {
+      "bytes": 19441,
+      "sha256": "a71ad6e4ecb7a12338fb161ed332811163610fe708f931348c552cbd638f42ad",
+      "git_blob": "91999451a7459ccc19eb7d2b5d888efd5351f46d"
+    },
+    "docs/continuity-omega-paper/REVIEW.fr.md": {
+      "bytes": 7563,
+      "sha256": "bc0d7c8921706e16b153a9512c7aa252602fe73e98b1d9c481df2bca10e9d35a",
+      "git_blob": "b05738e5cb8427307953f8dad13e65b659dec68d"
+    },
+    "docs/continuity-omega-paper/REVIEW.md": {
+      "bytes": 5427,
+      "sha256": "3ed0fa18136818fe0868cb43cf4e84e8d82d145d3aba7e89775ab97b58ec9653",
+      "git_blob": "d048ab840afdf5d0e695fd776b5181aecc90993c"
+    },
+    "docs/continuity-omega-paper/SOURCE_MAP.fr.md": {
+      "bytes": 11945,
+      "sha256": "e89b912aebe8bb1c730b562a718a01c609baeb8b2d332d44849e667f90c4b5cb",
+      "git_blob": "243e7df60632dbe97c09a0afa05ec1e2458bca04"
+    },
+    "docs/continuity-omega-paper/SOURCE_MAP.md": {
+      "bytes": 9779,
+      "sha256": "6e5cf8cc47c4faa140d0ec5dd2fca7b16a194987d7d7da844d230bb2a4ffeac0",
+      "git_blob": "d44c2480d1eb15fef275b8244f2761c523f4e8d5"
+    },
+    "docs/continuity-omega-paper/TRANSLATION.md": {
+      "bytes": 27289,
+      "sha256": "044b9a4a1b40ab6d9b15b6e7235b5ad95f769070104a77d46998153bf793a35f",
+      "git_blob": "a05330042c1dd267a042f3d057c805a13e57df33"
+    },
+    "docs/continuity-omega-paper/build.py": {
+      "bytes": 2720,
+      "sha256": "0db5e464169cc1d672c36816d6c3b1480b1e5f4e0cad870eba1c2f00d033cdbc",
+      "git_blob": "9b441f5fda7919e0eb1cff9c3c8c968fd342a8b4"
+    },
+    "docs/continuity-omega-paper/check_translations.py": {
+      "bytes": 13520,
+      "sha256": "a8a6eca8991f0099dd3ac34cb10723aca0e3546a947a27a8a72215ffe520dda3",
+      "git_blob": "5c59b5dd1c1cc59cfc018bdb693f88f945329942"
+    },
+    "docs/continuity-omega-paper/counterexamples.py": {
+      "bytes": 12251,
+      "sha256": "2e1e7b06aed29fe9401ce8a908fb2b93d0bf1a75a8d729ca2b1b88fe6c43a86f",
+      "git_blob": "ab904dc56d74f417fdf0b8be3237a2e6df846860"
+    },
+    "docs/continuity-omega-paper/evidence/COUNTEREXAMPLES.json": {
+      "bytes": 2288,
+      "sha256": "2b62c84eb324dc4e2c60403be10d3b5c63c5324ff7622e74ce859663e64d1729",
+      "git_blob": "0d8591a438a5b98ccb619c8a3cb68f9213effdd2"
+    },
+    "docs/continuity-omega-paper/evidence/POOLING.json": {
+      "bytes": 815,
+      "sha256": "29a181652556fa9461a82ece3e7fe7b2e5d33e643ff79dfd3f80ee0070ae023b",
+      "git_blob": "8a4430d6ffdbb3f7e045ce2f52b0f3c46beecd3b"
+    },
+    "docs/continuity-omega-paper/evidence/QA.json": {
+      "bytes": 2510,
+      "sha256": "7b597bce9a04c5cc8c6fa0279cac7ec9b7d0655c2417ac3b351fffa866e9776d",
+      "git_blob": "814f3d5bf11a844cc16677ab6fbde6d955db1258"
+    },
+    "docs/continuity-omega-paper/evidence/REPRODUCTION.json": {
+      "bytes": 7811,
+      "sha256": "ab0bf43dc3a08f8c343f847b2c2174b0a82fdc5655b5873d20cd7763c144184b",
+      "git_blob": "c19ab555819ce5a24e64c2e63468e56e76ca6403"
+    },
+    "docs/continuity-omega-paper/evidence/TRANSLATION_QA.json": {
+      "bytes": 7477,
+      "sha256": "68779584c43a1c6972908d0fb01e4364b30b92a6144fdda9248a1de8bb236ac1",
+      "git_blob": "b7d2e16b0c2d72ef34455681fdc8dab7e75a326a"
+    },
+    "docs/continuity-omega-paper/package.py": {
+      "bytes": 8690,
+      "sha256": "31f2b4eaa71db1cc6b8c5403663a51c755ffefa5d3c8c287742496a39c5e14ee",
+      "git_blob": "03d03eb5c44183377cc2c804d8274a7ad42e8858"
+    },
+    "docs/continuity-omega-paper/pooling_example.py": {
+      "bytes": 1855,
+      "sha256": "f6a2297c8e32cece02d0534869a92c92b0ab0182e2312b148a03167492dc944b",
+      "git_blob": "87c0ec0f008ca18662040f5e1c0f54eb54641457"
+    },
+    "docs/continuity-omega-paper/reproduce.py": {
+      "bytes": 20531,
+      "sha256": "4dd89d370ca7e71be919875a7c1ed746243be2997289ddb57947b6ab9b9facaf",
+      "git_blob": "3e03ff93f9ae518e951b112d89193e44e50fb5e0"
+    },
+    "docs/continuity-omega-paper/verify.py": {
+      "bytes": 18291,
+      "sha256": "1c6e1f14e3fb72766b71c033f58436724807542c3f815846f88f7964aebbc07a",
+      "git_blob": "c8070e6fe8c5d73dc283e54c1b46cc25f6618ad1"
+    },
+    "docs/continuity-omega/OUTPUTS.fr.md": {
+      "bytes": 10298,
+      "sha256": "1bb966ba5a155f20b6a48975d27e619cb59f036d5dca840cadc42cb28d3fc77b",
+      "git_blob": "79b8a41c9c54815ab0f5e1e73910226437913690"
+    },
+    "docs/continuity-omega/OUTPUTS.md": {
+      "bytes": 8597,
+      "sha256": "2b984eab338ab24f47e6cf777b17823536bfe12cf51379f947bda7373f20431a",
+      "git_blob": "e373496410aef514fd95c9067e9e3c963f8193dd"
+    },
+    "docs/continuity-omega/QUICKSTART.fr.md": {
+      "bytes": 3597,
+      "sha256": "751a7d97dcb49fb9d72851197879c3d04cdcc0111ba5831d906e6b77d622000b",
+      "git_blob": "b9ed344c2a2c3ad0137be8962a73cad9f95e5bfa"
+    },
+    "docs/continuity-omega/QUICKSTART.md": {
+      "bytes": 3046,
+      "sha256": "fce42a5019f9161af1d0801fdd30c800caf024f3aa5475ade7e750a89c5fec2a",
+      "git_blob": "688a1daeb2caeed92ada53abefb7ce97d715a4c8"
+    },
+    "docs/continuity-omega/READING_RELEASE.md": {
+      "bytes": 11635,
+      "sha256": "06d547abd735bb3f480e8b2d4026645fedacd0d4910816c66cababde85cbfd71",
+      "git_blob": "762118159bf342cf4b2598bafb6216cfa179cf74"
+    },
+    "docs/continuity-omega/README.fr.md": {
+      "bytes": 13273,
+      "sha256": "52212400a7e48291675ceeae9ffccbbe6f2cf20a599dea8c33f6ffc891991502",
+      "git_blob": "d1a6b7262867726ed2753abec84b2be9052bba5f"
+    },
+    "docs/continuity-omega/README.md": {
+      "bytes": 10333,
+      "sha256": "85baca40189563649ecd7991e5504ead79f3eb4fc5289721aa79209bd8fdde85",
+      "git_blob": "5382f8611d10e192033b259f82ed582ae0acd682"
+    },
+    "docs/continuity-omega/REAL_PILOT.fr.md": {
+      "bytes": 10123,
+      "sha256": "c2208e2dc506c1dc28b0abbc768f4acefa223e6c8d3ec9233757d718e4d84211",
+      "git_blob": "4b28c9ebd777a8cf086e2febe67f964211ff5751"
+    },
+    "docs/continuity-omega/REAL_PILOT.md": {
+      "bytes": 7513,
+      "sha256": "6ab62befa8ee2f9616d23679fd4c3680348faa22a3fc7f6b755f3a95f4eaeaa5",
+      "git_blob": "fa724cbfcc75f8806b3d8ca3dc6714bcf0f44c59"
+    },
+    "docs/research/continuity-omega-ascent-en-poster.png": {
+      "bytes": 118683,
+      "sha256": "657f3b1d208e1726f13349d51ecf8d7d4d41bdb269580090256dd9351cfcce7a",
+      "git_blob": "1de816c1a665483b9b772fbee162390da9ab57f6"
+    },
+    "docs/research/continuity-omega-ascent-en.gif": {
+      "bytes": 520096,
+      "sha256": "8707bb01ef3abc9e7f89c0ab1ad415bd6fbfa32987467cd0408fc2b61b0faabe",
+      "git_blob": "5a27fb214290826215edb8e47634bb18c31c4f81"
+    },
+    "docs/research/continuity-omega-ascent-fr-poster.png": {
+      "bytes": 173295,
+      "sha256": "f7ae208f96cb5bbf58d7c66b3f364327c49ef64bc607006520d24aa68537d0c3",
+      "git_blob": "55e88a40ef60fde876dc95f13883407d61e78787"
+    },
+    "docs/research/continuity-omega-ascent-fr.gif": {
+      "bytes": 988893,
+      "sha256": "c5cd792cd687e1697d73b4cd7a9a1b6153213392560633b6fb4e8107d2a4ec0d",
+      "git_blob": "88d4c9106f3acdd1b1e7e5025c8bfb934904b7fe"
+    },
+    "docs/research/continuity-omega-card.svg": {
+      "bytes": 2047,
+      "sha256": "509c3a9e6e3246d9a0322b9ff4943e6baad10f3c08f130e34bd6a0ba224bc1b5",
+      "git_blob": "03840f26311f7097161205fc893027fe77f409df"
+    },
+    "docs/research/continuity-omega-fr-card.svg": {
+      "bytes": 2096,
+      "sha256": "644bb3c921bcd353530a0270fc0e616e32f3d9b4668d3ab8fc13e70fa7f8a9a7",
+      "git_blob": "b5ee62138762cdb9eb00c59425e987754a1fb603"
+    },
+    "docs/research/continuity-omega-fr-social.png": {
+      "bytes": 78254,
+      "sha256": "dec6845e10a7d144902ab9de23d39f6f0df588d59751c7279a4491cc99fc7048",
+      "git_blob": "c90e324255b219f85e8fce35a46d276e5469bd05"
+    },
+    "docs/research/continuity-omega-fr.html": {
+      "bytes": 39684,
+      "sha256": "8603dce9f041e7de39bcf7594f8ba5d5433fd6d664a67f3adfeac7da8ffcc9f4",
+      "git_blob": "2d04c2923b5b1fcbb6134f0031f93e641bdfb073"
+    },
+    "docs/research/continuity-omega-fr.pdf": {
+      "bytes": 306911,
+      "sha256": "616b9d77ed23e18e33ae9056921efd7b710ed77e721a1dc205c033cb583e603f",
+      "git_blob": "0e13e2c5aadc224549691cc8244ff46d10688d19"
+    },
+    "docs/research/continuity-omega-journey-en-poster.png": {
+      "bytes": 256928,
+      "sha256": "01a731fd49c620bb98de4aefed6b5904be3e6b5a82033907858f86cd85a71d19",
+      "git_blob": "635ee4447c371e308b39b877ce2cb0817bf24e0a"
+    },
+    "docs/research/continuity-omega-journey-en.gif": {
+      "bytes": 676101,
+      "sha256": "986ebcf23ac12d9ac7fa9ddb4ad72c20e68a462128374064fecba0069099a534",
+      "git_blob": "5d7328fc999502c5b32a61b5035f5b66d0bcea39"
+    },
+    "docs/research/continuity-omega-journey-fr-poster.png": {
+      "bytes": 335214,
+      "sha256": "1c97208d21c9b942e7e2cb8ccb89d74c52893901cb1aebb5753aa468c746130e",
+      "git_blob": "84bdb55f20519a9b823adc00ab3d0c231897d2ec"
+    },
+    "docs/research/continuity-omega-journey-fr.gif": {
+      "bytes": 1036290,
+      "sha256": "567d2dea495030a7ccbcd13cd38fbe6e7d21e520940a6e7c378adf6e74a96324",
+      "git_blob": "2db83b84df0c716211025771e71ddf47f5aa772e"
+    },
+    "docs/research/continuity-omega-media-fr.html": {
+      "bytes": 31474,
+      "sha256": "707d011a103276c3c21360910d9103fb108777e0e4b88567bc216137479db688",
+      "git_blob": "4dab4e92f8d08b26e4dbc717dff0f72bec6dee11"
+    },
+    "docs/research/continuity-omega-media-manifest.json": {
+      "bytes": 10014,
+      "sha256": "77ce5b6b2d296f70b5d67c523c8fd632f529f5428c9508e125349c631afd98f3",
+      "git_blob": "0aad64d68c30f73987cf2f0143651b401ea2b380"
+    },
+    "docs/research/continuity-omega-media.html": {
+      "bytes": 29428,
+      "sha256": "d0a9d009540f57718abd0041b78f053e44a95dc035ab87c547b164366914328a",
+      "git_blob": "fd851390a9c77f42fef4da3b3bed94eccc11c641"
+    },
+    "docs/research/continuity-omega-motion-en-poster.png": {
+      "bytes": 144246,
+      "sha256": "d76af33d2265393dd4cbb2d7228b4feb3a0b9238ba0713bddac0db4140dbec37",
+      "git_blob": "fa2e806465963eb5e2043b7a000698ab63b57582"
+    },
+    "docs/research/continuity-omega-motion-en.gif": {
+      "bytes": 660894,
+      "sha256": "c19307447a1084d1c30d24f8f1e074bb879cb410b8e4e37dda19d16d2691d372",
+      "git_blob": "f574848bbf641671500df80ebab4413c016d55c5"
+    },
+    "docs/research/continuity-omega-motion-fr-poster.png": {
+      "bytes": 209271,
+      "sha256": "c2e0f5d4f0faa9110033b5619a6823c0ba849d180cb44703b974855727e6fb99",
+      "git_blob": "1ad5cfdd13e6ff3ee7ead8a76948e47cdeede84b"
+    },
+    "docs/research/continuity-omega-motion-fr.gif": {
+      "bytes": 1007309,
+      "sha256": "79e7e886673156ac71a8f29e049c37affe460b92ecae1e794feafaa342b1a9c7",
+      "git_blob": "100243285b1733da36724d682a45cb949736b08b"
+    },
+    "docs/research/continuity-omega-reveal-en-poster.png": {
+      "bytes": 124533,
+      "sha256": "9d574a628d8ed3207479d71fe6e9f3702386d0c38224f02fd215d647a1d3e1a8",
+      "git_blob": "b75210176b0a359e3a9d4c53b549cb123d44cdcf"
+    },
+    "docs/research/continuity-omega-reveal-en.gif": {
+      "bytes": 532290,
+      "sha256": "b9b5a2599613965380bdc583360b8e0da0a8b9d0dc85ab3df8a614af0743534f",
+      "git_blob": "94ae036fe8f49f00aff496575683afa56c0a3867"
+    },
+    "docs/research/continuity-omega-reveal-fr-poster.png": {
+      "bytes": 195592,
+      "sha256": "d6181391b25a7a4fc80cf9e11ddb1508e1285425e57402b84545f441b89804b4",
+      "git_blob": "56cb6c8666f9bb8f4e9dc250ae9e534d6b22b702"
+    },
+    "docs/research/continuity-omega-reveal-fr.gif": {
+      "bytes": 1053886,
+      "sha256": "f66b14ddff8be4518826269585b7789dc08373eb4893a1296850fcb21945a123",
+      "git_blob": "f3ffdb93abcbb7da07d0f604d863b5eb6c893c10"
+    },
+    "docs/research/continuity-omega-social.png": {
+      "bytes": 79606,
+      "sha256": "b3fcfb3b470a41932ed4ee7d4e3275e1ffeecb065fa8b687f9186db4c6b9b006",
+      "git_blob": "8f045b2baaf42e6c2bb97a8fefcd96b9670717a5"
+    },
+    "docs/research/continuity-omega.html": {
+      "bytes": 36636,
+      "sha256": "3c4ca4f8561c15f2b110b6d5706b2f7c06e19e3532f827bb0b2d4f01c6c381f5",
+      "git_blob": "6c1038e89d9a4646e7484302d99b4164e5e0f75a"
+    },
+    "docs/research/continuity-omega.pdf": {
+      "bytes": 292850,
+      "sha256": "86d0bc985a377da1499bb75a5b1e9d1a4ab0c805345aad47b450f5707cf0ad2a",
+      "git_blob": "85d845d76c0007f5b509c4a7461966750d50d9fc"
+    },
+    "scripts/continuity_passport.py": {
+      "bytes": 40886,
+      "sha256": "38c45689efae8b96daf337afb77518bf758df69cab2772d710865c04f187282f",
+      "git_blob": "8d888147c803504396cdc857ba11fbe65bd62e5e"
+    },
+    "scripts/package_continuity_reading.py": {
+      "bytes": 33193,
+      "sha256": "0b618ec385fd8151dbcc68b359636ead75a727c63c28b83159afc177ef5bb9ca",
+      "git_blob": "cebbc3ec36c0f2643c7de64f90c33f67e8e221b7"
+    },
+    "tests/test_continuity_omega.py": {
+      "bytes": 9954,
+      "sha256": "c94754ce00f90e0314f519186b8557021f9b2adc91a7c12b70b356d0a57eca5b",
+      "git_blob": "3a854c7a663036153f38b95b381f4efb8053c5d3"
+    },
+    "tests/test_continuity_passport.py": {
+      "bytes": 16801,
+      "sha256": "96e01c9702ac022d92ecfa555e32ffec35df75666e2fa2de1d3b1383c81636d5",
+      "git_blob": "d09139c7a1cc50f929f860a8a42745cebc2129d3"
+    }
+  }
+}
