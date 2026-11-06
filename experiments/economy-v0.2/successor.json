@@ -1,0 +1,292 @@
+{
+  "schema": "continuity-economy/experiment/v1",
+  "version": "0.2.0",
+  "experiment_id": "CONTINUITY-ECONOMY-SUCCESSOR-001",
+  "cohort": "successor",
+  "registration_revision": 1,
+  "authored_after_reuse_freeze": true,
+  "reuse_freeze_commit": "d172b6491ff0f065fb3804811dd55cc8b5961830",
+  "frozen_source_commit": "080a5484d1ff26fe04aac32078d9ea9ef2f739f4",
+  "reuse_freeze_file": "reuse-freeze.json",
+  "reuse_freeze_sha256": "319c64e10f83f90f78b72e2c0d844030d7076afe6f7270db98b4cf81b6cdba13",
+  "scope": {
+    "en": "New archive-index digital-product obligations under changed participants, prices, dependencies and capacity windows. Semantic digital acceptance and authored synthetic economics only.",
+    "fr": "Nouvelles obligations de produits numériques d’index d’archives avec participants, prix, dépendances et fenêtres de capacité modifiés. Acceptation numérique sémantique et économie synthétique définie uniquement."
+  },
+  "registration": {
+    "en": "Authored after the first registered base comparison and its reuse freeze, before any successor planner, service, receiver, verifier or comparative execution. Only neutral schema validation, byte bounds, hash equality and authored arithmetic have been checked.",
+    "fr": "Rédigé après la première comparaison de base préenregistrée et son gel de réutilisation, avant toute planification, exécution de service, réception, vérification ou comparaison du successeur. Seuls schémas neutres, bornes d’octets, égalité des empreintes et calculs rédigés ont été contrôlés."
+  },
+  "methods": [
+    "conventional",
+    "harness",
+    "outside",
+    "ai"
+  ],
+  "fixtures": [
+    {
+      "id": "archive-window-transfer",
+      "file": "successor-fixtures/archive-window-transfer.json",
+      "sha256": "6dabdfc04a704767d86e6ba68bde0c6e4a374893b82056ee596b30371f4b306c",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "DEMONSTRATED",
+        "accepted_units": 1020
+      }
+    }
+  ],
+  "method_policy": {
+    "en": "Conventional and Harness receive identical new contract, policies and permitted observations through the unchanged broker. Both may use every eligible route and reusable material. No predetermined allocation is supplied. Outside makes no purchase. AI remains NOT_RUN without an already-authorized suitable local capability.",
+    "fr": "Les méthodes conventionnelle et du banc reçoivent le même nouveau contrat, les mêmes politiques et observations permises par le courtier inchangé. Toutes deux peuvent employer chaque voie admissible et matériau réutilisable. Aucune allocation prédéfinie n’est fournie. Le choix extérieur n’achète rien. L’IA reste NOT_RUN sans capacité locale appropriée déjà autorisée."
+  },
+  "claims": {
+    "outcome": {
+      "support": {
+        "en": "All 1020 active units are produced, received and independently accepted by their individual deadlines: ARC-410 revision 3 / 420 units; ARC-520 revision 2 / 330; ARC-630 revision 1 / 270. ARC-740 remains canceled with zero accepted units.",
+        "fr": "Les 1020 unités actives sont produites, reçues et acceptées indépendamment avant leurs échéances : ARC-410 révision 3 / 420 unités ; ARC-520 révision 2 / 330 ; ARC-630 révision 1 / 270. ARC-740 reste annulée avec zéro unité acceptée."
+      },
+      "falsifier": {
+        "en": "Any omitted required unit, accepted wrong/stale/duplicate/canceled/late unit, unauthorized route or unsupported full-completion claim.",
+        "fr": "Toute unité requise omise, unité erronée/périmée/dupliquée/annulée/tardive acceptée, voie non autorisée ou affirmation injustifiée d’achèvement complet."
+      },
+      "missing": {
+        "en": "Absent original authority, source completeness, actual bytes, receiving import, post-commit observation or complete verification prevents a favorable conclusion.",
+        "fr": "L’absence d’autorité originale, d’exhaustivité source, d’octets réels, d’importation, d’observation après validation ou de vérification complète interdit une conclusion favorable."
+      }
+    },
+    "service_feasibility": {
+      "support": {
+        "en": "A separately accepted and funded trade satisfies current consent, capacity windows, buyer outside utility, provider participation/liabilities and coordinator requirements; all actual modeled costs and transfers reconcile.",
+        "fr": "Une transaction acceptée et financée séparément satisfait consentements, fenêtres, utilité extérieure de l’acheteur, participation/responsabilités des fournisseurs et exigences du coordonnateur ; tous les coûts engagés et transferts modélisés concordent."
+      },
+      "falsifier": {
+        "en": "Favorable feasibility despite shared failed dependency use, expired permission, unfunded production, double-counted capacity/funds, unpaid required participation or canceled accrued acceptance.",
+        "fr": "Faisabilité favorable malgré une dépendance commune défaillante utilisée, permission expirée, production non financée, capacité/fonds comptés deux fois, participation requise non couverte ou acceptation acquise annulée."
+      },
+      "missing": {
+        "en": "Missing decisions, policy custody, funding/cost evidence or unresolved settlement leaves the corresponding claim unestablished.",
+        "fr": "Décisions, garde des politiques, preuves de financement/coûts absentes ou règlement non résolu laissent l’affirmation correspondante non établie."
+      }
+    },
+    "retained_method_transfer": {
+      "support": {
+        "en": "The first successor assessment completes under the exact 42 frozen implementation/interface/documentation hashes, with only separately registered new data and equal ordinary reuse for the conventional control.",
+        "fr": "La première évaluation du successeur s’achève avec les 42 empreintes figées exactes, en utilisant uniquement les nouvelles données préenregistrées et une réutilisation ordinaire équivalente pour le contrôle conventionnel."
+      },
+      "falsifier": {
+        "en": "Successful completion requires a successor-specific executor/schema/service change, a hidden completed product or an unequal resource/information advantage.",
+        "fr": "La réussite exige une modification d’exécuteur/schéma/service propre au successeur, un produit achevé caché ou un avantage inégal de ressources/information."
+      },
+      "missing": {
+        "en": "Missing source identity, freeze comparison, first-attempt evidence or measured adaptation labor prevents a claim of unchanged implementation transfer or reduced complete adaptation effort, respectively.",
+        "fr": "L’absence d’identité source, de comparaison au gel, de première tentative ou de mesure du travail d’adaptation empêche respectivement une affirmation de transfert inchangé ou de réduction de l’effort complet."
+      }
+    },
+    "method_advantage": {
+      "support": {
+        "en": "A bounded outcome advantage or complete-effort advantage over the equally equipped conventional method, with all attempts included; no favorable winner is required.",
+        "fr": "Un avantage borné de résultat ou d’effort complet face à la méthode conventionnelle également équipée, toutes tentatives incluses ; aucune victoire favorable n’est exigée."
+      },
+      "falsifier": {
+        "en": "An asserted advantage disappears under equal reusable knowledge, capable ordinary search or inclusion of failed proposals and unmeasured costs.",
+        "fr": "L’avantage allégué disparaît avec les mêmes connaissances réutilisables, une recherche ordinaire compétente ou la prise en compte des propositions échouées et coûts non mesurés."
+      },
+      "missing": {
+        "en": "One observation per method, unmeasured authoring/integration/adaptation labor, ties or unavailable AI cannot establish a general method or discovery advantage.",
+        "fr": "Une observation par méthode, du travail de rédaction/intégration/adaptation non mesuré, une égalité ou l’IA indisponible ne peuvent établir un avantage général de méthode ou de découverte."
+      }
+    }
+  },
+  "expected_test_criteria": {
+    "conventional": {
+      "outcome": "DEMONSTRATED",
+      "service_feasibility": "DEMONSTRATED",
+      "accepted_units": 1020
+    },
+    "harness": {
+      "outcome": "DEMONSTRATED",
+      "service_feasibility": "DEMONSTRATED",
+      "accepted_units": 1020
+    },
+    "outside": {
+      "outcome": "FAILED",
+      "service_feasibility": "NOT_ESTABLISHED",
+      "accepted_units": 0
+    },
+    "ai": {
+      "outcome": "NOT_ESTABLISHED",
+      "service_feasibility": "NOT_ESTABLISHED",
+      "accepted_units": 0,
+      "target_verdict": "NOT_RUN"
+    },
+    "common": {
+      "safety_status": "DEMONSTRATED",
+      "verification_status": "COMPLETE",
+      "duplicate_acceptances": 0,
+      "required_active_obligations": 3,
+      "forbidden_cancelled_obligation": "ARC-740",
+      "methods": [
+        "conventional",
+        "harness",
+        "outside"
+      ]
+    },
+    "interpretation": {
+      "en": "Expected assessments are preregistered test criteria, not observed results. No-action and unavailable AI have no acceptance transition at which to trigger the fault. AI is also exempt from executed-evidence expectations because it is not run. No exact proposal, selected provider split, price, runtime or method winner is prescribed.",
+      "fr": "Les évaluations attendues sont des critères préenregistrés, pas des résultats observés. Le choix sans action et l’IA indisponible n’ont aucune transition d’acceptation où déclencher la panne. L’IA est aussi dispensée des attentes de preuve d’exécution puisqu’elle n’est pas exécutée. Aucune proposition exacte, répartition, tarification, durée ou victoire de méthode n’est imposée."
+    },
+    "execution_controls": {
+      "methods": [
+        "conventional",
+        "harness"
+      ],
+      "required_fault": "ACK_LOST_AFTER_ACCEPTANCE",
+      "required_fault_occurrence": 2,
+      "required_condition": "ACCEPTANCE_ACKNOWLEDGMENT_RECONCILED_WITHOUT_DUPLICATE_ACCEPTANCE_COST_OR_CAPACITY"
+    }
+  },
+  "changed_requirements": {
+    "en": "Three active recipients and new materialized bilingual text; quantities 420/330/270, retained cancellation of 90 units, final revisions 3/2/1, eight fixed lots of 150 units or the final remainder, individual deadlines 130/440/520, global deadline 560, observation cutoff 650 and elapsed limit 90,000 ms. Primary and backup share a failed dependency; compatible work spans early and later capacity windows.",
+    "fr": "Trois destinataires actifs et nouveaux textes bilingues matérialisés ; quantités 420/330/270, annulation conservée de 90 unités, révisions finales 3/2/1, huit lots de 150 unités ou du reste, échéances individuelles 130/440/520, échéance globale 560, limite d’observation 650 et délai écoulé de 90 000 ms. Principal et secours partagent une dépendance défaillante ; le travail compatible couvre des fenêtres précoces et ultérieures."
+  },
+  "seed": 7919,
+  "fault_schedule": [
+    {
+      "event": "ACK_LOST_AFTER_ACCEPTANCE",
+      "trigger": "inspect",
+      "occurrence": 2,
+      "target": "ANY",
+      "value": 0
+    }
+  ],
+  "arithmetic_admission": {
+    "classification": "AUTHORED_FIXTURE_ARITHMETIC_NOT_EXECUTION",
+    "candidate_visible": false,
+    "active_units": 1020,
+    "active_lots": 8,
+    "available_early_capacity": 570,
+    "available_later_capacity": 660,
+    "provider_a_total_capacity": 900,
+    "provider_b_total_capacity": 330,
+    "one_possible_aggregate_allocation": {
+      "ARCHIVE-COMPAT-A.EARLY": 570,
+      "ARCHIVE-COMPAT-A.LATE": 330,
+      "ARCHIVE-COMPAT-B.LATE": 120
+    },
+    "one_possible_terms_minor": {
+      "provider_a_base": 2040,
+      "provider_a_rework_allowance": 1920,
+      "provider_a_participation": 260,
+      "provider_a_payment": 4220,
+      "provider_b_base": 570,
+      "provider_b_rework_allowance": 420,
+      "provider_b_participation": 200,
+      "provider_b_payment": 1190,
+      "coordinator_cost": 180,
+      "coordinator_participation": 110,
+      "coordinator_fee": 290,
+      "buyer_price": 5700,
+      "definite_price_upper_bound": 6400,
+      "possible_price_upper_bound": 7000,
+      "buyer_break_even_value": 7500
+    },
+    "initial_ledger_total_minor": 26100,
+    "product_packet_bounds_bytes": {
+      "ARC-410": 77296,
+      "ARC-520": 73546,
+      "ARC-630": 76096
+    },
+    "qualification": {
+      "en": "These are authored arithmetic feasibility witnesses, not a planner result, selected arrangement, observed acceptance or measured economic outcome. No witness allocation or completed content is supplied through the candidate view. Correction finance does not guarantee later capacity.",
+      "fr": "Ce sont des témoins arithmétiques de faisabilité rédigés, pas un résultat de planification, une solution sélectionnée, une acceptation observée ou un résultat économique mesuré. Aucune allocation témoin ni contenu achevé n’est fourni par la vue du candidat. Le financement de correction ne garantit pas la capacité ultérieure."
+    }
+  },
+  "economic_boundary": {
+    "en": "Every amount is an exact synthetic minor unit; 100 minor units equal 1 fictional SMU. Values, tariffs, balances, liabilities, consent and outside options are authored assumptions. The buyer value interval is retained; no convenient point is selected. No real contract, payment, demand or sale is observed.",
+    "fr": "Chaque montant est une unité mineure synthétique exacte ; 100 unités mineures valent 1 SMU fictive. Valeurs, tarifs, soldes, responsabilités, consentements et options externes sont des hypothèses définies. L’intervalle de valeur de l’acheteur est conservé sans choix d’un point avantageux. Aucun contrat, paiement, demande ou vente réel n’est observé."
+  },
+  "reuse_protocol": {
+    "allowed": {
+      "en": [
+        "The unchanged executable implementation, neutral interfaces and schemas, reusable transaction/retry/reconciliation methods and listed documentation.",
+        "Equal candidate-visible new contract, policies and tool observations for conventional and Harness methods.",
+        "General knowledge that base tests exposed defects already repaired before this freeze; no successor-specific repair has been made."
+      ],
+      "fr": [
+        "L’implémentation exécutable inchangée, les interfaces et schémas neutres, les méthodes réutilisables de transaction/reprise/rapprochement et la documentation répertoriée.",
+        "Le même contrat, les mêmes politiques et observations d’outils du successeur visibles des méthodes conventionnelle et du banc.",
+        "La connaissance générale de défauts de base déjà corrigés avant ce gel ; aucune correction propre au successeur n’a été apportée."
+      ]
+    },
+    "forbidden": {
+      "en": [
+        "Completed products, receiver databases, acceptance references and hidden expected answers.",
+        "Successor-specific executor modifications before the first successor assessment.",
+        "Additional candidate-only resources, tools or permissions."
+      ],
+      "fr": [
+        "Produits achevés, bases du destinataire, références d’acceptation et réponses attendues cachées.",
+        "Modifications de l’exécuteur propres au successeur avant sa première évaluation.",
+        "Ressources, outils ou autorisations supplémentaires réservés à un candidat."
+      ]
+    },
+    "candidate_new_inputs": {
+      "en": "Only the new contract, new policies, fixed-lot derivation and permitted live tool observations, identically for conventional and Harness.",
+      "fr": "Uniquement le nouveau contrat, les nouvelles politiques, la dérivation des lots fixes et les observations permises des outils, identiques pour les méthodes conventionnelle et du banc."
+    },
+    "hidden": {
+      "en": "Expected test criteria, this reviewer arithmetic witness, retained reference pin/seal, receiver database and completed products. Expected answers are not adapter inputs.",
+      "fr": "Critères attendus, témoin arithmétique de revue, empreinte/sceau conservés, base du destinataire et produits achevés. Les réponses attendues ne sont pas des entrées d’adaptateur."
+    },
+    "adaptation_rule": {
+      "en": "No changes to frozen files before the first assessment. Preserve a failed first attempt. Any subsequent fix must be separately identified, measured where possible and assessed as an adapted attempt, never retroactive unchanged transfer.",
+      "fr": "Aucun changement des fichiers figés avant la première évaluation. Conserver toute première tentative échouée. Toute correction ultérieure est identifiée séparément, mesurée si possible et évaluée comme adaptation, jamais comme transfert inchangé rétroactif."
+    }
+  },
+  "measurement": {
+    "trial_policy": "ONE_OBSERVATION_PER_METHOD_IN_CONVENTIONAL_HARNESS_OUTSIDE_AI_ORDER",
+    "observed_fields": [
+      "frozen_file_hash_equality",
+      "input_file_hashes",
+      "accepted_quantities_and_obligations",
+      "rejections_and_all_attempts",
+      "modeled_costs_holds_payments_liabilities",
+      "requests_retries_restarts",
+      "controller_and_child_cpu_ns",
+      "execution_and_verification_wall_ns",
+      "recorded_storage_bytes"
+    ],
+    "unknown_fields": [
+      "fixture_authoring_labor_seconds",
+      "adaptation_labor_seconds",
+      "integration_labor_seconds",
+      "human_verification_labor_seconds",
+      "peak_memory_bytes",
+      "complete_real_cost"
+    ],
+    "fixture_authoring_labor_seconds": null,
+    "adaptation_labor_seconds": null,
+    "interpretation": {
+      "en": "Record source hash equality and all changed input files. Zero executor file changes is not zero human effort. Authoring/adaptation labor was not instrumented and remains unknown. Fixed method order and one trial do not support statistical speed claims. A conventional win or tie is valid.",
+      "fr": "Consigner l’égalité des empreintes et tous les fichiers d’entrée modifiés. Zéro fichier exécuteur modifié ne signifie pas zéro effort humain. Le travail de rédaction/adaptation n’est pas instrumenté et reste inconnu. L’ordre fixe et un essai ne permettent pas une affirmation statistique de vitesse. Une victoire conventionnelle ou une égalité est valide."
+    }
+  },
+  "documentation": {
+    "en": "../../docs/economy/SUCCESSOR.md",
+    "fr": "../../docs/economy/SUCCESSOR.fr.md"
+  },
+  "pre_execution_status": "REGISTERED_EXPECTATIONS_ONLY_NOT_RUN",
+  "limits": {
+    "en": "One fresh synthetic transfer tests retained methods against capable ordinary reuse. It cannot establish an improved inventor, general autonomy, commercial scalability, real voluntary demand, independent suppliers, physical delivery or reduced complete adaptation effort.",
+    "fr": "Un transfert synthétique neuf éprouve des méthodes conservées face à une réutilisation ordinaire compétente. Il n’établit ni inventeur amélioré, ni autonomie générale, capacité commerciale de passage à l’échelle, demande volontaire réelle, fournisseurs indépendants, livraison physique ou réduction de l’effort complet d’adaptation."
+  },
+  "documentation_sha256": {
+    "en": "a8768d7a8951a462f0b104eee083acac047e3525af7ab62ac5afc077b00ca602",
+    "fr": "a203b8f5621701d4851fb2cbc91acbf41a2de4b9c6ba5735c83904f8c8f65e10"
+  },
+  "local_reuse_freeze_commit": "6653a102b6bd2ffea7b11064305a6b9f6333a842",
+  "freeze_publication": {
+    "en": "The published freeze has the identical tree of the locally committed freeze that preceded successor authorship. The published reference is pinned here; local chronology is retained. No successor execution preceded this registration.",
+    "fr": "Le gel publié possède l’arbre identique du gel local consigné avant la rédaction du successeur. La référence publiée est fixée ici ; la chronologie locale est conservée. Aucune exécution du successeur ne précède ce préenregistrement."
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "schema": "continuity-economy/fixture/v1",
+  "contract": {
+    "schema": "continuity-economy/contract/v1",
+    "experiment_id": "CONTINUITY-ECONOMY-SUCCESSOR-001",
+    "fixture_id": "archive-window-transfer",
+    "cohort": "successor",
+    "run_id": "successor-registration",
+    "contract_id": "DIGITAL-ARCHIVE-001",
+    "revision": 1,
+    "start_ns": 0,
+    "deadline_tick": 560,
+    "observation_cutoff_tick": 650,
+    "wall_deadline_ms": 90000,
+    "lease_ticks": 15,
+    "seed": 7919,
+    "authority_kind": "SYNTHETIC_EXERCISE",
+    "source_id": "AUTHORED-ARCHIVE-TRANSFER-EVENTS",
+    "source_complete": true,
+    "source_sha256": "bba4d4ad000f97e302cd199c68dd2ff2f6117dd8197b7ae89c1f3872d00d8d4a",
+    "cutoff_sequence": 8,
+    "source_events": [
+      {
+        "sequence": 1,
+        "type": "ACCEPT",
+        "obligation_id": "ARC-410",
+        "obligation": {
+          "obligation_id": "ARC-410",
+          "recipient": "RECIPIENT-NORD",
+          "revision": 1,
+          "quantity": 390,
+          "deadline_tick": 130,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-BOX-A7",
+            "name_en": "Digital archive box index",
+            "name_fr": "Index numérique de boîte d’archives",
+            "instructions_en": "Import this serial under accession N26 with shelf code B-09; retain the revision shown in the job.",
+            "instructions_fr": "Importer ce numéro sous l’entrée N26 avec le code d’étagère B-09 ; conserver la révision indiquée dans le dossier.",
+            "lot": "ARC-N26-20261106",
+            "serial_prefix": "ARC410-N26-"
+          }
+        }
+      },
+      {
+        "sequence": 2,
+        "type": "ACCEPT",
+        "obligation_id": "ARC-520",
+        "obligation": {
+          "obligation_id": "ARC-520",
+          "recipient": "RECIPIENT-CENTRE",
+          "revision": 1,
+          "quantity": 300,
+          "deadline_tick": 440,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-RETURN-B4",
+            "name_en": "Digital loan return record",
+            "name_fr": "Fiche numérique de retour de prêt",
+            "instructions_en": "Import this serial for return bin R-03 and recipient reference CENTRE-11; preserve both identifiers.",
+            "instructions_fr": "Importer ce numéro pour le bac de retour R-03 et la référence destinataire CENTRE-11 ; conserver les deux identifiants.",
+            "lot": "ARC-E27-20261106",
+            "serial_prefix": "ARC520-E27-"
+          }
+        }
+      },
+      {
+        "sequence": 3,
+        "type": "ACCEPT",
+        "obligation_id": "ARC-630",
+        "obligation": {
+          "obligation_id": "ARC-630",
+          "recipient": "RECIPIENT-SUD",
+          "revision": 1,
+          "quantity": 270,
+          "deadline_tick": 520,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-INDEX-C2",
+            "name_en": "Digital conservation index record",
+            "name_fr": "Fiche numérique d’index de conservation",
+            "instructions_en": "Keep accession S19 and category PAPER in the imported unit; do not substitute another accession.",
+            "instructions_fr": "Conserver l’entrée S19 et la catégorie PAPER dans l’unité importée ; ne pas substituer une autre entrée.",
+            "lot": "ARC-S19-20261106",
+            "serial_prefix": "ARC630-S19-"
+          }
+        }
+      },
+      {
+        "sequence": 4,
+        "type": "ACCEPT",
+        "obligation_id": "ARC-740",
+        "obligation": {
+          "obligation_id": "ARC-740",
+          "recipient": "RECIPIENT-OUEST",
+          "revision": 1,
+          "quantity": 90,
+          "deadline_tick": 360,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-RETURN-D9",
+            "name_en": "Digital west return-route record",
+            "name_fr": "Fiche numérique de retour ouest",
+            "instructions_en": "Import return route WEST-09 with this exact serial.",
+            "instructions_fr": "Importer la voie de retour WEST-09 avec ce numéro exact.",
+            "lot": "ARC-W09-20261106",
+            "serial_prefix": "ARC740-W09-"
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "type": "AMEND",
+        "obligation_id": "ARC-410",
+        "obligation": {
+          "obligation_id": "ARC-410",
+          "recipient": "RECIPIENT-NORD",
+          "revision": 2,
+          "quantity": 420,
+          "deadline_tick": 130,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-BOX-A7",
+            "name_en": "Digital archive box index",
+            "name_fr": "Index numérique de boîte d’archives",
+            "instructions_en": "Import this serial under accession N26 with shelf code B-12; retain the revision shown in the job.",
+            "instructions_fr": "Importer ce numéro sous l’entrée N26 avec le code d’étagère B-12 ; conserver la révision indiquée dans le dossier.",
+            "lot": "ARC-N26-20261106",
+            "serial_prefix": "ARC410-N26-"
+          }
+        }
+      },
+      {
+        "sequence": 6,
+        "type": "AMEND",
+        "obligation_id": "ARC-520",
+        "obligation": {
+          "obligation_id": "ARC-520",
+          "recipient": "RECIPIENT-EST",
+          "revision": 2,
+          "quantity": 330,
+          "deadline_tick": 440,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-RETURN-B4",
+            "name_en": "Digital loan return record",
+            "name_fr": "Fiche numérique de retour de prêt",
+            "instructions_en": "Import this serial for return bin R-08 and recipient reference EAST-27; preserve both identifiers.",
+            "instructions_fr": "Importer ce numéro pour le bac de retour R-08 et la référence destinataire EAST-27 ; conserver les deux identifiants.",
+            "lot": "ARC-E27-20261106",
+            "serial_prefix": "ARC520-E27-"
+          }
+        }
+      },
+      {
+        "sequence": 7,
+        "type": "AMEND",
+        "obligation_id": "ARC-410",
+        "obligation": {
+          "obligation_id": "ARC-410",
+          "recipient": "RECIPIENT-NORD",
+          "revision": 3,
+          "quantity": 420,
+          "deadline_tick": 130,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "ARCHIVE-BOX-A7",
+            "name_en": "Digital archive box index",
+            "name_fr": "Index numérique de boîte d’archives",
+            "instructions_en": "Import this serial under accession N26 with shelf code B-14; retain the revision shown in the job.",
+            "instructions_fr": "Importer ce numéro sous l’entrée N26 avec le code d’étagère B-14 ; conserver la révision indiquée dans le dossier.",
+            "lot": "ARC-N26-20261106",
+            "serial_prefix": "ARC410-N26-"
+          }
+        }
+      },
+      {
+        "sequence": 8,
+        "type": "CANCEL",
+        "obligation_id": "ARC-740"
+      }
+    ],
+    "obligations": [
+      {
+        "obligation_id": "ARC-410",
+        "recipient": "RECIPIENT-NORD",
+        "revision": 3,
+        "quantity": 420,
+        "deadline_tick": 130,
+        "status": "ACTIVE",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "ARCHIVE-BOX-A7",
+          "name_en": "Digital archive box index",
+          "name_fr": "Index numérique de boîte d’archives",
+          "instructions_en": "Import this serial under accession N26 with shelf code B-14; retain the revision shown in the job.",
+          "instructions_fr": "Importer ce numéro sous l’entrée N26 avec le code d’étagère B-14 ; conserver la révision indiquée dans le dossier.",
+          "lot": "ARC-N26-20261106",
+          "serial_prefix": "ARC410-N26-"
+        }
+      },
+      {
+        "obligation_id": "ARC-520",
+        "recipient": "RECIPIENT-EST",
+        "revision": 2,
+        "quantity": 330,
+        "deadline_tick": 440,
+        "status": "ACTIVE",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "ARCHIVE-RETURN-B4",
+          "name_en": "Digital loan return record",
+          "name_fr": "Fiche numérique de retour de prêt",
+          "instructions_en": "Import this serial for return bin R-08 and recipient reference EAST-27; preserve both identifiers.",
+          "instructions_fr": "Importer ce numéro pour le bac de retour R-08 et la référence destinataire EAST-27 ; conserver les deux identifiants.",
+          "lot": "ARC-E27-20261106",
+          "serial_prefix": "ARC520-E27-"
+        }
+      },
+      {
+        "obligation_id": "ARC-630",
+        "recipient": "RECIPIENT-SUD",
+        "revision": 1,
+        "quantity": 270,
+        "deadline_tick": 520,
+        "status": "ACTIVE",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "ARCHIVE-INDEX-C2",
+          "name_en": "Digital conservation index record",
+          "name_fr": "Fiche numérique d’index de conservation",
+          "instructions_en": "Keep accession S19 and category PAPER in the imported unit; do not substitute another accession.",
+          "instructions_fr": "Conserver l’entrée S19 et la catégorie PAPER dans l’unité importée ; ne pas substituer une autre entrée.",
+          "lot": "ARC-S19-20261106",
+          "serial_prefix": "ARC630-S19-"
+        }
+      },
+      {
+        "obligation_id": "ARC-740",
+        "recipient": "RECIPIENT-OUEST",
+        "revision": 1,
+        "quantity": 90,
+        "deadline_tick": 360,
+        "status": "CANCELLED",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "ARCHIVE-RETURN-D9",
+          "name_en": "Digital west return-route record",
+          "name_fr": "Fiche numérique de retour ouest",
+          "instructions_en": "Import return route WEST-09 with this exact serial.",
+          "instructions_fr": "Importer la voie de retour WEST-09 avec ce numéro exact.",
+          "lot": "ARC-W09-20261106",
+          "serial_prefix": "ARC740-W09-"
+        }
+      }
+    ],
+    "permissible_recovery_loss_units": 0,
+    "allow_split": true,
+    "lot_size": 150,
+    "max_attempts": 2,
+    "providers": [
+      {
+        "provider_id": "ARCHIVE-PRIMARY",
+        "role": "primary",
+        "dependency": "SHARED-INDEX-NETWORK",
+        "permissions": {
+          "production": true,
+          "disclosure": false
+        },
+        "windows": [
+          {
+            "window_id": "ALL",
+            "start": 0,
+            "end": 600,
+            "capacity": 1600
+          }
+        ]
+      },
+      {
+        "provider_id": "ARCHIVE-BACKUP",
+        "role": "backup",
+        "dependency": "SHARED-INDEX-NETWORK",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "ALL",
+            "start": 0,
+            "end": 600,
+            "capacity": 1600
+          }
+        ]
+      },
+      {
+        "provider_id": "ARCHIVE-COMPAT-A",
+        "role": "alternative",
+        "dependency": "ARCHIVE-OFFLINE-A",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "EARLY",
+            "start": 0,
+            "end": 140,
+            "capacity": 570
+          },
+          {
+            "window_id": "LATE",
+            "start": 260,
+            "end": 560,
+            "capacity": 330
+          }
+        ]
+      },
+      {
+        "provider_id": "ARCHIVE-COMPAT-B",
+        "role": "alternative",
+        "dependency": "ARCHIVE-OFFLINE-B",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "LATE",
+            "start": 260,
+            "end": 560,
+            "capacity": 330
+          }
+        ]
+      }
+    ],
+    "blocked_dependencies": [
+      "SHARED-INDEX-NETWORK"
+    ],
+    "revocations": [],
+    "fault_schedule": [
+      {
+        "event": "ACK_LOST_AFTER_ACCEPTANCE",
+        "trigger": "inspect",
+        "occurrence": 2,
+        "target": "ANY",
+        "value": 0
+      }
+    ],
+    "mode": "market",
+    "disclosure_fields": [
+      "recipient",
+      "sku",
+      "name_en",
+      "name_fr",
+      "instructions_en",
+      "instructions_fr",
+      "lot",
+      "serial_prefix"
+    ],
+    "permitted_actions": [
+      "restore",
+      "propose",
+      "decide",
+      "technical",
+      "reserve",
+      "produce",
+      "transfer",
+      "inspect",
+      "settle",
+      "cancel",
+      "status"
+    ],
+    "bounds": {
+      "max_requests": 512,
+      "max_plans": 65536,
+      "max_proposals": 8,
+      "service_timeout_ms": 10000
+    }
+  },
+  "policies": {
+    "schema": "continuity-economy/policies/v1",
+    "revision": 1,
+    "currency": "SMU",
+    "buyer": {
+      "party_id": "BUYER-ARCHIVE",
+      "value_min_minor": 8200,
+      "value_max_minor": 9600,
+      "outside_utility_minor": 1800,
+      "max_price_minor": 7000,
+      "balance_minor": 7600,
+      "consent_until_tick": 650
+    },
+    "providers": [
+      {
+        "party_id": "ARCHIVE-PRIMARY",
+        "setup_cost_minor": 80,
+        "unit_cost_minor": 1,
+        "rework_setup_cost_minor": 80,
+        "rework_unit_cost_minor": 1,
+        "min_profit_minor": 100,
+        "outside_profit_minor": 150,
+        "balance_minor": 4500,
+        "liability_limit_minor": 4500,
+        "consent_until_tick": 600,
+        "technical_control_allowed": false
+      },
+      {
+        "party_id": "ARCHIVE-BACKUP",
+        "setup_cost_minor": 60,
+        "unit_cost_minor": 1,
+        "rework_setup_cost_minor": 100,
+        "rework_unit_cost_minor": 1,
+        "min_profit_minor": 120,
+        "outside_profit_minor": 160,
+        "balance_minor": 4500,
+        "liability_limit_minor": 4500,
+        "consent_until_tick": 600,
+        "technical_control_allowed": false
+      },
+      {
+        "party_id": "ARCHIVE-COMPAT-A",
+        "setup_cost_minor": 240,
+        "unit_cost_minor": 2,
+        "rework_setup_cost_minor": 120,
+        "rework_unit_cost_minor": 2,
+        "min_profit_minor": 180,
+        "outside_profit_minor": 260,
+        "balance_minor": 6000,
+        "liability_limit_minor": 4200,
+        "consent_until_tick": 600,
+        "technical_control_allowed": false
+      },
+      {
+        "party_id": "ARCHIVE-COMPAT-B",
+        "setup_cost_minor": 90,
+        "unit_cost_minor": 4,
+        "rework_setup_cost_minor": 60,
+        "rework_unit_cost_minor": 3,
+        "min_profit_minor": 150,
+        "outside_profit_minor": 200,
+        "balance_minor": 2500,
+        "liability_limit_minor": 1600,
+        "consent_until_tick": 600,
+        "technical_control_allowed": false
+      }
+    ],
+    "coordinator": {
+      "party_id": "COORDINATOR-ARCHIVE",
+      "operating_cost_minor": 180,
+      "min_profit_minor": 70,
+      "outside_profit_minor": 110,
+      "balance_minor": 1000,
+      "liability_limit_minor": 600,
+      "consent_until_tick": 650,
+      "technical_control_allowed": false
+    },
+    "technical_sponsor": {
+      "party_id": "UNUSED-SPONSOR",
+      "balance_minor": 0,
+      "authorized": false
+    }
+  },
+  "expected": {
+    "outcome": "DEMONSTRATED",
+    "service_feasibility": "DEMONSTRATED",
+    "accepted_units": 1020
+  }
+}
