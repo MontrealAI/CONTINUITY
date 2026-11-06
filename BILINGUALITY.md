@@ -4,6 +4,8 @@
 
 ## English
 
+The separate v0.2 economy experiment uses **CONTINUITY Ω Harness — Invent the economy of continuity** in English and **CONTINUITÉ Ω — Inventer l’économie de la continuité** in French. Its setup, commands, operator errors, product/acceptance specification, architecture, threat model, requirement mapping, registration and generated Passports have complete language paths. Both Passports retain the same full structured result and digest, including quantities, revisions, deadlines, outcome/feasibility/method claims, unknown costs and explicit AI NOT RUN. Stable machine keys, case identifiers and verbatim evidence remain shared.
+
 The main README contains complete English and French sections. README.fr.md offers the French entry separately. Both cover setup, use, publications, provenance and limitations.
 
 The separately versioned Harness has complete English/French setup, CLI help, operator errors, scenario explanations, architecture, threat model, requirements matrix and generated Passports. Its English main title is **CONTINUITY Ω Harness**; its French main title is **CONTINUITÉ Ω — Banc d’essai et de vérification**. Both Passports are generated from the same structured result and identify the same digest, quantities, deadlines, verdicts, evidence stage and uncertainties. Original citation titles and stable technical identifiers remain shared. Fresh verification, rather than translation or a saved favorable report, determines current acceptance.
@@ -23,6 +25,8 @@ The legacy generated `PASSPORT.md` is an original English artifact. The current 
 PROVENANCE.json retains all initial-copy identities. LOCALIZATION.json records only intentional website changes with original and current hashes. Paper, prototype, media and historical evidence remain unchanged. This repository contains website sources; it does not claim a new live Pages deployment.
 
 ## Français
+
+L’expérience économique distincte v0.2 emploie **CONTINUITY Ω Harness — Invent the economy of continuity** en anglais et **CONTINUITÉ Ω — Inventer l’économie de la continuité** en français. Installation, commandes, erreurs opérateur, spécification du produit et de son acceptation, architecture, modèle de menace, matrice des exigences, préenregistrement et passeports possèdent des parcours complets dans les deux langues. Les deux passeports conservent le même résultat structuré intégral et la même empreinte, avec quantités, révisions, échéances, affirmations de résultat/faisabilité/méthode, coûts inconnus et IA explicitement NON EXÉCUTÉE. Clés machines, identifiants de cas et preuves originales restent communs.
 
 Le README principal contient des sections complètes en anglais et en français. README.fr.md offre séparément l’entrée française. Les deux couvrent l’installation, l’utilisation, les publications, la provenance et les limites.
 

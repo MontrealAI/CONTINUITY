@@ -6,6 +6,21 @@
 
 **CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
 
+### Expérience économique v0.2 — préserver un engagement numérique accepté
+
+**CONTINUITÉ Ω — Inventer l’économie de la continuité.** Cette expérience distincte produit le contenu substantiel d’un paquet numérique d’étiquettes, le transfère à un destinataire local implémenté indépendamment et rapproche son acceptation du consentement, de la capacité, du financement et des coûts modélisés. **Résultat, faisabilité du service modélisé et avantage de méthode restent distincts.** L’obligation porte sur un nouveau produit numérique ; les reçus historiques de métadonnées ne deviennent ni livraison physique ni acceptation authentique d’un client.
+
+[Installation et commandes complètes](docs/economy/README.fr.md) · [Architecture](docs/economy/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/economy/THREAT_MODEL.fr.md) · [Produit numérique et acceptation](docs/economy/PRODUCT.fr.md) · [Expérience préenregistrée](docs/economy/EXPERIMENT.md#français) · [Exigences et tests](docs/economy/REQUIREMENTS.fr.md)
+
+```sh
+python3 -m continuity_economy --language fr experiment --out /tmp/continuite-economie-complete-001
+python3 -m continuity_economy --language fr verify-suite --in-dir /tmp/continuite-economie-complete-001
+python3 -m continuity_economy --language fr compare --out /tmp/continuite-economie-comparaison-001
+python3 -m unittest discover -s tests -p 'test_economy*.py' -v
+```
+
+La commande complète comprend une procédure conventionnelle compétente, celle du banc d’essai, un choix extérieur sans achat, un successeur préenregistré séparément et des épreuves contradictoires. La performance de l’IA indisponible reste **NON EXÉCUTÉE**. Une victoire conventionnelle, une absence d’accord, une réalisation technique sans achat acceptable et une valeur incertaine sont des résultats valides. Prix SMU, politiques, capacités et financements sont des hypothèses synthétiques, sans établir de véritables contrats, paiements, clients ou demande. Linux x86_64 avec seccomp et Python 3.10+ sont requis ; aucun service externe ni API payante n’est nécessaire. Choisir un nouveau répertoire hors du code source. Le banc historique v0.1 reste versionné séparément ci-dessous.
+
 ### Banc d’essai et de vérification v0.1 — exécuter et vérifier
 
 Le **banc d’essai et de vérification CONTINUITÉ Ω**, versionné séparément, exécute de véritables processus jetables et un stockage local durable avec des commandes synthétiques d’étiquettes. Il reconstitue les obligations restantes, restaure le service principal ou emprunte une voie de secours autorisée, puis vérifie les résultats logiciels actuels par rapport à un contrat conservé séparément. La voie peut changer ; la promesse client ne doit pas changer silencieusement avec elle.

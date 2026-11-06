@@ -26,7 +26,8 @@
       "continuity_harness/service.py": "6b2c1816e71b6d0768024ed2a2273d98929fd42c223853eff7f7ccd63108055c",
       "continuity_harness/controller.py": "6586232940b9a0ec7ae1044d24ece90be87859188884fbbb2f465ca1fa1857d4",
       "continuity_harness/candidate.py": "f473520ad15f71642f461b9e373fa32e524937bd041c9e8279f99101b04e9fe9",
-      "continuity_harness/adapters.py": "ba0be575481384b74dfbc407c4e575bb8f561c50f1235fdf51f0b4b9c19865b0"
+      "continuity_harness/adapters.py": "ba0be575481384b74dfbc407c4e575bb8f561c50f1235fdf51f0b4b9c19865b0",
+      "continuity_harness/__main__.py": "c89523d1e0bbfc47bdcef086a06fabefacde32b7aca6be132e79d78b11e003c8"
     }
   },
   "environment": {
