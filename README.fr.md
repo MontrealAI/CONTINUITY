@@ -4,7 +4,32 @@
 
 ## Français
 
-**CONTINUITÉ Ω : Tenir parole.** Recherche, prototype synthétique hors ligne, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
+**CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
+
+### Banc d’essai et de vérification v0.1 — exécuter et vérifier
+
+Le **banc d’essai et de vérification CONTINUITÉ Ω**, versionné séparément, exécute de véritables processus jetables et un stockage local durable avec des commandes synthétiques d’étiquettes. Il reconstitue les obligations restantes, restaure le service principal ou emprunte une voie de secours autorisée, puis vérifie les résultats logiciels actuels par rapport à un contrat conservé séparément. La voie peut changer ; la promesse client ne doit pas changer silencieusement avec elle.
+
+[Installation et commandes du banc d’essai](docs/harness/README.fr.md) · [Architecture](docs/harness/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/harness/THREAT_MODEL.fr.md) · [Exigences et tests](docs/harness/REQUIREMENTS.fr.md) · [Expérience préenregistrée](docs/harness/EXPERIMENT.md#français)
+
+**Preuves exécutées :** [Résultats complets](docs/harness/RESULTS.fr.md) · [Télécharger et inspecter les preuves](evidence/harness-v0.1/README.md#français) · [Passeport du cas contraint](evidence/harness-v0.1/passports/constrained/PASSPORT.fr.md). La révision qualifiée a réussi 245 tests du dépôt et une comparaison de 24 exécutions donnant 12 égalités fonctionnelles ; les 12 entrées IA portent explicitement la mention NON EXÉCUTÉE. Les deux tentatives sont conservées, dont l’échec de vérification distincte de la première. L’archive finale a aussi réussi une vérification après extraction.
+
+Linux x86_64, Python 3.10 ou ultérieur et seccomp BPF sont nécessaires à l’isolation du candidat. Aucun paquet Python supplémentaire, clé API, téléchargement de modèle ou service payant n’est requis. Depuis une nouvelle copie :
+
+```sh
+git clone https://github.com/MontrealAI/CONTINUITY.git
+cd CONTINUITY
+python3 -m continuity_harness --language fr demo --out /tmp/continuite-banc-demo-001
+python3 -m continuity_harness --language fr verify-suite --in-dir /tmp/continuite-banc-demo-001
+python3 -m continuity_harness --language fr compare --out /tmp/continuite-banc-comparaison-001
+python3 -m continuity_harness --language fr verify-suite --in-dir /tmp/continuite-banc-comparaison-001
+python3 -m continuity_harness --language fr challenge --out /tmp/continuite-banc-epreuves-001
+python3 -m unittest discover -s tests -p 'test_harness*.py' -v
+```
+
+Toujours choisir un nouveau répertoire. Chaque exécution conserve les preuves durables, un résultat lisible par machine et des passeports complets en français et en anglais. Les trois contrôles de base couvrent la reprise réalisable, l’exécution alternative réalisable et la capacité insuffisante avec concurrence, perte d’accusé de réception, interruption et redémarrage de processus. Le contrat contraint exige 1 900 unités mais ne dispose que de 1 500 unités de secours : réaliser 1 100 unités et refuser correctement les 800 restantes constitue une **réalisation partielle**, même si le test de sûreté attendu réussit.
+
+La comparaison préenregistrée fournit à une procédure conventionnelle compétente et à celle appuyée par le banc d’essai les mêmes outils, informations et pannes. La performance de l’IA porte la mention **NON EXÉCUTÉE** sans modèle local approprié déjà autorisé. Ces fichiers JSON locaux ne sont ni des biens imprimés, ni une livraison client, ni une validation commerciale. L’hôte, le contrôleur, le service, le journal synthétique, l’horloge et le vérificateur restent des composants de confiance. Le guide précise les conditions, ressources mesurées et coûts inconnus.
 
 ### Commencer
 
@@ -35,7 +60,7 @@ Les 78 fichiers dédiés ont été copiés sans changement depuis [le commit de6
 
 Les sources web et médias sous `docs/research/` offrent une navigation locale bilingue et renvoient aux travaux fondateurs originaux lorsque nécessaire. Aucun nouveau site Pages ni doublon des publications historiques n’est créé ici. Les sources figées, citations et manifestes gardent leur portée historique.
 
-**Prototype de recherche uniquement :** données synthétiques, sans reprise réelle, réservation fournisseur, livraison client, revenus ou certification externe. Les faiblesses du vérificateur et les contre-exemples restent documentés. Le renforcement proposé dans la PR #279 n’est ni intégré ni qualifié par cette copie. Des chemins de code séparés sous une même responsabilité de recherche ne constituent pas une assurance tierce indépendante.
+**Prototype de recherche historique :** l’implémentation préservée `continuity_omega` emploie des données synthétiques, sans établir de reprise réelle, réservation fournisseur, livraison client, revenus ou certification externe. Le banc d’essai distinct ajoute une exécution logicielle locale réelle ; il ne renforce pas rétroactivement les anciennes preuves. Les faiblesses du vérificateur et les contre-exemples restent documentés. Le renforcement proposé dans la PR #279 n’est ni intégré ni qualifié par cette copie. Des chemins de code séparés sous une même responsabilité de recherche ne constituent pas une assurance tierce indépendante.
 
 Aucune nouvelle licence n’est déclarée : la source ne contient pas de licence à la racine. Les notices et attributions existantes sont préservées ; la disponibilité publique ne crée pas de droits supplémentaires.
 

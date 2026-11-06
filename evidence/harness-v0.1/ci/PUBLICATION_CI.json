@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "scope": "PUBLICATION_CI_OBSERVATION",
+  "head_sha": "56a8526649993bb6d839de2d65825e884ded8f6e",
+  "qualified_implementation": "fa9da1f54acfaa82510a4b6b805c2980d3e5b31d",
+  "workflow_run_id": 42292323812,
+  "code_changed_for_rerun": false,
+  "assertions_changed_for_rerun": false,
+  "timeout_changed_for_rerun": false,
+  "timeout_cause": "NOT_ESTABLISHED",
+  "attempts": [
+    {
+      "attempt": 1,
+      "job_id": 128148628696,
+      "result": "FAILED",
+      "tests": 245,
+      "failures": 1,
+      "skips": 0,
+      "test_elapsed_seconds": "22.478",
+      "machine_code": "ERR_SCRIPT_EXECUTION_TIMEOUT",
+      "vm_timeout_ms": 1000,
+      "node_version": "v22.23.4",
+      "log": "pr-validation-attempt-1.log",
+      "sha256": "2c0204526648834ff4c6633369ef13ce36126358d3e5e16058e264980685bdea",
+      "bytes": 62630
+    },
+    {
+      "attempt": 2,
+      "job_id": 128150823875,
+      "result": "PASSED",
+      "tests": 245,
+      "failures": 0,
+      "skips": 0,
+      "test_elapsed_seconds": "17.492",
+      "historical_publication_validation": "PASSED",
+      "companion_packaging": "PASSED",
+      "log": "pr-validation-attempt-2.log",
+      "sha256": "306247bcd6298f2b61805e6ecf0e107ae7f14d22b7aa6377db51ccde0dccd513",
+      "bytes": 71730
+    }
+  ]
+}

@@ -1,0 +1,3962 @@
+{
+  "schema": "continuity-harness/release-results/v1",
+  "harness_version": "0.1.0",
+  "created_utc": "2026-11-06T20:41:56.185671+00:00",
+  "implementation_commit": "fa9da1f54acfaa82510a4b6b805c2980d3e5b31d",
+  "starting_commit": "8776d70ba091f71dab12fc9d3195baf7fc789676",
+  "registration": {
+    "local_commit": "318f6d76868fa63ce3e25805e1c11bbfc057f981",
+    "published_commit": "0b9eac772d8088a0ee44605aead85fa5d36dd93b",
+    "specification_version": 1,
+    "specification_raw_sha256": "8f08c8d524ab4aab9528728725d528eaa5f7e701403c9e176e8dff9b17380880",
+    "specification_canonical_sha256": "5b4304d1c855cd241a08f4ffc0bd83f95ee3c8ce3af9a06cb40b679f418edabc",
+    "acceptance_criteria_changed_after_comparison": false
+  },
+  "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+  "qualified_attempt": 2,
+  "attempts": [
+    {
+      "attempt": 1,
+      "implementation_commit": "5c92fd03a258a3f4845c50a5b37e7a14cd2aa40c",
+      "comparison_relative": "comparison",
+      "qualification_relative": "QUALIFICATION.json",
+      "stored_gate": "PASSED",
+      "fresh_gate": "FAILED",
+      "qualification": "NOT_ESTABLISHED",
+      "executed_runs": 24,
+      "ai_not_run": 12,
+      "fresh_failed_assertions": [
+        "labels-transfer-a-constrained-harness-8b9332cbc97f"
+      ],
+      "fresh_safety_unestablished": [
+        "labels-transfer-a-constrained-harness-8b9332cbc97f"
+      ],
+      "diagnosis": "Unsealed stale SQLite WAL and shared-memory files became visible after sealing. Main DB still matched its seal. Cause of reappearance NOT_ESTABLISHED; old files remain unchanged.",
+      "adaptation": "Separate runtime journals from sealed standalone evidence; require nonbusy checkpoint, worker exit, SQLite backup, preclose-state agreement, integrity, DELETE mode and fsync."
+    },
+    {
+      "attempt": 2,
+      "implementation_commit": "fa9da1f54acfaa82510a4b6b805c2980d3e5b31d",
+      "comparison_relative": "attempt-2/comparison",
+      "qualification_relative": "attempt-2/QUALIFICATION.json",
+      "stored_gate": "PASSED",
+      "fresh_gate": "PASSED",
+      "qualification": "DEMONSTRATED_WITHIN_DECLARED_MODEL",
+      "executed_runs": 24,
+      "ai_not_run": 12,
+      "fresh_failed_assertions": [],
+      "fresh_critical_safety_failures": []
+    }
+  ],
+  "tests": {
+    "repository_passed": 245,
+    "harness_passed": 160,
+    "existing_regressions_passed": 85,
+    "failed": 0,
+    "skipped": 0,
+    "by_harness_file": {
+      "test_harness_finalization.py": 9,
+      "test_harness_controller.py": 14,
+      "test_harness_boundaries.py": 14,
+      "test_harness_services.py": 34,
+      "test_harness_reporting.py": 16,
+      "test_harness_challenges.py": 11,
+      "test_harness_verifier.py": 52,
+      "test_harness_cli.py": 10
+    },
+    "finite_trace_count": 432,
+    "finite_model": "Two capacities(1,2), two one-unit obligations, six declared actions, horizon3; other schedules sampled.",
+    "verifier_mutants_exposed": [
+      "mutant-ignores-byte-integrity",
+      "mutant-ignores-revocation",
+      "mutant-rejects-valid-recovery"
+    ],
+    "logs_relative": "validation/finalization-complete-tests.log"
+  },
+  "historical_identity": {
+    "manifest_files": 78,
+    "unchanged": 74,
+    "preexisting_website_adaptations": 4,
+    "new_historical_changes": 0,
+    "paper_validation": "PASSED",
+    "reading_companion_packaging": "PASSED"
+  },
+  "qualified_comparison": {
+    "executed_runs": 24,
+    "ai_not_run": 12,
+    "per_method": [
+      {
+        "method": "conventional",
+        "executed_runs": 12,
+        "totals": {
+          "accepted_obligations": 20,
+          "accepted_units": 17200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 24,
+          "expected_units": 20400,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 3200,
+          "observed_units": 17200,
+          "unsupported_obligations": 0
+        },
+        "execution_resources": {
+          "wall_ns": 2527751561,
+          "cpu_user_ns": 1886863992,
+          "cpu_system_ns": 448856994,
+          "controller_cpu_user_ns": 159311995,
+          "controller_cpu_system_ns": 35992995,
+          "storage_bytes": 2336441,
+          "requests": 104,
+          "retries": 4,
+          "worker_restarts": 8,
+          "human_interventions": 0
+        },
+        "packaged_run_and_authority_bytes_observed": 3249078,
+        "unknowns": [
+          "preparation_labor_seconds",
+          "integration_labor_seconds",
+          "verification_reporting_cpu",
+          "peak_memory",
+          "monetary_cost",
+          "commercial_value"
+        ]
+      },
+      {
+        "method": "harness",
+        "executed_runs": 12,
+        "totals": {
+          "accepted_obligations": 20,
+          "accepted_units": 17200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 24,
+          "expected_units": 20400,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 3200,
+          "observed_units": 17200,
+          "unsupported_obligations": 0
+        },
+        "execution_resources": {
+          "wall_ns": 2434178319,
+          "cpu_user_ns": 1796072996,
+          "cpu_system_ns": 457748996,
+          "controller_cpu_user_ns": 164945995,
+          "controller_cpu_system_ns": 28167998,
+          "storage_bytes": 2335721,
+          "requests": 104,
+          "retries": 4,
+          "worker_restarts": 8,
+          "human_interventions": 0
+        },
+        "packaged_run_and_authority_bytes_observed": 2990976,
+        "unknowns": [
+          "preparation_labor_seconds",
+          "integration_labor_seconds",
+          "verification_reporting_cpu",
+          "peak_memory",
+          "monetary_cost",
+          "commercial_value"
+        ]
+      }
+    ],
+    "paired_comparisons": [
+      {
+        "conventional_wall_ns": 154521488,
+        "fixture": "labels-base",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 141992478,
+        "scenario": "alternate"
+      },
+      {
+        "conventional_wall_ns": 301391128,
+        "fixture": "labels-base",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 300662295,
+        "scenario": "constrained"
+      },
+      {
+        "conventional_wall_ns": 185703910,
+        "fixture": "labels-base",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 192736981,
+        "scenario": "recovery"
+      },
+      {
+        "conventional_wall_ns": 140151100,
+        "fixture": "labels-transfer-a",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 137606579,
+        "scenario": "alternate"
+      },
+      {
+        "conventional_wall_ns": 316362606,
+        "fixture": "labels-transfer-a",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 326561263,
+        "scenario": "constrained"
+      },
+      {
+        "conventional_wall_ns": 123234379,
+        "fixture": "labels-transfer-a",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 126308882,
+        "scenario": "recovery"
+      },
+      {
+        "conventional_wall_ns": 152341180,
+        "fixture": "labels-transfer-b",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 114990022,
+        "scenario": "alternate"
+      },
+      {
+        "conventional_wall_ns": 339709197,
+        "fixture": "labels-transfer-b",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 324554620,
+        "scenario": "constrained"
+      },
+      {
+        "conventional_wall_ns": 183215504,
+        "fixture": "labels-transfer-b",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 176334243,
+        "scenario": "recovery"
+      },
+      {
+        "conventional_wall_ns": 148380870,
+        "fixture": "labels-transfer-c",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 159699062,
+        "scenario": "alternate"
+      },
+      {
+        "conventional_wall_ns": 329289922,
+        "fixture": "labels-transfer-c",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 271192185,
+        "scenario": "constrained"
+      },
+      {
+        "conventional_wall_ns": 153450277,
+        "fixture": "labels-transfer-c",
+        "functional_outcomes": "TIE",
+        "harness_wall_ns": 161539709,
+        "scenario": "recovery"
+      }
+    ],
+    "per_condition": [
+      {
+        "fixture": "labels-base",
+        "scenario": "recovery",
+        "method": "conventional",
+        "run_id": "labels-base-recovery-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 6,
+            "completion_ns": 133324576,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25303622068312,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 130571404
+          },
+          {
+            "accepted_quantity": 800,
+            "completed_tick": 9,
+            "completion_ns": 138536164,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25303627279900,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 136283013
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1900,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3634999,
+          "controller_cpu_user_ns": 12191000,
+          "cpu_system_ns": 17562000,
+          "cpu_user_ns": 121083000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201604,
+          "wall_ns": 185703910,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 124
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "recovery",
+        "method": "harness",
+        "run_id": "labels-base-recovery-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 6,
+            "completion_ns": 149077998,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25303864210762,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 146094018
+          },
+          {
+            "accepted_quantity": 800,
+            "completed_tick": 9,
+            "completion_ns": 154133129,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25303869265893,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 151686516
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1900,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 4217000,
+          "controller_cpu_user_ns": 12651000,
+          "cpu_system_ns": 17790999,
+          "cpu_user_ns": 124574999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201534,
+          "wall_ns": 192736981,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 140
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "recovery",
+        "method": "ai",
+        "run_id": "labels-base-recovery-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1100,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 19000,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2150,
+          "wall_ns": 15944,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "alternate",
+        "method": "conventional",
+        "run_id": "labels-base-alternate-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 5,
+            "completion_ns": 112917311,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304075116606,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 110416601
+          },
+          {
+            "accepted_quantity": 800,
+            "completed_tick": 8,
+            "completion_ns": 117311238,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304079510533,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 115156736
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1900,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3311999,
+          "controller_cpu_user_ns": 10291999,
+          "cpu_system_ns": 27278999,
+          "cpu_user_ns": 91914000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201099,
+          "wall_ns": 154521488,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "alternate",
+        "method": "harness",
+        "run_id": "labels-base-alternate-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 5,
+            "completion_ns": 100853686,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304246174248,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 99048041
+          },
+          {
+            "accepted_quantity": 800,
+            "completed_tick": 8,
+            "completion_ns": 105037900,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304250358462,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 103190813
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1900,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 14330000,
+          "cpu_system_ns": 15698000,
+          "cpu_user_ns": 91503000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201029,
+          "wall_ns": 141992478,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "alternate",
+        "method": "ai",
+        "run_id": "labels-base-alternate-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1100,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2999,
+          "controller_cpu_user_ns": 16999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2230,
+          "wall_ns": 17597,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "constrained",
+        "method": "conventional",
+        "run_id": "labels-base-constrained-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 5,
+            "completion_ns": 206148900,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304543842778,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 170736131
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 800,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2486000,
+          "controller_cpu_user_ns": 15133000,
+          "cpu_system_ns": 70528000,
+          "cpu_user_ns": 272348999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 180924,
+          "wall_ns": 301391128,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "constrained",
+        "method": "harness",
+        "run_id": "labels-base-constrained-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 5,
+            "completion_ns": 212878776,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25304882005406,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 167701629
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 800,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 4021000,
+          "controller_cpu_user_ns": 14942999,
+          "cpu_system_ns": 62260000,
+          "cpu_user_ns": 275806000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 180884,
+          "wall_ns": 300662295,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-base",
+        "scenario": "constrained",
+        "method": "ai",
+        "run_id": "labels-base-constrained-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1100,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2000,
+          "controller_cpu_user_ns": 12999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2700,
+          "wall_ns": 14772,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "recovery",
+        "method": "conventional",
+        "run_id": "labels-transfer-a-recovery-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 6,
+            "completion_ns": 91372334,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305110603438,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 89210311
+          },
+          {
+            "accepted_quantity": 900,
+            "completed_tick": 9,
+            "completion_ns": 95191466,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305114422570,
+            "expected_quantity": 900,
+            "observed_quantity": 900,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 93400279
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 13932999,
+          "cpu_system_ns": 13694999,
+          "cpu_user_ns": 81712999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201824,
+          "wall_ns": 123234379,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 84
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "recovery",
+        "method": "harness",
+        "run_id": "labels-transfer-a-recovery-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 6,
+            "completion_ns": 94063045,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305271163572,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 91364842
+          },
+          {
+            "accepted_quantity": 900,
+            "completed_tick": 9,
+            "completion_ns": 98161540,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305275262067,
+            "expected_quantity": 900,
+            "observed_quantity": 900,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 96221944
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 1243000,
+          "controller_cpu_user_ns": 12616999,
+          "cpu_system_ns": 12018000,
+          "cpu_user_ns": 85384000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201754,
+          "wall_ns": 126308882,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 85
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "recovery",
+        "method": "ai",
+        "run_id": "labels-transfer-a-recovery-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 700,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 900,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1600,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 20999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2300,
+          "wall_ns": 17126,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "alternate",
+        "method": "conventional",
+        "run_id": "labels-transfer-a-alternate-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 5,
+            "completion_ns": 100205375,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305460097890,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 97972170
+          },
+          {
+            "accepted_quantity": 900,
+            "completed_tick": 8,
+            "completion_ns": 104924308,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305464816823,
+            "expected_quantity": 900,
+            "observed_quantity": 900,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 102974080
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 13134000,
+          "cpu_system_ns": 13145000,
+          "cpu_user_ns": 90176999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201321,
+          "wall_ns": 140151100,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "alternate",
+        "method": "harness",
+        "run_id": "labels-transfer-a-alternate-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 5,
+            "completion_ns": 94191730,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305623431051,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 91934107
+          },
+          {
+            "accepted_quantity": 900,
+            "completed_tick": 8,
+            "completion_ns": 98522737,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305627762058,
+            "expected_quantity": 900,
+            "observed_quantity": 900,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 96229741
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 771000,
+          "controller_cpu_user_ns": 13497000,
+          "cpu_system_ns": 25272000,
+          "cpu_user_ns": 74400000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201251,
+          "wall_ns": 137606579,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "alternate",
+        "method": "ai",
+        "run_id": "labels-transfer-a-alternate-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 700,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 900,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1600,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2999,
+          "controller_cpu_user_ns": 18000,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2382,
+          "wall_ns": 17277,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "constrained",
+        "method": "conventional",
+        "run_id": "labels-transfer-a-constrained-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 5,
+            "completion_ns": 214913456,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25305937773114,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 171897746
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 900,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 700,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 900,
+          "observed_units": 700,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 7449999,
+          "controller_cpu_user_ns": 14662000,
+          "cpu_system_ns": 73633999,
+          "cpu_user_ns": 281145000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181110,
+          "wall_ns": 316362606,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "constrained",
+        "method": "harness",
+        "run_id": "labels-transfer-a-constrained-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 700,
+            "completed_tick": 5,
+            "completion_ns": 208515541,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25306278355755,
+            "expected_quantity": 700,
+            "observed_quantity": 700,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": 170255910
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 900,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 700,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 900,
+          "observed_units": 700,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 494000,
+          "controller_cpu_user_ns": 18064000,
+          "cpu_system_ns": 74882999,
+          "cpu_user_ns": 282313999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181070,
+          "wall_ns": 326561263,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-a",
+        "scenario": "constrained",
+        "method": "ai",
+        "run_id": "labels-transfer-a-constrained-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 700,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 900,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "4a31c09e32fc0710c3cf2215b370f674df317c8513c1071d001dea5d1d32260a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1600,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1600,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2000,
+          "controller_cpu_user_ns": 15999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2852,
+          "wall_ns": 15934,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "recovery",
+        "method": "conventional",
+        "run_id": "labels-transfer-b-recovery-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 6,
+            "completion_ns": 126160402,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25306583595935,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 121013678
+          },
+          {
+            "accepted_quantity": 500,
+            "completed_tick": 9,
+            "completion_ns": 137211877,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25306594647410,
+            "expected_quantity": 500,
+            "observed_quantity": 500,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 131406267
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 17232000,
+          "cpu_system_ns": 19749999,
+          "cpu_user_ns": 111941999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201824,
+          "wall_ns": 183215504,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 113
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "recovery",
+        "method": "harness",
+        "run_id": "labels-transfer-b-recovery-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 6,
+            "completion_ns": 121215919,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25306792601532,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 119052814
+          },
+          {
+            "accepted_quantity": 500,
+            "completed_tick": 9,
+            "completion_ns": 126815863,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25306798201476,
+            "expected_quantity": 500,
+            "observed_quantity": 500,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 123607779
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 7747999,
+          "controller_cpu_user_ns": 9152999,
+          "cpu_system_ns": 34089999,
+          "cpu_user_ns": 94390000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201754,
+          "wall_ns": 176334243,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 114
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "recovery",
+        "method": "ai",
+        "run_id": "labels-transfer-b-recovery-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 600,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 500,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1100,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 20999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2300,
+          "wall_ns": 17507,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "alternate",
+        "method": "conventional",
+        "run_id": "labels-transfer-b-alternate-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 5,
+            "completion_ns": 109443884,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307012443599,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 106594582
+          },
+          {
+            "accepted_quantity": 500,
+            "completed_tick": 8,
+            "completion_ns": 114447912,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307017447627,
+            "expected_quantity": 500,
+            "observed_quantity": 500,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 111980353
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 4459000,
+          "controller_cpu_user_ns": 9066000,
+          "cpu_system_ns": 26805000,
+          "cpu_user_ns": 86602000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201321,
+          "wall_ns": 152341180,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "alternate",
+        "method": "harness",
+        "run_id": "labels-transfer-b-alternate-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 5,
+            "completion_ns": 84636386,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307167220661,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 82789199
+          },
+          {
+            "accepted_quantity": 500,
+            "completed_tick": 8,
+            "completion_ns": 88243659,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307170827934,
+            "expected_quantity": 500,
+            "observed_quantity": 500,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 86633329
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 11924000,
+          "cpu_system_ns": 28946000,
+          "cpu_user_ns": 60830999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201251,
+          "wall_ns": 114990022,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "alternate",
+        "method": "ai",
+        "run_id": "labels-transfer-b-alternate-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 600,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 500,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1100,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3000,
+          "controller_cpu_user_ns": 18999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2382,
+          "wall_ns": 17086,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "constrained",
+        "method": "conventional",
+        "run_id": "labels-transfer-b-constrained-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 5,
+            "completion_ns": 241190136,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307490964115,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 192788850
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 500,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 500,
+          "observed_units": 600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 6147000,
+          "controller_cpu_user_ns": 13982999,
+          "cpu_system_ns": 71261999,
+          "cpu_user_ns": 285788999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181107,
+          "wall_ns": 339709197,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "constrained",
+        "method": "harness",
+        "run_id": "labels-transfer-b-constrained-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 600,
+            "completed_tick": 5,
+            "completion_ns": 213371781,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25307835845394,
+            "expected_quantity": 600,
+            "observed_quantity": 600,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": 166816691
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 500,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 600,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 500,
+          "observed_units": 600,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 597000,
+          "controller_cpu_user_ns": 17669000,
+          "cpu_system_ns": 72508000,
+          "cpu_user_ns": 283618000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181067,
+          "wall_ns": 324554620,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-b",
+        "scenario": "constrained",
+        "method": "ai",
+        "run_id": "labels-transfer-b-constrained-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 600,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 500,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "f9271c9d9356a066ed1d7a185da96ddca841fa058ed6151d52fbda742ca70077",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1100,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1100,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2999,
+          "controller_cpu_user_ns": 17999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2851,
+          "wall_ns": 17566,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "recovery",
+        "method": "conventional",
+        "run_id": "labels-transfer-c-recovery-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 6,
+            "completion_ns": 109777043,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308115769833,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 106344229
+          },
+          {
+            "accepted_quantity": 1000,
+            "completed_tick": 9,
+            "completion_ns": 114198567,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308120191357,
+            "expected_quantity": 1000,
+            "observed_quantity": 1000,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 112145538
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 2200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 2200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 4809000,
+          "controller_cpu_user_ns": 11770999,
+          "cpu_system_ns": 28650999,
+          "cpu_user_ns": 86279999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201844,
+          "wall_ns": 153450277,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 101
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "recovery",
+        "method": "harness",
+        "run_id": "labels-transfer-c-recovery-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 6,
+            "completion_ns": 118349470,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308309537562,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 115550870
+          },
+          {
+            "accepted_quantity": 1000,
+            "completed_tick": 9,
+            "completion_ns": 122837064,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308314025156,
+            "expected_quantity": 1000,
+            "observed_quantity": 1000,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 120558785
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 2200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 2200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 0,
+          "controller_cpu_user_ns": 15646999,
+          "cpu_system_ns": 17890999,
+          "cpu_user_ns": 101939000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 0,
+          "storage_bytes": 201774,
+          "wall_ns": 161539709,
+          "worker_restarts": 0
+        },
+        "recovery_ms": 109
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "recovery",
+        "method": "ai",
+        "run_id": "labels-transfer-c-recovery-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1200,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1000,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 2200,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3000,
+          "controller_cpu_user_ns": 17999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2304,
+          "wall_ns": 17146,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "alternate",
+        "method": "conventional",
+        "run_id": "labels-transfer-c-alternate-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 5,
+            "completion_ns": 109575678,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308513272742,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 105902626
+          },
+          {
+            "accepted_quantity": 1000,
+            "completed_tick": 8,
+            "completion_ns": 115286155,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308518983219,
+            "expected_quantity": 1000,
+            "observed_quantity": 1000,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 112444510
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 2200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 2200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 2780999,
+          "controller_cpu_user_ns": 13705999,
+          "cpu_system_ns": 8716000,
+          "cpu_user_ns": 103313999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201340,
+          "wall_ns": 148380870,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "alternate",
+        "method": "harness",
+        "run_id": "labels-transfer-c-alternate-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 5,
+            "completion_ns": 115221322,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308707190103,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 113052488
+          },
+          {
+            "accepted_quantity": 1000,
+            "completed_tick": 8,
+            "completion_ns": 121098035,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25308713066816,
+            "expected_quantity": 1000,
+            "observed_quantity": 1000,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 118915040
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 2200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 2200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3696000,
+          "controller_cpu_user_ns": 13302999,
+          "cpu_system_ns": 35969000,
+          "cpu_user_ns": 86012999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 8,
+          "retries": 0,
+          "storage_bytes": 201270,
+          "wall_ns": 159699062,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "alternate",
+        "method": "ai",
+        "run_id": "labels-transfer-c-alternate-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1200,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1000,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 2200,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3000,
+          "controller_cpu_user_ns": 18000,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2386,
+          "wall_ns": 17246,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "constrained",
+        "method": "conventional",
+        "run_id": "labels-transfer-c-constrained-conventional-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 5,
+            "completion_ns": 229498593,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25309043868724,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 175793049
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1000,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 1200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1000,
+          "observed_units": 1200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 913999,
+          "controller_cpu_user_ns": 14209000,
+          "cpu_system_ns": 77830000,
+          "cpu_user_ns": 274555999,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181123,
+          "wall_ns": 329289922,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "constrained",
+        "method": "harness",
+        "run_id": "labels-transfer-c-constrained-harness-c3af39df0a42",
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "safety_status": "DEMONSTRATED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 1200,
+            "completed_tick": 5,
+            "completion_ns": 191075400,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25309365292551,
+            "expected_quantity": 1200,
+            "observed_quantity": 1200,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": 153149302
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1000,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "CAPACITY_EXCEEDED",
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 1200,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1000,
+          "observed_units": 1200,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 5380999,
+          "controller_cpu_user_ns": 11148000,
+          "cpu_system_ns": 60423000,
+          "cpu_user_ns": 235300000,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 9,
+          "retries": 1,
+          "storage_bytes": 181083,
+          "wall_ns": 271192185,
+          "worker_restarts": 2
+        },
+        "recovery_ms": null
+      },
+      {
+        "fixture": "labels-transfer-c",
+        "scenario": "constrained",
+        "method": "ai",
+        "run_id": "labels-transfer-c-constrained-ai-c3af39df0a42",
+        "assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "NOT_RUN",
+          "target_verdict": "NOT_RUN",
+          "test_assertion": "NOT_RUN"
+        },
+        "safety_status": "NOT_ESTABLISHED",
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1200,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1000,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "121355b3f8e9b911720e9c2ebe87dc6078fb67861652c1bfb95096077e481a1a",
+            "transition_ns": null
+          }
+        ],
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 2200,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 2200,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        },
+        "resources": {
+          "controller_cpu_system_ns": 3000,
+          "controller_cpu_user_ns": 14999,
+          "cpu_system_ns": 0,
+          "cpu_user_ns": 0,
+          "human_interventions": 0,
+          "integration_labor_seconds": null,
+          "monetary_cost": null,
+          "peak_rss_bytes": null,
+          "preparation_labor_seconds": null,
+          "requests": 0,
+          "retries": 0,
+          "storage_bytes": 2856,
+          "wall_ns": 14872,
+          "worker_restarts": 0
+        },
+        "recovery_ms": null
+      }
+    ],
+    "comparative_advantage": "NOT_ESTABLISHED",
+    "commercial_value": "NOT_ESTABLISHED",
+    "confounds": [
+      "Single observation per cell, fixed method order and shared host/cache; no speed significance.",
+      "Shared transactional machinery and verifier; comparison isolates no general AI advantage.",
+      "Source-visible preregistered transfers are held out from the base demonstration, not blind population sampling.",
+      "Attempt2 follows an observed evidence-finalization failure; both attempts retained, not pooled.",
+      "Preparation, integration, verification/reporting CPU, peak memory, rates and business costs remain unknown."
+    ]
+  },
+  "challenges": {
+    "relative": "attempt-2/challenges",
+    "gate": "PASSED",
+    "new_local_executions": 4,
+    "observations": 8,
+    "records": [
+      {
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/no-journal-ablation",
+        "challenge_sha256": "7fcbf490e99ad1b1ec54b4f496d3297dd78b720e9f26859bd1b062c4d14e2bef",
+        "id": "no-journal-ablation",
+        "measurements": {
+          "additional_target_verification_wall_ns": 0,
+          "challenge_wall_ns_before_report": 123435429,
+          "reference_verification_wall_ns": 3791300
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1100,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT",
+              "UNAUTHORIZED_OBLIGATION"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNFULFILLED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "eb0a78f8345b0bc7bdca1c7d1724308de30a443a437ec6b36306a4f4d4f491fb",
+        "resource_origin": "NEW_LOCAL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/rewritten-1850",
+        "challenge_sha256": "58e7db1df296df03c358d891ac93d72e4c2306659f612cb85f07e5ae4a08ba3d",
+        "id": "rewritten-1850",
+        "measurements": {
+          "additional_target_verification_wall_ns": 0,
+          "challenge_wall_ns_before_report": 132945644,
+          "reference_verification_wall_ns": 6864756
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 5,
+            "completion_ns": 87164960,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310330320761,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "backup",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 84397066
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "REFUSED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT",
+              "UNAUTHORIZED_OBLIGATION"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "4ab93204498e95e1fc8542884bc276a629b845b6825b8765e9ccd18f348b4876",
+        "resource_origin": "NEW_LOCAL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "PARTIAL",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 1,
+          "accepted_units": 1100,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 800,
+          "observed_units": 1100,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "FRESH_VERIFICATION_CHALLENGE",
+          "target_verdict": "NOT_ESTABLISHED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/missing-reference-pin",
+        "challenge_sha256": "6bd2985f72e55053bb94cb88954e21b5e46ef090a4e47020562710453ccbff3d",
+        "id": "missing-reference-pin",
+        "measurements": {
+          "additional_target_verification_wall_ns": 0,
+          "challenge_wall_ns_before_report": 11340773,
+          "reference_verification_wall_ns": 8435861
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 6,
+            "completion_ns": 88434002,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310053067543,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 85888564
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 9,
+            "completion_ns": 92584996,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310057218537,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 90689401
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": null,
+        "resource_origin": "COPIED_POSITIVE_CONTROL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "NOT_ESTABLISHED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "FRESH_VERIFICATION_CHALLENGE",
+          "target_verdict": "FAILED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/changed-artifact",
+        "challenge_sha256": "a05996f8a99293dc59841cc724959e6c775399770afbfa7da439fdffb0f04e47",
+        "id": "changed-artifact",
+        "measurements": {
+          "additional_target_verification_wall_ns": 0,
+          "challenge_wall_ns_before_report": 11033757,
+          "reference_verification_wall_ns": 8086252
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 6,
+            "completion_ns": 88434002,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310053067543,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 85888564
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 9,
+            "completion_ns": 92584996,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310057218537,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 90689401
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "4459a802dfdabcecf34aab6a73a5b3ade10b649a81cfe4ce0f83ff15d9d3a18d",
+        "resource_origin": "COPIED_POSITIVE_CONTROL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "REFUSED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/shared-failed-dependency",
+        "challenge_sha256": "cc2bd31da7f9d7463e893e18c6e9a167f064096c2b51f9b4a1a2621b8153db2e",
+        "id": "shared-failed-dependency",
+        "measurements": {
+          "additional_target_verification_wall_ns": 0,
+          "challenge_wall_ns_before_report": 121200070,
+          "reference_verification_wall_ns": 3628906
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 1100,
+            "observed_quantity": 0,
+            "order_id": "LBL-100",
+            "outcome": "UNFULFILLED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": null,
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": null
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": null,
+            "completion_ns": null,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": null,
+            "expected_quantity": 800,
+            "observed_quantity": 0,
+            "order_id": "LBL-200",
+            "outcome": "UNFULFILLED",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "NO_DURABLE_OUTPUT"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": null,
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": null
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "REFUSED",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "b6ee85463203d2c2d3f0c137a76f12941759c7d5928edbfad9ab270c52365666",
+        "resource_origin": "NEW_LOCAL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "REFUSED",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 0,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "CHECKER_MUTATION_EXERCISE",
+          "target_verdict": "DEMONSTRATED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/mutant-ignores-byte-integrity",
+        "challenge_sha256": "9a4b38ae5bf3a1e13994c343a5386bc8cec7bb30fcd9ff3346e690daaf58f6da",
+        "id": "mutant-ignores-byte-integrity",
+        "measurements": {
+          "additional_target_verification_wall_ns": 8961897,
+          "challenge_wall_ns_before_report": 20955265,
+          "reference_verification_wall_ns": 8082377
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 6,
+            "completion_ns": 88434002,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310053067543,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 85888564
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 9,
+            "completion_ns": 92584996,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310057218537,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "UNRESOLVED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 90689401
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "4459a802dfdabcecf34aab6a73a5b3ade10b649a81cfe4ce0f83ff15d9d3a18d",
+        "resource_origin": "COPIED_POSITIVE_CONTROL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "CHECKER_MUTATION_EXERCISE",
+          "target_verdict": "DEMONSTRATED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/mutant-ignores-revocation",
+        "challenge_sha256": "952493a512a2ec5c2416dfeb81a9b36997b164801c3c42ba80adbcdba7966023",
+        "id": "mutant-ignores-revocation",
+        "measurements": {
+          "additional_target_verification_wall_ns": 13651846,
+          "challenge_wall_ns_before_report": 33596563,
+          "reference_verification_wall_ns": 9008767
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 6,
+            "completion_ns": 88434002,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310053067543,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "INCORRECT",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "UNAUTHORIZED_ACTIVATION"
+            ],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 85888564
+          },
+          {
+            "accepted_quantity": 0,
+            "completed_tick": 9,
+            "completion_ns": 92584996,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310057218537,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "INCORRECT",
+            "product": "LABEL-A",
+            "reason_codes": [
+              "UNAUTHORIZED_ACTIVATION"
+            ],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 90689401
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "reference_pin_sha256": "4459a802dfdabcecf34aab6a73a5b3ade10b649a81cfe4ce0f83ff15d9d3a18d",
+        "resource_origin": "COPIED_POSITIVE_CONTROL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "totals": {
+          "accepted_obligations": 0,
+          "accepted_units": 0,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 2,
+          "late_obligations": 0,
+          "missing_units": 1900,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        }
+      },
+      {
+        "assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "CHECKER_MUTATION_EXERCISE",
+          "target_verdict": "FAILED",
+          "test_assertion": "PASSED"
+        },
+        "case_relative": "cases/mutant-rejects-valid-recovery",
+        "challenge_sha256": "fb08988a29a9003620a9d3109f496b449c6fe0f8d3c4a5ee13645cef45cc7d32",
+        "id": "mutant-rejects-valid-recovery",
+        "measurements": {
+          "additional_target_verification_wall_ns": 9455213,
+          "challenge_wall_ns_before_report": 22857350,
+          "reference_verification_wall_ns": 9461803
+        },
+        "per_obligation": [
+          {
+            "accepted_quantity": 1100,
+            "completed_tick": 6,
+            "completion_ns": 88434002,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310053067543,
+            "expected_quantity": 1100,
+            "observed_quantity": 1100,
+            "order_id": "LBL-100",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-A",
+            "route": "primary",
+            "spec_sha256": "1b590fba52dad5b09041ead75f1b3057b233d8b1ac35d9d9d37905696fc9675c",
+            "transition_ns": 85888564
+          },
+          {
+            "accepted_quantity": 800,
+            "completed_tick": 9,
+            "completion_ns": 92584996,
+            "deadline_tick": 100,
+            "durable_observed_monotonic_ns": 25310057218537,
+            "expected_quantity": 800,
+            "observed_quantity": 800,
+            "order_id": "LBL-200",
+            "outcome": "COMPLETED",
+            "product": "LABEL-A",
+            "reason_codes": [],
+            "recipient": "CUSTOMER-B",
+            "route": "primary",
+            "spec_sha256": "a813e867578702ddec11b49ace3a5fd745ff391a2f5c95e7fe8af1c1f6b6c0e2",
+            "transition_ns": 90689401
+          }
+        ],
+        "reference_assessment": {
+          "claim_status": "DEMONSTRATED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "PASSED"
+        },
+        "reference_pin_sha256": "4459a802dfdabcecf34aab6a73a5b3ade10b649a81cfe4ce0f83ff15d9d3a18d",
+        "resource_origin": "COPIED_POSITIVE_CONTROL_EXECUTION",
+        "target_assessment": {
+          "claim_status": "FAILED",
+          "evidence_stage": "LOCAL_SOFTWARE_EXECUTION",
+          "target_verdict": "COMPLETED",
+          "test_assertion": "FAILED"
+        },
+        "totals": {
+          "accepted_obligations": 2,
+          "accepted_units": 1900,
+          "duplicate_obligations": 0,
+          "expected_obligations": 2,
+          "expected_units": 1900,
+          "incorrect_obligations": 0,
+          "late_obligations": 0,
+          "missing_units": 0,
+          "observed_units": 1900,
+          "unsupported_obligations": 0
+        }
+      }
+    ],
+    "copied_execution_costs_are_not_additional_trials": true
+  },
+  "clean_checkout_qualification": {
+    "schema": "continuity-harness/qualification/v1",
+    "attempt": 2,
+    "prior_attempt_preserved": "../QUALIFICATION.json",
+    "implementation_commit": "fa9da1f54acfaa82510a4b6b805c2980d3e5b31d",
+    "working_directory": "/workspace/scratch/b1d5891eb025/continuity-harness-qualified-v2",
+    "clean_before": true,
+    "environment": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+      "sqlite": "3.53.1"
+    },
+    "commands": [
+      {
+        "name": "demo",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "continuity_harness",
+          "--language",
+          "fr",
+          "demo",
+          "--out",
+          "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/demonstration"
+        ],
+        "started_utc": "2026-11-06T20:38:24.434478+00:00",
+        "wall_ns": 967963158,
+        "exit_code": 0
+      },
+      {
+        "name": "demo-fresh",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "continuity_harness",
+          "--language",
+          "en",
+          "verify-suite",
+          "--in-dir",
+          "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/demonstration"
+        ],
+        "started_utc": "2026-11-06T20:38:25.402867+00:00",
+        "wall_ns": 114917934,
+        "exit_code": 0
+      },
+      {
+        "name": "compare",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "continuity_harness",
+          "--language",
+          "en",
+          "compare",
+          "--out",
+          "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/comparison"
+        ],
+        "started_utc": "2026-11-06T20:38:25.518654+00:00",
+        "wall_ns": 6089119731,
+        "exit_code": 0
+      },
+      {
+        "name": "compare-fresh",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "continuity_harness",
+          "--language",
+          "fr",
+          "verify-suite",
+          "--in-dir",
+          "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/comparison"
+        ],
+        "started_utc": "2026-11-06T20:38:31.608067+00:00",
+        "wall_ns": 365170735,
+        "exit_code": 0
+      },
+      {
+        "name": "challenge",
+        "argv": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+          "-m",
+          "continuity_harness",
+          "--language",
+          "fr",
+          "challenge",
+          "--out",
+          "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/challenges"
+        ],
+        "started_utc": "2026-11-06T20:38:31.973564+00:00",
+        "wall_ns": 816275801,
+        "exit_code": 0
+      }
+    ],
+    "clean_after": true
+  },
+  "ci_at_implementation": [
+    {
+      "id": 42289983351,
+      "kind": "Harness comparison and challenges",
+      "status": "success",
+      "url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42289983351"
+    },
+    {
+      "id": 42289983392,
+      "kind": "Repository regressions and historical verification",
+      "status": "success",
+      "url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42289983392"
+    }
+  ],
+  "source_versions": {
+    "dirty": false,
+    "environment": {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-m",
+        "continuity_harness",
+        "--language",
+        "en",
+        "compare",
+        "--out",
+        "/workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/comparison"
+      ],
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "sqlite_version": "3.53.1",
+      "working_directory": "/workspace/scratch/b1d5891eb025/continuity-harness-qualified-v2"
+    },
+    "git_commit": "fa9da1f54acfaa82510a4b6b805c2980d3e5b31d",
+    "source_sha256": {
+      "continuity_harness/__init__.py": "577ece33903d70ce17189e594370916b485efec1e66ee07f099b4f62ebd4219e",
+      "continuity_harness/__main__.py": "c89523d1e0bbfc47bdcef086a06fabefacde32b7aca6be132e79d78b11e003c8",
+      "continuity_harness/adapters.py": "ba0be575481384b74dfbc407c4e575bb8f561c50f1235fdf51f0b4b9c19865b0",
+      "continuity_harness/candidate.py": "938d73f546c774452b22823639beda4b0f89d911abe429da48039bf1808e3141",
+      "continuity_harness/challenges.py": "d14ec02a127eaab94bf440ccb76b38aa735983f393d6ccae80eb6fcdb1215a5d",
+      "continuity_harness/controller.py": "7bbc8a87d34b64d8e9e621de5a907f3b123a3a0e973745c73385b73f3a52d1fd",
+      "continuity_harness/fixtures.py": "4464f7c9b151300858703f2332049f83c2df429684326b5be3f4e45e7da11b9e",
+      "continuity_harness/reporting.py": "e89eee75a923f9489112e243f140f17adba916627d3c02ff6ac2b58e9a1f8645",
+      "continuity_harness/rpc.py": "36e48a53bd6c99a51f85fe1183f6e6e3ff9b0c3f3501c3d8c080ab1ff099b745",
+      "continuity_harness/sandbox.py": "7ae5423afd96847b1c38c746a7c417f938624e32acf97273c27757b46e3d556f",
+      "continuity_harness/schema.py": "4ad738e4b1ef001d039d92ffad897241be7605189b579abd69e38cfe3660427c",
+      "continuity_harness/service.py": "6b2c1816e71b6d0768024ed2a2273d98929fd42c223853eff7f7ccd63108055c",
+      "continuity_harness/suite.py": "bac676e2886e2ca434b775fe58a0f87b33c4c97f32badd5d2c63659323a5c4dc",
+      "continuity_harness/verifier.py": "2177652f986f9a305d7d3c90e808ba15651a58280c4a6bfd3f37da028542df38",
+      "experiments/harness-v0.1/PROVENANCE.json": "0c8697da8cd4eb8635cf5413c0f3e0b4c2dc82ea6cd7d8bc6cac194bed7f5f32",
+      "experiments/harness-v0.1/spec.json": "8f08c8d524ab4aab9528728725d528eaa5f7e701403c9e176e8dff9b17380880"
+    },
+    "version": "0.1.0"
+  },
+  "limitations": [
+    "Synthetic local JSON outputs are not printed goods or customer delivery.",
+    "Host, kernel, trusted imports/controller/service/clock/journal/verifier are trusted.",
+    "Primary and backup are logical routes on shared local infrastructure.",
+    "Process failures and finite traces do not prove power-loss durability or universal exactly-once delivery.",
+    "The old stale-sidecar reappearance mechanism remains unestablished; finalization mitigation is scoped to the tested evidence boundary.",
+    "AI performance NOT_RUN; protocol stub is not a model result.",
+    "No real customer authority, supplier qualification, paying customer or commercial savings established."
+  ],
+  "next_rehearsal_evidence": [
+    "Genuine order authority and complete journal/cutoff with amendments and cancellations.",
+    "Explicit activation/disclosure permissions and a qualified isolated primary/backup execution environment.",
+    "Provider-confirmed capacity/window/dependencies and agreed idempotency/reconciliation behavior.",
+    "Independent acceptance of actual outputs under agreed clocks/deadlines.",
+    "Measured preparation/operation/verification labor and complete rates/obligations; bounded stop/reversal plan."
+  ],
+  "additional_fresh_verification": {
+    "command": "python3 -m continuity_harness --language en verify-suite --in-dir /workspace/scratch/b1d5891eb025/harness-delivery-v0.1/attempt-2/comparison",
+    "exit_code": 0,
+    "relative": "attempt-2/validation/compare-post-session-fresh.stdout.json",
+    "sha256": "a6bf7571f105a0a8a9e4c5b1cd77efc72efe20175abfc3110b0eec1849d8a3ea",
+    "purpose": "Separate executor session verifies that the finalized evidence remains stable."
+  }
+}

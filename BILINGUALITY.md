@@ -6,6 +6,8 @@
 
 The main README contains complete English and French sections. README.fr.md offers the French entry separately. Both cover setup, use, publications, provenance and limitations.
 
+The separately versioned Harness has complete English/French setup, CLI help, operator errors, scenario explanations, architecture, threat model, requirements matrix and generated Passports. Its English main title is **CONTINUITY Ω Harness**; its French main title is **CONTINUITÉ Ω — Banc d’essai et de vérification**. Both Passports are generated from the same structured result and identify the same digest, quantities, deadlines, verdicts, evidence stage and uncertainties. Original citation titles and stable technical identifiers remain shared. Fresh verification, rather than translation or a saved favorable report, determines current acceptance.
+
 - The prototype guides, quick starts, output explanations and proposed real-pilot guidance have full `.fr.md` counterparts.
 - The paper has complete English/French PDFs and LaTeX, claim registers, citations, evidence guides, review and source maps. Release notes, translation contract and reading-companion notes contain both languages in the same file.
 - The local website has paired home, help, paper-reader and media-gallery pages. Controls, calculator explanations, image alternatives, transcripts and accessibility labels are localized. Original foundations remain linked as published; their actual titles and languages are not misrepresented.
@@ -23,6 +25,8 @@ PROVENANCE.json retains all initial-copy identities. LOCALIZATION.json records o
 ## Français
 
 Le README principal contient des sections complètes en anglais et en français. README.fr.md offre séparément l’entrée française. Les deux couvrent l’installation, l’utilisation, les publications, la provenance et les limites.
+
+Le banc d’essai versionné séparément propose intégralement en français et en anglais l’installation, l’aide en ligne de commande, les erreurs destinées aux opérateurs, les scénarios, l’architecture, le modèle de menace, la matrice des exigences et les passeports générés. Son titre principal anglais est **CONTINUITY Ω Harness** ; son titre principal français est **CONTINUITÉ Ω — Banc d’essai et de vérification**. Les deux passeports sont produits à partir du même résultat structuré et présentent la même empreinte, les mêmes quantités, échéances, verdicts, étapes de preuve et incertitudes. Les titres des citations originales et les identifiants techniques stables restent communs. L’acceptation actuelle dépend d’une vérification fraîche, et non d’une traduction ou d’un ancien rapport favorable.
 
 - Les guides du prototype, démarrages rapides, explications des résultats et recommandations pour un pilote réel proposé disposent de versions `.fr.md` intégrales.
 - L’article comprend des PDF et sources LaTeX complets en anglais et en français, ainsi que les registres d’affirmations, citations, guides des preuves, revues et filiations. Les notes de publication, le contrat de traduction et les notes du compagnon contiennent les deux langues dans un même fichier.

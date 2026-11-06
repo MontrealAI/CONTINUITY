@@ -1,0 +1,54 @@
+{
+  "schema": "continuity-harness/experiment/v1",
+  "experiment_id": "CONTINUITY-HARNESS-001",
+  "version": 1,
+  "starting_commit": "8776d70ba091f71dab12fc9d3195baf7fc789676",
+  "registration": "Committed before comparative execution; later changes require a new specification version and retained prior attempts.",
+  "stage": "LOCAL_SOFTWARE_EXECUTION",
+  "hypotheses": {
+    "recovery": {
+      "support": "Both feasible controls produce exact durable outputs for every outstanding obligation, accepted by the fresh verifier within logical and measured wall deadlines.",
+      "falsifier": "Any lost, incorrect, duplicate, unauthorized or late obligation in a feasible control.",
+      "inconclusive": "Missing authority, source completeness, durable evidence, clock evidence or completed verification."
+    },
+    "safety": {
+      "support": "Tested transition schedules conserve capacity and prevent duplicate completed obligations across retries, interruption and restart.",
+      "falsifier": "Any capacity excess, duplicate fulfillment or unauthorized obligation transition in an exercised schedule.",
+      "inconclusive": "Missing transition history, incomplete crash exercise or unobserved fault."
+    },
+    "integrity": {
+      "support": "A rewritten candidate package with recomputed internal hashes cannot satisfy the retained original contract; absent reference is NOT_ESTABLISHED.",
+      "falsifier": "A favorable full-promise result for the 1850-unit substitution against the retained 1900-unit contract, or without a required reference.",
+      "inconclusive": "Candidate isolation or verifier execution unavailable."
+    },
+    "comparison": {
+      "support": "Better accepted outcomes or lower observed resource use under equal input, service, fault and acceptance conditions, with uncertainties and omitted costs explicit.",
+      "falsifier": "A claimed improvement disappears or reverses against the competent conventional procedure under the registered conditions.",
+      "inconclusive": "A tie, missing material costs, unavailable AI capability, unfair information access or insufficient measurements for a proposed generalization."
+    }
+  },
+  "methods": ["conventional", "harness", "ai"],
+  "fairness": {
+    "candidate_information": "Identical full candidate-visible events through cutoff, stale snapshot, permissions, capacity and dependency declarations.",
+    "services": "Identical transactional storage, order validation, reservations, idempotency and broker tools for all methods.",
+    "oracle": "Retained contract/reference and independent acceptance are inaccessible to every candidate subprocess.",
+    "ai": "NOT_RUN unless an explicitly supplied, already authorized local model capability is available; no paid APIs, downloads, secrets or invented performance."
+  },
+  "controls": {
+    "recovery": {"primary_available": true, "expected": "ALL_OBLIGATIONS_COMPLETED"},
+    "alternate": {"primary_available": false, "expected": "ALL_OBLIGATIONS_COMPLETED_VIA_BACKUP"},
+    "constrained": {"primary_available": false, "expected": "FIRST_PRIORITY_OBLIGATION_COMPLETED_SECOND_REFUSED", "faults": ["CONCURRENT_FINAL_CAPACITY", "ACK_LOST_AFTER_DURABLE_FULFILLMENT", "SERVICE_KILLED_AFTER_COMMIT", "CANDIDATE_KILLED_AFTER_REQUEST", "RESTART_RECONCILIATION"]}
+  },
+  "fixtures": [
+    {"id": "labels-base", "held_out": false, "quantities": [1100, 800], "primary_capacity": 3000, "backup_capacity": 2100, "constrained_capacity": 1500, "seed": 101},
+    {"id": "labels-transfer-a", "held_out": true, "quantities": [700, 900], "primary_capacity": 2500, "backup_capacity": 1800, "constrained_capacity": 1000, "seed": 202},
+    {"id": "labels-transfer-b", "held_out": true, "quantities": [600, 500], "primary_capacity": 1800, "backup_capacity": 1200, "constrained_capacity": 700, "seed": 303},
+    {"id": "labels-transfer-c", "held_out": true, "quantities": [1200, 1000], "primary_capacity": 2600, "backup_capacity": 2400, "constrained_capacity": 1300, "seed": 404}
+  ],
+  "trial_policy": "One bounded run per method/fixture/control, 24 executed conventional/harness runs plus 12 explicit AI NOT_RUN records when unavailable. These are preregistered transfer fixtures, not a secret benchmark or statistical population sample. Preserve every failed and incomplete attempt in distinct run directories.",
+  "clock": {"deadline_tick": 100, "wall_deadline_ms": 30000, "recovery_objective_ms": 15000, "lease_ticks": 20, "interpretation": "Ticks are controller-owned logical schedule coordinates, not measured hours. Wall and CPU durations are measured separately with monotonic clocks."},
+  "resource_policy": {"max_candidate_requests": 128, "max_json_bytes": 1048576, "max_service_request_ms": 10000, "monetary_rates": null, "preparation_and_integration_labor": null},
+  "ablation": "Disable candidate journal reconciliation on a separately labeled non-comparative ablation. Keep the same services and verifier. Attribute its failure only to omission of reconciliation, not to general AI or method superiority.",
+  "release_gate": "Positive recovery and alternate controls; precise partial constrained result; no critical safety violation; required fault hooks observed; strict/adversarial/mutation/isolation/bilingual tests pass; historical identities preserved.",
+  "limits": ["Synthetic local software artifacts only; no printed goods or customer acceptance.", "Host, controller, service, verifier, clock and authored journal are trusted within stated boundaries.", "No malicious-host protection, real supplier capacity, revenues, commercial savings or general exactly-once guarantee.", "Finite transition enumerations and sampled schedules have separate reported denominators."]
+}

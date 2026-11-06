@@ -1,0 +1,30 @@
+name: Harness evidence / Preuves du banc d’essai
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  local-execution:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test local boundaries and verification / Tester les frontières et la vérification
+        run: python3 -m unittest discover -s tests -p 'test_harness*.py' -v
+      - name: Execute registered comparison / Exécuter la comparaison préenregistrée
+        run: python3 -m continuity_harness --language en compare --out "$RUNNER_TEMP/continuity-harness/comparison"
+      - name: Fresh verification / Vérification fraîche
+        run: python3 -m continuity_harness --language fr verify-suite --in-dir "$RUNNER_TEMP/continuity-harness/comparison"
+      - name: Preserve counterexamples and ablation / Conserver les contre-exemples et l’ablation
+        run: python3 -m continuity_harness --language fr challenge --out "$RUNNER_TEMP/continuity-harness/challenges"
+      - name: Preserve historical identities / Préserver les identités historiques
+        run: python3 scripts/verify_copy.py
+      - name: Retain every attempt / Conserver chaque tentative
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: continuity-harness-${{ github.sha }}
+          path: ${{ runner.temp }}/continuity-harness
+          if-no-files-found: warn
+          retention-days: 30

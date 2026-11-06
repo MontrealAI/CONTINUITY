@@ -1,0 +1,26 @@
+{
+  "schema": "continuity-harness/provenance/v1",
+  "implementation": "continuity_harness",
+  "version": "0.1.0",
+  "starting_repository": "https://github.com/MontrealAI/CONTINUITY",
+  "starting_commit": "8776d70ba091f71dab12fc9d3195baf7fc789676",
+  "historical_origin_repository": "https://github.com/MontrealAI/AGI-Alpha-Invention-Flywheel-Lab",
+  "historical_origin_commit": "de6839a4da2275dbe4cda00c2d3b5625210e02c5",
+  "fixture_source": {
+    "path": "continuity_omega/demo.py",
+    "sha256": "4fe75e34c600efe11cd5477afc18a2de09e51dc173a017f5f8e63a6da9b5e576",
+    "reuse": "Two-order synthetic event pattern: accept 1000/800/600, amend first to1100, cancel third; stale snapshot omissions. Business prices, hours, profits and supplier claims are not adopted as measurements."
+  },
+  "new_components": "Independent local process controller, candidate adapters, SQLite capacity/receipt service, seccomp boundary, fresh verifier, bilingual reports, registered transfers and tests.",
+  "historical_engine_imported": false,
+  "proposed_lab_hardening_adopted": false,
+  "historical_evidence_requalified": false,
+  "third_party_assurance": false,
+  "license_boundary": "No new license asserted; original notices and authorship remain preserved.",
+  "registration": {
+    "local_commit": "318f6d76868fa63ce3e25805e1c11bbfc057f981",
+    "publication_commit": "0b9eac772d8088a0ee44605aead85fa5d36dd93b",
+    "content_tree": "92f48ff855edddcba6f33f8a23d0d06c1d85739c",
+    "meaning": "Identical preregistration tree. Local registration precedes implementation integration controls and the registered comparison. Publication follows development controls but precedes the registered comparison."
+  }
+}

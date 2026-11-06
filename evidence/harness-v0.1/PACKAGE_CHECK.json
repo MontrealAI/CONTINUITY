@@ -1,0 +1,24 @@
+{
+  "schema": "continuity-harness/package-check/v1",
+  "archive_sha256": "a7115c8d499377152d6e4c1e83e44ca5997b5452ff3847ad061e73b4bac711b9",
+  "manifest_files_verified": 1722,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "continuity_harness",
+    "--language",
+    "fr",
+    "verify-suite",
+    "--in-dir",
+    "/workspace/scratch/b1d5891eb025/harness-package-inspection/continuity-harness-v0.1-evidence/attempt-2/comparison"
+  ],
+  "exit_code": 0,
+  "fresh_result": {
+    "release_gate": "PASSED",
+    "executed_runs": 24,
+    "not_run": 12,
+    "failed_test_assertions": [],
+    "critical_safety_failures": [],
+    "fresh_verification": true
+  }
+}
