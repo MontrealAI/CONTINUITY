@@ -228,6 +228,19 @@ VALUES = {
 }
 
 EXTRA_REASONS = {
+    "CHECKPOINT_BUSY": ("An active reader prevents a complete database checkpoint; the exercise cannot be finalized.", "Un lecteur actif empêche l’intégration complète du journal ; l’exercice ne peut être finalisé."),
+    "DATABASE_CHECKPOINT_INCOMPLETE": ("The database did not confirm complete checkpointing.", "La base de données n’a pas confirmé l’intégration complète de son journal."),
+    "DATABASE_STATE_NOT_CAPTURED": ("The final live service state was not captured before shutdown.", "L’état final du service actif n’a pas été capturé avant son arrêt."),
+    "DATABASE_STATE_CHANGED_DURING_FINALIZATION": ("The finalized database differs from the service's captured final state.", "La base finalisée diffère de l’état final capturé du service."),
+    "DATABASE_SNAPSHOT_TIMEOUT": ("Creating the standalone evidence database exceeded its time limit.", "La création de la base de preuve autonome a dépassé sa limite de temps."),
+    "DATABASE_SNAPSHOT_INVALID": ("The standalone evidence database failed its integrity check.", "Le contrôle d’intégrité de la base de preuve autonome a échoué."),
+    "DATABASE_SNAPSHOT_MISMATCH": ("The evidence database does not match the committed source view.", "La base de preuve ne correspond pas à la vue source engagée."),
+    "DATABASE_SNAPSHOT_JOURNAL_MODE": ("The evidence database could not leave write-ahead journal mode.", "La base de preuve n’a pas pu quitter le mode de journalisation anticipée."),
+    "DATABASE_SNAPSHOT_SIDECAR": ("A journal or shared-memory file accompanies the evidence database.", "Un journal ou un fichier de mémoire partagée accompagne la base de preuve."),
+    "DATABASE_FINALIZATION_ERROR": ("Database evidence finalization did not complete.", "La finalisation des preuves de la base de données n’a pas abouti."),
+    "WORKER_STILL_RUNNING": ("An owned process is still running; evidence cannot be finalized.", "Un processus appartenant à l’exercice est encore actif ; les preuves ne peuvent être finalisées."),
+    "WORKER_EXIT_UNEXPECTED": ("An owned process exited unexpectedly before evidence finalization.", "Un processus de l’exercice s’est arrêté de manière inattendue avant la finalisation des preuves."),
+    "RECONCILIATION_INCOMPLETE": ("Durable receipt reconciliation did not produce complete consistent artifacts.", "Le rapprochement des reçus durables n’a pas produit de pièces complètes et cohérentes."),
     "LOCAL_AI_UNAVAILABLE": ("No suitable authorized local model was executed; AI performance was not measured.", "Aucun modèle local approprié et autorisé n’a été exécuté ; la performance d’IA n’a pas été mesurée."),
     "ROUTE_UNAVAILABLE": ("The requested route is unavailable.", "La voie demandée est indisponible."),
     "DEPENDENCY_UNAVAILABLE": ("The route uses an unavailable declared dependency.", "La voie utilise une dépendance déclarée indisponible."),

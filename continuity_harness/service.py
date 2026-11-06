@@ -647,7 +647,10 @@ class Service:
         if operation == "checkpoint":
             fields(args, set())
             result = tuple(self.db.execute("PRAGMA wal_checkpoint(TRUNCATE)").fetchone())
-            return {"status": "CHECKPOINTED" if result[0] == 0 else "CHECKPOINT_BUSY", "sqlite": list(result)}
+            if result[0] != 0:
+                refuse("CHECKPOINT_BUSY", "The checkpoint is blocked by an active database connection; durable finalization is incomplete.",
+                       "Un accès actif à la base bloque le point de contrôle ; la finalisation durable est incomplète.")
+            return {"status": "CHECKPOINTED", "sqlite": list(result)}
         refuse("UNSUPPORTED_OPERATION", "Unsupported service operation.", "Opération du service non prise en charge.")
 
 

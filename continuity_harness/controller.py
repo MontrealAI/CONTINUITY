@@ -16,7 +16,7 @@ from . import __version__
 from .fixtures import candidate_view, stale_snapshot
 from .rpc import ProcessChannel, ServiceClient
 from .schema import (HarnessError, canonical, digest, expected_obligations,
-                     object_fields, strict_load, validate_contract, identifier)
+                     object_fields, strict_load, strict_loads, validate_contract, identifier)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -76,7 +76,10 @@ class Controller:
         self.workspace.mkdir()
         self.logs = self.run_dir / "logs"
         self.logs.mkdir()
-        self.db = self.evidence_dir / "service.sqlite"
+        self.runtime_dir = self.run_dir / "runtime"
+        self.runtime_dir.mkdir()
+        self.db = self.runtime_dir / "service.sqlite"
+        self.evidence_db = self.evidence_dir / "service.sqlite"
         self.view = deepcopy(view) if view is not None else candidate_view(self.contract)
         write_json(self.workspace / "view.json", self.view)
         write_json(self.authority_dir / "contract.json", self.contract)
@@ -89,6 +92,8 @@ class Controller:
         self.service = None
         self.candidate = None
         self.children = []
+        self.expected_kills = set()
+        self.final_service_snapshot = None
         self.tick = 0
         self.requests = 0
         self.retries = 0
@@ -249,8 +254,10 @@ class Controller:
         self.fault("RETRY_WHILE_OUTCOME_UNKNOWN")
         retry.close()
         self.service.kill()
+        self.expected_kills.add(self.service.process.pid)
         self.fault("SERVICE_KILLED_AFTER_COMMIT")
         self.candidate.kill()
+        self.expected_kills.add(self.candidate.process.pid)
         self.fault("CANDIDATE_KILLED_AFTER_REQUEST")
         self.service.close()
         self.candidate.close()
@@ -354,11 +361,94 @@ class Controller:
                     raise HarnessError("RESTART_BUDGET_EXCEEDED")
                 restart = True
 
+    def finalize_database(self):
+        """Publish a standalone durable ledger after all owned writers exit.
+
+        SQLite backup reads the committed database view, including any required
+        WAL; copying the main file alone is not a safe snapshot procedure.
+        Runtime files stay separate and are retained for diagnosis. Acceptance
+        still inspects the complete finalized database and actual artifacts.
+        """
+        if any(child.process.poll() is None for child in self.children):
+            raise HarnessError("WORKER_STILL_RUNNING", "database finalization")
+        if self.final_service_snapshot is None:
+            raise HarnessError("DATABASE_STATE_NOT_CAPTURED")
+        if self.evidence_db.exists() or self.evidence_db.is_symlink():
+            raise HarnessError("OUTPUT_EXISTS", "finalized database")
+        # Never open an evidence-path database for SQLite writes. All managed
+        # temporary journals belong to the retained runtime directory.
+        temporary = self.runtime_dir / "service.sqlite.snapshot.tmp"
+        with open(temporary, "xb"):
+            pass
+        started = time.monotonic_ns()
+        def bounded_backup(status, remaining, total):
+            if time.monotonic_ns() - started > 10_000_000_000:
+                raise HarnessError("DATABASE_SNAPSHOT_TIMEOUT")
+        def logical_hash(connection):
+            checksum = hashlib.sha256()
+            for line in connection.iterdump():
+                checksum.update(line.encode("utf-8") + b"\n")
+            return checksum.hexdigest()
+        source = sqlite3.connect(self.db.as_uri() + "?mode=ro", uri=True, timeout=10)
+        target = None
+        try:
+            source.execute("PRAGMA query_only=ON")
+            source.execute("BEGIN")
+            source_hash = logical_hash(source)
+            target = sqlite3.connect(temporary, timeout=10)
+            source.backup(target, pages=64, progress=bounded_backup, sleep=0)
+            if target.execute("PRAGMA journal_mode=DELETE").fetchone()[0].lower() != "delete":
+                raise HarnessError("DATABASE_SNAPSHOT_JOURNAL_MODE")
+            target.execute("PRAGMA synchronous=FULL")
+            if target.execute("PRAGMA integrity_check").fetchall() != [("ok",)]:
+                raise HarnessError("DATABASE_SNAPSHOT_INVALID")
+            if logical_hash(target) != source_hash:
+                raise HarnessError("DATABASE_SNAPSHOT_MISMATCH")
+            cursor = target.cursor()
+            cursor.row_factory = sqlite3.Row
+            state = {"metadata": {row["key"]: strict_loads(row["value"])
+                                  for row in cursor.execute("SELECT * FROM metadata ORDER BY key")}}
+            for table, ordering in (("routes", "route"), ("authorized_orders", "order_id"), ("orders", "order_id"),
+                                    ("reservations", "key"), ("receipts", "key"), ("history", "sequence")):
+                state[table] = [dict(row) for row in cursor.execute("SELECT * FROM " + table + " ORDER BY " + ordering)]
+            for row in state["receipts"]:
+                row["payload"] = strict_loads(row["payload"])
+            for row in state["history"]:
+                row["detail"] = strict_loads(row["detail"])
+            if state != self.final_service_snapshot:
+                raise HarnessError("DATABASE_STATE_CHANGED_DURING_FINALIZATION")
+        finally:
+            if target is not None:
+                target.close()
+            source.close()
+        with open(temporary, "rb") as stream:
+            os.fsync(stream.fileno())
+        os.replace(temporary, self.evidence_db)
+        for parent in (self.runtime_dir, self.evidence_dir):
+            directory = os.open(parent, os.O_RDONLY | os.O_DIRECTORY)
+            try:
+                os.fsync(directory)
+            finally:
+                os.close(directory)
+        for suffix in ("-wal", "-shm", "-journal"):
+            if Path(str(self.evidence_db) + suffix).exists():
+                raise HarnessError("DATABASE_SNAPSHOT_SIDECAR", suffix)
+        self.event("DATABASE_EVIDENCE_FINALIZED", {"strategy": "SQLITE_BACKUP_AFTER_OWNED_WRITERS_EXIT",
+                   "source": "runtime/service.sqlite", "evidence": "evidence/service.sqlite",
+                   "journal_mode": "DELETE", "logical_snapshot_sha256": source_hash,
+                   "preclose_state_sha256": digest(self.final_service_snapshot),
+                   "file_sha256": hashlib.sha256(self.evidence_db.read_bytes()).hexdigest(),
+                   "all_owned_processes_exited": True,
+                   "worker_exits": [{"pid": child.process.pid, "exit_code": child.process.returncode,
+                                     "expected_fault_exit": child.process.pid in self.expected_kills}
+                                    for child in self.children]})
+
     def run(self):
         start_usage = resource.getrusage(resource.RUSAGE_CHILDREN)
         start_controller_usage = resource.getrusage(resource.RUSAGE_SELF)
         self.record["started_monotonic_ns"] = time.monotonic_ns()
         self.record["started_utc"] = datetime.now(timezone.utc).isoformat()
+        ready_to_finalize = False
         try:
             if self.method == "ai":
                 self.record["state"] = "NOT_RUN"
@@ -367,9 +457,16 @@ class Controller:
             else:
                 self.initialize()
                 self.execute_candidate()
-                self.require_ok(self.service.call("checkpoint", {}))
-                self.record["state"] = "COMPLETE"
-        except (HarnessError, OSError, ValueError, KeyError, TypeError, subprocess.SubprocessError) as error:
+                self.final_service_snapshot = self.require_ok(self.service.call("snapshot", {}))
+                write_json(self.runtime_dir / "final-state.json", self.final_service_snapshot)
+                self.event("DATABASE_STATE_CAPTURED", {"sha256": digest(self.final_service_snapshot),
+                                                        "source": "runtime/final-state.json"})
+                checkpoint = self.require_ok(self.service.call("checkpoint", {}))
+                self.event("DATABASE_CHECKPOINT", checkpoint)
+                if checkpoint.get("status") != "CHECKPOINTED" or checkpoint.get("sqlite") != [0, 0, 0]:
+                    raise HarnessError("DATABASE_CHECKPOINT_INCOMPLETE", str(checkpoint))
+                ready_to_finalize = True
+        except (HarnessError, OSError, ValueError, KeyError, TypeError, sqlite3.Error, subprocess.SubprocessError) as error:
             self.record["state"] = "ERROR"
             self.record["target_verdict"] = "ERROR"
             self.record["errors"].append({"code": getattr(error, "code", "CONTROLLER_ERROR"), "detail": str(error)[:1000]})
@@ -380,6 +477,19 @@ class Controller:
                     child.close()
                 except (OSError, ValueError, subprocess.SubprocessError):
                     pass
+            if ready_to_finalize:
+                try:
+                    unexpected = [child.process.pid for child in self.children
+                                  if child.process.poll() != 0 and child.process.pid not in self.expected_kills]
+                    if unexpected:
+                        raise HarnessError("WORKER_EXIT_UNEXPECTED", str(unexpected))
+                    self.finalize_database()
+                    self.record["state"] = "COMPLETE"
+                except (HarnessError, OSError, ValueError, sqlite3.Error) as error:
+                    self.record["state"] = "ERROR"
+                    self.record["target_verdict"] = "ERROR"
+                    self.record["errors"].append({"code": getattr(error, "code", "DATABASE_FINALIZATION_ERROR"), "detail": str(error)[:1000]})
+                    self.event("EXECUTION_ERROR", self.record["errors"][-1])
             self.record["finished_monotonic_ns"] = time.monotonic_ns()
             end_usage = resource.getrusage(resource.RUSAGE_CHILDREN)
             end_controller_usage = resource.getrusage(resource.RUSAGE_SELF)

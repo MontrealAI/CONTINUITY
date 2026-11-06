@@ -244,6 +244,27 @@ class ServiceTests(unittest.TestCase):
                 self.service.dispatch("fulfill", {"key": "KEY-A", "now_tick": 3})
         self.assertEqual((self.artifacts / "A.json").read_bytes(), canonical(first["receipt"]) + b"\n")
 
+    def test_real_held_reader_makes_checkpoint_a_refusal_until_released(self):
+        # A read transaction pins the pre-reservation WAL snapshot. The later
+        # write cannot be fully checkpointed until that real reader releases it.
+        reader = sqlite3.connect(self.database, isolation_level=None)
+        try:
+            reader.execute("BEGIN")
+            reader.execute("SELECT * FROM metadata").fetchall()
+            self.reserve()
+            # This bounds waiting, not race correctness: the read transaction
+            # above remains held until the explicit rollback below.
+            self.service.db.execute("PRAGMA busy_timeout=0")
+            self.assertRefusal("CHECKPOINT_BUSY", "checkpoint", {})
+            self.assertGreater(Path(str(self.database) + "-wal").stat().st_size, 0)
+            reader.rollback()
+            result = self.service.dispatch("checkpoint", {})
+            self.assertEqual(result, {"status": "CHECKPOINTED", "sqlite": [0, 0, 0]})
+            self.assertEqual(Path(str(self.database) + "-wal").stat().st_size, 0)
+            self.assertEqual(self.service.dispatch("lookup", {"key": "KEY-A"})["status"], "RESERVED")
+        finally:
+            reader.close()
+
     def test_same_key_different_payload_refused(self):
         self.reserve()
         self.assertRefusal("IDEMPOTENCY_CONFLICT", "reserve", reservation(self.init["allowed_orders"][1], key="KEY-A"))
