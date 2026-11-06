@@ -8,6 +8,7 @@ The complete evidence archive preserves both qualification attempts and their fa
 
 - [Complete evidence archive](continuity-harness-v0.1-evidence.tar.xz) — 313,736 compressed bytes; 1,722 inventoried evidence files plus their manifest.
 - [SHA-256](SHA256SUMS), [post-extraction verification](PACKAGE_CHECK.json), and [machine-readable results](RESULTS.json).
+- [Subsequent publication CI history, including an unchanged failed-job rerun](ci/README.md).
 - [Full English results](../../docs/harness/RESULTS.md) · [Full French results](../../docs/harness/RESULTS.fr.md).
 
 | Decisive base control | English Passport | French Passport | Structured result |
@@ -38,6 +39,7 @@ L’archive complète conserve les deux tentatives de qualification et leurs éc
 
 - [Archive complète des preuves](continuity-harness-v0.1-evidence.tar.xz) — 313 736 octets compressés ; 1 722 fichiers de preuve inventoriés, plus leur manifeste.
 - [SHA-256](SHA256SUMS), [vérification après extraction](PACKAGE_CHECK.json) et [résultats lisibles par machine](RESULTS.json).
+- [Historique CI de publication ultérieur, dont la relance inchangée d’une tâche en échec](ci/README.md).
 - [Résultats français complets](../../docs/harness/RESULTS.fr.md) · [Résultats anglais complets](../../docs/harness/RESULTS.md).
 
 | Contrôle de base décisif | Passeport français | Passeport anglais | Résultat structuré |
