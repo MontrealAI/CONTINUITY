@@ -1,0 +1,163 @@
+{
+  "schema": "continuity-economy/experiment/v1",
+  "version": "0.2.0",
+  "experiment_id": "CONTINUITY-ECONOMY-001",
+  "starting_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "baseline_release": "continuity-harness-v0.1.0",
+  "scope": "Substantive semantic digital label-job acceptance and authored synthetic participant economics; no physical-label fulfillment or real trade.",
+  "registration": "Committed before comparative execution; amendments and unsuccessful attempts are retained.",
+  "claims": {
+    "outcome": {
+      "support": "All ACTIVE units are materialized, transferred, independently imported and accepted within the retained digital contract.",
+      "falsifier": "Any accepted missing, wrong, duplicated, stale, late or unauthorized unit.",
+      "missing": "Authority, source completeness, actual content, receiver or timing evidence missing => NOT_ESTABLISHED."
+    },
+    "service_feasibility": {
+      "support": "A selected trade arrangement has independently retained participant decisions, funded costs/liabilities, consent and conserved capacity; actual modeled cash and attempted work reconcile.",
+      "falsifier": "A favorable arrangement with an unwilling participant, funding shortfall, double count, unaccounted correction or unmet modeled participation constraint.",
+      "missing": "Uncertain value crossing break-even or missing participant/cost/authority evidence => NOT_ESTABLISHED."
+    },
+    "method_advantage": {
+      "support": "Better accepted outcome or lower complete effort against an equally equipped competent method, within a declared comparison.",
+      "falsifier": "A claimed advantage disappears against equal-information conventional planning/execution or omitted costs.",
+      "missing": "Ties, one observation per cell, missing preparation/adaptation labor or unavailable local AI prevent general method advantage."
+    }
+  },
+  "methods": [
+    "conventional",
+    "harness",
+    "outside",
+    "ai"
+  ],
+  "method_policy": {
+    "conventional": "Bounded exhaustive search across all authorized batch/provider/window assignments with ordinary planning, validation, transactions, retries and reusable material.",
+    "harness": "Bounded branch-and-bound search across the same assignments; same services, information, funding and receiver.",
+    "outside": "Explicit no-purchase option with declared buyer outside utility, no digital product acceptance.",
+    "ai": "NOT_RUN absent an appropriate already-authorized local capability; no mock performance or paid API."
+  },
+  "fixtures": [
+    {
+      "id": "primary-recovery",
+      "file": "fixtures/primary-recovery.json",
+      "sha256": "26e29fcf9c1670158ad5e94d3f43ad7c4b299b7b67f13658c7d21938d9c5b34c",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "DEMONSTRATED",
+        "accepted_units": 1900
+      }
+    },
+    {
+      "id": "conventional-better",
+      "file": "fixtures/conventional-better.json",
+      "sha256": "bfc6e1a1ecb2bb99f21510c20dd959c2246a65d944f37630b4b18f367f6dc843",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "DEMONSTRATED",
+        "accepted_units": 1900
+      }
+    },
+    {
+      "id": "constructed-continuity",
+      "file": "fixtures/constructed-continuity.json",
+      "sha256": "4cb6cd46d65c219897ab2b596fe6ef7ee9f479757ecf21a48607840e75656cf0",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "DEMONSTRATED",
+        "accepted_units": 1900
+      }
+    },
+    {
+      "id": "repair-after-rejection",
+      "file": "fixtures/repair-after-rejection.json",
+      "sha256": "ad2caad1ac737b2cb229b2afe3365c19451eb86b8e2e6d1da86c4742ec5c1c0c",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "DEMONSTRATED",
+        "accepted_units": 1900
+      }
+    },
+    {
+      "id": "technical-no-trade",
+      "file": "fixtures/technical-no-trade.json",
+      "sha256": "afe4815adbf96f01670a8e58e730eb384c45e016698d63fcf68db6f73b011346",
+      "expected": {
+        "outcome": "DEMONSTRATED",
+        "service_feasibility": "FAILED",
+        "accepted_units": 1900
+      }
+    },
+    {
+      "id": "no-deal",
+      "file": "fixtures/no-deal.json",
+      "sha256": "aa644e6a4a70e28790c26614eb2aa3380b4b5a014abc353325256b20cb33ebbd",
+      "expected": {
+        "outcome": "FAILED",
+        "service_feasibility": "FAILED",
+        "accepted_units": 0
+      }
+    },
+    {
+      "id": "uncertain-value",
+      "file": "fixtures/uncertain-value.json",
+      "sha256": "9f69d0b72665b37485460aabeeac0d2b75eeca576f6d53a5857581f82437191a",
+      "expected": {
+        "outcome": "FAILED",
+        "service_feasibility": "NOT_ESTABLISHED",
+        "accepted_units": 0
+      }
+    }
+  ],
+  "trial_policy": "One run per method and registered fixture in deterministic conventional,harness,outside,ai order; preserve all proposals, failures and corrections; no statistical speed claim.",
+  "product_format": {
+    "schema": "continuity-economy/label-job/v1",
+    "unit_semantics": "One exact ordinal and unique serial per requested digital label record, with retained SKU, English/French name, instructions and lot.",
+    "limits": "At most2000 units per obligation,8 active batches,1MiB JSON packet, exact integers and supported fields only. Semantic content only; no rendered appearance, print quality or physical performance claim.",
+    "correction": "New immutable production/delivery IDs supersede a rejected attempt; every attempted unit consumes recorded modeled cost and capacity."
+  },
+  "economic_model": {
+    "currency": "SMU",
+    "minor_unit_definition": "100 authored synthetic minor units per fictional SMU; no observed prices, demand, budget, sales or payments.",
+    "provider_cost": "Setup once per provider/agreement, units at fixed tariff; one separately costed correction allowance for all allocated units.",
+    "participation": "Provider and coordinator guarantees cover costs plus max(minimum profit,declared outside profit); buyer value-price must cover outside utility.",
+    "funding": "Buyer price held; provider working/rework exposure and coordinator operation cost funded; settlement only after trusted receiver evidence.",
+    "uncertainty": "Buyer value interval; definite and possible affordability boundaries and required break-even value are reported. No point selection within uncertain intervals.",
+    "cancellation": "Authored fee0 unless expressly proposed; incurred costs remain and unused holds are released. Aggregate canceled agreement costs must remain visible."
+  },
+  "measurement": {
+    "observed": [
+      "monotonic execution and verification duration",
+      "child/controller CPU",
+      "produced/received/accepted bytes and units",
+      "attempts/rejections/corrections",
+      "broker and process counts",
+      "stored bytes",
+      "model debits,holds,payments,refunds,liabilities"
+    ],
+    "unknown": [
+      "preparation and integration human labor",
+      "adaptation human labor unless recorded",
+      "peak memory",
+      "full real economic cost",
+      "real customer demand",
+      "real-world willingness to pay"
+    ]
+  },
+  "isolation": "Reuse qualified Linux x86_64 seccomp candidate confinement, bounded broker and unchanged transactional Harness capacity service; trustedhost/controller/services/clock/verifier. Provider windows must not overlap; separate provider resources are authored assumptions.",
+  "successor_protocol": {
+    "timing": "After first base experiment, freeze reusable implementation, interfaces, documentation and allowed retained knowledge in a versioned manifest. Only then separately author successor requirements/capabilities/economics.",
+    "allowed_reuse": [
+      "qualified implementation and interfaces",
+      "public documentation and failure lessons",
+      "format and policy equations"
+    ],
+    "excluded": [
+      "base completed products",
+      "receiver acceptance rows",
+      "hidden expected answers",
+      "task-specific executor edits after freeze"
+    ],
+    "equal_access": "Both methods receive identical new candidate-visible materials and retained reusable modules.",
+    "measurement": "Record source identity, adaptation changes, actual execution/verification resources and unknown unmeasured labor. A repair after freeze must be a separately recorded attempt and cannot count as unchanged transfer."
+  },
+  "release_gate": "Expected positive/negative outcomes, independently accepted content, no hidden safety failure, final fresh verification, targeted mutations, bilingual parity, preserved253baseline regressions. Prepare normal review PR; no automatic release implied."
+}
