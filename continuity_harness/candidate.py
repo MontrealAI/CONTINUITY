@@ -64,7 +64,7 @@ def execute(initial, method):
     contract = validate_contract(initial["view"]["contract"])
     if not contract["source_complete"]:
         return {"verdict": "NOT_ESTABLISHED", "reason": "SOURCE_INCOMPLETE", "outcomes": []}
-    if not contract["permissions"]["activation"] or not contract["permissions"]["sharing"]:
+    if not contract["permissions"]["activation"]:
         return {"verdict": "REFUSED", "reason": "PERMISSION_MISSING", "outcomes": []}
     if initial.get("restart"):
         reconciliation = rpc("reconcile")
@@ -91,30 +91,38 @@ def execute(initial, method):
             route = "backup"
     if route not in contract["allowed_routes"] or contract["dependencies"][route] in contract["blocked_dependencies"]:
         return {"verdict": "REFUSED", "reason": "DEPENDENCY_UNAVAILABLE", "outcomes": []}
+    if route == "backup" and not contract["permissions"]["sharing"]:
+        return {"verdict": "REFUSED", "reason": "PERMISSION_MISSING", "outcomes": []}
     requests = []
     for order in orders:
         key = digest({"contract_id": contract["contract_id"], "run_id": contract["run_id"], "order_id": order["order_id"]})
         requests.append({k: order[k] for k in ("order_id", "recipient", "product", "spec_sha256", "quantity")} | {"route": route, "key": key})
-    reservation_results = rpc("reserve_batch", {"requests": requests})
-    if not reservation_results.get("ok"):
-        return {"verdict": "REFUSED", "reason": reservation_results.get("code", "RESERVATION_FAILED"), "outcomes": []}
+    # Each order uses lookup, commit, then fulfill. Commit must precede the
+    # uncommitted lease expiry; later queue entries acquire their lease only
+    # when their chunk is ready. Never renew or rewrite an existing key.
+    batch_size = max(1, contract["lease_ticks"] // 3)
     outcomes = []
-    for request, result in zip(requests, reservation_results["result"]["results"]):
-        if not result.get("ok"):
-            outcomes.append({"order_id": request["order_id"], "state": "REFUSED", "code": result.get("code", "REFUSED")})
-            continue
-        key = request["key"]
-        known = rpc("lookup", {"key": key})
-        if known.get("ok") and known["result"].get("receipt"):
-            outcomes.append({"order_id": request["order_id"], "state": "COMPLETED", "code": "DURABLE_RECEIPT_RECONCILED"})
-            continue
-        committed = rpc("commit", {"key": key})
-        if not committed.get("ok"):
-            outcomes.append({"order_id": request["order_id"], "state": "REFUSED", "code": committed.get("code", "COMMIT_FAILED")})
-            continue
-        fulfilled = rpc("fulfill", {"key": key})
-        outcomes.append({"order_id": request["order_id"], "state": "COMPLETED" if fulfilled.get("ok") else "UNRESOLVED",
-                         "code": "LOCAL_OUTPUT_COMPLETED" if fulfilled.get("ok") else fulfilled.get("code", "FULFILLMENT_UNCERTAIN")})
+    for offset in range(0, len(requests), batch_size):
+        batch = requests[offset:offset + batch_size]
+        reservation_results = rpc("reserve_batch", {"requests": batch})
+        if not reservation_results.get("ok"):
+            return {"verdict": "REFUSED", "reason": reservation_results.get("code", "RESERVATION_FAILED"), "outcomes": outcomes}
+        for request, result in zip(batch, reservation_results["result"]["results"]):
+            if not result.get("ok"):
+                outcomes.append({"order_id": request["order_id"], "state": "REFUSED", "code": result.get("code", "REFUSED")})
+                continue
+            key = request["key"]
+            known = rpc("lookup", {"key": key})
+            if known.get("ok") and known["result"].get("receipt"):
+                outcomes.append({"order_id": request["order_id"], "state": "COMPLETED", "code": "DURABLE_RECEIPT_RECONCILED"})
+                continue
+            committed = rpc("commit", {"key": key})
+            if not committed.get("ok"):
+                outcomes.append({"order_id": request["order_id"], "state": "REFUSED", "code": committed.get("code", "COMMIT_FAILED")})
+                continue
+            fulfilled = rpc("fulfill", {"key": key})
+            outcomes.append({"order_id": request["order_id"], "state": "COMPLETED" if fulfilled.get("ok") else "UNRESOLVED",
+                             "code": "LOCAL_OUTPUT_COMPLETED" if fulfilled.get("ok") else fulfilled.get("code", "FULFILLMENT_UNCERTAIN")})
     return {"verdict": "COMPLETED" if outcomes and all(x["state"] == "COMPLETED" for x in outcomes) else "PARTIAL", "reason": "EXECUTED_LOCAL_PROCEDURE", "outcomes": outcomes}
 
 

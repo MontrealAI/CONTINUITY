@@ -45,3 +45,7 @@ Trois autres mutations ciblées du vérificateur sont exécutées volontairement
 La première exécution des 48 tests de reconstitution indépendante a produit trois erreurs dans le nettoyage de la mutation du test (`function.__code__`). Une restauration explicite dans un bloc `finally` a corrigé le dispositif de test ; l’exécution suivante des 48 tests a réussi. Les deux journaux effectifs sont conservés. Cette correction ne modifie ni le contrat ni les critères d’acceptation du vérificateur.
 
 Chaque tentative comparative ultérieure, échouée ou incomplète comprise, doit rester nommée et rapportée séparément. Un résultat défavorable n’autorise jamais une modification silencieuse de l’acceptation. Le travail de préparation et d’intégration n’a pas été chronométré ; ces corrections n’établissent aucun gain d’effort, de vitesse, de coût ou de valeur commerciale.
+
+## Post-merge targeted regressions / Régressions ciblées après fusion
+
+See [route-permission and queue-lease repair notes](REPAIR_NOTES.md) for two defects reproduced at `8da36d5`, bounded corrections, fail-before/pass-after controls and limitations. Earlier evidence remains unchanged. / Voir les [notes de correction des autorisations de voie et des baux de file](REPAIR_NOTES.md) pour les deux défauts reproduits au commit `8da36d5`, les corrections bornées, les contrôles avant/après et les limites. Les preuves antérieures restent inchangées.

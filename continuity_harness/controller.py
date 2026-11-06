@@ -177,8 +177,7 @@ class Controller:
         c = self.contract
         if request["route"] not in c["allowed_routes"] or c["dependencies"].get(request["route"]) in self.blocked_dependencies:
             raise HarnessError("DEPENDENCY_UNAVAILABLE", str(request["route"]))
-        if not all(self.effective_permissions.values()):
-            raise HarnessError("PERMISSION_MISSING")
+        self.authorize_route(request["route"])
         if request["key"] in self.reservations:
             old = self.reservations[request["key"]]
             args = dict(old, now_tick=self.tick)
@@ -189,7 +188,6 @@ class Controller:
         args = dict(request, run_id=c["run_id"], contract_sha256=digest(c),
                     window_start=c["window"]["start"], window_end=c["window"]["end"],
                     expires_tick=min(self.tick + c["lease_ticks"], c["window"]["end"]), now_tick=self.tick)
-        self.reservations[request["key"]] = args
         return args
 
     def revoke_permission(self, name):
@@ -199,14 +197,19 @@ class Controller:
         self.effective_permissions[name] = False
         self.event("PERMISSION_REVOKED", {"permission": name})
 
+    def authorize_route(self, route):
+        if not self.effective_permissions["activation"] or (route == "backup" and not self.effective_permissions["sharing"]):
+            raise HarnessError("PERMISSION_MISSING", route)
+
     def authorize_action(self, op, args):
-        if op in ("restore", "reserve_batch", "commit", "fulfill") and not all(self.effective_permissions.values()):
+        if op in ("restore", "reserve_batch", "commit", "fulfill") and not self.effective_permissions["activation"]:
             raise HarnessError("PERMISSION_MISSING", op)
         if op in ("commit", "fulfill"):
             reservation = self.reservations.get(args.get("key"))
             if reservation is None:
                 raise HarnessError("UNKNOWN_CANDIDATE_KEY")
             route = reservation["route"]
+            self.authorize_route(route)
             if route not in self.contract["allowed_routes"] or self.contract["dependencies"][route] in self.blocked_dependencies:
                 raise HarnessError("DEPENDENCY_UNAVAILABLE", route)
         if op == "restore" and "primary" not in self.contract["allowed_routes"]:
@@ -294,7 +297,16 @@ class Controller:
             object_fields(args, {"requests"}, path="broker.reserve_batch")
             if type(args["requests"]) is not list or len(args["requests"]) > 1024:
                 raise HarnessError("INVALID_TYPE", "broker.requests")
+            # Preflight the complete batch before recording or sharing requests.
             reservations = [self.reserve_arguments(x) for x in args["requests"]]
+            pending = {}
+            for reservation in reservations:
+                key = reservation["key"]
+                if key in pending and pending[key] != reservation:
+                    raise HarnessError("IDEMPOTENCY_CONFLICT", key)
+                pending[key] = reservation
+            for key, reservation in pending.items():
+                self.reservations.setdefault(key, reservation)
             if self.contract["scenario"] == "constrained" and "CONCURRENT_FINAL_CAPACITY" not in self.fault_done and len(reservations) == 2:
                 reply = self.concurrent_reserve(reservations)
             else:
