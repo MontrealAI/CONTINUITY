@@ -12,6 +12,8 @@ Le **banc d’essai et de vérification CONTINUITÉ Ω**, versionné séparémen
 
 [Installation et commandes du banc d’essai](docs/harness/README.fr.md) · [Architecture](docs/harness/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/harness/THREAT_MODEL.fr.md) · [Exigences et tests](docs/harness/REQUIREMENTS.fr.md) · [Expérience préenregistrée](docs/harness/EXPERIMENT.md#français)
 
+**Preuves exécutées :** [Résultats complets](docs/harness/RESULTS.fr.md) · [Télécharger et inspecter les preuves](evidence/harness-v0.1/README.md#français) · [Passeport du cas contraint](evidence/harness-v0.1/passports/constrained/PASSPORT.fr.md). La révision qualifiée a réussi 245 tests du dépôt et une comparaison de 24 exécutions donnant 12 égalités fonctionnelles ; les 12 entrées IA portent explicitement la mention NON EXÉCUTÉE. Les deux tentatives sont conservées, dont l’échec de vérification distincte de la première. L’archive finale a aussi réussi une vérification après extraction.
+
 Linux x86_64, Python 3.10 ou ultérieur et seccomp BPF sont nécessaires à l’isolation du candidat. Aucun paquet Python supplémentaire, clé API, téléchargement de modèle ou service payant n’est requis. Depuis une nouvelle copie :
 
 ```sh

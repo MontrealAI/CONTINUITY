@@ -1,0 +1,33 @@
+Publication link check before copying the three linked controller records into the browsable Passport directories. The complete archive already contained those records; experiment evidence was unchanged.
+
+test_all_markdown_relative_file_links_resolve (test_bilingual_repository.BilingualRepositoryTests.test_all_markdown_relative_file_links_resolve) ... FAIL
+test_guides_have_complete_language_pairs (test_bilingual_repository.BilingualRepositoryTests.test_guides_have_complete_language_pairs) ... ok
+test_local_html_languages_and_links (test_bilingual_repository.BilingualRepositoryTests.test_local_html_languages_and_links) ... ok
+test_main_readme_contains_both_complete_paths (test_bilingual_repository.BilingualRepositoryTests.test_main_readme_contains_both_complete_paths) ... ok
+test_original_and_localized_identities (test_bilingual_repository.BilingualRepositoryTests.test_original_and_localized_identities) ... ok
+
+======================================================================
+FAIL: test_all_markdown_relative_file_links_resolve (test_bilingual_repository.BilingualRepositoryTests.test_all_markdown_relative_file_links_resolve)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/b1d5891eb025/CONTINUITY/tests/test_bilingual_repository.py", line 59, in test_all_markdown_relative_file_links_resolve
+    self.assertTrue((page.parent / unquote(target.path)).exists(), (str(page), href))
+AssertionError: False is not true : ('/workspace/scratch/b1d5891eb025/CONTINUITY/evidence/harness-v0.1/passports/recovery/PASSPORT.en.md', 'controller.json')
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.117s
+
+FAILED (failures=1)
+
+After copying the original controller records without altering their bytes:
+
+test_all_markdown_relative_file_links_resolve (test_bilingual_repository.BilingualRepositoryTests.test_all_markdown_relative_file_links_resolve) ... ok
+test_guides_have_complete_language_pairs (test_bilingual_repository.BilingualRepositoryTests.test_guides_have_complete_language_pairs) ... ok
+test_local_html_languages_and_links (test_bilingual_repository.BilingualRepositoryTests.test_local_html_languages_and_links) ... ok
+test_main_readme_contains_both_complete_paths (test_bilingual_repository.BilingualRepositoryTests.test_main_readme_contains_both_complete_paths) ... ok
+test_original_and_localized_identities (test_bilingual_repository.BilingualRepositoryTests.test_original_and_localized_identities) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.099s
+
+OK

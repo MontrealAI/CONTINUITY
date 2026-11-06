@@ -12,6 +12,8 @@ The separately versioned **CONTINUITY Ω Harness** exercises real disposable pro
 
 [Harness setup and commands](docs/harness/README.md) · [Architecture](docs/harness/ARCHITECTURE.md) · [Threat model and limitations](docs/harness/THREAT_MODEL.md) · [Requirements and tests](docs/harness/REQUIREMENTS.md) · [Preregistered experiment](docs/harness/EXPERIMENT.md)
 
+**Executed evidence:** [Full results](docs/harness/RESULTS.md) · [Download and inspect the evidence](evidence/harness-v0.1/README.md) · [Constrained-case Passport](evidence/harness-v0.1/passports/constrained/PASSPORT.en.md). The qualified revision passed 245 repository tests and a 24-run comparison with 12 functional ties; 12 AI entries are explicitly NOT RUN. Both qualification attempts are retained, including the first attempt's failed separate verification. The final evidence archive also passed verification after extraction.
+
 Linux x86_64, Python 3.10+ and seccomp BPF are required for the candidate boundary. No additional Python packages, API keys, model download or paid services are required. From a clean checkout:
 
 ```sh
@@ -77,6 +79,8 @@ No new license is asserted: the source snapshot contains no root license, and ex
 Le **banc d’essai et de vérification CONTINUITÉ Ω**, versionné séparément, exécute de véritables processus jetables et un stockage local durable avec des commandes synthétiques d’étiquettes. Il reconstitue les obligations restantes, restaure le service principal ou emprunte une voie de secours autorisée, puis vérifie les résultats logiciels actuels par rapport à un contrat conservé séparément. La voie peut changer ; la promesse client ne doit pas changer silencieusement avec elle.
 
 [Installation et commandes du banc d’essai](docs/harness/README.fr.md) · [Architecture](docs/harness/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/harness/THREAT_MODEL.fr.md) · [Exigences et tests](docs/harness/REQUIREMENTS.fr.md) · [Expérience préenregistrée](docs/harness/EXPERIMENT.md#français)
+
+**Preuves exécutées :** [Résultats complets](docs/harness/RESULTS.fr.md) · [Télécharger et inspecter les preuves](evidence/harness-v0.1/README.md#français) · [Passeport du cas contraint](evidence/harness-v0.1/passports/constrained/PASSPORT.fr.md). La révision qualifiée a réussi 245 tests du dépôt et une comparaison de 24 exécutions donnant 12 égalités fonctionnelles ; les 12 entrées IA portent explicitement la mention NON EXÉCUTÉE. Les deux tentatives sont conservées, dont l’échec de vérification distincte de la première. L’archive finale a aussi réussi une vérification après extraction.
 
 Linux x86_64, Python 3.10 ou ultérieur et seccomp BPF sont nécessaires à l’isolation du candidat. Aucun paquet Python supplémentaire, clé API, téléchargement de modèle ou service payant n’est requis. Depuis une nouvelle copie :
 
