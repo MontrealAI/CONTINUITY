@@ -1,0 +1,358 @@
+{
+  "schema": "continuity-economy/qualification/v1",
+  "experiment_version": "0.2.0",
+  "title": {
+    "en": "CONTINUITY Ω — Economy of continuity: qualification record",
+    "fr": "CONTINUITÉ Ω — Économie de la continuité : enregistrement de qualification"
+  },
+  "repository": "https://github.com/MontrealAI/CONTINUITY",
+  "starting_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "historical_release": "continuity-harness-v0.1.0",
+  "chronology": {
+    "schema": "continuity-economy/execution-history/v1",
+    "starting_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "historical_release": "continuity-harness-v0.1.0",
+    "registration": [
+      {
+        "stage": "INITIAL_PREREGISTRATION",
+        "published_commit": "fac40b962e11df336f7f12e659877f40d2af742c",
+        "local_identical_tree_commit": "8c18bec82b5626820713f8d53b075b1bb3841e5a"
+      },
+      {
+        "stage": "PRECOMPARISON_CLARIFICATION",
+        "published_commit": "2a5fbb213e4383b9fc1bddbff049ff1c78b457d7",
+        "local_identical_tree_commit": "1e456a186a497213bbef543105890bc33663bf07"
+      },
+      {
+        "stage": "ADVERSARIAL_PREREGISTRATION",
+        "published_commit": "0d7892130cf1696202e10fdd85bf8bd126c10fb3",
+        "local_identical_tree_commit": "463e476bc7f612c7c27d45b7e89489aa490d0fde"
+      }
+    ],
+    "first_implementation": {
+      "published_commit": "080a5484d1ff26fe04aac32078d9ea9ef2f739f4",
+      "local_identical_tree_commit": "282c3cf608bee042778679d3db765486f7a04d4b",
+      "tree": "3cd539623fff2564d76e13f5201edc5e8d53dbf1"
+    },
+    "first_base": {
+      "directory": "base-attempt-1",
+      "fresh_log": "logs/base-attempt-1.fresh.json",
+      "test_assertion": "PASSED",
+      "method_cells": 28,
+      "executed_cells": 21,
+      "ai_not_run_cells": 7,
+      "functional_ties": 7
+    },
+    "reuse_freeze": {
+      "published_commit": "d172b6491ff0f065fb3804811dd55cc8b5961830",
+      "local_identical_tree_commit": "6653a102b6bd2ffea7b11064305a6b9f6333a842",
+      "files": 42,
+      "after_first_base": true,
+      "before_successor_authorship": true
+    },
+    "development_evidence": {
+      "economy-development": "baseline, all root integration/regression logs and retained integration run",
+      "economy-controller-development": "actual reduced process runs, before-fix funding/size counterexamples, targeted logs",
+      "economy-participant-development": "participant tests and bilingual help",
+      "economy-product-validation": "before/after A2, replacement, direct-admission evidence; product/reporting tests and previews",
+      "economy-verifier-development": "failed first and successful second 26-control attempts; independent-verifier test logs"
+    },
+    "measurement_status": {
+      "labor": "NOT_MEASURED",
+      "monetary_rates": "NOT_MEASURED",
+      "real_customer_demand": "NOT_ESTABLISHED",
+      "ai_performance": "NOT_RUN"
+    },
+    "successor_registration": {
+      "published_commit": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+      "local_identical_tree_commit": "f8d3bdba2b1ba9d8b1311277bbb2e0e00342c461",
+      "registry_sha256": "011964162e65d657a1d8dd3028b28c699e856ba4e6905489f1dbebf66f1775dc",
+      "registered_before_execution": true
+    },
+    "complete_qualification": {
+      "directory": "complete-attempt-1",
+      "source_commit": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+      "test_assertion": "PASSED",
+      "fresh_test_assertion": "PASSED",
+      "base_cells": 28,
+      "successor_cells": 4,
+      "challenges": 26,
+      "frozen_files_unchanged": 42,
+      "index_sha256": "902d5183769a8fa7837ba8a204ffc68c79636c101a679ad1b0804748f8c92dda",
+      "fresh_sha256": "d7afe3d3aface70a57c965783c0b6cf8da8cc2f14b164721d4a90410c3f8febf"
+    }
+  },
+  "qualified_execution_sources": {
+    "first_registered_base": "080a5484d1ff26fe04aac32078d9ea9ef2f739f4",
+    "reuse_freeze": "d172b6491ff0f065fb3804811dd55cc8b5961830",
+    "registered_successor_and_complete_experiment": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+    "test_readiness_correction_and_successful_ci": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+    "frozen_file_count": 42,
+    "all_frozen_files_unchanged": true,
+    "runtime_modified_after_first_base": false,
+    "successor_specific_runtime_adaptations": 0,
+    "test_only_correction": "tests/test_economy_product.py"
+  },
+  "registration_hashes": {
+    "experiments/economy-v0.2/spec.json": "e6e55cc986de1e64794dd62399252f5626ff45e4d27857af614f33908ad2bd7b",
+    "experiments/economy-v0.2/challenges.json": "791f23291620d55f181c62cb9c919ea28c93f1c68dbbe75c17f42f536b9a6ec9",
+    "experiments/economy-v0.2/reuse-freeze.json": "319c64e10f83f90f78b72e2c0d844030d7076afe6f7270db98b4cf81b6cdba13",
+    "experiments/economy-v0.2/successor.json": "011964162e65d657a1d8dd3028b28c699e856ba4e6905489f1dbebf66f1775dc",
+    "experiments/economy-v0.2/successor-fixtures/archive-window-transfer.json": "6dabdfc04a704767d86e6ba68bde0c6e4a374893b82056ee596b30371f4b306c"
+  },
+  "actual_environments_and_commands": {
+    "first_registered_base": {
+      "schema": "continuity-economy/qualification-environment/v1",
+      "phase": "FIRST_REGISTERED_BASE",
+      "source_commit": "080a5484d1ff26fe04aac32078d9ea9ef2f739f4",
+      "source_tree": "3cd539623fff2564d76e13f5201edc5e8d53dbf1",
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "sqlite": "3.53.1",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+      "commands": [
+        "python3 -m continuity_economy --language en compare --out /workspace/scratch/b1d5891eb025/economy-qualification/base-attempt-1",
+        "python3 -m continuity_economy --language fr verify-suite --in-dir /workspace/scratch/b1d5891eb025/economy-qualification/base-attempt-1"
+      ],
+      "full_regression": {
+        "tests": 424,
+        "failures": 0,
+        "skips": 0,
+        "seconds": 73.909,
+        "log_sha256": "54b6471c7a942ca4210f283c802a6c79af5becdfd856801f20131ac165b79586"
+      }
+    },
+    "complete_experiment": {
+      "schema": "continuity-economy/qualification-environment/v1",
+      "phase": "COMPLETE_REGISTERED_EXPERIMENT_FIRST_SUCCESSOR",
+      "source_commit": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+      "source_tree": "8c8ce255a04202361b8322869c1b1e49302428fc",
+      "frozen_files_checked": 42,
+      "frozen_files_changed": [],
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "sqlite": "3.53.1",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+      "commands": [
+        "python3 -m continuity_economy --language en experiment --out /workspace/scratch/b1d5891eb025/economy-qualification/complete-attempt-1",
+        "python3 -m continuity_economy --language fr verify-suite --in-dir /workspace/scratch/b1d5891eb025/economy-qualification/complete-attempt-1"
+      ],
+      "registries": {
+        "spec.json": "e6e55cc986de1e64794dd62399252f5626ff45e4d27857af614f33908ad2bd7b",
+        "challenges.json": "791f23291620d55f181c62cb9c919ea28c93f1c68dbbe75c17f42f536b9a6ec9",
+        "reuse-freeze.json": "319c64e10f83f90f78b72e2c0d844030d7076afe6f7270db98b4cf81b6cdba13",
+        "successor.json": "011964162e65d657a1d8dd3028b28c699e856ba4e6905489f1dbebf66f1775dc"
+      }
+    }
+  },
+  "tests": {
+    "baseline": {
+      "tests_run": 253,
+      "failures": 0,
+      "skips": 0,
+      "duration_seconds": 22.095,
+      "archive_log": "development/economy-development/validation/baseline-253.log"
+    },
+    "full_local_regression_before_first_base": {
+      "tests_run": 424,
+      "failures": 0,
+      "skips": 0,
+      "duration_seconds": 73.909,
+      "archive_log": "development/economy-development/validation/full-regression-attempt-1.log"
+    },
+    "source_3494_ci": {
+      "broad_validation": "FAILED",
+      "failed_run": 42310192424,
+      "failed_test": "ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key",
+      "failure_stage": "WORKER_STARTUP_BEFORE_RACE",
+      "historical_harness": "PASSED",
+      "economy_experiment_and_fresh_verification": "PASSED",
+      "retained_evidence": "ci/source-3494-validation-attempt-1.log"
+    },
+    "test_readiness_correction": {
+      "source_commit": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+      "product_tests": 33,
+      "paired_race_repetitions": 20,
+      "race_executions": 40,
+      "failures": 0,
+      "skips": 0,
+      "runtime_changed": false,
+      "concurrent_operations_unchanged": true,
+      "fresh_schema_concurrent_initialization": "NOT_ESTABLISHED",
+      "evidence": "ci/worker-readiness/after-focused.json"
+    },
+    "post_correction_ci": {
+      "schema": "continuity-economy/ci-observation/v1",
+      "head_sha": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+      "runs": [
+        {
+          "id": 42311289463,
+          "name": "Harness evidence / Preuves du banc d’essai",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42311289463",
+          "head_sha": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+          "event": "push",
+          "run_attempt": 1,
+          "created_at": "2026-11-06T23:20:56Z",
+          "updated_at": "2026-11-06T23:21:32Z"
+        },
+        {
+          "id": 42311289404,
+          "name": "Economy of continuity / Économie de la continuité",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42311289404",
+          "head_sha": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+          "event": "push",
+          "run_attempt": 1,
+          "created_at": "2026-11-06T23:20:56Z",
+          "updated_at": "2026-11-06T23:22:36Z"
+        },
+        {
+          "id": 42311289375,
+          "name": "Validate bilingual repository / Valider le dépôt bilingue",
+          "status": "completed",
+          "conclusion": "success",
+          "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42311289375",
+          "head_sha": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+          "event": "push",
+          "run_attempt": 1,
+          "created_at": "2026-11-06T23:20:56Z",
+          "updated_at": "2026-11-06T23:24:17Z"
+        }
+      ]
+    },
+    "counting_rule": {
+      "en": "Focused tests and repeated races are additional executions of existing tests, not additional unique test cases.",
+      "fr": "Les tests ciblés et courses répétées sont des exécutions supplémentaires de tests existants, pas de nouveaux cas uniques."
+    }
+  },
+  "observed_experiments": {
+    "first_registered_base": {
+      "path_in_archive": "qualification/base-attempt-1",
+      "method_records": 28,
+      "executed_records": 21,
+      "ai_not_run": 7,
+      "test_assertion": "PASSED",
+      "fresh_test_assertion": "PASSED",
+      "conventional_harness_functional_ties": 7
+    },
+    "complete_experiment": {
+      "path_in_archive": "qualification/complete-attempt-1",
+      "base_records": 28,
+      "successor_records": 4,
+      "ai_not_run": 8,
+      "challenges": 26,
+      "live_challenges": 11,
+      "evidence_interventions": 12,
+      "defective_verifier_mutations": 3,
+      "test_assertion": "PASSED",
+      "fresh_test_assertion": "PASSED"
+    },
+    "successor": {
+      "accepted_by_each_active_method": {
+        "ARC-410": 420,
+        "ARC-520": 330,
+        "ARC-630": 270,
+        "ARC-740": 0
+      },
+      "active_quantity": 1020,
+      "canceled_obligation": "ARC-740",
+      "outcome": "DEMONSTRATED",
+      "modeled_service_feasibility": "DEMONSTRATED",
+      "method_advantage": "NOT_ESTABLISHED",
+      "buyer_paid_synthetic_minor_units": 5700,
+      "incurred_synthetic_minor_units": 2790,
+      "frozen_files_unchanged": 42
+    },
+    "capacity_competition": {
+      "accepted": 500,
+      "missing": 1400,
+      "whole_promise": "FAILED",
+      "modeled_service_feasibility": "FAILED",
+      "agreement_state": "ACTIVE",
+      "incurred_synthetic_minor_units": 850,
+      "buyer_escrow_synthetic_minor_units": 4500,
+      "provider_holds_synthetic_minor_units": 3450,
+      "partial_settlement": "UNRESOLVED"
+    },
+    "disclosure_revocation": {
+      "accepted": 1900,
+      "outcome": "DEMONSTRATED",
+      "modeled_service_feasibility": "FAILED",
+      "uncompensated_provider_cost_synthetic_minor_units": 650
+    },
+    "missing_completeness": {
+      "outcome": "NOT_ESTABLISHED",
+      "modeled_service_feasibility": "NOT_ESTABLISHED",
+      "canceled_replanning_attempts": 8,
+      "incurred_coordination_cost_synthetic_minor_units": 1600
+    }
+  },
+  "evidence_archive": {
+    "path": "attempts.tar.xz",
+    "sha256": "a96c6b7c25e0e17ed1c1f7d0fcf13b70c338159ae9c10c5f825699b9e186db25",
+    "bytes": 2879196,
+    "file_count": 7416,
+    "uncompressed_file_bytes": 667555572,
+    "manifest_path_in_archive": "MANIFEST.json",
+    "manifest_sha256": "01adaafbb44cfd4fee6bfb23209e1b907d322c795c763b660ec2b823f5150c2a",
+    "all_extracted_file_hashes_match": true,
+    "extracted_first_base_fresh_verification": "PASSED",
+    "extracted_complete_fresh_verification": "PASSED",
+    "verification_sidecar": "verification/"
+  },
+  "unknowns_and_boundaries": {
+    "ai_performance": "NOT_RUN",
+    "adaptation_labor": "NOT_MEASURED",
+    "preparation_labor": "NOT_MEASURED",
+    "integration_labor": "NOT_MEASURED",
+    "verification_labor": "NOT_MEASURED",
+    "peak_memory": "NOT_MEASURED",
+    "real_monetary_rates": "NOT_MEASURED",
+    "real_customer_demand": "NOT_ESTABLISHED",
+    "real_supplier_participation": "NOT_ESTABLISHED",
+    "commercial_advantage": "NOT_ESTABLISHED",
+    "complete_cost_advantage": "NOT_ESTABLISHED",
+    "general_autonomy": "NOT_ESTABLISHED",
+    "printed_goods_or_print_readiness": "NOT_ESTABLISHED",
+    "final_controller_records_seals_reports_and_passports_in_execution_storage_measurement": false,
+    "concurrent_new_schema_initialization": "NOT_ESTABLISHED",
+    "partial_settlement": "UNIMPLEMENTED",
+    "notes": {
+      "en": "Digital semantic acceptance and modeled participant policies use synthetic data and money on a trusted host. Independent processes share authorship and do not establish third-party certification. A hash identifies bytes, not authentic customer authority. Missing source completeness remains unestablished. All retained unsuccessful and incomplete attempts remain available.",
+      "fr": "L’acceptation sémantique numérique et les politiques de participation utilisent des données et montants synthétiques sur un hôte de confiance. Les processus indépendants partagent leurs auteurs et n’établissent pas de certification tierce. Une empreinte identifie des octets, pas l’autorité authentique d’un client. L’exhaustivité manquante demeure non établie. Les tentatives échouées et incomplètes conservées restent disponibles."
+    }
+  },
+  "publication_state_at_recording": {
+    "branch": "feat/continuity-economy-v0.2",
+    "source_branch_pushed": true,
+    "latest_qualified_source_commit": "dd00519e965b70ca47bf1cb3ac69bd3022ebfdc9",
+    "reports_and_evidence": "PREPARED_FOR_REVIEW",
+    "pull_request": "TO_BE_IDENTIFIED_IN_FINAL_HANDOFF",
+    "merged": false,
+    "new_release_published": false,
+    "deployed": false,
+    "note": {
+      "en": "This record identifies qualified source and evidence without a circular self-reference to its own containing commit. The review PR and final handoff identify the final packaging commit and actual publication state. No v0.2 release is claimed.",
+      "fr": "Cet enregistrement identifie les sources et preuves qualifiées sans référence circulaire à son propre commit. La demande de fusion et la remise finale identifient le commit final de conditionnement et l’état réel de publication. Aucune publication v0.2 n’est revendiquée."
+    }
+  },
+  "sidecar_file_hashes": {
+    "ci/README.md": "3b469217d7cd9dc6779e584f3f5d0e83479f9fcbdb445a1bc2f4b45a2ff00348",
+    "ci/source-3494-validation-attempt-1.json": "4dfc58dde5182889716887205e6b0ef3668df1b335f891d42b708f2d4bd5a9d0",
+    "ci/source-3494-validation-attempt-1.log": "e20347af76c1aa88cd1e4e3a066134437ffe2f2e7aede1f49423754ce6ed4302",
+    "ci/source-dd005-workflows.json": "09972937d70829203c39531912b5d0a3a23fbd13db2e82f94a224491f55c25aa",
+    "ci/worker-readiness/after-bounded-races.log": "4f56e6775bb5a51895da91b415c9e2c7d09620bcc1134434db6bffd9cc72acbf",
+    "ci/worker-readiness/after-focused.json": "1ae0247d6948c7bbc0dbe849c145544c7b17e3fd603826b27130552d98c44f42",
+    "ci/worker-readiness/after-product-suite.log": "2666a9a56dbd1bb9df33a664d41638c408ea4adb31549046d3c1208c22b18a22",
+    "ci/worker-readiness/before-focused.json": "d42008de024671af8654c227557ded457f5d8f8d658261d994e70b4fbd419ef8",
+    "ci/worker-readiness/before-focused.log": "0d67af982bb51f5c4e467bc881d17d0fe8bb7c2a1e439db53aebc2b86c4541bc",
+    "ci/worker-readiness/readiness-only.diff": "2a4f1b6b9535ea192d06c68f699cd99f8a6e8c58d274f34d67cb036e075e10c3",
+    "ci/worker-readiness/test_economy_product.after.py": "42a17b583af6ba4dc9a86d79e7ad33f5b8fc34599bbb5c9d6f5ac4df43033b40",
+    "ci/worker-readiness/test_economy_product.before.py": "a14c30c57d44dfa4d7955b446214f30b44134914da044ef152550a199be13c86",
+    "verification/BUILD.json": "142912042cc3b534ae0708db7e6689ef0f317f6eff493f3060e0b003f715c8ba",
+    "verification/EXTRACTION.json": "c9dd668c55041db0edec9b84c024ae258b94c874cdb4c4b6c7d36191f8934f41",
+    "verification/FRESH-EXTRACTED-COMPLETE.json": "ee0731e221fca93087a4a90fcbd8c99b9e82fe0d5c195484466da314e3b56620",
+    "verification/FRESH-EXTRACTED-FIRST-BASE.json": "684b7330a001dffd84ff3626db8be112c127892e90e406fe9d6e87e4e03d99e9"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "continuity-economy/archive-build/v1",
+  "archive": "/workspace/scratch/b1d5891eb025/continuity-economy/evidence/economy-v0.2/attempts.tar.xz",
+  "archive_bytes": 2879196,
+  "archive_sha256": "a96c6b7c25e0e17ed1c1f7d0fcf13b70c338159ae9c10c5f825699b9e186db25",
+  "manifest_sha256": "01adaafbb44cfd4fee6bfb23209e1b907d322c795c763b660ec2b823f5150c2a",
+  "file_count": 7416,
+  "uncompressed_file_bytes": 667555572,
+  "source_commit": "3494becbbfaf15ae571a71df05a49b9ce982cc84"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "continuity-economy/archive-verification/v1",
+  "archive_sha256": "a96c6b7c25e0e17ed1c1f7d0fcf13b70c338159ae9c10c5f825699b9e186db25",
+  "manifest_sha256": "01adaafbb44cfd4fee6bfb23209e1b907d322c795c763b660ec2b823f5150c2a",
+  "files_checked": 7416,
+  "mismatches": [],
+  "extraction_and_hash_wall_ns": 2659809696,
+  "extraction_path": "/workspace/scratch/b1d5891eb025/economy-evidence-extracted"
+}

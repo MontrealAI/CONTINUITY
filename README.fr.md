@@ -12,6 +12,8 @@
 
 [Installation et commandes complètes](docs/economy/README.fr.md) · [Architecture](docs/economy/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/economy/THREAT_MODEL.fr.md) · [Produit numérique et acceptation](docs/economy/PRODUCT.fr.md) · [Expérience préenregistrée](docs/economy/EXPERIMENT.md#français) · [Exigences et tests](docs/economy/REQUIREMENTS.fr.md)
 
+**Preuves exécutées :** [Résultats et coûts](docs/economy/RESULTS.fr.md) · [Successeur distinct](docs/economy/SUCCESSOR.fr.md) · [Preuves complètes conservées](evidence/economy-v0.2/README.md#français). L’implémentation a réussi 424 tests du dépôt. Les sept premières comparaisons conventionnelles/banc sont à égalité ; le nouveau successeur de 1 020 unités a été réalisé avec les 42 fichiers figés inchangés. L’expérience complète et sa vérification fraîche distincte ont réussi, dont les 26 contrôles contradictoires. Cela démontre l’exécution numérique bornée et la faisabilité modélisée lorsque justifiées ; l’avantage de méthode et la demande commerciale réelle restent non établis.
+
 ```sh
 python3 -m continuity_economy --language fr experiment --out /tmp/continuite-economie-complete-001
 python3 -m continuity_economy --language fr verify-suite --in-dir /tmp/continuite-economie-complete-001
