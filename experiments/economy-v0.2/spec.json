@@ -39,7 +39,7 @@
     {
       "id": "primary-recovery",
       "file": "fixtures/primary-recovery.json",
-      "sha256": "26e29fcf9c1670158ad5e94d3f43ad7c4b299b7b67f13658c7d21938d9c5b34c",
+      "sha256": "8c1d01e404d62f2d9de930a747a0588684b0933e730d634dd4d7ac7b010305f3",
       "expected": {
         "outcome": "DEMONSTRATED",
         "service_feasibility": "DEMONSTRATED",
@@ -49,7 +49,7 @@
     {
       "id": "conventional-better",
       "file": "fixtures/conventional-better.json",
-      "sha256": "bfc6e1a1ecb2bb99f21510c20dd959c2246a65d944f37630b4b18f367f6dc843",
+      "sha256": "8eefc45227fde4ac098e292260ac1cb286cc1d49e1e6fae5b9ce40ba4cc791aa",
       "expected": {
         "outcome": "DEMONSTRATED",
         "service_feasibility": "DEMONSTRATED",
@@ -59,7 +59,7 @@
     {
       "id": "constructed-continuity",
       "file": "fixtures/constructed-continuity.json",
-      "sha256": "4cb6cd46d65c219897ab2b596fe6ef7ee9f479757ecf21a48607840e75656cf0",
+      "sha256": "020c9256ec0a5ee9f174ee15ada0ae40b847f25659104ebcb0cca7036635dcbd",
       "expected": {
         "outcome": "DEMONSTRATED",
         "service_feasibility": "DEMONSTRATED",
@@ -69,7 +69,7 @@
     {
       "id": "repair-after-rejection",
       "file": "fixtures/repair-after-rejection.json",
-      "sha256": "ad2caad1ac737b2cb229b2afe3365c19451eb86b8e2e6d1da86c4742ec5c1c0c",
+      "sha256": "0f2f2e0ae5456a1269822b2806a70268231749168b1e73f5b304c799a362a3b8",
       "expected": {
         "outcome": "DEMONSTRATED",
         "service_feasibility": "DEMONSTRATED",
@@ -79,7 +79,7 @@
     {
       "id": "technical-no-trade",
       "file": "fixtures/technical-no-trade.json",
-      "sha256": "afe4815adbf96f01670a8e58e730eb384c45e016698d63fcf68db6f73b011346",
+      "sha256": "f7ccfe3d9832198dcdec9ea31f0a9fe5c3fb58f8cd14dd3c9879ced089fec196",
       "expected": {
         "outcome": "DEMONSTRATED",
         "service_feasibility": "FAILED",
@@ -89,7 +89,7 @@
     {
       "id": "no-deal",
       "file": "fixtures/no-deal.json",
-      "sha256": "aa644e6a4a70e28790c26614eb2aa3380b4b5a014abc353325256b20cb33ebbd",
+      "sha256": "2f3e44a1817960268ee9b42c9339df9fd92792a44f385a5f74de6be2f0a4145d",
       "expected": {
         "outcome": "FAILED",
         "service_feasibility": "FAILED",
@@ -99,7 +99,7 @@
     {
       "id": "uncertain-value",
       "file": "fixtures/uncertain-value.json",
-      "sha256": "9f69d0b72665b37485460aabeeac0d2b75eeca576f6d53a5857581f82437191a",
+      "sha256": "8569c2e1a4544ad4dba1877a072b99dfb10a487506c362da18e0b7b1214eede2",
       "expected": {
         "outcome": "FAILED",
         "service_feasibility": "NOT_ESTABLISHED",
@@ -159,5 +159,11 @@
     "equal_access": "Both methods receive identical new candidate-visible materials and retained reusable modules.",
     "measurement": "Record source identity, adaptation changes, actual execution/verification resources and unknown unmeasured labor. A repair after freeze must be a separately recorded attempt and cannot count as unchanged transfer."
   },
-  "release_gate": "Expected positive/negative outcomes, independently accepted content, no hidden safety failure, final fresh verification, targeted mutations, bilingual parity, preserved253baseline regressions. Prepare normal review PR; no automatic release implied."
+  "release_gate": "Expected positive/negative outcomes, independently accepted content, no hidden safety failure, final fresh verification, targeted mutations, bilingual parity, preserved253baseline regressions. Prepare normal review PR; no automatic release implied.",
+  "registration_revision": 2,
+  "pre_comparison_clarifications": [
+    "The explicitly authorized technical_control mode has its technical grant operation listed in permitted_actions; every other mode still refuses it. No quantities, prices, expectations or comparative conditions changed.",
+    "Campaign realized profit includes all incurred modeled costs and payments across cancelled attempts. An unused cancelled provider has zero observed effects; no unmeasured foregone outside income is invented. Coordinator costs incurred before a failed arrangement remain and are disclosed in a subsequent proposal fee.",
+    "Provider willingness is conditional on disclosed maximum unpaid cost exposure and modeled liability limits; it does not guarantee profit on every failed execution."
+  ]
 }
