@@ -1,4 +1,4 @@
-name: Validate dedicated copy
+name: Validate bilingual repository / Valider le dépôt bilingue
 on: [push, pull_request]
 permissions:
   contents: read
@@ -7,18 +7,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
-      - name: Record job start
+      - name: Record job start / Consigner le démarrage
         run: echo "AGI_JOB_START_EPOCH=$(date +%s)" >> "$GITHUB_ENV"
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           persist-credentials: false
-      - name: Verify copied identities
+      - name: Verify copied identities / Vérifier les identités copiées
         run: python3 scripts/verify_copy.py
-      - name: Test synthetic prototype and bilingual reader
-        run: python3 -m unittest discover -s tests -p 'test_continuity*.py' -v
-      - name: Install PDF inspection tools
+      - name: Test prototype and bilingual interfaces / Tester les interfaces bilingues
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Install PDF tools / Installer les outils PDF
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
-      - name: Verify preserved publication
+      - name: Verify publication / Vérifier la publication
         run: python3 docs/continuity-omega-paper/verify.py
-      - name: Package preserved reading companion
+      - name: Package reading companion / Assembler le compagnon
         run: python3 scripts/package_continuity_reading.py --output "$RUNNER_TEMP/continuity-companion"

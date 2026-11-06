@@ -1,0 +1,47 @@
+{
+  "baseline_commit": "c4d87b9c437894979b7a4089138ff5bac8dd9811",
+  "scope_en": "Reviewed website localization overlay; historical source identities remain in PROVENANCE.json.",
+  "scope_fr": "Adaptations linguistiques du site ; identités historiques conservées dans PROVENANCE.json.",
+  "files": {
+    "docs/research/continuity-omega-fr.html": {
+      "original_sha256": "8603dce9f041e7de39bcf7594f8ba5d5433fd6d664a67f3adfeac7da8ffcc9f4",
+      "current": {
+        "bytes": 40498,
+        "sha256": "54fee8d6c70d55d8f57c11754bfe8c5806c6c404a4e5ff7e1b936fdfc9254107",
+        "git_blob": "13c42a7029db47474bb3e9659bd4b08ba0d79481"
+      },
+      "reason_en": "Bilingual navigation, accessibility and functional links; scientific content unchanged.",
+      "reason_fr": "Navigation bilingue, accessibilité et liens fonctionnels ; contenu scientifique inchangé."
+    },
+    "docs/research/continuity-omega-media-fr.html": {
+      "original_sha256": "707d011a103276c3c21360910d9103fb108777e0e4b88567bc216137479db688",
+      "current": {
+        "bytes": 31655,
+        "sha256": "db6041e5cfbb9ed05d2e0c34471c3c4fee196bd8e0dd27e1bbed39fe6c8db696",
+        "git_blob": "0994e14bc24e8ae1ace8bb057d3ade11fb2ce7b8"
+      },
+      "reason_en": "Bilingual navigation, accessibility and functional links; scientific content unchanged.",
+      "reason_fr": "Navigation bilingue, accessibilité et liens fonctionnels ; contenu scientifique inchangé."
+    },
+    "docs/research/continuity-omega-media.html": {
+      "original_sha256": "d0a9d009540f57718abd0041b78f053e44a95dc035ab87c547b164366914328a",
+      "current": {
+        "bytes": 29590,
+        "sha256": "303d98321fdb209e10d7f75e287660237718ae928e325344efb289a706b7dd37",
+        "git_blob": "bc912abd4c01bf09ae1a409a3e5e36d712178491"
+      },
+      "reason_en": "Bilingual navigation, accessibility and functional links; scientific content unchanged.",
+      "reason_fr": "Navigation bilingue, accessibilité et liens fonctionnels ; contenu scientifique inchangé."
+    },
+    "docs/research/continuity-omega.html": {
+      "original_sha256": "3c4ca4f8561c15f2b110b6d5706b2f7c06e19e3532f827bb0b2d4f01c6c381f5",
+      "current": {
+        "bytes": 37452,
+        "sha256": "ad3a812e5c43680a1a3c54480edcd894f88d9132a5fa040d3aa75cc5b2046b76",
+        "git_blob": "13b2ec57fbc23e26676f2e30356dd3042503d877"
+      },
+      "reason_en": "Bilingual navigation, accessibility and functional links; scientific content unchanged.",
+      "reason_fr": "Navigation bilingue, accessibilité et liens fonctionnels ; contenu scientifique inchangé."
+    }
+  }
+}

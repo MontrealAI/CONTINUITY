@@ -1,0 +1,39 @@
+# Language coverage / Couverture linguistique
+
+[English](#english) · [Français](#français)
+
+## English
+
+The main README contains complete English and French sections. README.fr.md offers the French entry separately. Both cover setup, use, publications, provenance and limitations.
+
+- The prototype guides, quick starts, output explanations and proposed real-pilot guidance have full `.fr.md` counterparts.
+- The paper has complete English/French PDFs and LaTeX, claim registers, citations, evidence guides, review and source maps. Release notes, translation contract and reading-companion notes contain both languages in the same file.
+- The local website has paired home, help, paper-reader and media-gallery pages. Controls, calculator explanations, image alternatives, transcripts and accessibility labels are localized. Original foundations remain linked as published; their actual titles and languages are not misrepresented.
+- `scripts/continuity.py --language en` or `--language fr` provides the current bilingual prototype interface. `scripts/research.py` provides localized maintenance help and summaries. The saved-record presenter and companion packager retain their existing bilingual interface.
+- Migration guidance and copy-verification messages are bilingual. CI checks the bilingual entrypoints and functional local links as well as the original scientific and source identities.
+
+### Deliberately preserved technical and historical material
+
+Technical filenames, command names, flags, schema keys, IDs, verdict tokens, hashes and source citations are not translated. Changing them could break interoperability or misrepresent provenance. English source comments and historical implementation diagnostics remain source records, not a second set of scientific evidence. Historical scripts and the legacy `python3 -m continuity_omega` interface retain their original help and output; use the current localized wrappers for human-facing interaction. Raw diagnostic logs from historical research tools retain their original technical language and are explicitly distinguished from localized summaries.
+
+The legacy generated `PASSPORT.md` is an original English artifact. The current bilingual interface supplies English and French presentation reports without changing the raw evidence or certifying it. The original code’s known weaknesses remain unchanged. Translation does not establish operational recovery, independent certification or commercial success.
+
+PROVENANCE.json retains all initial-copy identities. LOCALIZATION.json records only intentional website changes with original and current hashes. Paper, prototype, media and historical evidence remain unchanged. This repository contains website sources; it does not claim a new live Pages deployment.
+
+## Français
+
+Le README principal contient des sections complètes en anglais et en français. README.fr.md offre séparément l’entrée française. Les deux couvrent l’installation, l’utilisation, les publications, la provenance et les limites.
+
+- Les guides du prototype, démarrages rapides, explications des résultats et recommandations pour un pilote réel proposé disposent de versions `.fr.md` intégrales.
+- L’article comprend des PDF et sources LaTeX complets en anglais et en français, ainsi que les registres d’affirmations, citations, guides des preuves, revues et filiations. Les notes de publication, le contrat de traduction et les notes du compagnon contiennent les deux langues dans un même fichier.
+- Le site local propose des pages d’accueil, d’aide, de lecture et de galerie dans les deux langues. Commandes, explications du calculateur, textes alternatifs, transcriptions et libellés d’accessibilité sont localisés. Les travaux fondateurs restent liés tels que publiés ; leurs titres et langues réels ne sont pas dénaturés.
+- `scripts/continuity.py --language en` ou `--language fr` fournit l’interface bilingue actuelle du prototype. `scripts/research.py` fournit l’aide et les résumés localisés des outils de maintenance. Le lecteur d’enregistrements et le générateur du compagnon conservent leur interface bilingue existante.
+- Les indications de migration et les messages de vérification de copie sont bilingues. La CI contrôle les points d’entrée bilingues et les liens locaux, ainsi que les identités scientifiques et sources originales.
+
+### Éléments techniques et historiques volontairement préservés
+
+Noms de fichiers techniques, commandes, options, clés de schéma, identifiants, codes de verdict, empreintes et citations sources ne sont pas traduits. Les modifier pourrait rompre l’interopérabilité ou fausser la provenance. Les commentaires du code et les diagnostics historiques en anglais restent des traces sources, pas un deuxième jeu de preuves scientifiques. Les scripts historiques et l’interface ancienne `python3 -m continuity_omega` conservent leur aide et leurs sorties originales ; utiliser les interfaces localisées actuelles pour l’interaction humaine. Les journaux bruts des outils de recherche historiques gardent leur langue technique et sont clairement distingués des résumés localisés.
+
+Le fichier historique généré `PASSPORT.md` est un document original anglais. L’interface bilingue actuelle fournit des rapports de présentation anglais et français sans modifier ni certifier les preuves brutes. Les faiblesses connues du code original restent inchangées. La traduction n’établit ni reprise opérationnelle, ni certification indépendante, ni succès commercial.
+
+PROVENANCE.json conserve toutes les identités de la copie initiale. LOCALIZATION.json consigne seulement les adaptations web voulues avec empreintes originales et actuelles. Article, prototype, médias et preuves historiques restent inchangés. Ce dépôt contient les sources du site ; il ne revendique pas de nouveau déploiement Pages public.
