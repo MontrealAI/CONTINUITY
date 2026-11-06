@@ -1,0 +1,49 @@
+{
+  "schema": "continuity-economy/challenge-spec/v1",
+  "version": "0.2.0",
+  "revision": 1,
+  "cohort": "challenge",
+  "registration": {
+    "en": "Declared before this challenge runner is executed. Development service checks remain development evidence. Every actual run, altered evidence package and defective-verifier observation is retained separately.",
+    "fr": "Déclaré avant l’exécution de ce banc d’épreuves. Les contrôles de développement des services demeurent des preuves de développement. Chaque exécution réelle, dossier de preuve altéré et observation d’un vérificateur défectueux est conservé séparément."
+  },
+  "scope": {
+    "en": "Bounded synthetic digital content, modeled voluntary trade and independent acceptance. Deliberate evidence alterations are trusted test interventions, not claims that a candidate can alter the protected evidence. Mutants test assertions and are never qualified by a passing outer test.",
+    "fr": "Contenu numérique synthétique délimité, échange volontaire modélisé et acceptation indépendante. Les altérations délibérées des preuves sont des interventions d’essai autorisées, sans prétendre qu’un candidat peut modifier les preuves protégées. Les mutants mettent les assertions à l’épreuve et ne sont jamais qualifiés par la réussite de l’essai externe."
+  },
+  "method": "harness",
+  "base_fixture": "primary-recovery",
+  "seed": 700,
+  "cases": [
+    {"id": "valid-digital-control", "kind": "live", "fixture": "primary-recovery", "criterion": "VALID_1900_COMPLETION"},
+    {"id": "wrong-content-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "wrong_content", "criterion": "FALSE_ACCEPTANCE_DETECTED"},
+    {"id": "wrong-recipient-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "wrong_recipient", "criterion": "FALSE_ACCEPTANCE_DETECTED"},
+    {"id": "stale-revision-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "stale_revision", "criterion": "FALSE_ACCEPTANCE_DETECTED"},
+    {"id": "truncated-content-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "truncated", "criterion": "FALSE_ACCEPTANCE_DETECTED"},
+    {"id": "duplicate-content-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "duplicate_unit", "criterion": "FALSE_ACCEPTANCE_DETECTED"},
+    {"id": "missing-imported-content", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "missing_import", "criterion": "IMPORTED_CONTENT_DETECTED"},
+    {"id": "balanced-wrong-payment", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "balanced_wrong_payment", "criterion": "PAYMENT_SEMANTICS_DETECTED"},
+    {"id": "invented-acceptance-references", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "invented_acceptance", "criterion": "SETTLEMENT_REPLAY_DETECTED"},
+    {"id": "missing-reference-pin", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "missing_pin", "criterion": "AUTHORITY_NOT_ESTABLISHED"},
+    {"id": "missing-source-completeness", "kind": "live", "fixture": "primary-recovery", "mutation": "source_incomplete", "criterion": "AUTHORITY_NOT_ESTABLISHED"},
+    {"id": "coherent-1850-rewrite", "kind": "live", "fixture": "primary-recovery", "mutation": "quantity_1850_original_pin", "criterion": "ORIGINAL_1900_PIN_PRESERVED"},
+    {"id": "mixed-run-receiver", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "mixed_receiver", "criterion": "MIXED_RUN_DETECTED"},
+    {"id": "lost-acceptance-observation", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "missing_observation", "criterion": "TIMELINESS_NOT_ESTABLISHED"},
+    {"id": "late-observation-resealed", "kind": "evidence_intervention", "source": "valid-digital-control", "mutation": "late_observation", "criterion": "LATE_ACCEPTANCE_DETECTED"},
+    {"id": "stale-favorable-passport", "kind": "live", "fixture": "primary-recovery", "method": "outside", "mutation": "saved_favorable_report", "criterion": "SAVED_PASS_IGNORED"},
+    {"id": "postproposal-price-change", "kind": "live", "fixture": "primary-recovery", "fault": {"event": "POLICY_CHANGE_AFTER_PROPOSE", "trigger": "propose", "occurrence": 1, "target": "PRIMARY", "value": 99}, "criterion": "POLICY_REVISION_RECHECKED"},
+    {"id": "postproposal-funding-withdrawal", "kind": "live", "fixture": "primary-recovery", "mutation": "withdraw_buyer_available_balance", "criterion": "FUNDING_RECHECKED"},
+    {"id": "shared-failed-dependency", "kind": "live", "fixture": "conventional-better", "mutation": "backup_shares_primary_dependency", "criterion": "SHARED_DEPENDENCY_RESPECTED"},
+    {"id": "consent-revocation-before-production", "kind": "live", "fixture": "primary-recovery", "mutation": "revoke_primary_production_at_tick_10", "criterion": "CONSENT_REVOCATION_RESPECTED"},
+    {"id": "permission-revocation-before-transfer", "kind": "live", "fixture": "conventional-better", "fault": {"event": "PERMISSION_REVOKE_BEFORE_TRANSFER", "trigger": "transfer", "occurrence": 1, "target": "BACKUP", "value": 0}, "criterion": "DISCLOSURE_REVOCATION_RESPECTED"},
+    {"id": "deadline-expiry", "kind": "live", "fixture": "primary-recovery", "fault": {"event": "LATE_ACCEPTANCE", "trigger": "inspect", "occurrence": 1, "target": "ANY", "value": 1}, "criterion": "DEADLINE_REFUSAL_PRESERVED"},
+    {"id": "final-capacity-race", "kind": "live", "fixture": "conventional-better", "fault": {"event": "CAPACITY_COMPETITION", "trigger": "reserve", "occurrence": 1, "target": "BACKUP", "value": 500}, "criterion": "ONE_FINAL_CAPACITY_WINNER"},
+    {"id": "mutant-ignores-semantic-content", "kind": "verifier_mutation", "source": "wrong-content-resealed", "mutation": "ignore_wrong_content", "criterion": "FALSE_POSITIVE_MUTANT_EXPOSED"},
+    {"id": "mutant-ignores-postcommit-deadline", "kind": "verifier_mutation", "source": "late-observation-resealed", "mutation": "ignore_deadline", "criterion": "FALSE_POSITIVE_MUTANT_EXPOSED"},
+    {"id": "mutant-rejects-valid-content", "kind": "verifier_mutation", "source": "valid-digital-control", "mutation": "reject_valid_content", "criterion": "FALSE_NEGATIVE_MUTANT_EXPOSED"}
+  ],
+  "measurement_rules": {
+    "en": "Retain exact commands, pins, protected originals, mutations, all controller results and fresh verifier outputs. An untriggered required fault or missing decisive evidence makes the challenge assertion fail or remain incomplete. Count all actual proposed, funded, produced, rejected and accepted work. No labor, monetary rate, real demand or general-proof inference.",
+    "fr": "Conserver les commandes exactes, empreintes de référence, originaux protégés, mutations, tous les résultats du contrôleur et les sorties du vérificateur relancé. Une faute requise non déclenchée ou une preuve décisive absente fait échouer l’assertion d’épreuve ou la laisse incomplète. Compter tout le travail réellement proposé, financé, produit, rejeté et accepté. Aucune inférence sur le travail humain, un tarif monétaire, la demande réelle ou une preuve générale."
+  }
+}
