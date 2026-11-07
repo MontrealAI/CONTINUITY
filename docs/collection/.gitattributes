@@ -1,0 +1,9 @@
+# Preserve supplied bytes across platforms; review text normally but retain its
+# original whitespace. Binary documents must not receive text merges/diffs.
+edition-2/** -text -whitespace
+*.zip binary
+edition-2/**/*.pdf binary
+edition-2/*.pdf binary
+edition-2/**/*.docx binary
+edition-2/**/*.png binary
+edition-2/*.png binary

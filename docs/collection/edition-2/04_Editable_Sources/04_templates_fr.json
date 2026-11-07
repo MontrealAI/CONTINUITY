@@ -1,0 +1,702 @@
+{
+  "volume": "04",
+  "lang": "fr",
+  "slug": "templates",
+  "title": "Cahier du pilote",
+  "subtitle": "Transformer les hypothèses en accords, observations et décisions",
+  "audience": "Responsables du pilote, prestataires, clients et évaluateurs",
+  "reading_minutes": 15,
+  "pages": [
+    {
+      "title": "Consigner les décisions qui font avancer",
+      "kicker": "Mode d’emploi du cahier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Utiliser un cahier par promesse client et par exercice. Saisir les faits connus, nommer les lacunes et référencer les preuves. **Un champ vide signifie inconnu ou non saisi, jamais coût nul, consentement ou réussite.** Ces dossiers ne créent ni autorisation, ni réservation, ni certification. [C2, pp. 7–9, 13–14]"
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Préparer · A à D",
+              "text": "Fixer la promesse, convenir des contributions et qualifier capacité et sources."
+            },
+            {
+              "title": "Financer et exécuter · E à G",
+              "text": "Chiffrer le service complet, résoudre la trésorerie et consigner l’opération autorisée."
+            },
+            {
+              "title": "Décider et réutiliser · H à I",
+              "text": "Émettre un Passeport délimité, conserver les changements et éprouver une nouvelle possibilité."
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Cas illustratif — jamais une réponse préremplie",
+          "text": "Les exemples suivent un imprimeur fictif devant livrer 10 000 étiquettes approuvées, visuel v3, jeudi à 16 h, America/Toronto. Dossiers, capacité et chiffres sont inventés. Dates, autorisations, prix et résultats réels s’inscrivent uniquement dans les espaces vides."
+        },
+        {
+          "type": "field",
+          "label": "Identifier ce cahier",
+          "prompt": "Identifiant du pilote; responsable; version; date de préparation; emplacement sécurisé de l’index des preuves.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Utiliser des identifiants stables, comme COMMANDE-01 ou RÉSERVATION-01, pour les pièces conservées à leur emplacement autorisé. Dupliquer les blocs au besoin. Préserver versions, échecs et promesse initiale. Ne pas déposer de sources confidentielles dans un dépôt public. [R6]"
+        }
+      ]
+    },
+    {
+      "title": "A · La fiche de promesse",
+      "kicker": "À remplir avec le responsable et l’autorité d’acceptation",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Exemple illustratif",
+          "text": "10 000 étiquettes approuvées; visuel v3; acceptation jeudi à 16 h, America/Toronto, au site client convenu. Une fiche réelle doit ajouter la date, la spécification et la personne habilitée à accepter."
+        },
+        {
+          "type": "field",
+          "label": "À qui appartient cette promesse?",
+          "prompt": "Identifiant/version; acheteur; bénéficiaire; responsable; accord source et preuve d’approbation.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Que doit recevoir le client?",
+          "prompt": "Reprendre le résultat réel, la spécification/version, la quantité, la qualité, les tolérances et toute livraison partielle permise.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "Quand et où, exactement?",
+          "prompt": "Date, fuseau, déclenchement, calendrier ouvrable, heure limite, réception/acceptation requise et destination.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quelles perturbations et interventions sont permises?",
+          "prompt": "Dépendances indisponibles; type d’exercice; actions et données autorisées; dégradation tolérée; exclusions; autorité d’arrêt.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Qui accepte, à partir de quelles preuves?",
+          "prompt": "Autorité nommée; inspection et mesures; critères; preuves manquantes; biens réels ou substitut expressément convenu.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Obtenir les références d’approbation réelles avant de poursuivre. Modifier ces conditions crée une version nouvelle, sans changer le verdict concernant la promesse antérieure. [C2, pp. 7–9; R6]"
+        }
+      ]
+    },
+    {
+      "title": "B · L’arrangement que chacun peut accepter",
+      "kicker": "Rendre explicites contribution, contrepartie et décision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’imprimeur acheteur acquiert le service de continuité; son client reçoit la commande initiale. Identifier les engagements rendant cet échange utilisable. Tout cumul de rôles exige d’en déclarer les liens. [C2, p. 18]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Participant",
+            "Contribution et contrepartie",
+            "Personne / preuve"
+          ],
+          "rows": [
+            [
+              "Imprimeur acheteur",
+              "",
+              ""
+            ],
+            [
+              "Prestataire de relève",
+              "",
+              ""
+            ],
+            [
+              "Client final",
+              "",
+              ""
+            ],
+            [
+              "Coordinateur",
+              "",
+              ""
+            ],
+            [
+              "Évaluateur",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.27,
+            0.4,
+            0.33
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Lire correctement les preuves",
+          "text": "L’intérêt n’est pas une offre acceptée. L’acceptation exige une trace d’engagement autorisé. La réservation exige une confirmation actuelle et une capacité utilisable. L’encaissement exige la preuve des fonds reçus. Payer les préparatifs étaye seulement cette étape achetée. [C2, pp. 8, 13]"
+        },
+        {
+          "type": "field",
+          "label": "Qu’achète exactement l’entreprise?",
+          "prompt": "Préparation, réservation, activation ou combinaison définie; prix/périmètre; exclusions; meilleure solution complète et décision réelle.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Qu’a réellement accepté chaque partie?",
+          "prompt": "Autorité; contribution/contrepartie; en attente, accepté, refusé ou retiré; preuve/date; expiration et conditions. Joindre une trace par partie.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Que peut-on partager ou activer?",
+          "prompt": "Champs, destinataires, lieu, droits, conservation, retrait; responsables d’activation et d’arrêt; canal authentifié accessible.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "title": "C · Le créneau réel et ses dépendances",
+      "kicker": "La capacité doit tenir face aux activations simultanées",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Calcul illustratif",
+          "text": "12 000 unités utilisables − 2 000 protégées = 10 000 disponibles. La commande tient; 5 000 autres simultanées ne tiennent pas. Matériaux, réglages, qualité, personnel et transport doivent aussi être compatibles."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ressource / période",
+            "Unités utilisables",
+            "Unités protégées",
+            "Nouvelle demande simultanée",
+            "Preuve"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.18,
+            0.18,
+            0.23,
+            0.16
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Qu’est-ce qui est réellement réservé?",
+          "prompt": "Prestataire, produit, unités, période, confirmation, activation, expiration, annulation/remboursement et preuve.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Qu’est-ce qui rend la voie complète utilisable?",
+          "prompt": "Spécifications et procédé qualifiés; matériaux et personnel; calendrier complet; droits et lancement; preuves.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quelle défaillance pourrait bloquer les deux voies?",
+          "prompt": "Accès, fournisseur, site, responsable, machine ou transporteur commun; substitut éprouvé; dépendance restante.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quels engagements concurrents échappent à cette vue?",
+          "prompt": "Périmètre du registre; demandes simultanées et autres clients; informations indisponibles; responsable et prochain contrôle.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Vérifier chaque ressource limitante et chaque intervalle. Un calcul local ne révèle pas les réservations cachées et ne remplace pas l’engagement du prestataire. Maintenir visible toute capacité non qualifiée. [C2, pp. 11–13; R6]"
+        }
+      ]
+    },
+    {
+      "title": "D · Des preuves accessibles pendant la perturbation",
+      "kicker": "Rendre l’écart important vérifiable",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Question illustrative",
+          "text": "La commande restaurée indique 8 000; une modification acceptée ajoute 2 000. D’où vient-elle, qui l’a protégée et quels événements ultérieurs sont inclus? Une empreinte concordante ne répond pas, à elle seule, à ces questions."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Source / version",
+            "Garde, origine et emplacement",
+            "Borne, couverture et lacune"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.24,
+            0.4,
+            0.36
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Qu’est-ce qui pourrait changer le respect de la promesse?",
+          "prompt": "Identifiant de l’objection; affirmation initiale; omission alléguée; condition touchée; évaluateur et date.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quelle observation permettrait de trancher?",
+          "prompt": "Sources; vérification ou réexécution autorisée; écart attendu/observé; emplacement des preuves; témoin positif.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Qu’a-t-on décidé et corrigé?",
+          "prompt": "Étayé, rejeté ou non résolu; décideur et motif; correction autorisée; version revérifiée; lacune résiduelle et coût.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Dupliquer le bloc pour commandes manquantes, modifications périmées, annulations, doublons, conflits de réservation ou autres enjeux. Mettre aussi le vérificateur à l’épreuve. Conserver les échecs. Sans source décisive, inscrire NON ÉTABLI sans fabriquer de certitude. [C2, pp. 9–10, 14–17; R6]"
+        }
+      ]
+    },
+    {
+      "title": "E · Chiffrer le service complet",
+      "kicker": "Compter chaque ressource une fois; signaler les inconnues",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Économie illustrative",
+          "text": "Prix distinct du service : 5 600 CAD. Coût complet modélisé : 5 000 CAD. Écart : 600 CAD selon des hypothèses inventées. La facture initiale est exclue. Aucune demande observée ni aucun bénéfice réalisé n’en découlent."
+        },
+        {
+          "type": "field",
+          "label": "Les coûts de qui, sur quelle période?",
+          "prompt": "Entité, promesse/version, devise, période, travail interne et affectation des coûts; distinguer réel, estimé et inconnu.",
+          "lines": 2
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Groupe de coûts",
+            "Montant / état",
+            "Preuve / échéance"
+          ],
+          "rows": [
+            [
+              "Prospection, préparation, personnel et offres refusées",
+              "",
+              ""
+            ],
+            [
+              "Données, droits, IA et mise en place technique",
+              "",
+              ""
+            ],
+            [
+              "Réservation et coûts d’opportunité",
+              "",
+              ""
+            ],
+            [
+              "Matériaux, production et contrôle qualité",
+              "",
+              ""
+            ],
+            [
+              "Transport, acceptation et vérification distincte",
+              "",
+              ""
+            ],
+            [
+              "Exercices, nouveaux essais et requalification",
+              "",
+              ""
+            ],
+            [
+              "Soutien, financement, assurance et devoirs juridiques",
+              "",
+              ""
+            ],
+            [
+              "Remboursements, devoirs restants, taxes et autres",
+              "",
+              ""
+            ],
+            [
+              "Total, estimations et lacunes identifiées",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.49,
+            0.22,
+            0.29
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Quels prix et choix d’achat sont étayés?",
+          "prompt": "Prix proposé ou accepté; meilleure solution complète; contraintes de l’acheteur; coûts mesurés et incertitudes; encaissements distincts.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Une provision estimative ne plafonne pas les responsabilités. Inclure les échecs sans doubler les ressources. Reporter échéances et obligations protégées dans F. [C2, pp. 18–20; R6]"
+        }
+      ]
+    },
+    {
+      "title": "F · Financer le prochain engagement",
+      "kicker": "Vérifier les fonds avant que la décision crée une obligation",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Décision d’arrêt illustrative",
+          "text": "Disponibles après obligations protégées : 1 200 CAD. Exigibles avant acceptation client : 4 700 CAD. Paiement proposé ensuite. Déficit : 3 500 CAD. Ne pas réserver ou activer selon ce plan; obtenir un arrangement financé sans modifier la promesse."
+        },
+        {
+          "type": "field",
+          "label": "Quels fonds sont réellement disponibles?",
+          "prompt": "Entité, devise, trésorerie initiale, obligations protégées, fonds affectés et preuves des comptes autorisés. Indiquer projet ou suivi réel.",
+          "lines": 2
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Étape / date",
+            "Entrées reçues",
+            "Sorties payées",
+            "Réserve requise",
+            "Fonds disponibles"
+          ],
+          "rows": [
+            [
+              "Préparation",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Réservation",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Production / contrôles",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Acceptation / encaissement",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Suivi / devoirs restants",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.18,
+            0.18,
+            0.21,
+            0.18
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Fonds disponibles = trésorerie initiale + encaissements effectifs cumulés − décaissements cumulés − fonds encore protégés. Garder le même périmètre; retirer les devoirs payés de la réserve. Les recettes prévues ne sont jamais des encaissements réels. [C2, pp. 19–20]"
+        },
+        {
+          "type": "field",
+          "label": "Que faudra-t-il payer si la situation se dégrade?",
+          "prompt": "Réservation ou prépaiement; retard client; remboursement, reprise ou retrait; financement nommé et preuve.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quelle révision finance la prochaine étape?",
+          "prompt": "Paiements par étapes acceptés, fonds de roulement autorisés ou voie moins chère; restrictions des dépôts; décideur, date et preuve. Garder le plan échoué.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "title": "G · Le suivi de l’exécution",
+      "kicker": "Un dossier des actions, passages de relais et interventions",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Utiliser cette fiche dans le périmètre autorisé. Un exercice de production peut livrer de vrais biens; une simulation sur table ou un substitut n’étaye que ses opérations. Préserver l’horloge initiale et consigner les aides imprévues. [R6]"
+        },
+        {
+          "type": "field",
+          "label": "Qu’est-ce qui est autorisé à démarrer?",
+          "prompt": "Promesse/version, approbations, borne des sources, ressources, début, dépendances indisponibles, autorité d’arrêt et contact.",
+          "lines": 2
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Passage de relais",
+            "Responsable / preuve prévus",
+            "Heure / résultat / problème réels"
+          ],
+          "rows": [
+            [
+              "Transmettre le dossier actuel",
+              "",
+              ""
+            ],
+            [
+              "Confirmer les intrants réservés",
+              "",
+              ""
+            ],
+            [
+              "Produire et inspecter",
+              "",
+              ""
+            ],
+            [
+              "Transporter et recevoir",
+              "",
+              ""
+            ],
+            [
+              "Accepter ou refuser",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.28,
+            0.34,
+            0.38
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Quelle comparaison a réellement été faite?",
+          "prompt": "Solution complète solide; promesse/ressources comparables; devis ou exécution; méthode, mesures, travail humain et coûts. Indiquer NON EXÉCUTÉ si nécessaire.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Que s’est-il passé hors de la voie prévue?",
+          "prompt": "Secours par les systèmes ou personnes initiaux, écarts, défauts, refus, arrêts et corrections; affirmation touchée; décision et preuves.",
+          "lines": 2
+        },
+        {
+          "type": "callout",
+          "label": "L’acceptation est un événement distinct",
+          "text": "L’autorité nommée consigne réception réelle, spécification, quantité, qualité et heure d’acceptation. Expédition ou réussite logicielle ne suffisent pas. Si l’usine initiale sauve la livraison, distinguer commande réussie et indépendance non respectée. [C2, pp. 8–9, 22]"
+        }
+      ]
+    },
+    {
+      "title": "H · Le Passeport de continuité",
+      "kicker": "Dire précisément au prochain lecteur ce qui est établi",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Passeport illustratif au point de financement",
+          "text": "Cas fictif : 10 000 étiquettes; déficit de 3 500 CAD; aucune exécution physique. Résultat client et preuves de marché : NON ÉTABLI. Suite : qualifier un arrangement financé."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Affirmation",
+            "Verdict",
+            "Preuve / limite"
+          ],
+          "rows": [
+            [
+              "Rapprochement des dossiers",
+              "",
+              ""
+            ],
+            [
+              "Préparation de la relève",
+              "",
+              ""
+            ],
+            [
+              "Résultat convenu accepté",
+              "",
+              ""
+            ],
+            [
+              "Faisabilité du service complet",
+              "",
+              ""
+            ],
+            [
+              "Preuves commerciales",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.38,
+            0.24,
+            0.38
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Choisir DÉMONTRÉ, ÉCHEC ou NON ÉTABLI par affirmation. **Un substitut étaye seulement l’exercice convenu. Une livraison réelle exige des biens réellement reçus et acceptés.** Payer les préparatifs établit cet achat seulement; facturer n’est pas encaisser. [C2, pp. 8, 13–14]"
+        },
+        {
+          "type": "field",
+          "label": "Qu’a réellement accepté le client?",
+          "prompt": "Livraison réelle : biens, spécification, quantité, qualité, heures, autorité nommée et preuve authentifiée. Identifier séparément tout résultat d’exercice avec substitut.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "Qui a vérifié, avec quelle indépendance?",
+          "prompt": "Vérificateur et méthode; garde des sources; contrôle d’exécution; liens organisationnels/commerciaux; hypothèses et lacunes.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Où ce Passeport s’applique-t-il, et jusqu’à quand?",
+          "prompt": "Promesse/version, perturbation, installation/période, exclusions, fiches E–F, responsables et devoirs restants, expiration, réexamen et statut actuel.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "title": "I · Vérifier un nouvel usage",
+      "kicker": "Préserver l’historique; étayer chaque nouvelle affirmation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Conserver promesse, verdict et preuves antérieurs. Consigner les changements de spécification, autorité, capacité, sources ou acceptation. Les preuves restent historiques même lorsque leur applicabilité présente expire. [C2, pp. 13–15]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Changement / ancienne → nouvelle version",
+            "Affirmation touchée",
+            "Responsable / accord / réexamen"
+          ],
+          "rows": [
+            [
+              "",
+              "",
+              ""
+            ],
+            [
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.37,
+            0.27,
+            0.36
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Quelle autre promesse pourrait devenir possible?",
+          "prompt": "Nouveau bénéficiaire ou problème et résultat accepté visé. Distinguer une tâche nouvelle d’une nouvelle vente du même service.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quelle capacité mérite d’être conservée?",
+          "prompt": "Identifiant de l’élément ou méthode; contribution; droits, prérequis, échecs, conditions modifiées et coûts de requalification.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Quels fonds restent après les obligations antérieures?",
+          "prompt": "Revenus encaissés libres, réserves, devoirs résiduels, coûts et dates du successeur, preuves du financement autorisé.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Comment éprouver cette contribution?",
+          "prompt": "Meilleure voie complète sans la capacité; ressources/contenu initiaux équivalents; mesures prévues; résultat ou NON EXÉCUTÉ; responsable et décision suivante.",
+          "lines": 2
+        },
+        {
+          "type": "callout",
+          "label": "Choisir la bonne affirmation pour la suite",
+          "text": "Une autre vente éprouve la demande répétée. Une tâche distincte améliorée par la capacité conservée éprouve son apport au successeur. Améliorer la découverte exige de nouvelles campagnes sélectionnées indépendamment et des concurrents solides également équipés. [C2, pp. 23–24]"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "C2",
+    "R6"
+  ],
+  "notes": "Cahier guidé de l’édition 2. Dix pages de contenu, fiches A à I. Exemples séparés des réponses vides. Champs de deux ou trois lignes pour PDF remplissable et Word modifiable. Facture initiale exclue de l’économie fictive du service."
+}

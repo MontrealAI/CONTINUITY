@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-11-07T01:36:28Z",
+  "observed_toronto": "2026-11-06T20:36:28-05:00",
+  "main_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "main_changed_since_v1": false,
+  "pull_request": 3,
+  "pr_state": "open",
+  "pr_merged": false,
+  "pr_head": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+  "pr_base": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "pr_body_prior_verification_head": "46c2e0b2123cb56f24dd956b2dbfb79a7f7fbecd",
+  "interpretation": "Main remains primary. Review-branch results are not merged-main or release evidence. Earlier PR-body verification receipts do not automatically cover the newer head. No repository tests rerun for this editorial collection."
+}

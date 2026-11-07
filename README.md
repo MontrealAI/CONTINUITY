@@ -6,6 +6,12 @@
 
 **CONTINUITY Ω: Keep the promise.** Research, local execution, evidence and bilingual publications by Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
 
+### Bilingual document collection, edition 2
+
+[Browse all five volumes](docs/collection/README.md) · [Complete English PDF](docs/collection/edition-2/CONTINUITY_OMEGA_Complete_Collection_EN.pdf) · [Complete French PDF](docs/collection/edition-2/CONTINUITE_OMEGA_Collection_Complete_FR.pdf) · [Download the bilingual ZIP](docs/collection/CONTINUITY_OMEGA_Complete_Bilingual_Collection.zip?raw=true) · [Documentation map](docs/README.md#english)
+
+The collection includes editable Word/Markdown sources, fillable pilot workbooks, an offline bilingual reader, six diagrams in both languages and five original papers. All 106 supplied files are preserved unchanged. Its historical repository snapshot predates the merged economy updates; read the [current-status and provenance note](docs/collection/STATUS.md#english) alongside it. It does not establish a new experiment, field deployment or commercial result.
+
 ### Economy experiment v0.2 — preserve an accepted digital promise
 
 **CONTINUITY Ω Harness — Invent the economy of continuity.** This separate experiment produces substantive digital label-job content, transfers it to an independently implemented local receiver, and reconciles recipient acceptance with modeled consent, capacity, funding and costs. **Outcome, modeled service feasibility and method advantage remain separate claims.** The obligation is a new digital product; it does not reinterpret historical metadata receipts as physical delivery or authentic customer acceptance.
@@ -92,6 +98,12 @@ No new license is asserted: the source snapshot contains no root license, and ex
 ## Français
 
 **CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
+
+### Collection documentaire bilingue, édition 2
+
+[Parcourir les cinq volumes](docs/collection/README.fr.md) · [PDF français complet](docs/collection/edition-2/CONTINUITE_OMEGA_Collection_Complete_FR.pdf) · [PDF anglais complet](docs/collection/edition-2/CONTINUITY_OMEGA_Complete_Collection_EN.pdf) · [Télécharger le ZIP bilingue](docs/collection/CONTINUITY_OMEGA_Complete_Bilingual_Collection.zip?raw=true) · [Plan de la documentation](docs/README.md#français)
+
+La collection comprend les sources Word/Markdown modifiables, les cahiers de pilote à remplir, un lecteur bilingue hors ligne, six schémas dans les deux langues et cinq articles originaux. Les 106 fichiers fournis sont conservés sans modification. Son instantané historique précède les mises à jour économiques fusionnées ; consulter aussi la [note d’état actuel et de provenance](docs/collection/STATUS.md#français). Elle n’établit ni nouvelle expérience, ni déploiement réel, ni résultat commercial.
 
 ### Expérience économique v0.2 — préserver un engagement numérique accepté
 

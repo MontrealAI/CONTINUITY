@@ -1,0 +1,152 @@
+{
+  "volume": "01",
+  "lang": "fr",
+  "slug": "executive",
+  "title": "Tenir parole",
+  "subtitle": "Une introduction claire à CONTINUITÉ Ω",
+  "audience": "Propriétaires d’entreprise, responsables des opérations et décideurs",
+  "reading_minutes": 5,
+  "pages": [
+    {
+      "title": "Lorsque la voie habituelle ne fonctionne plus",
+      "kicker": "Le résultat d’entreprise vient en premier",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Les systèmes peuvent être à l’arrêt. Le client a toujours besoin de ce qui lui a été promis.**"
+        },
+        {
+          "type": "p",
+          "text": "CONTINUITÉ Ω est un projet pour aider une entreprise à préserver un engagement client essentiel lorsque son fonctionnement habituel échoue. Il cherche ce qui manque, aide à construire une solution réalisable et rend les preuves du résultat vérifiables. [C2, pp. 5–9]"
+        },
+        {
+          "type": "callout",
+          "label": "L’idée centrale",
+          "text": "L’entreprise peut changer sa façon de livrer. Elle ne peut pas modifier discrètement ce qu’elle a promis au client."
+        },
+        {
+          "type": "p",
+          "text": "Un système de commandes restauré peut paraître sain tout en omettant la dernière modification approuvée. Un fournisseur de relève peut avoir une machine disponible sans disposer des bons fichiers, des matières ou du créneau nécessaire. La continuité dépend de toute la chaîne qui relie la commande acceptée au résultat accepté."
+        },
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "Trouver ce qui manque",
+              "text": "Repérer le dossier, la dépendance ou l’entente qui empêche de tenir l’engagement."
+            },
+            {
+              "title": "Construire une voie utilisable",
+              "text": "Réunir l’information, les capacités et les participants volontaires nécessaires à la livraison."
+            },
+            {
+              "title": "Étayer la conclusion",
+              "text": "Vérifier le résultat selon l’entente initiale et conserver les éléments probants. [C2, pp. 9–14]"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "L’ambition plus large est de rendre une continuité utile économiquement possible pour des entreprises qui ne peuvent justifier le dédoublement de toutes leurs opérations, puis de conserver chaque capacité éprouvée pour d’autres travaux. [C2, pp. 18–23]"
+        }
+      ]
+    },
+    {
+      "title": "L’imprimeur doit toujours livrer les étiquettes",
+      "kicker": "Un exemple suivi",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Cas pédagogique fictif.** Un imprimeur régional a promis 10 000 étiquettes d’emballage approuvées, avec le visuel v3, à livrer au lieu convenu au plus tard jeudi à 16 h, dans le fuseau convenu. Un incident bloque son processus habituel. Attendre la restauration complète pourrait compromettre la livraison. Un imprimeur de relève qualifié pourrait aider si toute la solution fonctionne. [C2, pp. 5, 7–9]"
+        },
+        {
+          "type": "figure",
+          "name": "promise_routes",
+          "caption": "Deux voies possibles, un engagement client. Les exigences initiales restent la référence pour l’acceptation."
+        },
+        {
+          "type": "p",
+          "text": "La relève exige la commande et le visuel à jour, la permission de les utiliser, une production compatible, un créneau réellement disponible et une livraison à temps. Le transfert doit aussi éviter une production en double au retour du système initial. [C2, pp. 11–14]"
+        },
+        {
+          "type": "callout",
+          "label": "Ce qui peut changer",
+          "text": "Le prestataire, le chemin de l’information, le procédé et l’arrangement qui les soutient. La quantité, la qualité, le délai et les critères d’acceptation convenus font toujours autorité."
+        }
+      ]
+    },
+    {
+      "title": "Rendre la relève intéressante à fournir",
+      "kicker": "L’économie de la continuité",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Un imprimeur disposant d’équipements libres et un acheteur inquiet d’une interruption n’ont pas automatiquement un service utilisable. Il faut préparer le travail, réserver une capacité exploitable, vérifier la prestation et financer chaque étape. [C2, pp. 18–20]"
+        },
+        {
+          "type": "figure",
+          "name": "market_arrangement",
+          "caption": "Un service de continuité proposé relie une capacité utile à des responsabilités, une capacité réservée, une acceptation et des paiements réellement convenus."
+        },
+        {
+          "type": "p",
+          "text": "CONTINUITÉ Ω explore ensemble la voie technique et cet arrangement. Un dossier de production transférable peut rendre un créneau réservé utile; une réservation acceptée peut justifier la préparation du dossier. Aucun des deux ne suffit nécessairement seul."
+        },
+        {
+          "type": "callout",
+          "label": "Le test économique",
+          "text": "Les participants choisiraient-ils cet arrangement complet plutôt que leurs solutions de rechange crédibles, et peuvent-ils l’exécuter?"
+        },
+        {
+          "type": "p",
+          "text": "Mutualiser la préparation peut réduire le coût. La capacité doit encore couvrir les activations simultanées, et les fonds être disponibles à temps. Les achats réels et la réutilisation constituent des preuves distinctes. [C2, pp. 19–20; F2, p. 3]"
+        }
+      ]
+    },
+    {
+      "title": "Savoir à quoi accorder sa confiance",
+      "kicker": "Trois questions et trois types de preuves",
+      "blocks": [
+        {
+          "type": "cards",
+          "items": [
+            {
+              "title": "L’engagement a-t-il été tenu?",
+              "text": "Le travail respecte la quantité, la qualité, le délai et les critères d’acceptation convenus. Un résultat logiciel accepté étaye un résultat logiciel; une livraison physique exige sa propre observation."
+            },
+            {
+              "title": "L’arrangement fonctionne-t-il?",
+              "text": "Consentement, droits, capacité, incitations et financement s’articulent. Un modèle teste des hypothèses fournies; une préparation réelle exige des preuves concernant les participants réels."
+            },
+            {
+              "title": "Existe-t-il un marché viable?",
+              "text": "Des parties réelles choisissent l’offre, une valeur acceptée est livrée, le paiement est encaissé et les coûts complets sont comptés. D’autres adoptions ou renouvellements étayent la répétabilité. [C2, pp. 8, 14, 18–22; F2, p. 3]"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "« Vérifiée de manière indépendante » devrait préciser qui a vérifié, quelles pièces ont été examinées et comment le contrôle était séparé de la production du résultat. Une seconde IA ou un programme distinct peut révéler des erreurs; les liens et hypothèses communes restants doivent demeurer visibles. [C2, pp. 6, 14, 24–25]"
+        },
+        {
+          "type": "callout",
+          "label": "Une première décision utile",
+          "text": "Choisir un engagement client dont la perte aurait des conséquences. Comparer des solutions complètes et compétentes. Mettre à l’épreuve celle qui mérite d’être étudiée, puis décider de la suite selon le résultat observé."
+        },
+        {
+          "type": "heading",
+          "text": "Poursuivre la lecture"
+        },
+        {
+          "type": "p",
+          "text": "Le **volume 02** développe l’histoire et les idées. Le **volume 03** prépare un pilote délimité, et le **volume 04** aide à consigner les décisions. Le **volume 05** présente l’examen daté des preuves : recherche, exécutions logicielles et affirmations exigeant encore un appui réel."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "C2",
+    "F2"
+  ],
+  "notes": "Réécriture édition 2; traduction intégrale. Quatre pages de contenu. Exemple suivi illustratif. Pages avec figure limitées à160mots de corps, légende exclue. Aucun nouveau résultat opérationnel ni commercial revendiqué. Shared fictional case: 10,000 labels, artworkv3, Thursday16:00, agreed location and timezone; numerical values invented for this collection, not a reported experiment."
+}

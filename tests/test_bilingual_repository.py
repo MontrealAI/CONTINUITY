@@ -51,8 +51,13 @@ class BilingualRepositoryTests(unittest.TestCase):
             self.assertIn('## Français', text)
 
     def test_all_markdown_relative_file_links_resolve(self):
+        # These byte-preserved source snapshots retain relative links from their
+        # original pinned repository paths. They are archival records, not local
+        # navigation pages; test_document_collection verifies their exact bytes.
+        snapshots = ROOT / 'docs/collection/edition-2/05_Repository_Snapshot'
         for page in ROOT.rglob('*.md'):
             if '.git' in page.parts: continue
+            if page.is_relative_to(snapshots): continue
             for href in re.findall(r'\]\(([^)]+)\)', page.read_text()):
                 target = urlsplit(href)
                 if target.scheme or target.netloc or not target.path: continue

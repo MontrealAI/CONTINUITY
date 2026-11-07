@@ -4,6 +4,8 @@
 
 ## English
 
+The [edition 2 document collection](docs/collection/README.md) supplies five complete volumes in each language, paired PDF/Word/Markdown formats, complete 48-page language editions, blank fillable workbooks, a bilingual offline reader and six paired figures. Its five original papers and historical source snapshots retain their original languages and bytes. [Current-status notes](docs/collection/STATUS.md#english) distinguish its dated snapshot from later merged qualifications.
+
 The separate v0.2 economy experiment uses **CONTINUITY Ω Harness — Invent the economy of continuity** in English and **CONTINUITÉ Ω — Inventer l’économie de la continuité** in French. Its setup, commands, operator errors, product/acceptance specification, architecture, threat model, requirement mapping, registration and generated Passports have complete language paths. Both Passports retain the same full structured result and digest, including quantities, revisions, deadlines, outcome/feasibility/method claims, unknown costs and explicit AI NOT RUN. Stable machine keys, case identifiers and verbatim evidence remain shared.
 
 The main README contains complete English and French sections. README.fr.md offers the French entry separately. Both cover setup, use, publications, provenance and limitations.
@@ -25,6 +27,8 @@ The legacy generated `PASSPORT.md` is an original English artifact. The current 
 PROVENANCE.json retains all initial-copy identities. LOCALIZATION.json records only intentional website changes with original and current hashes. Paper, prototype, media and historical evidence remain unchanged. This repository contains website sources; it does not claim a new live Pages deployment.
 
 ## Français
+
+La [collection documentaire, édition 2](docs/collection/README.fr.md) propose cinq volumes complets dans chaque langue, en PDF/Word/Markdown, deux éditions intégrales de 48 pages, des cahiers vierges à remplir, un lecteur bilingue hors ligne et six figures dans les deux langues. Ses cinq articles originaux et instantanés historiques conservent leurs langues et octets d’origine. Les [notes d’état actuel](docs/collection/STATUS.md#français) distinguent cet instantané daté des qualifications fusionnées ultérieurement.
 
 L’expérience économique distincte v0.2 emploie **CONTINUITY Ω Harness — Invent the economy of continuity** en anglais et **CONTINUITÉ Ω — Inventer l’économie de la continuité** en français. Installation, commandes, erreurs opérateur, spécification du produit et de son acceptation, architecture, modèle de menace, matrice des exigences, préenregistrement et passeports possèdent des parcours complets dans les deux langues. Les deux passeports conservent le même résultat structuré intégral et la même empreinte, avec quantités, révisions, échéances, affirmations de résultat/faisabilité/méthode, coûts inconnus et IA explicitement NON EXÉCUTÉE. Clés machines, identifiants de cas et preuves originales restent communs.
 

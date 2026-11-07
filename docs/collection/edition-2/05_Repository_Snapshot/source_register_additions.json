@@ -1,0 +1,24 @@
+{
+  "R10": {
+    "kind": "repository_document",
+    "title_en": "Pull request 3 — open, unmerged review status",
+    "title_fr": "Demande de fusion 3 — ouverte, non fusionnée",
+    "path": "pull/3; status snapshot observed 2026-11-07 01:36:28 UTC",
+    "commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "url": "https://github.com/MontrealAI/CONTINUITY/pull/3",
+    "observed_utc": "2026-11-07T01:36:28Z",
+    "publication_status": "OPEN_UNMERGED_REVIEW_BRANCH",
+    "snapshot_path": "pending/R10_PR3_status.json"
+  },
+  "R11": {
+    "kind": "repository_document",
+    "title_en": "Pending v0.2 experiment guide — review branch",
+    "title_fr": "Guide de l’expérience v0.2 — branche en revue",
+    "path": "docs/economy/README.md",
+    "commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/f9e56c7dd9627b322406e05c53b4f6537d434262/docs/economy/README.md",
+    "observed_utc": "2026-11-07T01:36:28Z",
+    "publication_status": "OPEN_UNMERGED_REVIEW_BRANCH",
+    "snapshot_path": "pending/R11_docs__economy__README.md"
+  }
+}
