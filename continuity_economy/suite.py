@@ -149,12 +149,30 @@ def safe_relative(root,name):
 
 
 def verify_suite(in_dir):
+    return _verify_suite(Path(in_dir).absolute())
+
+
+def _verify_suite(root,required_member=None):
     from .verifier import verify_run
-    root=Path(in_dir).absolute();index=strict_load(root/"INDEX.json")
+    index=strict_load(root/"INDEX.json")
+    if type(index) is not dict:raise HarnessError("INVALID_TYPE","suite_index")
+    if required_member is not None:
+        # Member names declare roles, not interchangeable collections of PASSes.
+        # Check the same index that the fresh comparison verifier consumes; a
+        # nested experiment must not stand in for one of its required children.
+        schema="continuity-economy/challenge-index/v1" if required_member=="challenges" else "continuity-economy/suite-index/v1"
+        if index.get("schema")!=schema or (required_member!="challenges" and
+                (index.get("kind")!="comparison" or index.get("cohort")!=required_member)):
+            raise HarnessError("SUITE_COVERAGE",required_member)
+        if index.get("version")!=__version__:raise HarnessError("UNSUPPORTED_VERSION",required_member)
     if index.get("schema")=="continuity-economy/experiment-index/v1":
         object_fields(index,{"schema","version","members"})
+        if index["version"]!=__version__:raise HarnessError("UNSUPPORTED_VERSION","experiment")
+        if type(index["members"]) is not dict:raise HarnessError("INVALID_TYPE","experiment.members")
         if set(index["members"])!={"base","successor","challenges"}:raise HarnessError("SUITE_COVERAGE")
-        values={name:verify_suite(safe_relative(root,path)) for name,path in index["members"].items()}
+        paths={name:safe_relative(root,path) for name,path in index["members"].items()}
+        if len(set(paths.values()))!=len(paths):raise HarnessError("SUITE_COVERAGE","distinct experiment members")
+        values={name:_verify_suite(path,required_member=name) for name,path in paths.items()}
         return {"schema":"continuity-economy/experiment-result/v1","fresh":True,"test_assertion":"PASSED" if all(v["test_assertion"]=="PASSED" for v in values.values()) else "FAILED","members":values}
     if index.get("schema")=="continuity-economy/challenge-index/v1":
         from .challenges import verify_challenges
