@@ -1,0 +1,39 @@
+{
+  "schema": "continuity-economy/provenance/v1",
+  "starting_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "baseline_tag": "continuity-harness-v0.1.0",
+  "baseline_tag_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "baseline_worktree_clean_before_new_work": true,
+  "open_pull_requests_at_start": [],
+  "existing_branches": [
+    "main",
+    "feat/continuity-harness-v0.1",
+    "fix/harness-permissions-and-queue-leases"
+  ],
+  "baseline_validation": {
+    "tests": 253,
+    "failures": 0,
+    "skips": 0,
+    "elapsed_seconds": "22.095",
+    "raw_log_sha256": "629b22157113253703a65ddc36be6b71249d74824801195f498e5f65eee8d7c3"
+  },
+  "reuse": {
+    "mechanism": "Import qualified strict framing, RPC and seccomp; execute unchanged capacity service in new provider-window instances. Preserve baseline behavior and claims. Independently implement digital receiver and new fresh economic/content verifier.",
+    "sources": {
+      "continuity_harness/schema.py": "4ad738e4b1ef001d039d92ffad897241be7605189b579abd69e38cfe3660427c",
+      "continuity_harness/rpc.py": "36e48a53bd6c99a51f85fe1183f6e6e3ff9b0c3f3501c3d8c080ab1ff099b745",
+      "continuity_harness/sandbox.py": "7ae5423afd96847b1c38c746a7c417f938624e32acf97273c27757b46e3d556f",
+      "continuity_harness/service.py": "6b2c1816e71b6d0768024ed2a2273d98929fd42c223853eff7f7ccd63108055c",
+      "continuity_harness/controller.py": "6586232940b9a0ec7ae1044d24ece90be87859188884fbbb2f465ca1fa1857d4",
+      "continuity_harness/candidate.py": "f473520ad15f71642f461b9e373fa32e524937bd041c9e8279f99101b04e9fe9",
+      "continuity_harness/adapters.py": "ba0be575481384b74dfbc407c4e575bb8f561c50f1235fdf51f0b4b9c19865b0",
+      "continuity_harness/__main__.py": "c89523d1e0bbfc47bdcef086a06fabefacde32b7aca6be132e79d78b11e003c8"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "sqlite": "3.53.1",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+  },
+  "scope": "Only MontrealAI/CONTINUITY; original Lab untouched; synthetic data and disposable local systems."
+}

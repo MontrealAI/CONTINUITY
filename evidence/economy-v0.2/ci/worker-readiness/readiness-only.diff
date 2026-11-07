@@ -1,0 +1,34 @@
+--- tests/test_economy_product.py.before
++++ tests/test_economy_product.py.after
+@@ -571,9 +571,14 @@
+     def test_two_concurrent_deliveries_cannot_both_accept_the_same_units(self):
+         producer = self.client("producer")
+         first, second = request(self.contract), request(self.contract, arrangement="ARR-2")
+-        receivers = [self.client("receiver"), self.client("receiver")]
++        # Establish the schema before attaching another worker. The race under
++        # test is concurrent acceptance, not concurrent fresh-schema creation.
++        receivers = []
++        for _ in range(2):
++            receiver = self.client("receiver")
++            self.result(receiver.call("snapshot", {}))
++            receivers.append(receiver)
+         for receiver, req in zip(receivers, (first, second)):
+-            self.result(receiver.call("snapshot", {}))
+             output = self.result(producer.call("produce", req))
+             durable_copy(self.directory / "products" / output["artifact_name"], self.directory / "inbox" / (req["delivery_id"] + ".json"))
+             self.result(receiver.call("receive", {"delivery_id": req["delivery_id"], "obligation_id": "ORDER-A", "now_tick": 2}))
+@@ -589,8 +594,12 @@
+         self.assertEqual(self.result(a.call("snapshot", {}))["imported_units"], 2)
+ 
+     def test_two_producer_processes_reconcile_one_capacity_key(self):
+-        a, b = self.client("producer"), self.client("producer")
+-        self.result(a.call("snapshot", {})); self.result(b.call("snapshot", {}))
++        # Complete initial schema creation before the second worker attaches.
++        # Both workers are ready before the controlled production race below.
++        a = self.client("producer")
++        self.result(a.call("snapshot", {}))
++        b = self.client("producer")
++        self.result(b.call("snapshot", {}))
+         req = request(self.contract)
+         a.start_request("produce", req, ["produce.before_begin", "produce.after_commit"])
+         self.assertEqual(a.receive().get("hook"), "produce.before_begin")

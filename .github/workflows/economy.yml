@@ -1,0 +1,28 @@
+name: Economy of continuity / Économie de la continuité
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  bounded-digital-experiment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test content, participation and trust boundaries / Tester le contenu, la participation et les frontières
+        run: python3 -m unittest discover -s tests -p 'test_economy*.py' -v
+      - name: Execute complete registered experiment / Exécuter toute l’expérience préenregistrée
+        run: python3 -m continuity_economy --language en experiment --out "$RUNNER_TEMP/continuity-economy/complete"
+      - name: Independently verify every required record / Revérifier indépendamment chaque enregistrement requis
+        run: python3 -m continuity_economy --language fr verify-suite --in-dir "$RUNNER_TEMP/continuity-economy/complete"
+      - name: Preserve historical source identities / Préserver les identités historiques
+        run: python3 scripts/verify_copy.py
+      - name: Retain complete, failed and incomplete evidence / Conserver les preuves achevées, échouées et incomplètes
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: continuity-economy-${{ github.sha }}
+          path: ${{ runner.temp }}/continuity-economy
+          if-no-files-found: warn
+          retention-days: 30

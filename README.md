@@ -6,6 +6,23 @@
 
 **CONTINUITY Ω: Keep the promise.** Research, local execution, evidence and bilingual publications by Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
 
+### Economy experiment v0.2 — preserve an accepted digital promise
+
+**CONTINUITY Ω Harness — Invent the economy of continuity.** This separate experiment produces substantive digital label-job content, transfers it to an independently implemented local receiver, and reconciles recipient acceptance with modeled consent, capacity, funding and costs. **Outcome, modeled service feasibility and method advantage remain separate claims.** The obligation is a new digital product; it does not reinterpret historical metadata receipts as physical delivery or authentic customer acceptance.
+
+[Complete setup and commands](docs/economy/README.md) · [Architecture](docs/economy/ARCHITECTURE.md) · [Threat model and limitations](docs/economy/THREAT_MODEL.md) · [Digital product and acceptance](docs/economy/PRODUCT.md) · [Preregistered experiment](docs/economy/EXPERIMENT.md) · [Requirements and tests](docs/economy/REQUIREMENTS.md)
+
+**Executed evidence:** [Results and costs](docs/economy/RESULTS.md) · [Fresh successor](docs/economy/SUCCESSOR.md) · [Complete retained evidence](evidence/economy-v0.2/README.md). The implementation passed 424 repository tests. The first seven conventional/Harness comparisons tied; the new 1,020-unit successor completed with all 42 frozen files unchanged. The complete experiment and its separate fresh verification passed, including all 26 adversarial controls. This demonstrates bounded digital execution and modeled feasibility where justified; method advantage and real commercial demand remain unestablished.
+
+```sh
+python3 -m continuity_economy --language en experiment --out /tmp/continuity-economy-complete-001
+python3 -m continuity_economy --language en verify-suite --in-dir /tmp/continuity-economy-complete-001
+python3 -m continuity_economy --language en compare --out /tmp/continuity-economy-comparison-001
+python3 -m unittest discover -s tests -p 'test_economy*.py' -v
+```
+
+The complete command includes a competent conventional comparator, the Harness procedure, a no-purchase outside option, a separately registered successor and adversarial challenges. Unavailable AI performance is **NOT RUN**. A conventional winner, no deal, technical completion without an acceptable purchase and unresolved value are valid results. All SMU prices, participant policies, capacity and funding are authored synthetic assumptions, not real contracts, payments, customers or demand. Linux x86_64 with seccomp and Python 3.10+ is required; no paid API or external service is needed. Use a new output directory outside the source checkout. Historical Harness v0.1 remains separately versioned below.
+
 ### Harness v0.1 — execute and verify
 
 The separately versioned **CONTINUITY Ω Harness** exercises real disposable processes and durable local storage with synthetic packaging-label orders. It reconstructs outstanding obligations, restores the primary service or uses an authorized backup, and freshly verifies the resulting software artifacts against a separately retained contract. The route may change; the customer promise must not silently change with it.
@@ -73,6 +90,23 @@ No new license is asserted: the source snapshot contains no root license, and ex
 ## Français
 
 **CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
+
+### Expérience économique v0.2 — préserver un engagement numérique accepté
+
+**CONTINUITÉ Ω — Inventer l’économie de la continuité.** Cette expérience distincte produit le contenu substantiel d’un paquet numérique d’étiquettes, le transfère à un destinataire local implémenté indépendamment et rapproche son acceptation du consentement, de la capacité, du financement et des coûts modélisés. **Résultat, faisabilité du service modélisé et avantage de méthode restent distincts.** L’obligation porte sur un nouveau produit numérique ; les reçus historiques de métadonnées ne deviennent ni livraison physique ni acceptation authentique d’un client.
+
+[Installation et commandes complètes](docs/economy/README.fr.md) · [Architecture](docs/economy/ARCHITECTURE.fr.md) · [Modèle de menace et limites](docs/economy/THREAT_MODEL.fr.md) · [Produit numérique et acceptation](docs/economy/PRODUCT.fr.md) · [Expérience préenregistrée](docs/economy/EXPERIMENT.md#français) · [Exigences et tests](docs/economy/REQUIREMENTS.fr.md)
+
+**Preuves exécutées :** [Résultats et coûts](docs/economy/RESULTS.fr.md) · [Successeur distinct](docs/economy/SUCCESSOR.fr.md) · [Preuves complètes conservées](evidence/economy-v0.2/README.md#français). L’implémentation a réussi 424 tests du dépôt. Les sept premières comparaisons conventionnelles/banc sont à égalité ; le nouveau successeur de 1 020 unités a été réalisé avec les 42 fichiers figés inchangés. L’expérience complète et sa vérification fraîche distincte ont réussi, dont les 26 contrôles contradictoires. Cela démontre l’exécution numérique bornée et la faisabilité modélisée lorsque justifiées ; l’avantage de méthode et la demande commerciale réelle restent non établis.
+
+```sh
+python3 -m continuity_economy --language fr experiment --out /tmp/continuite-economie-complete-001
+python3 -m continuity_economy --language fr verify-suite --in-dir /tmp/continuite-economie-complete-001
+python3 -m continuity_economy --language fr compare --out /tmp/continuite-economie-comparaison-001
+python3 -m unittest discover -s tests -p 'test_economy*.py' -v
+```
+
+La commande complète comprend une procédure conventionnelle compétente, celle du banc d’essai, un choix extérieur sans achat, un successeur préenregistré séparément et des épreuves contradictoires. La performance de l’IA indisponible reste **NON EXÉCUTÉE**. Une victoire conventionnelle, une absence d’accord, une réalisation technique sans achat acceptable et une valeur incertaine sont des résultats valides. Prix SMU, politiques, capacités et financements sont des hypothèses synthétiques, sans établir de véritables contrats, paiements, clients ou demande. Linux x86_64 avec seccomp et Python 3.10+ sont requis ; aucun service externe ni API payante n’est nécessaire. Choisir un nouveau répertoire hors du code source. Le banc historique v0.1 reste versionné séparément ci-dessous.
 
 ### Banc d’essai et de vérification v0.1 — exécuter et vérifier
 

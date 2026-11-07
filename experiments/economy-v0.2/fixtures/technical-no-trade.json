@@ -1,0 +1,375 @@
+{
+  "schema": "continuity-economy/fixture/v1",
+  "contract": {
+    "schema": "continuity-economy/contract/v1",
+    "experiment_id": "CONTINUITY-ECONOMY-001",
+    "fixture_id": "technical-no-trade",
+    "cohort": "base",
+    "run_id": "registration",
+    "contract_id": "DIGITAL-005",
+    "revision": 1,
+    "start_ns": 0,
+    "deadline_tick": 500,
+    "observation_cutoff_tick": 800,
+    "wall_deadline_ms": 60000,
+    "lease_ticks": 20,
+    "seed": 705,
+    "authority_kind": "SYNTHETIC_EXERCISE",
+    "source_id": "AUTHORED-DIGITAL-EVENTS",
+    "source_complete": true,
+    "source_sha256": "8d6a71fd1c26021120a5283bd7cf3eb7812b5c34ae6a4da3eec94dceaf8f7b81",
+    "cutoff_sequence": 5,
+    "source_events": [
+      {
+        "sequence": 1,
+        "type": "ACCEPT",
+        "obligation_id": "DL-100",
+        "obligation": {
+          "obligation_id": "DL-100",
+          "recipient": "RECIPIENT-A",
+          "revision": 1,
+          "quantity": 1000,
+          "deadline_tick": 500,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "KIT-DL-100",
+            "name_en": "Synthetic continuity calibration kit",
+            "name_fr": "Trousse synthétique de calibration de continuité",
+            "instructions_en": "Obsolete instruction.",
+            "instructions_fr": "Instruction périmée.",
+            "lot": "BATCH-20261106",
+            "serial_prefix": "DL-100-"
+          }
+        }
+      },
+      {
+        "sequence": 2,
+        "type": "ACCEPT",
+        "obligation_id": "DL-200",
+        "obligation": {
+          "obligation_id": "DL-200",
+          "recipient": "RECIPIENT-B",
+          "revision": 1,
+          "quantity": 800,
+          "deadline_tick": 500,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "KIT-DL-200",
+            "name_en": "Synthetic continuity calibration kit",
+            "name_fr": "Trousse synthétique de calibration de continuité",
+            "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+            "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+            "lot": "BATCH-20261106",
+            "serial_prefix": "DL-200-"
+          }
+        }
+      },
+      {
+        "sequence": 3,
+        "type": "ACCEPT",
+        "obligation_id": "DL-300",
+        "obligation": {
+          "obligation_id": "DL-300",
+          "recipient": "RECIPIENT-C",
+          "revision": 1,
+          "quantity": 100,
+          "deadline_tick": 500,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "KIT-DL-300",
+            "name_en": "Synthetic continuity calibration kit",
+            "name_fr": "Trousse synthétique de calibration de continuité",
+            "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+            "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+            "lot": "BATCH-20261106",
+            "serial_prefix": "DL-300-"
+          }
+        }
+      },
+      {
+        "sequence": 4,
+        "type": "AMEND",
+        "obligation_id": "DL-100",
+        "obligation": {
+          "obligation_id": "DL-100",
+          "recipient": "RECIPIENT-A",
+          "revision": 2,
+          "quantity": 1100,
+          "deadline_tick": 500,
+          "status": "ACTIVE",
+          "spec": {
+            "format": "continuity-economy/label-job/v1",
+            "sku": "KIT-DL-100",
+            "name_en": "Synthetic continuity calibration kit",
+            "name_fr": "Trousse synthétique de calibration de continuité",
+            "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+            "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+            "lot": "BATCH-20261106",
+            "serial_prefix": "DL-100-"
+          }
+        }
+      },
+      {
+        "sequence": 5,
+        "type": "CANCEL",
+        "obligation_id": "DL-300"
+      }
+    ],
+    "obligations": [
+      {
+        "obligation_id": "DL-100",
+        "recipient": "RECIPIENT-A",
+        "revision": 2,
+        "quantity": 1100,
+        "deadline_tick": 500,
+        "status": "ACTIVE",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "KIT-DL-100",
+          "name_en": "Synthetic continuity calibration kit",
+          "name_fr": "Trousse synthétique de calibration de continuité",
+          "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+          "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+          "lot": "BATCH-20261106",
+          "serial_prefix": "DL-100-"
+        }
+      },
+      {
+        "obligation_id": "DL-200",
+        "recipient": "RECIPIENT-B",
+        "revision": 1,
+        "quantity": 800,
+        "deadline_tick": 500,
+        "status": "ACTIVE",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "KIT-DL-200",
+          "name_en": "Synthetic continuity calibration kit",
+          "name_fr": "Trousse synthétique de calibration de continuité",
+          "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+          "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+          "lot": "BATCH-20261106",
+          "serial_prefix": "DL-200-"
+        }
+      },
+      {
+        "obligation_id": "DL-300",
+        "recipient": "RECIPIENT-C",
+        "revision": 1,
+        "quantity": 100,
+        "deadline_tick": 500,
+        "status": "CANCELLED",
+        "spec": {
+          "format": "continuity-economy/label-job/v1",
+          "sku": "KIT-DL-300",
+          "name_en": "Synthetic continuity calibration kit",
+          "name_fr": "Trousse synthétique de calibration de continuité",
+          "instructions_en": "Keep dry. Match this serial to the digital receiving register.",
+          "instructions_fr": "Garder au sec. Associer ce numéro au registre de réception numérique.",
+          "lot": "BATCH-20261106",
+          "serial_prefix": "DL-300-"
+        }
+      }
+    ],
+    "permissible_recovery_loss_units": 0,
+    "allow_split": true,
+    "lot_size": 500,
+    "max_attempts": 2,
+    "providers": [
+      {
+        "provider_id": "PRIMARY",
+        "role": "primary",
+        "dependency": "PRIMARY-HOST",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "W0",
+            "start": 0,
+            "end": 800,
+            "capacity": 2400
+          }
+        ]
+      },
+      {
+        "provider_id": "BACKUP",
+        "role": "backup",
+        "dependency": "BACKUP-HOST",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "W0",
+            "start": 0,
+            "end": 800,
+            "capacity": 2400
+          }
+        ]
+      },
+      {
+        "provider_id": "COMPAT-A",
+        "role": "alternative",
+        "dependency": "COMPAT-A-HOST",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "W0",
+            "start": 0,
+            "end": 800,
+            "capacity": 1200
+          }
+        ]
+      },
+      {
+        "provider_id": "COMPAT-B",
+        "role": "alternative",
+        "dependency": "COMPAT-B-HOST",
+        "permissions": {
+          "production": true,
+          "disclosure": true
+        },
+        "windows": [
+          {
+            "window_id": "W0",
+            "start": 0,
+            "end": 800,
+            "capacity": 1100
+          }
+        ]
+      }
+    ],
+    "blocked_dependencies": [
+      "PRIMARY-HOST"
+    ],
+    "revocations": [],
+    "fault_schedule": [],
+    "mode": "technical_control",
+    "disclosure_fields": [
+      "recipient",
+      "sku",
+      "name_en",
+      "name_fr",
+      "instructions_en",
+      "instructions_fr",
+      "lot",
+      "serial_prefix"
+    ],
+    "permitted_actions": [
+      "restore",
+      "propose",
+      "decide",
+      "technical",
+      "reserve",
+      "produce",
+      "transfer",
+      "inspect",
+      "settle",
+      "cancel",
+      "status"
+    ],
+    "bounds": {
+      "max_requests": 512,
+      "max_plans": 65536,
+      "max_proposals": 8,
+      "service_timeout_ms": 10000
+    }
+  },
+  "policies": {
+    "schema": "continuity-economy/policies/v1",
+    "revision": 1,
+    "currency": "SMU",
+    "buyer": {
+      "party_id": "BUYER",
+      "value_min_minor": 100,
+      "value_max_minor": 100,
+      "outside_utility_minor": 2000,
+      "max_price_minor": 100,
+      "balance_minor": 100,
+      "consent_until_tick": 800
+    },
+    "providers": [
+      {
+        "party_id": "PRIMARY",
+        "setup_cost_minor": 100,
+        "unit_cost_minor": 1,
+        "rework_setup_cost_minor": 100,
+        "rework_unit_cost_minor": 1,
+        "min_profit_minor": 100,
+        "outside_profit_minor": 100,
+        "balance_minor": 40000,
+        "liability_limit_minor": 40000,
+        "consent_until_tick": 800,
+        "technical_control_allowed": true
+      },
+      {
+        "party_id": "BACKUP",
+        "setup_cost_minor": 150,
+        "unit_cost_minor": 2,
+        "rework_setup_cost_minor": 150,
+        "rework_unit_cost_minor": 2,
+        "min_profit_minor": 100,
+        "outside_profit_minor": 100,
+        "balance_minor": 40000,
+        "liability_limit_minor": 40000,
+        "consent_until_tick": 800,
+        "technical_control_allowed": true
+      },
+      {
+        "party_id": "COMPAT-A",
+        "setup_cost_minor": 200,
+        "unit_cost_minor": 3,
+        "rework_setup_cost_minor": 200,
+        "rework_unit_cost_minor": 3,
+        "min_profit_minor": 100,
+        "outside_profit_minor": 100,
+        "balance_minor": 40000,
+        "liability_limit_minor": 40000,
+        "consent_until_tick": 800,
+        "technical_control_allowed": true
+      },
+      {
+        "party_id": "COMPAT-B",
+        "setup_cost_minor": 300,
+        "unit_cost_minor": 3,
+        "rework_setup_cost_minor": 300,
+        "rework_unit_cost_minor": 3,
+        "min_profit_minor": 100,
+        "outside_profit_minor": 100,
+        "balance_minor": 40000,
+        "liability_limit_minor": 40000,
+        "consent_until_tick": 800,
+        "technical_control_allowed": true
+      }
+    ],
+    "coordinator": {
+      "party_id": "COORDINATOR",
+      "operating_cost_minor": 200,
+      "min_profit_minor": 100,
+      "outside_profit_minor": 100,
+      "balance_minor": 10000,
+      "liability_limit_minor": 10000,
+      "consent_until_tick": 800,
+      "technical_control_allowed": true
+    },
+    "technical_sponsor": {
+      "party_id": "TECHNICAL-SPONSOR",
+      "balance_minor": 60000,
+      "authorized": true
+    }
+  },
+  "expected": {
+    "outcome": "DEMONSTRATED",
+    "service_feasibility": "FAILED",
+    "accepted_units": 1900
+  }
+}

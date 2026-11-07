@@ -1,0 +1,162 @@
+{
+  "stage": "AFTER_TEST_READINESS_FIX",
+  "test_assertion": "PASSED",
+  "scope": "Only startup readiness is ordered. Actual concurrent acceptance/production requests, named hooks and race assertions remain unchanged. No sleeps or retry-until-pass behavior.",
+  "limitation": "Concurrent initialization of a brand-new service schema is not qualified by these tests. The startup failure response does not expose the exact failing SQLite/OS statement.",
+  "before_source_sha256": "a14c30c57d44dfa4d7955b446214f30b44134914da044ef152550a199be13c86",
+  "after_source_sha256": "42a17b583af6ba4dc9a86d79e7ad33f5b8fc34599bbb5c9d6f5ac4df43033b40",
+  "product_suite": {
+    "tests_run": 33,
+    "successful": true,
+    "skipped": [],
+    "errors": [],
+    "failures": []
+  },
+  "bounded_race_iterations": [
+    {
+      "iteration": 1,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 2,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 3,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 4,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 5,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 6,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 7,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 8,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 9,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 10,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 11,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 12,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 13,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 14,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 15,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 16,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 17,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 18,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 19,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "iteration": 20,
+      "tests_run": 2,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    }
+  ],
+  "frozen_file_count": 42,
+  "all_frozen_files_equal": true,
+  "modified_repository_file": "tests/test_economy_product.py",
+  "ci_source_before_fix": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+  "failed_ci_run": "42310192424"
+}

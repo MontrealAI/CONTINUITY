@@ -1,0 +1,68 @@
+{
+  "stage": "BEFORE_TEST_READINESS_FIX",
+  "scope": "Original focused producer concurrency test; startup frames observed without changing messages or return values.",
+  "source_sha256": "a14c30c57d44dfa4d7955b446214f30b44134914da044ef152550a199be13c86",
+  "attempts": [
+    {
+      "attempt": 1,
+      "tests_run": 1,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "attempt": 2,
+      "tests_run": 1,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "attempt": 3,
+      "tests_run": 1,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "attempt": 4,
+      "tests_run": 1,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "attempt": 5,
+      "tests_run": 1,
+      "successful": true,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "attempt": 6,
+      "tests_run": 1,
+      "successful": false,
+      "errors": [
+        "Traceback (most recent call last):\n  File \"/workspace/scratch/b1d5891eb025/continuity-economy/tests/test_economy_product.py\", line 593, in test_two_producer_processes_reconcile_one_capacity_key\n    self.result(a.call(\"snapshot\", {})); self.result(b.call(\"snapshot\", {}))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/b1d5891eb025/continuity-economy/continuity_harness/rpc.py\", line 111, in call\n    raise HarnessError(\"RPC_ID_MISMATCH\", rid)\ncontinuity_harness.schema.HarnessError: RPC_ID_MISMATCH: request-1\n"
+      ],
+      "failures": []
+    }
+  ],
+  "unexpected_frames": [
+    {
+      "pid": 17,
+      "frame": {
+        "code": "SERVICE_START_FAILED",
+        "detail": {
+          "en": "The production service could not start.",
+          "fr": "Le service de production n’a pas pu démarrer."
+        },
+        "id": null,
+        "location": "",
+        "ok": false
+      }
+    }
+  ],
+  "ci_source": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+  "ci_run": "42310192424"
+}

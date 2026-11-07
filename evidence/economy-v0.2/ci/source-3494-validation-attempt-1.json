@@ -1,0 +1,83 @@
+{
+  "schema": "continuity-economy/ci-observation/v1",
+  "source_commit": "3494becbbfaf15ae571a71df05a49b9ce982cc84",
+  "run_id": 42310192424,
+  "url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42310192424",
+  "state": "FAILED_FIRST_ATTEMPT",
+  "jobs": {
+    "jobs": [
+      {
+        "id": 128209419904,
+        "name": "offline-validation",
+        "status": "completed",
+        "conclusion": "failure",
+        "run_id": 42310192424,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Record job start / Consigner le démarrage",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Verify copied identities / Vérifier les identités copiées",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Test prototype and bilingual interfaces / Tester les interfaces bilingues",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 5
+          },
+          {
+            "name": "Install PDF tools / Installer les outils PDF",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 6
+          },
+          {
+            "name": "Verify publication / Vérifier la publication",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 7
+          },
+          {
+            "name": "Package reading companion / Assembler le compagnon",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 8
+          },
+          {
+            "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 16
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 17
+          }
+        ]
+      }
+    ]
+  },
+  "observed_error": "test_two_producer_processes_reconcile_one_capacity_key: RPC_ID_MISMATCH at initial snapshot readiness, before production race",
+  "retention": "Original log retained; investigate without weakening production-concurrency assertions."
+}

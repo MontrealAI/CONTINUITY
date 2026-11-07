@@ -1,0 +1,53 @@
+ATTEMPT 1
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.079s
+
+OK
+ATTEMPT 2
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.072s
+
+OK
+ATTEMPT 3
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.073s
+
+OK
+ATTEMPT 4
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.075s
+
+OK
+ATTEMPT 5
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.074s
+
+OK
+ATTEMPT 6
+test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key) ... ERROR
+
+======================================================================
+ERROR: test_two_producer_processes_reconcile_one_capacity_key (test_economy_product.ProductProcessControls.test_two_producer_processes_reconcile_one_capacity_key)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/scratch/b1d5891eb025/continuity-economy/tests/test_economy_product.py", line 593, in test_two_producer_processes_reconcile_one_capacity_key
+    self.result(a.call("snapshot", {})); self.result(b.call("snapshot", {}))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/b1d5891eb025/continuity-economy/continuity_harness/rpc.py", line 111, in call
+    raise HarnessError("RPC_ID_MISMATCH", rid)
+continuity_harness.schema.HarnessError: RPC_ID_MISMATCH: request-1
+
+----------------------------------------------------------------------
+Ran 1 test in 0.056s
+
+FAILED (errors=1)
