@@ -6,6 +6,16 @@
 
 **CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
 
+### Masterclass 101, édition 1.0
+
+[Apprendre en huit leçons](docs/masterclass-101/README.fr.md) : cours bilingues complets, cahiers à remplir, guides d’animation, diapositives et carnet interactif hors ligne. Les 164 fichiers et le ZIP original sont conservés. Les exercices fictifs et questionnaires formatifs n’établissent aucun résultat opérationnel ou commercial. Consulter les [conseils de confidentialité](docs/masterclass-101/README.fr.md#utilisation-hors-ligne-et-confidentialité).
+
+### Collection documentaire bilingue, édition 2
+
+[Parcourir les cinq volumes](docs/collection/README.fr.md) · [PDF français complet](docs/collection/edition-2/CONTINUITE_OMEGA_Collection_Complete_FR.pdf) · [PDF anglais complet](docs/collection/edition-2/CONTINUITY_OMEGA_Complete_Collection_EN.pdf) · [Télécharger le ZIP bilingue](docs/collection/CONTINUITY_OMEGA_Complete_Bilingual_Collection.zip?raw=true) · [Plan de la documentation](docs/README.md#français)
+
+La collection comprend les sources Word/Markdown modifiables, les cahiers de pilote à remplir, un lecteur bilingue hors ligne, six schémas dans les deux langues et cinq articles originaux. Les 106 fichiers fournis sont conservés sans modification. Son instantané historique précède les mises à jour économiques fusionnées ; consulter aussi la [note d’état actuel et de provenance](docs/collection/STATUS.md#français). Elle n’établit ni nouvelle expérience, ni déploiement réel, ni résultat commercial.
+
 ### Expérience économique v0.2 — préserver un engagement numérique accepté
 
 **CONTINUITÉ Ω — Inventer l’économie de la continuité.** Cette expérience distincte produit le contenu substantiel d’un paquet numérique d’étiquettes, le transfère à un destinataire local implémenté indépendamment et rapproche son acceptation du consentement, de la capacité, du financement et des coûts modélisés. **Résultat, faisabilité du service modélisé et avantage de méthode restent distincts.** L’obligation porte sur un nouveau produit numérique ; les reçus historiques de métadonnées ne deviennent ni livraison physique ni acceptation authentique d’un client.

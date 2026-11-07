@@ -1,0 +1,78 @@
+CONTINUITÉ Ω MASTERCLASS 101 — PROMPTS POUR L’IA
+Course edition / Édition pédagogique 1.0 · 7 November / novembre 2026
+
+Remplacez les champs par des informations autorisées et délimitées. Vérifiez chaque réponse. Une réponse d’IA ne prouve ni autorisation, ni livraison, ni demande, ni vérification réussie.
+
+AI1 / L1 — Définir un engagement client précis
+
+Aidez-moi à préparer une fiche d’engagement de continuité en utilisant uniquement les dossiers que je fournis.
+
+Mon cas : [engagement client et perturbation].
+Dossiers faisant autorité : [extraits pertinents que vous pouvez partager, dates et versions].
+Autorité d’acceptation connue : [nom/rôle, ou inconnue].
+
+Distinguez les faits établis, les contradictions et les informations manquantes. N’inférez pas une quantité, une modification, un droit ou une approbation client à partir d’une hypothèse commode.
+
+Rédigez une fiche précisant destinataire, résultat/version, quantité, qualité/tolérances, lieu, échéance exacte/fuseau horaire, substitutions ou livraison partielle permises et autorité d’acceptation. Reliez chaque champ important à sa pièce source. Marquez NON ÉTABLI ce qui n’est pas étayé.
+
+Posez le minimum de questions permettant de combler les lacunes importantes. Indiquez quels changements nécessiteraient une nouvelle version explicitement acceptée de l’engagement. Un changement ne doit pas transformer rétroactivement l’échec initial en réussite.
+
+Renvoyez la fiche, les contradictions, les faits manquants et les prochaines preuves à obtenir. Ce projet ne crée aucun consentement.
+
+AI2 / L2 — Construire la capacité manquante
+
+Agissez comme concepteur pratique de continuité. Préservez l’engagement faisant autorité tout en explorant différentes façons de le réaliser.
+
+Fiche d’engagement : [insérer].
+Moyens et contraintes : [dossiers, personnes, outils, droits, matières, capacité, échéances et financement].
+Solution de reprise ou de secours existante : [description fidèle].
+
+Cartographiez toute la voie menant au résultat accepté. Repérez la capacité manquante décisive sans supposer que tous les outils ou accords existent déjà. Envisagez une solution existante adaptée et une autre réellement construite. Nommez toute dépendance commune susceptible de bloquer les deux.
+
+Construisez une première version concrète d’un élément réalisable à partir de ces données : dossier de production transférable, tableau de rapprochement, critères d’acceptation ou spécification d’adaptateur. Précisez entrées, sorties, sources faisant autorité et essai à effectuer. Signalez tout exemple inventé. Ne présentez pas un élément non testé comme validé.
+
+Expliquez ce que cette construction rend possible, qui peut l’utiliser, ce qui bloque encore la livraison et comment la comparer à la solution existante compétente. Conservez les conditions d’acceptation initiales. Renvoyez l’élément construit et un court plan de réalisation et d’essai avec responsables et inconnues.
+
+AI3 / L3–L4 — Rendre participation et trésorerie possibles
+
+Aidez-moi à concevoir et évaluer un service volontaire de continuité pour l’engagement joint. Traitez prix, coûts et disposition à acheter comme des hypothèses, sauf si une pièce fournie les établit.
+
+Engagement et voie proposée : [insérer].
+Participants et solutions de rechange crédibles : [insérer].
+Réservations, droits et conditions proposées : [insérer].
+Coûts complets, échéances, trésorerie non engagée et obligations : [insérer].
+
+Précisez qui achète le service, qui apporte chaque contribution, qui en bénéficie et pourquoi chaque participant pourrait préférer l’arrangement complet à sa solution de rechange. Repérez les preuves manquantes d’accord réel. Une case cochée ne vaut pas consentement; une machine libre ne vaut pas réservation.
+
+Établissez un compte du service dans une seule monnaie et un calendrier des encaissements/décaissements. Séparez la facture de la commande initiale du client. Comptez l’avance une seule fois dans le prix total. Distinguez contribution prévue, fonds disponibles avant paiement, recettes encaissées et capital de départ. Incluez capacité partagée, conditions d’échec/remboursement et obligations impayées.
+
+Concluez : étayé, échec ou non établi pour les conditions modélisées. En cas de blocage, proposez un arrangement révisé concret et les preuves qui permettraient de l’éprouver. N’inventez ni acheteur volontaire, ni financement, ni vente réelle.
+
+AI4 / L5–L7 — Contester l’affirmation et corriger la méthode
+
+Examinez le résultat de continuité proposé comme un vérificateur sceptique. Cherchez une affirmation importante non étayée ou un contre-exemple, puis aidez à corriger la méthode.
+
+Engagement initial figé et conditions d’essai : [insérer].
+Conclusion du producteur : [insérer].
+Dossiers sources, résultats produits, preuves de réception, engagements et historique des fonds : [insérer].
+
+Pour chaque conclusion importante, précisez les preuves requises, celles disponibles et toute contradiction ou lacune. Vérifiez le contenu et l’acceptation, pas uniquement des totaux, empreintes ou résumés favorables. Recherchez obligations modifiées, double réservation, argent tardif, devoirs impayés après échec et hypothèses communes au producteur et au vérificateur.
+
+Distinguez les verdicts sur résultat, faisabilité du service et preuves de marché. Décrivez précisément le cadre et l’indépendance. Une seconde réponse d’IA aide à contester; elle ne constitue pas une certification externe. Si vous ne pouvez pas examiner ou exécuter quelque chose, précisez ce qui reste non vérifié.
+
+Choisissez l’objection décisive. Proposez une correction concrète et un nouvel essai susceptible de la réfuter, avec résultats positifs et négatifs attendus. Conservez l’échec et ses coûts. Une branche réussie ne doit pas effacer l’échec ni utiliser son argent sans compte explicite. Renvoyez le tableau affirmation/preuve, l’objection, la correction et le verdict délimité.
+
+AI5 / L6–L8 — Tester un nouvel usage
+
+Aidez-moi à vérifier si une capacité conservée d’un cas de continuité facilite ou rend possible une autre tâche utile.
+
+Cas terminé, périmètre accepté, échecs et obligations non réglées : [insérer].
+Élément réutilisable, version, droits et limites vérifiées : [insérer].
+Nouveau destinataire/produit/délai envisagé : [insérer].
+Meilleure solution de rechange crédible : [insérer].
+
+Précisez ce qui change réellement dans la nouvelle tâche et fixez ses critères d’acceptation avant l’adaptation. Concevez une comparaison équitable avec et sans la capacité, donnant aux deux méthodes des informations, droits et ressources équivalents. Comptez acquisition, adaptation, intégration, vérification et fonctionnement.
+
+Construisez la plus petite adaptation utile à partir des éléments fournis. Précisez son essai. Mesurez résultats acceptés, travail total et coûts; relevez facteurs de confusion et incertitudes. En l’absence de comparaison, gardez l’avantage causal non établi.
+
+Distinguez connaissances acquises, moyens réutilisables, relations et argent réellement gagné et non engagé. Une marge prévue ne vaut pas trésorerie disponible; ne dépensez pas les fonds dus au cas précédent. Conservez les transferts échoués. Renvoyez la nouvelle tâche, l’adaptation concrète, le protocole comparatif, les preuves requises et la règle de décision. N’affirmez pas de bénéfice de la boucle cumulative avant que la comparaison l’étaye.

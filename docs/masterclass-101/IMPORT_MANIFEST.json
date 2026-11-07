@@ -1,0 +1,677 @@
+{
+  "schema_version": 1,
+  "edition": "1.0",
+  "date": "2026-11-07",
+  "payload_directory": "edition-1",
+  "file_count": 164,
+  "source_archive": {
+    "path": "CONTINUITY_OMEGA_MasterClass_101_Complete_Bilingual.zip.xz",
+    "root": "CONTINUITY_OMEGA_MasterClass_101/",
+    "bytes": 12923350,
+    "sha256": "c07b3256e8f5f07a953b98b8299efeae0f21fb85e511614910b9b29cece461b2",
+    "original_filename": "CONTINUITY_OMEGA_MasterClass_101_Complete_Bilingual.zip",
+    "stored_wrapper": {
+      "format": "xz",
+      "bytes": 10865144,
+      "sha256": "c6e2454192d32f86e275a80183c8824084e5dc463a261fcbefbbbf806a141af2"
+    }
+  },
+  "files": {
+    "01_English/AI_Prompts_EN.txt": {
+      "bytes": 7007,
+      "sha256": "9f4825f302519b327ca768862017c9847b4cf135463bea4c8f553af7daad7fca"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.docx": {
+      "bytes": 53797,
+      "sha256": "aa578d28ee4d92c5763fda19a5b0ad623ac677af9e37a056baff5e209badd621"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.pdf": {
+      "bytes": 110925,
+      "sha256": "3178deef8744be01806fad0e6a44ec53d5aaa485f58d055c09df5df360c2ef3e"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.docx": {
+      "bytes": 304071,
+      "sha256": "752b1918299530d3ab4bac90f400b3fa030071a4cced3b6c1dcc397f33cbad37"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.pdf": {
+      "bytes": 149971,
+      "sha256": "813bd8dbb314be8a8dfb5cdf54af8b459a995bfe15ab6c7737c5631d1a831596"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Quick_Reference_EN.pdf": {
+      "bytes": 69461,
+      "sha256": "de3cddd305d3d68645fc7c34e9c91724f6df8f9c685bed3bebdb0b91080269b8"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Slides_EN.pdf": {
+      "bytes": 347828,
+      "sha256": "a4ab6d1be2dda978f42a1150a51338b2774754e07b385da57e56f5e982d178d0"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Slides_EN.pptx": {
+      "bytes": 128649,
+      "sha256": "26d4c32c2bca5be090f5ffd0de737ad76943c64472488c4d98d74ab7bb5fd364"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.docx": {
+      "bytes": 50839,
+      "sha256": "163fde1026a6b44b38feae8ed88f15bf6840717578d3a1bc6266c16a3c0e71ca"
+    },
+    "01_English/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.pdf": {
+      "bytes": 208480,
+      "sha256": "81ae8f4797069b6ecd43beddfb8f5597fabc5c5bddb2a35e6a88ff7d35409ceb"
+    },
+    "02_Francais/AI_Prompts_FR.txt": {
+      "bytes": 7745,
+      "sha256": "51a7d48a4443607950212babee8f30aa70ab84d9bbb2306fb9c238f609c7dc48"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Aide_Memoire_FR.pdf": {
+      "bytes": 70622,
+      "sha256": "20ddf71a2feff56b89b5b57a23bbfdf86d556e9eef6c8d6d8cae5868dc351d76"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.docx": {
+      "bytes": 51577,
+      "sha256": "34e68b7b2811af7adfb846ba951be207a73e5a4df046c5bad43a09e522f82e18"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.pdf": {
+      "bytes": 213326,
+      "sha256": "a14099b628119dd20f2f34d639e62a96276bfd28ecb29b96f822b2272fca1d06"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Diapositives_FR.pdf": {
+      "bytes": 345489,
+      "sha256": "0ecf49a45afac26fdd4971577d62bef43086b554c8178b9c3c0ed2f0458bb9d6"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Diapositives_FR.pptx": {
+      "bytes": 130869,
+      "sha256": "b2cea5548e3ad39f2c95639295412229dadc5488c9290258d85603842c1a8bd7"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.docx": {
+      "bytes": 54207,
+      "sha256": "bfcc4d8233696f986f2a194d614b0cfdc3b5b95be1963e2d7bad58e2a084ed69"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.pdf": {
+      "bytes": 113957,
+      "sha256": "914b38e10540d5fea2f210499410c9c767f0532a40d355eb589d4fcae8f11270"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.docx": {
+      "bytes": 324939,
+      "sha256": "3111b4e0a00cf9a649742e81aad9d0a6ba7efdb11939da8a06912357abf63281"
+    },
+    "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.pdf": {
+      "bytes": 154865,
+      "sha256": "208c4e49abbb9f61ce049fc89874b7fa740bfdc778079098e6b1acdb41895ee4"
+    },
+    "03_Original_Papers/C1_CONTINUITY_OMEGA_Research_EN.pdf": {
+      "bytes": 363024,
+      "sha256": "dfaca5515877058ca215f8c778cdbd3699757f6a930eed5356b693feaf48ee11"
+    },
+    "03_Original_Papers/C2_CONTINUITE_OMEGA_Recherche_FR.pdf": {
+      "bytes": 379716,
+      "sha256": "f10bac5127839c37dcc1818a2662e7b2b194f7077e9dc4a297e080602c456b0c"
+    },
+    "03_Original_Papers/F1_Transformational_Intelligence.pdf": {
+      "bytes": 305040,
+      "sha256": "d7170e8217e3bf6aa1b84868c1c76c5994c6995c5297ed092d7e72a6430c664f"
+    },
+    "03_Original_Papers/F2_Invent_the_Economy.pdf": {
+      "bytes": 285994,
+      "sha256": "61e92a47b32cbca12b705094b982dddaca03b3dfe2b7f657bbf30eb8d56bba79"
+    },
+    "03_Original_Papers/F3_ALPHA_GENESIS_FLYWHEEL_OMEGA_v2.pdf": {
+      "bytes": 357362,
+      "sha256": "4bd6400c247b5fea0d336e2cba11e69890b0596e24ebd51931ada257fe78414f"
+    },
+    "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Aide_Memoire_FR.md": {
+      "bytes": 4603,
+      "sha256": "c2bced83fa641d1316481ebc1aafb38a5c36915fd7f6fae3c243f4b10bfca755"
+    },
+    "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.md": {
+      "bytes": 25080,
+      "sha256": "653ae09aef8201d18a0e850b13660c0e156c33a3b84f22d1f212855cf57dffa2"
+    },
+    "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.md": {
+      "bytes": 29307,
+      "sha256": "ee2417fada53ad68dc5e44bf5e949d0e9a3791200a6129896f636c3b75197667"
+    },
+    "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.md": {
+      "bytes": 53762,
+      "sha256": "9ca5efa9206cf0dbe89fd3c86b71b7036202024f3e74490c86ae4e809dfe46a5"
+    },
+    "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.md": {
+      "bytes": 27493,
+      "sha256": "df202cfdc60aed3d5cd610078dbe4cc198ef56ceef297153af2f1413fad977b7"
+    },
+    "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.md": {
+      "bytes": 49901,
+      "sha256": "fdaac92f88094c460b570243f4bd785e482aa3acc05dc56a0fe4b3febdd23ec6"
+    },
+    "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Quick_Reference_EN.md": {
+      "bytes": 4091,
+      "sha256": "3a7236eb9b84a3346c643c695c78f806080d142bc7ba90df8d7156ef539a5b1c"
+    },
+    "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.md": {
+      "bytes": 22895,
+      "sha256": "db8298b05edb15a0f828c1d98536ed15999f3ed78a6e73ef348450ff40ce4273"
+    },
+    "04_Editable_Sources/course_spec.json": {
+      "bytes": 6362,
+      "sha256": "9b0f1fdcabe1490788be7363c28477c00e7ce4f1cfbe70d5b9724a8aa9311f29"
+    },
+    "04_Editable_Sources/facilitator_en.json": {
+      "bytes": 42341,
+      "sha256": "d8e53364994f86ada673a4676805ba066fed9658cd71dbcb154ed9a607dd5bd0"
+    },
+    "04_Editable_Sources/facilitator_fr.json": {
+      "bytes": 44178,
+      "sha256": "81101ab8b460154f6c6cd9eac2dab5699c0ff1140901a725922987d1e7decd95"
+    },
+    "04_Editable_Sources/learner_en.json": {
+      "bytes": 71817,
+      "sha256": "e2d2c8ea1fbfdc653032435ad399b4ca30620bb1ccbb2afaf5de18fd7d649c3b"
+    },
+    "04_Editable_Sources/learner_fr.json": {
+      "bytes": 75641,
+      "sha256": "17efb31f2674086d1c004f519dc32ec6e8b274f8dd7582abb0b1a8ac7fb8ff52"
+    },
+    "04_Editable_Sources/prompts.json": {
+      "bytes": 14465,
+      "sha256": "0e0a320292826bb4e6f43a9f9810083120de8601461bf47aaf5d3d7fe8fd96fc"
+    },
+    "04_Editable_Sources/quick_reference_en.json": {
+      "bytes": 6449,
+      "sha256": "275faa1f1765ef656c9154b689bf056b4eab1798ffd2e9602fc8799dc6acf500"
+    },
+    "04_Editable_Sources/quick_reference_fr.json": {
+      "bytes": 6953,
+      "sha256": "5e7ce9eb5036c66e10790e024e8b1b249981298363fbc7e07bef7bf2773cfd02"
+    },
+    "04_Editable_Sources/quiz.json": {
+      "bytes": 16639,
+      "sha256": "4e34063fe3ff5c4e395ea722ebc2f2a8205996422def4961508f2a7e9ae91086"
+    },
+    "04_Editable_Sources/slides.json": {
+      "bytes": 76484,
+      "sha256": "ca9e6a70e570ee44d4bb7bf4813ed9d6feefe7daf98c2bfc83ec4058d25f563f"
+    },
+    "04_Editable_Sources/workbook_en.json": {
+      "bytes": 35951,
+      "sha256": "57ac2ec4bb32715090545e2414ddb20b366c882895140c95e4b0254f84edb33b"
+    },
+    "04_Editable_Sources/workbook_fr.json": {
+      "bytes": 38223,
+      "sha256": "4cf544b1992e7dc53a89b3fa7a5b6f7d5e537e1d02af7d8d7e50eb302695137b"
+    },
+    "05_Source_Evidence/audit.md": {
+      "bytes": 19011,
+      "sha256": "ec4298def82633c7d6068c67d151c266b8defa5b4a438dd103fdfc51029aa654"
+    },
+    "05_Source_Evidence/audit_metadata.json": {
+      "bytes": 708,
+      "sha256": "0dda2834eaf1cdfa3e398bc402dbcb07b350603c142145c248ea9bdb944856b0"
+    },
+    "05_Source_Evidence/build_sources.py": {
+      "bytes": 9532,
+      "sha256": "abe386560299d36523d56a8511327b6c4366fa1be5b986244b76da33e7c91e4a"
+    },
+    "05_Source_Evidence/guidance/nist_pdf_retrieval.json": {
+      "bytes": 38648,
+      "sha256": "7aaa822d65abedba0abd52e1e91b7afebea1cd60d37b45bf6720757a87ec8083"
+    },
+    "05_Source_Evidence/guidance/nist_relevant_sections.json": {
+      "bytes": 32749,
+      "sha256": "f6c777c74ce41130092ec7e4a8969b4d302e9e686a70430d8ed6c23efd1dc69f"
+    },
+    "05_Source_Evidence/guidance/official_pages.json": {
+      "bytes": 34287,
+      "sha256": "d578056b86c966375a8f1ba495a3a0fe9a0f0ca47927888d9e3c323f3735c3d9"
+    },
+    "05_Source_Evidence/guidance/search_results.json": {
+      "bytes": 30088,
+      "sha256": "b9a0c213983618eb374257b94db35932b5003f91ff11e51382cc46c8201488c5"
+    },
+    "05_Source_Evidence/repository/README.md": {
+      "bytes": 22150,
+      "sha256": "851678eaad7a324e68fce2dba19a55d986fe821915218aff20803e1cf8f12ae1"
+    },
+    "05_Source_Evidence/repository/continuity_economy__suite.py": {
+      "bytes": 14248,
+      "sha256": "0243538787725a393b2839be6d88b032cb641f041b347994390d27f09476060f"
+    },
+    "05_Source_Evidence/repository/docs__continuity-omega__REAL_PILOT.md": {
+      "bytes": 7513,
+      "sha256": "6ab62befa8ee2f9616d23679fd4c3680348faa22a3fc7f6b755f3a95f4eaeaa5"
+    },
+    "05_Source_Evidence/repository/docs__economy__AMENDMENTS.md": {
+      "bytes": 15444,
+      "sha256": "1c87ced7ba9415f2a461774044b352b78f18bf0c3a9498658150e4a0d8a719e1"
+    },
+    "05_Source_Evidence/repository/docs__economy__EXPERIMENT.md": {
+      "bytes": 6643,
+      "sha256": "f48aff159057e0c3e062c8379eee1ff4013844dd382cdc25ae8caf1f8b5ed228"
+    },
+    "05_Source_Evidence/repository/docs__economy__PRODUCT.md": {
+      "bytes": 10836,
+      "sha256": "8e3a5ce9647aee68e1cd08de11c1daa1d242e27ffece78cb7b52c795c50bdb58"
+    },
+    "05_Source_Evidence/repository/docs__economy__README.md": {
+      "bytes": 12372,
+      "sha256": "70181fb7f2e01f1970acdf33d55c9d72a8bce6b8d003cfae323d30fa13062b62"
+    },
+    "05_Source_Evidence/repository/docs__economy__REQUIREMENTS.md": {
+      "bytes": 10925,
+      "sha256": "f0a9a8e69c486ec1bcf717fbcf639ff29166d57f251c2564eb6386ebfed49614"
+    },
+    "05_Source_Evidence/repository/docs__economy__RESULTS.fr.md": {
+      "bytes": 44728,
+      "sha256": "f9dc04246b9a18742c1a4560734b349fede0144ca33155012a2c53dfc632e477"
+    },
+    "05_Source_Evidence/repository/docs__economy__RESULTS.md": {
+      "bytes": 38696,
+      "sha256": "ac778f85c2822215135956d6be0ca49330e73c86fdbb05b0a047495d6fad5965"
+    },
+    "05_Source_Evidence/repository/docs__economy__REVIEW_REPAIR.md": {
+      "bytes": 10813,
+      "sha256": "55c626702ea70cac9c513e23eeae4ee354bf1d6588bf49dbd3dff5c0afecb941"
+    },
+    "05_Source_Evidence/repository/docs__economy__SUCCESSOR.md": {
+      "bytes": 12412,
+      "sha256": "a8768d7a8951a462f0b104eee083acac047e3525af7ab62ac5afc077b00ca602"
+    },
+    "05_Source_Evidence/repository/docs__economy__THREAT_MODEL.md": {
+      "bytes": 11866,
+      "sha256": "afe49ea852f77e3c0e1b13a84a2871603ec6bace75b697dc6e620549cbb840d1"
+    },
+    "05_Source_Evidence/repository/docs__harness__REPAIR_NOTES.md": {
+      "bytes": 8201,
+      "sha256": "efd004af67fbe383562ac3b84189b35856a393923ba94b3b750e677da912dbd6"
+    },
+    "05_Source_Evidence/repository/docs__harness__RESULTS.md": {
+      "bytes": 31980,
+      "sha256": "5efe7d0ce832be675b1bc7f3371ef411fe88ff872e4b69dc382705fb2b5194d4"
+    },
+    "05_Source_Evidence/repository/docs__harness__VALIDATION_HISTORY.md": {
+      "bytes": 12332,
+      "sha256": "cd4075ef8e1518de15741137cac6e097ca030ef3a6e9c9a812bf389223c879d4"
+    },
+    "05_Source_Evidence/repository/evidence__economy-v0.2__README.md": {
+      "bytes": 10517,
+      "sha256": "4b67526f23d26f791c2557ab1300a2e5f3de2be6b35fe4a07e74b22488f97e5d"
+    },
+    "05_Source_Evidence/repository/evidence__economy-v0.2__qualification.json": {
+      "bytes": 17664,
+      "sha256": "44b75ac7da8456ad41c89a00a325ac13e2e5ec8f010462b07ed696ae27435c02"
+    },
+    "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__QUALIFICATION.json": {
+      "bytes": 19399,
+      "sha256": "94d53002b6c0da15fb57498bc9f39685ac64c6c861ef08cb9d3836793e57365b"
+    },
+    "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__REVIEW.json": {
+      "bytes": 1910,
+      "sha256": "76adfee6f1a48f98cbc64d79f6e2fb0342f20c6f74904c5bafb748e8935af803"
+    },
+    "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__final-audit__AUDIT.json": {
+      "bytes": 4400,
+      "sha256": "76d90242778879ebc4b877b76045b21a3767e6825e928e4434e5e4582fc41b21"
+    },
+    "05_Source_Evidence/repository/experiments__economy-v0.2__reuse-freeze.json": {
+      "bytes": 7535,
+      "sha256": "319c64e10f83f90f78b72e2c0d844030d7076afe6f7270db98b4cf81b6cdba13"
+    },
+    "05_Source_Evidence/repository_records.json": {
+      "bytes": 14628,
+      "sha256": "647764afa8a32cafe92750b69cae8521eb3586610632e47efb14c01ae8bd8ca2"
+    },
+    "05_Source_Evidence/sources.json": {
+      "bytes": 26317,
+      "sha256": "ec2b02d72bf4003f4399f1809d99f577bb2c8103f094ba1db60f5cd6be8b2a6d"
+    },
+    "05_Source_Evidence/status/FINAL_EVIDENCE_MERGE.json": {
+      "bytes": 109935,
+      "sha256": "a0841fc99456ded883d180016528a16b20bd90f795b34a70c5a5dfc758ee8199"
+    },
+    "05_Source_Evidence/status/MAIN_BRANCH.json": {
+      "bytes": 5624,
+      "sha256": "26456cdabdb8106c1d3aa1e479bc939533cdda79f0c24e0e284097144cdd28fe"
+    },
+    "05_Source_Evidence/status/MAIN_ECONOMY.log": {
+      "bytes": 628675,
+      "sha256": "e9e3c41325ca0f1fda499fa6bc6a1c181c4548a9cfd3aac2fff4d84c082abc63"
+    },
+    "05_Source_Evidence/status/MAIN_ECONOMY_JOBS.json": {
+      "bytes": 2879,
+      "sha256": "aab10889b6d94a37393b3eac13e9dfaec56e197d75d185555270fdfc36e88fef"
+    },
+    "05_Source_Evidence/status/MAIN_VALIDATION.log": {
+      "bytes": 110557,
+      "sha256": "406db1ebe96a67ff5e0bbc46c19397d3629e50f8baae21706ec5a579c950ce11"
+    },
+    "05_Source_Evidence/status/MAIN_VALIDATION_JOBS.json": {
+      "bytes": 2853,
+      "sha256": "1cb6d8d99dd7625dfb44ed0dacd09c2bc1895cfa5c5b4e6a34c27c0b96740154"
+    },
+    "05_Source_Evidence/status/MAIN_WORKFLOWS.json": {
+      "bytes": 39140,
+      "sha256": "556d775d3348e60d5baf76d97180ec01c3981a446a0b36c5e479cb32700195c3"
+    },
+    "05_Source_Evidence/status/PR3.json": {
+      "bytes": 26627,
+      "sha256": "4f04d8309790c14f8053fec51aff23b76344d50ab782cbfcd5efc1ad3112bfa5"
+    },
+    "05_Source_Evidence/status/REVIEW_REPAIR_COMMIT.json": {
+      "bytes": 24398,
+      "sha256": "bd90934ceee1bff55bb820cec3355f58cf62416751c510c790a01e65c63ed36f"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/audit.md": {
+      "bytes": 16547,
+      "sha256": "67cc4b0655aa25d69e163dd36fc58714e6a69864ad1bb883d1cd5b71e73efdfc"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/README.md": {
+      "bytes": 20994,
+      "sha256": "ff064a0ad58da4341601d3ff74ae9d9452dab890d6c94b84cc29334fb3f2bd36"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/continuity_economy__suite.py": {
+      "bytes": 14248,
+      "sha256": "0243538787725a393b2839be6d88b032cb641f041b347994390d27f09476060f"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__continuity-omega__REAL_PILOT.md": {
+      "bytes": 7513,
+      "sha256": "6ab62befa8ee2f9616d23679fd4c3680348faa22a3fc7f6b755f3a95f4eaeaa5"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__AMENDMENTS.md": {
+      "bytes": 15444,
+      "sha256": "1c87ced7ba9415f2a461774044b352b78f18bf0c3a9498658150e4a0d8a719e1"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__EXPERIMENT.md": {
+      "bytes": 6643,
+      "sha256": "f48aff159057e0c3e062c8379eee1ff4013844dd382cdc25ae8caf1f8b5ed228"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__PRODUCT.md": {
+      "bytes": 10836,
+      "sha256": "8e3a5ce9647aee68e1cd08de11c1daa1d242e27ffece78cb7b52c795c50bdb58"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__README.md": {
+      "bytes": 12372,
+      "sha256": "70181fb7f2e01f1970acdf33d55c9d72a8bce6b8d003cfae323d30fa13062b62"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__REQUIREMENTS.md": {
+      "bytes": 10925,
+      "sha256": "f0a9a8e69c486ec1bcf717fbcf639ff29166d57f251c2564eb6386ebfed49614"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__RESULTS.fr.md": {
+      "bytes": 44080,
+      "sha256": "361a62b69bb946be90d0164e476cbaffbb5335eb60022cf076525bf2934ff2c8"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__RESULTS.md": {
+      "bytes": 38131,
+      "sha256": "deb1d1f66cefbdafe31feae735cf80389e31cea18909f1d9c389127bcf2e64dc"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__SUCCESSOR.md": {
+      "bytes": 12412,
+      "sha256": "a8768d7a8951a462f0b104eee083acac047e3525af7ab62ac5afc077b00ca602"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__THREAT_MODEL.md": {
+      "bytes": 11866,
+      "sha256": "afe49ea852f77e3c0e1b13a84a2871603ec6bace75b697dc6e620549cbb840d1"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__REPAIR_NOTES.md": {
+      "bytes": 8201,
+      "sha256": "efd004af67fbe383562ac3b84189b35856a393923ba94b3b750e677da912dbd6"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__RESULTS.md": {
+      "bytes": 31980,
+      "sha256": "5efe7d0ce832be675b1bc7f3371ef411fe88ff872e4b69dc382705fb2b5194d4"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__VALIDATION_HISTORY.md": {
+      "bytes": 12332,
+      "sha256": "cd4075ef8e1518de15741137cac6e097ca030ef3a6e9c9a812bf389223c879d4"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__README.md": {
+      "bytes": 9322,
+      "sha256": "a175ffe338497ffdd37ccde57f1f32c0bd3f16572b47423e9aa360a9198909bc"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__qualification.json": {
+      "bytes": 17664,
+      "sha256": "44b75ac7da8456ad41c89a00a325ac13e2e5ec8f010462b07ed696ae27435c02"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__review-repair__REVIEW.json": {
+      "bytes": 1910,
+      "sha256": "76adfee6f1a48f98cbc64d79f6e2fb0342f20c6f74904c5bafb748e8935af803"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/experiments__economy-v0.2__reuse-freeze.json": {
+      "bytes": 7535,
+      "sha256": "319c64e10f83f90f78b72e2c0d844030d7076afe6f7270db98b4cf81b6cdba13"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository_records.json": {
+      "bytes": 12486,
+      "sha256": "d3adcc895f3b12dfb60dc0aae1b8e1372a58241d1b8e9ef3e12c16196f991864"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_BRANCH.json": {
+      "bytes": 5304,
+      "sha256": "0382327907446e251cfde7cc7cd10a67bc066af7daf01827c61f1395a62e1d4e"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_ECONOMY.log": {
+      "bytes": 628693,
+      "sha256": "963fd4f91e892646105c088509b1f2c6c633bd80c8dfc5ea423b1579a2dfe2c1"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_ECONOMY_JOBS.json": {
+      "bytes": 2879,
+      "sha256": "31e1e96e0b605f5c22504774e0703b143afcef3d9a02c3a977d5868237801b39"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_VALIDATION.log": {
+      "bytes": 110557,
+      "sha256": "2e62a0d5d0159053e6f8edbd03b4b1246cd509976f3279a91d178dfb6f1d56d0"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_VALIDATION_JOBS.json": {
+      "bytes": 2853,
+      "sha256": "e46c655abf13e40a7ad1a7e512ffb9f7479581040b99be2e9cfb9df6df5c32b4"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_WORKFLOWS.json": {
+      "bytes": 38638,
+      "sha256": "5ff0302779bb1543ed8b1b5e565b87ef6f78cddf4ac6a539012057358c64dd56"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/PR3.json": {
+      "bytes": 26627,
+      "sha256": "4f04d8309790c14f8053fec51aff23b76344d50ab782cbfcd5efc1ad3112bfa5"
+    },
+    "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/REVIEW_REPAIR_COMMIT.json": {
+      "bytes": 24398,
+      "sha256": "bd90934ceee1bff55bb820cec3355f58cf62416751c510c790a01e65c63ed36f"
+    },
+    "06_Visuals/cash_timing_en.pdf": {
+      "bytes": 43788,
+      "sha256": "4389b72d1fedea31c7aec45b384578d6d4d3fff43403e3b5b6dfed68c65f3778"
+    },
+    "06_Visuals/cash_timing_en.png": {
+      "bytes": 44825,
+      "sha256": "26cdf8746668c9a522d3e3bdf4cef03dda761accd1f5f8a7ad22cc7f4515053b"
+    },
+    "06_Visuals/cash_timing_en.svg": {
+      "bytes": 3906,
+      "sha256": "8d3c8bb2486b83ef7e6fe1f11576534fe6f2037978a195be6d93ccf56438d4f3"
+    },
+    "06_Visuals/cash_timing_fr.pdf": {
+      "bytes": 44039,
+      "sha256": "f3b36924bba35d1f14e4eb5a1cf1ed0ef305133e63145bc4531e806bd94e3acb"
+    },
+    "06_Visuals/cash_timing_fr.png": {
+      "bytes": 48530,
+      "sha256": "f13149613fdc542c4fc472c85c4672bebb64220bddd9d5ef0239692c0a3b06b4"
+    },
+    "06_Visuals/cash_timing_fr.svg": {
+      "bytes": 4390,
+      "sha256": "d02b92c11f5ee75ca0f9c3d94fff8d7f0ff75189c72810467b26d72fc25be356"
+    },
+    "06_Visuals/dependency_map_en.pdf": {
+      "bytes": 44786,
+      "sha256": "33dfaabe09a3e8439844c965f3dd1fb8d0a66d8af3ee7e7b32b1978aef6bfee7"
+    },
+    "06_Visuals/dependency_map_en.png": {
+      "bytes": 45773,
+      "sha256": "12a6ddba859e67d6d0ee5efde82ff69951cdcd59e7dce19787e815b936b80212"
+    },
+    "06_Visuals/dependency_map_en.svg": {
+      "bytes": 10369,
+      "sha256": "685035089a801dbf92eab3037ffa5af1a0f481a4e223cf340465898b9e1b32e3"
+    },
+    "06_Visuals/dependency_map_fr.pdf": {
+      "bytes": 45038,
+      "sha256": "380e3c242e17234670a9162f24823524189cb6ebba675def5830dcf86c697786"
+    },
+    "06_Visuals/dependency_map_fr.png": {
+      "bytes": 46961,
+      "sha256": "2ff58020e45b910725936fc5524820041caf41c5c90d8a2290c1b14fa2c19b8d"
+    },
+    "06_Visuals/dependency_map_fr.svg": {
+      "bytes": 10911,
+      "sha256": "f9061aadafd03203dd7d2525d826f7cca3886c0844a29e9ca52a418fe2bd6f95"
+    },
+    "06_Visuals/evidence_ladder_en.pdf": {
+      "bytes": 44541,
+      "sha256": "e9833a8a274dff8398904baf6b972142f4809e8899259f4718c58abb3e042342"
+    },
+    "06_Visuals/evidence_ladder_en.png": {
+      "bytes": 57603,
+      "sha256": "b7ebcc21c132e6872daa3332bc9490dd14ca6001c6422a1c9bdfb546e098cd01"
+    },
+    "06_Visuals/evidence_ladder_en.svg": {
+      "bytes": 8432,
+      "sha256": "11523c331fb0dbb7c54253f21ce2aef6af84456bcfdb2e67d76e1d42dc3c54f7"
+    },
+    "06_Visuals/evidence_ladder_fr.pdf": {
+      "bytes": 44805,
+      "sha256": "d3839e122815e5a66440d46ce32b52fedaa6092fb37203382be3257751cac44e"
+    },
+    "06_Visuals/evidence_ladder_fr.png": {
+      "bytes": 59089,
+      "sha256": "bd8a8eae691e3c1d833070477984bccab6297301f69f1575378b84a6866834c9"
+    },
+    "06_Visuals/evidence_ladder_fr.svg": {
+      "bytes": 8829,
+      "sha256": "421987efc4f8500b264988a52a78c5293d31171a0e066a135656b10228bf2903"
+    },
+    "06_Visuals/market_arrangement_en.pdf": {
+      "bytes": 44840,
+      "sha256": "15d70e7e4d38416ee09a8d2813c141f6de53619230bbe7be5e38f5b78d4670d4"
+    },
+    "06_Visuals/market_arrangement_en.png": {
+      "bytes": 57936,
+      "sha256": "2d3d0c49d0f518ee675690524ef990b20f2bb4187cf01ff34354a972525fcca5"
+    },
+    "06_Visuals/market_arrangement_en.svg": {
+      "bytes": 9988,
+      "sha256": "c47215a05a5c6227ee3584f3472fac4007883e989bbac4d398aa14e1750f28c0"
+    },
+    "06_Visuals/market_arrangement_fr.pdf": {
+      "bytes": 45116,
+      "sha256": "6dc915a733f9873242fe24f337256cf23cbaa25719fdf3b5e4594c135c071a7f"
+    },
+    "06_Visuals/market_arrangement_fr.png": {
+      "bytes": 61693,
+      "sha256": "9f478634f09efbe4a88538a6b51c30e5330b5dbd6967cffd266dd0ddc3fc699b"
+    },
+    "06_Visuals/market_arrangement_fr.svg": {
+      "bytes": 10642,
+      "sha256": "58ffa432ee8334c9a64eb64ba0bf146393c6e063fdad5498dc3c007f03c20f1f"
+    },
+    "06_Visuals/promise_routes_en.pdf": {
+      "bytes": 44674,
+      "sha256": "c30b2242577cb59dcbfd0d70bc8949b898431a2cf2d1c0bc085c9c37efb2c64b"
+    },
+    "06_Visuals/promise_routes_en.png": {
+      "bytes": 55837,
+      "sha256": "15219df7553e6f05654321228024bd3234c439ee7bdfdcf02f8f53f873873e49"
+    },
+    "06_Visuals/promise_routes_en.svg": {
+      "bytes": 8062,
+      "sha256": "f0f314cba0fc7040e3a469141715638b9591c607ba3932eb6292ba8efcf0e0e7"
+    },
+    "06_Visuals/promise_routes_fr.pdf": {
+      "bytes": 44974,
+      "sha256": "4e4793b50625e9b9d25299bab4b3cd7703aa7b5757b3094ee5106b09209172c0"
+    },
+    "06_Visuals/promise_routes_fr.png": {
+      "bytes": 57306,
+      "sha256": "50fae2f85567779a0c9eac80450d0548822d9d9ab66cb8b380095d067eb3cee9"
+    },
+    "06_Visuals/promise_routes_fr.svg": {
+      "bytes": 8349,
+      "sha256": "10aed7efe429531e13f58d99d7bf3631fd4566691931241f2e3ff061371804e8"
+    },
+    "06_Visuals/successor_loop_en.pdf": {
+      "bytes": 44645,
+      "sha256": "25fa223aa124b7e03ec013f5e590ba8261f1d6bc5d15190c0819d159e7aa5509"
+    },
+    "06_Visuals/successor_loop_en.png": {
+      "bytes": 67138,
+      "sha256": "05e109df2576abe5dacc213d1ab1f26a0f94fc50f46bf7d4789bbeb988f1c4ef"
+    },
+    "06_Visuals/successor_loop_en.svg": {
+      "bytes": 8892,
+      "sha256": "c45cb2f35bc89a680b7beb226c1e123ec4e057e6c44038167b5866a87ca207ff"
+    },
+    "06_Visuals/successor_loop_fr.pdf": {
+      "bytes": 44941,
+      "sha256": "23220bce56f598799012ce2d4a2c956e643d1d63b5b21d599a70017161271f59"
+    },
+    "06_Visuals/successor_loop_fr.png": {
+      "bytes": 71385,
+      "sha256": "4344fa599271c1194fa173cc71af3daffeaa891880da9be889ca1a38d19af499"
+    },
+    "06_Visuals/successor_loop_fr.svg": {
+      "bytes": 9073,
+      "sha256": "9aa822679a4846c16b9017155f67933703035e789575aed434cdbe8fe300af79"
+    },
+    "06_Visuals/verification_loop_en.pdf": {
+      "bytes": 44918,
+      "sha256": "13d0a4930fa4bcaadd012a5ac8102bd7eca6ea164959c70e04510596b7287eec"
+    },
+    "06_Visuals/verification_loop_en.png": {
+      "bytes": 57674,
+      "sha256": "f7f8fa4f9500211afa83ef2957ef2997dfb53ae8cf679e7851d022d1d7ddf694"
+    },
+    "06_Visuals/verification_loop_en.svg": {
+      "bytes": 9917,
+      "sha256": "28e7653b6563789153eb917f57eab683fe7cd5928c9481c6ceb5a34dcfc27168"
+    },
+    "06_Visuals/verification_loop_fr.pdf": {
+      "bytes": 45351,
+      "sha256": "1d795c93dc09e69730d6ddec28a136053aa9a750508a6d3c69ac625dbe854a5e"
+    },
+    "06_Visuals/verification_loop_fr.png": {
+      "bytes": 63795,
+      "sha256": "48791b08d11cee32e4c916c2f1746f688bda96da58b23a6b36ee48f7b43d5e26"
+    },
+    "06_Visuals/verification_loop_fr.svg": {
+      "bytes": 10395,
+      "sha256": "2828079b9a612f8ba9dd61dbc1714dcdebf73db72ba1d3bbc66f36159a17dacf"
+    },
+    "CONTINUITE_OMEGA_Masterclass_101_Cours_Complet_FR.pdf": {
+      "bytes": 3882940,
+      "sha256": "e069243c866c3175ac98c222a573df5f6905057c950e28827ef7bfa18a033427"
+    },
+    "CONTINUITY_OMEGA_MasterClass_101_Complete_Course_EN.pdf": {
+      "bytes": 3843522,
+      "sha256": "e58bae1b4f75a9446f5d5e23a40a587858eb64e160f030da6ed55f971208eaac"
+    },
+    "CONTINUITY_OMEGA_MasterClass_101_Preview.png": {
+      "bytes": 310681,
+      "sha256": "c46ffda68c8799287d05a4efceca1ba06c972222d7e03648e964d95141c4a000"
+    },
+    "PACKAGE_INDEX.json": {
+      "bytes": 20126,
+      "sha256": "5af560f8164336d1bf1af3c6ff825af3e962ae5b41b68467141bd8f4806071f8"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 20216,
+      "sha256": "fe9ca02d25ae42b31ab3bc9bdb28f6c344fb8f346b6a7d13fdb8f466a2b94030"
+    },
+    "SOURCE_REGISTER.json": {
+      "bytes": 27992,
+      "sha256": "95f48332dd39884069428017499d53957ee4a77d9e8876443ca04a4d7e51def2"
+    },
+    "START_HERE.html": {
+      "bytes": 344722,
+      "sha256": "d9db5525982eff5a7d985777aada4662977b911a8f6edba89686ae5d5f042bd6"
+    },
+    "START_HERE.txt": {
+      "bytes": 5841,
+      "sha256": "2b4fd884632151530f1c3a21d7a2ce56bf3b18476ca5fecc5fe9537d7c98be3b"
+    }
+  }
+}

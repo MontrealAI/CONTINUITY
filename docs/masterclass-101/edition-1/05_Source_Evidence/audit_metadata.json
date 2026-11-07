@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-11-07T02:37:50.689308+00:00",
+  "current_main": "56aa3e0ca995cdbbfe46165f0e68edf7c10004dc",
+  "main_merge_at_utc": "2026-11-07T02:29:24Z",
+  "pr3_merge_at_utc": "2026-11-07T02:07:52Z",
+  "retrieval_tools": [
+    "github_fetch",
+    "github_fetch_file",
+    "github_fetch_workflow_job_logs",
+    "official web search/open"
+  ],
+  "repository_snapshot_count": 22,
+  "all_blob_identities_verified": true,
+  "local_repository_tests_executed": false,
+  "archives_downloaded_or_extracted_for_this_audit": false,
+  "prior_observation_preserved_under": "versions/175cbff2016ad0648853f176ff1ce68e622a3d31",
+  "scope": "Source audit, not fresh reproduction or third-party certification"
+}

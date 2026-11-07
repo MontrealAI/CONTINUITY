@@ -1,0 +1,734 @@
+{
+  "title": "CONTINUITY Ω MasterClass 101",
+  "edition": "1.0",
+  "date": "2026-11-07",
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "duration_minutes": 180,
+  "includes_break_minutes": 10,
+  "repository_pin": "56aa3e0ca995cdbbfe46165f0e68edf7c10004dc",
+  "complete_courses": [
+    {
+      "lang": "en",
+      "path": "CONTINUITY_OMEGA_MasterClass_101_Complete_Course_EN.pdf",
+      "pages": 73,
+      "ranges": [
+        {
+          "kind": "learner",
+          "label": "Learner guide",
+          "purpose": "Eight lessons with worked examples, feedback and a progressive case.",
+          "start": 3,
+          "end": 35
+        },
+        {
+          "kind": "workbook",
+          "label": "Workbook",
+          "purpose": "Complete the promise card, ledgers, comparison and staged capstone.",
+          "start": 36,
+          "end": 52
+        },
+        {
+          "kind": "facilitator",
+          "label": "Facilitator guide and answers",
+          "purpose": "Teach the 180-minute session; use worked answers and a formative rubric.",
+          "start": 53,
+          "end": 71
+        },
+        {
+          "kind": "quick_reference",
+          "label": "Quick reference",
+          "purpose": "Keep the core questions and evidence distinctions at hand.",
+          "start": 72,
+          "end": 73
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "path": "CONTINUITE_OMEGA_Masterclass_101_Cours_Complet_FR.pdf",
+      "pages": 73,
+      "ranges": [
+        {
+          "kind": "learner",
+          "label": "Guide de l’apprenant",
+          "purpose": "Huit leçons avec exemples, rétroaction et cas progressif.",
+          "start": 3,
+          "end": 35
+        },
+        {
+          "kind": "workbook",
+          "label": "Cahier d’exercices",
+          "purpose": "Remplir la fiche de promesse, les registres, la comparaison et le cas final.",
+          "start": 36,
+          "end": 52
+        },
+        {
+          "kind": "facilitator",
+          "label": "Animation et corrigés",
+          "purpose": "Animer la séance de 180 minutes avec corrigés et grille formative.",
+          "start": 53,
+          "end": 71
+        },
+        {
+          "kind": "quick_reference",
+          "label": "Aide-mémoire",
+          "purpose": "Garder les questions clés et les distinctions de preuve à portée de main.",
+          "start": 72,
+          "end": 73
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "01_English/AI_Prompts_EN.txt",
+      "bytes": 7007
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.docx",
+      "bytes": 53797
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.pdf",
+      "bytes": 110925
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.docx",
+      "bytes": 304071
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.pdf",
+      "bytes": 149971
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Quick_Reference_EN.pdf",
+      "bytes": 69461
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Slides_EN.pdf",
+      "bytes": 347828
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Slides_EN.pptx",
+      "bytes": 128649
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.docx",
+      "bytes": 50839
+    },
+    {
+      "path": "01_English/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.pdf",
+      "bytes": 208480
+    },
+    {
+      "path": "02_Francais/AI_Prompts_FR.txt",
+      "bytes": 7745
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Aide_Memoire_FR.pdf",
+      "bytes": 70622
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.docx",
+      "bytes": 51577
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.pdf",
+      "bytes": 213326
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Diapositives_FR.pdf",
+      "bytes": 345489
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Diapositives_FR.pptx",
+      "bytes": 130869
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.docx",
+      "bytes": 54207
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.pdf",
+      "bytes": 113957
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.docx",
+      "bytes": 324939
+    },
+    {
+      "path": "02_Francais/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.pdf",
+      "bytes": 154865
+    },
+    {
+      "path": "03_Original_Papers/C1_CONTINUITY_OMEGA_Research_EN.pdf",
+      "bytes": 363024
+    },
+    {
+      "path": "03_Original_Papers/C2_CONTINUITE_OMEGA_Recherche_FR.pdf",
+      "bytes": 379716
+    },
+    {
+      "path": "03_Original_Papers/F1_Transformational_Intelligence.pdf",
+      "bytes": 305040
+    },
+    {
+      "path": "03_Original_Papers/F2_Invent_the_Economy.pdf",
+      "bytes": 285994
+    },
+    {
+      "path": "03_Original_Papers/F3_ALPHA_GENESIS_FLYWHEEL_OMEGA_v2.pdf",
+      "bytes": 357362
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Aide_Memoire_FR.md",
+      "bytes": 4603
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Cahier_Exercices_FR.md",
+      "bytes": 25080
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Guide_Animation_FR.md",
+      "bytes": 29307
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITE_OMEGA_Masterclass_101_Guide_Apprenant_FR.md",
+      "bytes": 53762
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Facilitator_Guide_EN.md",
+      "bytes": 27493
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Learner_Guide_EN.md",
+      "bytes": 49901
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Quick_Reference_EN.md",
+      "bytes": 4091
+    },
+    {
+      "path": "04_Editable_Sources/CONTINUITY_OMEGA_MasterClass_101_Workbook_EN.md",
+      "bytes": 22895
+    },
+    {
+      "path": "04_Editable_Sources/course_spec.json",
+      "bytes": 6362
+    },
+    {
+      "path": "04_Editable_Sources/facilitator_en.json",
+      "bytes": 42341
+    },
+    {
+      "path": "04_Editable_Sources/facilitator_fr.json",
+      "bytes": 44178
+    },
+    {
+      "path": "04_Editable_Sources/learner_en.json",
+      "bytes": 71817
+    },
+    {
+      "path": "04_Editable_Sources/learner_fr.json",
+      "bytes": 75641
+    },
+    {
+      "path": "04_Editable_Sources/prompts.json",
+      "bytes": 14465
+    },
+    {
+      "path": "04_Editable_Sources/quick_reference_en.json",
+      "bytes": 6449
+    },
+    {
+      "path": "04_Editable_Sources/quick_reference_fr.json",
+      "bytes": 6953
+    },
+    {
+      "path": "04_Editable_Sources/quiz.json",
+      "bytes": 16639
+    },
+    {
+      "path": "04_Editable_Sources/slides.json",
+      "bytes": 76484
+    },
+    {
+      "path": "04_Editable_Sources/workbook_en.json",
+      "bytes": 35951
+    },
+    {
+      "path": "04_Editable_Sources/workbook_fr.json",
+      "bytes": 38223
+    },
+    {
+      "path": "05_Source_Evidence/audit.md",
+      "bytes": 19011
+    },
+    {
+      "path": "05_Source_Evidence/audit_metadata.json",
+      "bytes": 708
+    },
+    {
+      "path": "05_Source_Evidence/build_sources.py",
+      "bytes": 9532
+    },
+    {
+      "path": "05_Source_Evidence/guidance/nist_pdf_retrieval.json",
+      "bytes": 38648
+    },
+    {
+      "path": "05_Source_Evidence/guidance/nist_relevant_sections.json",
+      "bytes": 32749
+    },
+    {
+      "path": "05_Source_Evidence/guidance/official_pages.json",
+      "bytes": 34287
+    },
+    {
+      "path": "05_Source_Evidence/guidance/search_results.json",
+      "bytes": 30088
+    },
+    {
+      "path": "05_Source_Evidence/repository/README.md",
+      "bytes": 22150
+    },
+    {
+      "path": "05_Source_Evidence/repository/continuity_economy__suite.py",
+      "bytes": 14248
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__continuity-omega__REAL_PILOT.md",
+      "bytes": 7513
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__AMENDMENTS.md",
+      "bytes": 15444
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__EXPERIMENT.md",
+      "bytes": 6643
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__PRODUCT.md",
+      "bytes": 10836
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__README.md",
+      "bytes": 12372
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__REQUIREMENTS.md",
+      "bytes": 10925
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__RESULTS.fr.md",
+      "bytes": 44728
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__RESULTS.md",
+      "bytes": 38696
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__REVIEW_REPAIR.md",
+      "bytes": 10813
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__SUCCESSOR.md",
+      "bytes": 12412
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__economy__THREAT_MODEL.md",
+      "bytes": 11866
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__harness__REPAIR_NOTES.md",
+      "bytes": 8201
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__harness__RESULTS.md",
+      "bytes": 31980
+    },
+    {
+      "path": "05_Source_Evidence/repository/docs__harness__VALIDATION_HISTORY.md",
+      "bytes": 12332
+    },
+    {
+      "path": "05_Source_Evidence/repository/evidence__economy-v0.2__README.md",
+      "bytes": 10517
+    },
+    {
+      "path": "05_Source_Evidence/repository/evidence__economy-v0.2__qualification.json",
+      "bytes": 17664
+    },
+    {
+      "path": "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__QUALIFICATION.json",
+      "bytes": 19399
+    },
+    {
+      "path": "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__REVIEW.json",
+      "bytes": 1910
+    },
+    {
+      "path": "05_Source_Evidence/repository/evidence__economy-v0.2__review-repair__final-audit__AUDIT.json",
+      "bytes": 4400
+    },
+    {
+      "path": "05_Source_Evidence/repository/experiments__economy-v0.2__reuse-freeze.json",
+      "bytes": 7535
+    },
+    {
+      "path": "05_Source_Evidence/repository_records.json",
+      "bytes": 14628
+    },
+    {
+      "path": "05_Source_Evidence/sources.json",
+      "bytes": 26317
+    },
+    {
+      "path": "05_Source_Evidence/status/FINAL_EVIDENCE_MERGE.json",
+      "bytes": 109935
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_BRANCH.json",
+      "bytes": 5624
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_ECONOMY.log",
+      "bytes": 628675
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_ECONOMY_JOBS.json",
+      "bytes": 2879
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_VALIDATION.log",
+      "bytes": 110557
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_VALIDATION_JOBS.json",
+      "bytes": 2853
+    },
+    {
+      "path": "05_Source_Evidence/status/MAIN_WORKFLOWS.json",
+      "bytes": 39140
+    },
+    {
+      "path": "05_Source_Evidence/status/PR3.json",
+      "bytes": 26627
+    },
+    {
+      "path": "05_Source_Evidence/status/REVIEW_REPAIR_COMMIT.json",
+      "bytes": 24398
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/audit.md",
+      "bytes": 16547
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/README.md",
+      "bytes": 20994
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/continuity_economy__suite.py",
+      "bytes": 14248
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__continuity-omega__REAL_PILOT.md",
+      "bytes": 7513
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__AMENDMENTS.md",
+      "bytes": 15444
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__EXPERIMENT.md",
+      "bytes": 6643
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__PRODUCT.md",
+      "bytes": 10836
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__README.md",
+      "bytes": 12372
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__REQUIREMENTS.md",
+      "bytes": 10925
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__RESULTS.fr.md",
+      "bytes": 44080
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__RESULTS.md",
+      "bytes": 38131
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__SUCCESSOR.md",
+      "bytes": 12412
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__economy__THREAT_MODEL.md",
+      "bytes": 11866
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__REPAIR_NOTES.md",
+      "bytes": 8201
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__RESULTS.md",
+      "bytes": 31980
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/docs__harness__VALIDATION_HISTORY.md",
+      "bytes": 12332
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__README.md",
+      "bytes": 9322
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__qualification.json",
+      "bytes": 17664
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/evidence__economy-v0.2__review-repair__REVIEW.json",
+      "bytes": 1910
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository/experiments__economy-v0.2__reuse-freeze.json",
+      "bytes": 7535
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/repository_records.json",
+      "bytes": 12486
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_BRANCH.json",
+      "bytes": 5304
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_ECONOMY.log",
+      "bytes": 628693
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_ECONOMY_JOBS.json",
+      "bytes": 2879
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_VALIDATION.log",
+      "bytes": 110557
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_VALIDATION_JOBS.json",
+      "bytes": 2853
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/MAIN_WORKFLOWS.json",
+      "bytes": 38638
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/PR3.json",
+      "bytes": 26627
+    },
+    {
+      "path": "05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31/status/REVIEW_REPAIR_COMMIT.json",
+      "bytes": 24398
+    },
+    {
+      "path": "06_Visuals/cash_timing_en.pdf",
+      "bytes": 43788
+    },
+    {
+      "path": "06_Visuals/cash_timing_en.png",
+      "bytes": 44825
+    },
+    {
+      "path": "06_Visuals/cash_timing_en.svg",
+      "bytes": 3906
+    },
+    {
+      "path": "06_Visuals/cash_timing_fr.pdf",
+      "bytes": 44039
+    },
+    {
+      "path": "06_Visuals/cash_timing_fr.png",
+      "bytes": 48530
+    },
+    {
+      "path": "06_Visuals/cash_timing_fr.svg",
+      "bytes": 4390
+    },
+    {
+      "path": "06_Visuals/dependency_map_en.pdf",
+      "bytes": 44786
+    },
+    {
+      "path": "06_Visuals/dependency_map_en.png",
+      "bytes": 45773
+    },
+    {
+      "path": "06_Visuals/dependency_map_en.svg",
+      "bytes": 10369
+    },
+    {
+      "path": "06_Visuals/dependency_map_fr.pdf",
+      "bytes": 45038
+    },
+    {
+      "path": "06_Visuals/dependency_map_fr.png",
+      "bytes": 46961
+    },
+    {
+      "path": "06_Visuals/dependency_map_fr.svg",
+      "bytes": 10911
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_en.pdf",
+      "bytes": 44541
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_en.png",
+      "bytes": 57603
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_en.svg",
+      "bytes": 8432
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_fr.pdf",
+      "bytes": 44805
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_fr.png",
+      "bytes": 59089
+    },
+    {
+      "path": "06_Visuals/evidence_ladder_fr.svg",
+      "bytes": 8829
+    },
+    {
+      "path": "06_Visuals/market_arrangement_en.pdf",
+      "bytes": 44840
+    },
+    {
+      "path": "06_Visuals/market_arrangement_en.png",
+      "bytes": 57936
+    },
+    {
+      "path": "06_Visuals/market_arrangement_en.svg",
+      "bytes": 9988
+    },
+    {
+      "path": "06_Visuals/market_arrangement_fr.pdf",
+      "bytes": 45116
+    },
+    {
+      "path": "06_Visuals/market_arrangement_fr.png",
+      "bytes": 61693
+    },
+    {
+      "path": "06_Visuals/market_arrangement_fr.svg",
+      "bytes": 10642
+    },
+    {
+      "path": "06_Visuals/promise_routes_en.pdf",
+      "bytes": 44674
+    },
+    {
+      "path": "06_Visuals/promise_routes_en.png",
+      "bytes": 55837
+    },
+    {
+      "path": "06_Visuals/promise_routes_en.svg",
+      "bytes": 8062
+    },
+    {
+      "path": "06_Visuals/promise_routes_fr.pdf",
+      "bytes": 44974
+    },
+    {
+      "path": "06_Visuals/promise_routes_fr.png",
+      "bytes": 57306
+    },
+    {
+      "path": "06_Visuals/promise_routes_fr.svg",
+      "bytes": 8349
+    },
+    {
+      "path": "06_Visuals/successor_loop_en.pdf",
+      "bytes": 44645
+    },
+    {
+      "path": "06_Visuals/successor_loop_en.png",
+      "bytes": 67138
+    },
+    {
+      "path": "06_Visuals/successor_loop_en.svg",
+      "bytes": 8892
+    },
+    {
+      "path": "06_Visuals/successor_loop_fr.pdf",
+      "bytes": 44941
+    },
+    {
+      "path": "06_Visuals/successor_loop_fr.png",
+      "bytes": 71385
+    },
+    {
+      "path": "06_Visuals/successor_loop_fr.svg",
+      "bytes": 9073
+    },
+    {
+      "path": "06_Visuals/verification_loop_en.pdf",
+      "bytes": 44918
+    },
+    {
+      "path": "06_Visuals/verification_loop_en.png",
+      "bytes": 57674
+    },
+    {
+      "path": "06_Visuals/verification_loop_en.svg",
+      "bytes": 9917
+    },
+    {
+      "path": "06_Visuals/verification_loop_fr.pdf",
+      "bytes": 45351
+    },
+    {
+      "path": "06_Visuals/verification_loop_fr.png",
+      "bytes": 63795
+    },
+    {
+      "path": "06_Visuals/verification_loop_fr.svg",
+      "bytes": 10395
+    },
+    {
+      "path": "CONTINUITE_OMEGA_Masterclass_101_Cours_Complet_FR.pdf",
+      "bytes": 3882940
+    },
+    {
+      "path": "CONTINUITY_OMEGA_MasterClass_101_Complete_Course_EN.pdf",
+      "bytes": 3843522
+    },
+    {
+      "path": "CONTINUITY_OMEGA_MasterClass_101_Preview.png",
+      "bytes": 310681
+    },
+    {
+      "path": "SOURCE_REGISTER.json",
+      "bytes": 27992
+    },
+    {
+      "path": "START_HERE.html",
+      "bytes": 344722
+    },
+    {
+      "path": "START_HERE.txt",
+      "bytes": 5841
+    }
+  ]
+}

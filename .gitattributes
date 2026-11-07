@@ -1,0 +1,12 @@
+# Preserve supplied archives and payload bytes, including original whitespace.
+/docs/collection/edition-2/** -text -whitespace
+/docs/masterclass-101/edition-1/** -text -whitespace
+/docs/collection/*.zip binary
+/docs/masterclass-101/*.zip binary
+/docs/masterclass-101/edition-1/**/*.pptx binary
+/docs/masterclass-101/edition-1/**/*.docx binary
+/docs/masterclass-101/edition-1/**/*.pdf binary
+/docs/masterclass-101/edition-1/**/*.png binary
+/docs/masterclass-101/edition-1/*.pdf binary
+/docs/masterclass-101/edition-1/*.png binary
+/docs/masterclass-101/*.xz binary

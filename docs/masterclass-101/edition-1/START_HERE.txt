@@ -1,0 +1,90 @@
+CONTINUITY Ω MASTERCLASS 101
+Complete bilingual course / Formation complète bilingue
+Course edition / Édition pédagogique 1.0 — 7 November / novembre 2026
+
+START IN TWO MINUTES
+1. Extract the entire ZIP, keeping its folders together.
+2. Open START_HERE.html in a browser for the bilingual offline course, exercises,
+   feedback, AI prompts and cash exercise. No installation or account is needed.
+3. Or open the complete English PDF for a continuous reading edition.
+4. Write your answers in the separate fillable workbook PDF, editable Word file,
+   or offline reader. Save a copy of the PDF in a form-capable reader.
+5. The facilitator guide contains worked answers: attempt each exercise first.
+
+The suggested live session is 180 minutes, including a 10-minute break. Self-study
+may take longer and can be split into shorter sessions. The 12 quiz questions are
+distributed through the lessons; keep Q09 until the K5 capstone reveal.
+
+USING THE OFFLINE NOTEBOOK
+The reader needs JavaScript and uses browser storage when available. It sends no
+answers anywhere. Export your answers as JSON to keep a portable copy. Importing
+replaces the current notebook. Language switching does not translate answers.
+If browser storage or clipboard access is blocked for local files, use Export
+answers and copy the prompt text manually. PDF, Word and PowerPoint remain usable
+without the reader. The reader's print button prints the current view only.
+
+POUR COMMENCER EN DEUX MINUTES
+1. Extrayez toute l’archive ZIP en conservant les dossiers ensemble.
+2. Ouvrez START_HERE.html dans un navigateur : cours bilingue hors ligne, exercices,
+   rétroaction, prompts et exercice de trésorerie. Aucun compte ni installation.
+3. Ou ouvrez le PDF français complet pour une lecture continue.
+4. Répondez dans le cahier PDF remplissable séparé, le fichier Word modifiable ou
+   le lecteur hors ligne. Enregistrez une copie du PDF dans un lecteur compatible.
+5. Le guide d’animation contient les corrigés : essayez d’abord chaque exercice.
+
+La séance proposée dure 180 minutes, dont une pause de 10 minutes. L’étude autonome
+peut prendre plus de temps et se répartir en séances. Les 12 questions jalonnent
+les leçons; conservez Q09 pour après la révélation de K5.
+
+LE CARNET HORS LIGNE
+Le lecteur utilise JavaScript et, si possible, le stockage du navigateur. Il
+n’envoie aucune réponse. Exportez vos réponses en JSON pour garder une copie.
+L’importation remplace le carnet actuel. Le changement de langue ne traduit pas
+vos réponses. Si le stockage ou le presse-papiers est bloqué, exportez le carnet
+et copiez les prompts manuellement. Les PDF, Word et PowerPoint restent autonomes.
+Le bouton d’impression imprime uniquement la vue affichée.
+
+WHAT IS WHERE / OÙ TROUVER QUOI
+01_English              Learner guide, workbook, facilitator guide, quick reference,
+                        teaching slides and AI prompt kit.
+02_Francais             Guide, cahier, animation, aide-mémoire, diapositives et prompts.
+03_Original_Papers      Five supplied research papers, unchanged.
+                        Cinq articles de recherche fournis, sans modification.
+04_Editable_Sources     Bilingual authored content, quiz, prompts, slide script and spec.
+                        Contenu bilingue, questionnaire, prompts, trame et spécification.
+05_Source_Evidence      Pinned repository texts, source audit and public retrieval records.
+                        Sources du dépôt figées, audit et traces publiques.
+06_Visuals              Bilingual diagrams in PDF, SVG and PNG.
+                        Schémas bilingues en PDF, SVG et PNG.
+SOURCE_REGISTER.json   Citation keys and source locations / Références et chemins.
+PACKAGE_INDEX.json     File inventory / Inventaire des fichiers.
+SHA256SUMS.txt         Integrity checksums / Empreintes de contrôle.
+
+HOW TO TEACH IT / POUR ANIMER
+Use the separate 24-slide deck, its speaker notes, the facilitator guide and one
+workbook per participant. Release case cards K0–K6 at the planned moments. Teach
+the failed R1 attempt and the separate simulated R2 branch as distinct records.
+Utilisez les 24 diapositives, les notes, le guide d’animation et un cahier par
+personne. Révélez K0–K6 aux moments prévus. Distinguez l’échec R1 de la branche
+simulée R2, qui ne répare ni ne finance la tentative précédente.
+
+EDITION AND EVIDENCE / ÉDITION ET PREUVES
+The classroom companies, prices, receipts and events are fictional. The quiz and
+rubric are formative, unvalidated learning tools, not resilience certification.
+The repository discussion is pinned to 56aa3e0ca995cdbbfe46165f0e68edf7c10004dc.
+This course reports no new operational experiment. It preserves the scope and
+unfavorable observations of the source records. See the source audit for detail.
+Les entreprises, prix, reçus et événements du cas sont fictifs. Le questionnaire
+et la grille sont formatifs et non validés; ils ne certifient aucune résilience.
+Les sources du dépôt sont figées à la révision ci-dessus. Ce cours ne rapporte
+aucun nouvel essai opérationnel et conserve les résultats défavorables publiés.
+
+ADAPTING THE COURSE / ADAPTER LE COURS
+Use the editable Word and PowerPoint files and retain the cited sources. The
+original papers retain their authorship and terms; inclusion here grants no new
+rights. A real exercise needs its own promise, participants, permissions, complete
+cost scope and acceptance evidence. Keep assumptions visibly separate from facts.
+Utilisez les fichiers Word et PowerPoint modifiables et conservez les sources.
+Les articles originaux gardent leur auteur et leurs conditions; leur inclusion
+n’accorde aucun droit nouveau. Un exercice réel exige sa propre promesse, ses
+participants, autorisations, coûts complets et preuves d’acceptation.

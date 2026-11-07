@@ -1,0 +1,225 @@
+{
+  "edition": "2",
+  "date": "2026-11-07",
+  "volumes": [
+    {
+      "volume": "01",
+      "lang": "en",
+      "title": "Keep the promise",
+      "subtitle": "A clear introduction to CONTINUITY Ω",
+      "pdf": "01_English/01_CONTINUITY_OMEGA_Executive_Brief_EN.pdf",
+      "pages": 6,
+      "docx": "01_English/01_CONTINUITY_OMEGA_Executive_Brief_EN.docx"
+    },
+    {
+      "volume": "01",
+      "lang": "fr",
+      "title": "Tenir parole",
+      "subtitle": "Une introduction claire à CONTINUITÉ Ω",
+      "pdf": "02_Francais/01_CONTINUITE_OMEGA_Synthese_FR.pdf",
+      "pages": 6,
+      "docx": "02_Francais/01_CONTINUITE_OMEGA_Synthese_FR.docx"
+    },
+    {
+      "volume": "02",
+      "lang": "en",
+      "title": "The story and the method",
+      "subtitle": "From a disrupted order to a viable way to deliver",
+      "pdf": "01_English/02_CONTINUITY_OMEGA_Complete_Guide_EN.pdf",
+      "pages": 13,
+      "docx": "01_English/02_CONTINUITY_OMEGA_Complete_Guide_EN.docx"
+    },
+    {
+      "volume": "02",
+      "lang": "fr",
+      "title": "L’histoire et la méthode",
+      "subtitle": "De la commande interrompue à une solution de livraison viable",
+      "pdf": "02_Francais/02_CONTINUITE_OMEGA_Guide_FR.pdf",
+      "pages": 13,
+      "docx": "02_Francais/02_CONTINUITE_OMEGA_Guide_FR.docx"
+    },
+    {
+      "volume": "03",
+      "lang": "en",
+      "title": "Make the pilot real",
+      "subtitle": "One promise. A usable route. A result someone can accept.",
+      "pdf": "01_English/03_CONTINUITY_OMEGA_Pilot_Playbook_EN.pdf",
+      "pages": 10,
+      "docx": "01_English/03_CONTINUITY_OMEGA_Pilot_Playbook_EN.docx"
+    },
+    {
+      "volume": "03",
+      "lang": "fr",
+      "title": "Réaliser le pilote",
+      "subtitle": "Une promesse. Une voie utilisable. Un résultat acceptable.",
+      "pdf": "02_Francais/03_CONTINUITE_OMEGA_Guide_Pilote_FR.pdf",
+      "pages": 10,
+      "docx": "02_Francais/03_CONTINUITE_OMEGA_Guide_Pilote_FR.docx"
+    },
+    {
+      "volume": "04",
+      "lang": "en",
+      "title": "Your pilot workbook",
+      "subtitle": "Turn assumptions into agreements, observations and decisions",
+      "pdf": "01_English/04_CONTINUITY_OMEGA_Field_Templates_EN.pdf",
+      "pages": 12,
+      "docx": "01_English/04_CONTINUITY_OMEGA_Field_Templates_EN.docx"
+    },
+    {
+      "volume": "04",
+      "lang": "fr",
+      "title": "Cahier du pilote",
+      "subtitle": "Transformer les hypothèses en accords, observations et décisions",
+      "pdf": "02_Francais/04_CONTINUITE_OMEGA_Fiches_Pratiques_FR.pdf",
+      "pages": 12,
+      "docx": "02_Francais/04_CONTINUITE_OMEGA_Fiches_Pratiques_FR.docx"
+    },
+    {
+      "volume": "05",
+      "lang": "en",
+      "title": "Evidence you can check",
+      "subtitle": "Understand the results, challenge the claim and see what proof comes next",
+      "pdf": "01_English/05_CONTINUITY_OMEGA_Evidence_Dossier_EN.pdf",
+      "pages": 10,
+      "docx": "01_English/05_CONTINUITY_OMEGA_Evidence_Dossier_EN.docx"
+    },
+    {
+      "volume": "05",
+      "lang": "fr",
+      "title": "Des preuves vérifiables",
+      "subtitle": "Comprendre les résultats, éprouver l’affirmation et savoir quelle preuve établir ensuite",
+      "pdf": "02_Francais/05_CONTINUITE_OMEGA_Dossier_Preuve_FR.pdf",
+      "pages": 10,
+      "docx": "02_Francais/05_CONTINUITE_OMEGA_Dossier_Preuve_FR.docx"
+    }
+  ],
+  "complete_editions": [
+    {
+      "lang": "en",
+      "path": "CONTINUITY_OMEGA_Complete_Collection_EN.pdf",
+      "pages": 48,
+      "volume_ranges": [
+        {
+          "volume": "01",
+          "start": 3,
+          "end": 7,
+          "rect": [
+            54,
+            516,
+            558,
+            591
+          ]
+        },
+        {
+          "volume": "02",
+          "start": 8,
+          "end": 19,
+          "rect": [
+            54,
+            427,
+            558,
+            502
+          ]
+        },
+        {
+          "volume": "03",
+          "start": 20,
+          "end": 28,
+          "rect": [
+            54,
+            338,
+            558,
+            413
+          ]
+        },
+        {
+          "volume": "04",
+          "start": 29,
+          "end": 39,
+          "rect": [
+            54,
+            249,
+            558,
+            324
+          ]
+        },
+        {
+          "volume": "05",
+          "start": 40,
+          "end": 48,
+          "rect": [
+            54,
+            160,
+            558,
+            235
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "fr",
+      "path": "CONTINUITE_OMEGA_Collection_Complete_FR.pdf",
+      "pages": 48,
+      "volume_ranges": [
+        {
+          "volume": "01",
+          "start": 3,
+          "end": 7,
+          "rect": [
+            54,
+            516,
+            558,
+            591
+          ]
+        },
+        {
+          "volume": "02",
+          "start": 8,
+          "end": 19,
+          "rect": [
+            54,
+            427,
+            558,
+            502
+          ]
+        },
+        {
+          "volume": "03",
+          "start": 20,
+          "end": 28,
+          "rect": [
+            54,
+            338,
+            558,
+            413
+          ]
+        },
+        {
+          "volume": "04",
+          "start": 29,
+          "end": 39,
+          "rect": [
+            54,
+            249,
+            558,
+            324
+          ]
+        },
+        {
+          "volume": "05",
+          "start": 40,
+          "end": 48,
+          "rect": [
+            54,
+            160,
+            558,
+            235
+          ]
+        }
+      ]
+    }
+  ],
+  "source_commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+  "forms": "fillable separate PDF workbooks and editable Word documents",
+  "original_papers": "unchanged, in their original languages"
+}

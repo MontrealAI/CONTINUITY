@@ -1,0 +1,162 @@
+{
+  "C1": {
+    "kind": "supplied_paper",
+    "author": "Vincent Boucher",
+    "title": "CONTINUITY Ω",
+    "edition": "Research edition 1.1.1",
+    "date": "6 November 2026",
+    "original_filename": "CONTINUITY_OMEGA (1) copy.pdf",
+    "archive_path": "03_Original_Papers/C1_CONTINUITY_OMEGA_Research_EN.pdf",
+    "sha256": "dfaca5515877058ca215f8c778cdbd3699757f6a930eed5356b693feaf48ee11"
+  },
+  "C2": {
+    "kind": "supplied_paper",
+    "author": "Vincent Boucher",
+    "title": "CONTINUITÉ Ω",
+    "edition": "Édition de recherche 1.1.1",
+    "date": "6 novembre 2026",
+    "original_filename": "CONTINUITY_OMEGA_FR(1).pdf",
+    "archive_path": "03_Original_Papers/C2_CONTINUITE_OMEGA_Recherche_FR.pdf",
+    "sha256": "f10bac5127839c37dcc1818a2662e7b2b194f7077e9dc4a297e080602c456b0c"
+  },
+  "F1": {
+    "kind": "supplied_paper",
+    "author": "Vincent Boucher",
+    "title": "Transformational Intelligence",
+    "edition": "Learning to Change the Game",
+    "date": "October 2026",
+    "original_filename": "Transformational_Intelligence(3).pdf",
+    "archive_path": "03_Original_Papers/F1_Transformational_Intelligence.pdf",
+    "sha256": "d7170e8217e3bf6aa1b84868c1c76c5994c6995c5297ed092d7e72a6430c664f"
+  },
+  "F2": {
+    "kind": "supplied_paper",
+    "author": "Vincent Boucher",
+    "title": "Invent the Economy",
+    "edition": "Transformational Intelligence for Creating Viable Markets",
+    "date": "October 2026",
+    "original_filename": "Invent_the_Economy(3).pdf",
+    "archive_path": "03_Original_Papers/F2_Invent_the_Economy.pdf",
+    "sha256": "61e92a47b32cbca12b705094b982dddaca03b3dfe2b7f657bbf30eb8d56bba79"
+  },
+  "F3": {
+    "kind": "supplied_paper",
+    "author": "Vincent Boucher",
+    "title": "ALPHA GENESIS FLYWHEEL Ω",
+    "edition": "Research edition 2.0",
+    "date": "4 November 2026",
+    "original_filename": "ALPHA_GENESIS_FLYWHEEL_OMEGA_v2(3).pdf",
+    "archive_path": "03_Original_Papers/F3_ALPHA_GENESIS_FLYWHEEL_OMEGA_v2.pdf",
+    "sha256": "4bd6400c247b5fea0d336e2cba11e69890b0596e24ebd51931ada257fe78414f"
+  },
+  "R1": {
+    "kind": "repository_document",
+    "title_en": "Repository overview",
+    "title_fr": "Présentation du dépôt",
+    "path": "README.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/README.md"
+  },
+  "R2": {
+    "kind": "repository_document",
+    "title_en": "Harness guide",
+    "title_fr": "Guide du banc d’essai",
+    "path": "docs/harness/README.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/README.md"
+  },
+  "R3": {
+    "kind": "repository_document",
+    "title_en": "Executed qualification results",
+    "title_fr": "Résultats de qualification exécutée",
+    "path": "docs/harness/RESULTS.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/RESULTS.md"
+  },
+  "R4": {
+    "kind": "repository_document",
+    "title_en": "Threat model and trust limits",
+    "title_fr": "Modèle de menace et limites de confiance",
+    "path": "docs/harness/THREAT_MODEL.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/THREAT_MODEL.md"
+  },
+  "R5": {
+    "kind": "repository_document",
+    "title_en": "Route and queue repairs",
+    "title_fr": "Corrections des voies et des files",
+    "path": "docs/harness/REPAIR_NOTES.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/REPAIR_NOTES.md"
+  },
+  "R6": {
+    "kind": "repository_document",
+    "title_en": "Proposed real pilot",
+    "title_fr": "Pilote réel proposé",
+    "path": "docs/continuity-omega/REAL_PILOT.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/continuity-omega/REAL_PILOT.md"
+  },
+  "R7": {
+    "kind": "repository_document",
+    "title_en": "Historical prototype guide",
+    "title_fr": "Guide du prototype historique",
+    "path": "docs/continuity-omega/README.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/continuity-omega/README.md"
+  },
+  "R8": {
+    "kind": "repository_document",
+    "title_en": "Registered comparison protocol",
+    "title_fr": "Protocole comparatif préenregistré",
+    "path": "docs/harness/EXPERIMENT.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/EXPERIMENT.md"
+  },
+  "R9": {
+    "kind": "repository_document",
+    "title_en": "Validation history",
+    "title_fr": "Historique de validation",
+    "path": "docs/harness/VALIDATION_HISTORY.md",
+    "commit": "396227d8da2f55f674f479de16089c7ce28ef290",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/396227d8da2f55f674f479de16089c7ce28ef290/docs/harness/VALIDATION_HISTORY.md"
+  },
+  "N1": {
+    "kind": "external_guidance",
+    "title": "NIST SP 800-184",
+    "subtitle": "Guide for Cybersecurity Event Recovery",
+    "date": "December 2016",
+    "url": "https://csrc.nist.gov/pubs/sp/800/184/final",
+    "note": "Guidance precedent, not endorsement or certification."
+  },
+  "N2": {
+    "kind": "external_guidance",
+    "title": "NIST SP 800-34 Rev. 1",
+    "subtitle": "Contingency Planning Guide for Federal Information Systems",
+    "date": "May 2010, updated November 2010",
+    "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final",
+    "note": "Guidance precedent, not endorsement or certification."
+  },
+  "R10": {
+    "kind": "repository_document",
+    "title_en": "Pull request 3 — open, unmerged review status",
+    "title_fr": "Demande de fusion 3 — ouverte, non fusionnée",
+    "path": "pull/3; status snapshot observed 2026-11-07 01:36:28 UTC",
+    "commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "url": "https://github.com/MontrealAI/CONTINUITY/pull/3",
+    "observed_utc": "2026-11-07T01:36:28Z",
+    "publication_status": "OPEN_UNMERGED_REVIEW_BRANCH",
+    "snapshot_path": "pending/R10_PR3_status.json"
+  },
+  "R11": {
+    "kind": "repository_document",
+    "title_en": "Pending v0.2 experiment guide — review branch",
+    "title_fr": "Guide de l’expérience v0.2 — branche en revue",
+    "path": "docs/economy/README.md",
+    "commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "url": "https://github.com/MontrealAI/CONTINUITY/blob/f9e56c7dd9627b322406e05c53b4f6537d434262/docs/economy/README.md",
+    "observed_utc": "2026-11-07T01:36:28Z",
+    "publication_status": "OPEN_UNMERGED_REVIEW_BRANCH",
+    "snapshot_path": "pending/R11_docs__economy__README.md"
+  }
+}

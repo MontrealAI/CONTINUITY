@@ -1,0 +1,37 @@
+{
+  "schema": "continuity-economy/review-evidence/v1",
+  "pull_request": "https://github.com/MontrealAI/CONTINUITY/pull/3",
+  "reviewed_commit": "46c2e0b2123cb56f24dd956b2dbfb79a7f7fbecd",
+  "review_threads": [
+    {
+      "id": "PRRT_kwDOVle4SM60vApE",
+      "is_resolved": false,
+      "is_outdated": false,
+      "path": "continuity_economy/suite.py",
+      "line": 158,
+      "diff_side": "RIGHT",
+      "start_line": 156,
+      "start_diff_side": "RIGHT",
+      "original_line": 158,
+      "original_start_line": 156,
+      "resolved_by": null,
+      "comments": [
+        {
+          "id": "PRRC_kwDOVle4SM8AAAABDCWQGw",
+          "database_id": 4498755611,
+          "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Bind experiment members to their required suite types**\n\nWhen an experiment index points its members at the wrong suites, this branch checks only the member names and their individual pass statuses, not their required kind or cohort. I reproduced a fresh `PASSED` experiment by pointing `base`, `successor`, and `challenges` at the same passing base `demo` directory: no conventional/outside/AI comparison cells, successor runs, or challenges were required. Validate that the members resolve to a base comparison, a successor comparison, and the registered challenge suite respectively before accepting complete-experiment coverage.\n\nUseful? React with 👍 / 👎.\n\n<!-- codex-code-review-finding:v1 -->",
+          "created_at": "2026-11-06T23:35:29Z",
+          "updated_at": "2026-11-06T23:35:29Z",
+          "author": {
+            "login": "chatgpt-codex-connector",
+            "name": "chatgpt-codex-connector",
+            "email": null,
+            "avatar_url": "https://avatars.githubusercontent.com/in/1144995?v=4",
+            "id": null
+          },
+          "viewer_did_author": false
+        }
+      ]
+    }
+  ]
+}

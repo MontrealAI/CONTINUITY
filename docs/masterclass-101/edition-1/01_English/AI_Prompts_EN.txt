@@ -1,0 +1,78 @@
+CONTINUITY Ω MASTERCLASS 101 — AI PROMPT KIT
+Course edition / Édition pédagogique 1.0 · 7 November / novembre 2026
+
+Replace placeholders with scoped, authorized information. Check every output. An AI response is not evidence of permission, delivery, demand or successful verification.
+
+AI1 / L1 — Define an exact customer promise
+
+Help me prepare a continuity promise card using only the records I provide.
+
+My case: [describe the customer commitment and disruption].
+Authoritative records: [paste permitted, relevant extracts and their dates/versions].
+Known acceptance authority: [name/role, or unknown].
+
+First distinguish what the records establish, what conflicts, and what is missing. Do not infer a quantity, amendment, permission or customer approval from a convenient assumption.
+
+Produce a draft with the recipient, output/specification version, quantity, quality/tolerances, delivery location, exact deadline/time zone, permitted substitutions or partial delivery, and acceptance authority. Cite the input record behind every material field. Mark unsupported fields NOT ESTABLISHED.
+
+List the smallest set of questions that would resolve the consequential gaps. Explain which candidate changes would require a new, explicitly accepted promise version. A changed promise must not retroactively turn the original failure into success.
+
+Return the card, conflicts, missing facts and the next evidence to obtain. This draft does not establish anyone’s consent.
+
+AI2 / L2 — Construct the missing capability
+
+Act as a practical continuity designer. Preserve the attached authoritative promise while exploring different ways to fulfill it.
+
+Promise card: [insert].
+Available means and constraints: [records, people, tools, permissions, materials, capacity, timing and funding].
+Existing recovery/backup option: [describe accurately].
+
+Map the complete route to accepted output. Identify the decisive missing capability, rather than assuming every necessary tool or agreement already exists. Consider an adapted existing solution and a genuinely constructed alternative. Name any common dependency that could disable both.
+
+Build a concrete first version of one missing artifact that can be produced from these inputs: for example a transferable production packet, a reconciliation table, an acceptance checklist or an adapter specification. Include its inputs, outputs, authoritative sources and an explicit test. Label any invented illustration. Do not describe an unexecuted artifact as tested.
+
+Explain what this construction makes possible, who could use it, what still blocks delivery, and how to compare it with the capable existing option. Keep the original acceptance conditions intact. Return the artifact and a short construction/test plan with owners and unresolved facts.
+
+AI3 / L3–L4 — Make participation and cash workable
+
+Help me design and evaluate a voluntary continuity service for the attached promise. Treat every proposed price, cost and willingness estimate as an assumption unless a supplied record establishes it.
+
+Promise and candidate route: [insert].
+Participants and credible outside alternatives: [insert].
+Capacity reservations, permissions and proposed terms: [insert].
+Complete cost items, payment dates, available uncommitted cash and liabilities: [insert].
+
+Show who buys the continuity service, who provides each contribution, who benefits, and why each participant might accept the complete arrangement compared with their alternative. Identify the missing evidence of actual agreement. Do not treat a checkbox as consent or idle equipment as a reservation.
+
+Create a single-currency service ledger and a time-ordered cash schedule. Keep the original customer order invoice separate. Count an advance once as part of the total fee. Separate projected contribution from cash available before payment, collected revenue and starting capital. Include shared capacity, failure/refund terms and unpaid duties.
+
+Give a supported, failed or not-established conclusion for the stated modeled conditions. If blocked, propose a concrete revised arrangement and the evidence that would test it. Do not invent a willing buyer, financing source or actual sale.
+
+AI4 / L5–L7 — Challenge the claim and repair the method
+
+Review the proposed continuity result as a skeptical checker. Your goal is to find a consequential unsupported claim or counterexample and help repair it.
+
+Original frozen promise and test conditions: [insert].
+Producer’s conclusion: [insert].
+Source records, actual outputs, receiving evidence, commitments and cash history: [insert].
+
+For each material conclusion, name the evidence required, the evidence actually available, and any contradiction or missing link. Check actual content and acceptance, not merely matching counts, hashes or a favorable summary. Look for altered obligations, double-booked capacity, delayed money, unpaid failure duties and shared assumptions between producer and checker.
+
+Keep separate verdicts for outcome, service feasibility and market evidence. State the setting and independence precisely. A separate AI answer is a challenge, not an external certification. If you cannot inspect or execute something, say what remains unverified.
+
+Choose the most decisive objection. Propose a concrete repair and a fresh test that could falsify it, with expected positive and negative results. Preserve the failed attempt and its costs. Do not let a new successful branch overwrite the old failure or borrow its money without an explicit ledger. Return the claim/evidence table, decisive objection, repair and scoped verdict.
+
+AI5 / L6–L8 — Test a different next use
+
+Help me test whether a capability retained from one continuity case makes a different useful task easier or newly possible.
+
+Completed case, accepted scope, failures and unsettled obligations: [insert].
+Reusable artifact, version, rights and verified limits: [insert].
+Proposed new recipient/product/deadline: [insert].
+Best credible alternative for the new task: [insert].
+
+Specify what is genuinely different about the new task and freeze its acceptance criteria before adapting the artifact. Design a fair with/without comparison that gives both approaches equivalent source information, permissions and resources. Include acquisition, adaptation, integration, verification and operating costs.
+
+Construct the smallest useful adaptation you can from the supplied material. State how it will be tested. Measure accepted results, total work and cost; identify confounders and uncertainty. If comparison data are missing, keep the causal benefit not established.
+
+Separate learned knowledge, reusable machinery, relationships and actually earned uncommitted money. Do not count projected margin as cash or spend funds committed to the earlier case. Preserve failed transfers. Return the new task, concrete adaptation, comparison protocol, evidence needed and decision rule. Do not claim a flywheel benefit before the comparison supports it.

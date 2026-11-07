@@ -1,0 +1,68 @@
+{
+  "edition": "1.0",
+  "date": "2026-11-07",
+  "title_en": "CONTINUITY Ω MasterClass 101",
+  "title_fr": "CONTINUITÉ Ω Masterclass 101",
+  "audience": "Nontechnical business owners, founders, operations managers and facilitators; no coding prerequisite",
+  "duration_minutes": 180,
+  "duration_note": "Suggested live teaching time, including a ten minute break; self-study pace varies",
+  "schedule": [
+    {"id":"O","minutes":10,"topic":"Orientation and baseline question"},
+    {"id":"L1","minutes":15,"topic":"Define the customer promise"},
+    {"id":"L2","minutes":20,"topic":"Construct the missing means"},
+    {"id":"L3","minutes":20,"topic":"Make a voluntary arrangement workable"},
+    {"id":"L4","minutes":20,"topic":"Account for complete costs and cash timing"},
+    {"id":"B","minutes":10,"topic":"Break"},
+    {"id":"L5","minutes":20,"topic":"Verify the outcome and the scope of the claim"},
+    {"id":"L6","minutes":15,"topic":"Compare capable alternatives"},
+    {"id":"L7","minutes":35,"topic":"Complete the tabletop capstone"},
+    {"id":"L8","minutes":15,"topic":"Retain a capability and test a different next use"}
+  ],
+  "case": {
+    "status":"Entirely fictional teaching case; every case document and event is simulated",
+    "promise":"10000 approved packaging labels, artwork v3, received and accepted by the named customer authority at the agreed Montreal warehouse by 2026-11-12 16:00 America/Toronto; no short shipment or quality substitution is authorized",
+    "starting_record":8000,
+    "approved_amendment":2000,
+    "total_alternate_capacity":12000,
+    "protected_existing_work":2000,
+    "available_capacity":10000,
+    "competing_request":5000,
+    "currency":"CAD",
+    "service_buyer":"Primary printer",
+    "service_seller":"Continuity coordinator",
+    "service_fee":5600,
+    "complete_modeled_cost":5000,
+    "projected_contribution":600,
+    "preacceptance_outflows":4700,
+    "postacceptance_outflow":300,
+    "starting_uncommitted_cash":1200,
+    "initial_funding_gap":3500,
+    "funded_extension":{"buyer_advance_received":3500,"balance_received_after_acceptance":2100,"advance_is_part_of_total_fee":true,"ending_cash_after_all_costs":1800},
+    "cost_rows":[
+      {"label":"Alternate production","cost":3200,"paid":"before acceptance"},
+      {"label":"Prepared and checked production packet","cost":550,"paid":"before acceptance"},
+      {"label":"Transport","cost":400,"paid":"before acceptance"},
+      {"label":"Coordination including the case overhead allocation","cost":350,"paid":"before acceptance"},
+      {"label":"Readiness test charge","cost":200,"paid":"before acceptance"},
+      {"label":"Final inspection","cost":300,"paid":"after acceptance"}
+    ],
+    "cash_notes":"The original customer's invoice is outside the continuity service ledger. The advance is neither extra revenue nor a grant. The 1800 ending cash includes 1200 starting money. This exercise assumes the listed cost scope is complete, amounts are on one consistent basis, and no other cash obligations exist; a real pilot must establish its own complete ledger and timing. The 3500 advance must actually be received and available before the modeled outflows, with agreed failure/refund terms. Do not invent a liability-free advance.",
+    "capstone":"Staged tabletop evidence: unfunded initial plan; authoritative order amendment and permissions; funded and consented route; mock receipt accepts 9800, so the original 10000-label outcome fails. A clearly separate optional rerun packet may supply a new mock receipt accepting 10000 within conditions. Preserve the earlier failure. Every conclusion stays limited to the tabletop; actual physical delivery and a real market remain not established. The funding-success arithmetic is explicitly conditional on full acceptance and receipt of the 2100 balance. Failure/refund and unpaid obligations must remain visible in the failed run."
+  },
+  "authoring_schema": {
+    "root":{"document":"learner|workbook|facilitator|quick_reference","lang":"en|fr","title":"short descriptive title","subtitle":"reader purpose","sources":["C1","C2","F1","F2","F3","R1","N1"],"pages":[]},
+    "page":{"id":"stable lowercase ID, same across languages","lesson":"O|L1|...|L8|REF","kicker":"short section label","title":"short descriptive heading","blocks":[]},
+    "blocks":[
+      {"type":"p","text":"Connected prose; **bold** allowed; source refs [C1, pp. 7–8] where relevant"},
+      {"type":"heading","text":"Short subsection heading"},
+      {"type":"bullets","items":["Genuinely parallel items only"]},
+      {"type":"numbered","items":["Sequential actions"]},
+      {"type":"table","headers":["Column","Column"],"rows":[["Value","Value"]],"widths":[0.4,0.6]},
+      {"type":"callout","label":"Worked example or Practice or Feedback","text":"Presented as plain bold lead-in in Word and restrained typography in PDF"},
+      {"type":"field","label":"A direct question","prompt":"What a useful answer contains","lines":3},
+      {"type":"figure","name":"promise_routes|market_arrangement|verification_loop|evidence_ladder|cash_timing|successor_loop","caption":"Explain what the visual establishes"}
+    ],
+    "layout":"One authored page becomes one PDF page and one Word page unless explicitly split after review. Body area about 500–550 points. Target 180–260 words per normal page, fewer with a diagram or fields; maximum 320. Cover/navigation/source pages added by root, so do not duplicate. Avoid table cells with long essays. 3-column tables need very concise labels. Keep titles under about 60 characters where practical. Never claim a live operational experiment occurred in course creation."
+  },
+  "deliverables":{"learner":"Approximately 28–32 authored pages before packaging","workbook":"Approximately 16 authored pages; genuine fillable PDF plus editable Word","facilitator":"Approximately 16–18 authored pages including worked answers, session script, rubric and quiz answer key","quiz":"12 bilingual objective questions, meaningful distractors and clear explanations; unvalidated learning check, not business certification","slides":"About 24 teaching slides in each language with speaker notes, companion PDF, exact case tables and source citations","reader":"Offline bilingual full-content HTML reader with search, progress and quiz; no external services or secrets"}
+}
