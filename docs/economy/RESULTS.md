@@ -2,6 +2,8 @@
 
 [Français](RESULTS.fr.md) · [Setup and commands](README.md) · [Registered experiment](EXPERIMENT.md) · [Amendments](AMENDMENTS.md) · [Requirements and tests](REQUIREMENTS.md)
 
+**Subsequent qualification:** This report retains the original experiments and their source chronology. A later aggregate-coverage defect, its repair, new positive checks and an unresolved local evidence-finalization failure are documented in [the post-review record](REVIEW_REPAIR.md). The original frozen successor is not reclassified as an unchanged execution of the later repaired verifier. Publication statements below describe the original handoff; [pull request #3](https://github.com/MontrealAI/CONTINUITY/pull/3) records the subsequent integration state.
+
 **The first registered experiment demonstrated accepted digital completion through primary recovery, an ordinary backup and an eligible alternative arrangement. It did not establish an advantage over the competent conventional method.** Both active methods obtained the same outcomes and modeled prices in all seven base comparisons. A separately funded technical control completed the digital product despite a rejected purchase. The capacity and uncertain-value controls correctly left obligations unfulfilled. These are distinct observations, not one success score. [B]
 
 The later complete qualification reproduced those outcomes and completed a genuinely changed 1020-unit successor with both methods, using the unchanged frozen implementation. All 26 registered challenge assertions passed. The constrained capacity race still left 1400 of 1900 units missing, and a revoked-provider case completed the product while failing modeled economic participation. Those limits remain visible in the qualified result. [Q]

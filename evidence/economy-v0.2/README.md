@@ -4,6 +4,8 @@
 
 ## English
 
+**Later qualification:** The [post-review record](../../docs/economy/REVIEW_REPAIR.md) and [separate repair evidence](review-repair/README.md) preserve the coverage defect, its correction, successful checks and the unresolved failed local replay. This original archive and its historical qualification record remain unchanged.
+
 This directory accompanies the separately versioned digital-product experiment. [Qualification metadata](qualification.json) identifies the exact source, registries, freeze, commands, actual test results and archive digest. [English results](../../docs/economy/RESULTS.md) and [French results](../../docs/economy/RESULTS.fr.md) explain outcome, modeled service feasibility and method advantage separately.
 
 The complete compressed [evidence archive](attempts.tar.xz) retains the first registered base comparison, the complete qualification experiment, separate fresh verification, development logs and before/after counterexamples. **Earlier failed and incomplete development attempts are deliberately retained. Their presence is evidence of investigation, not qualification of those earlier implementations.** The archive contains actual digital products, raw received content, imported-unit databases, capacity and financial ledgers, retained contracts/policies/pins, fault records and bilingual Passports. It contains synthetic data only.
@@ -30,9 +32,11 @@ The registered base comparison records conventional, Harness, no-purchase and un
 
 The first base and later complete replay are distinct retained attempts; do not pool their timings as a preregistered statistical sample or conceal either one. Actual source hashes, logical schedules/seeds, observed timing, intervention/retry counts and recording limits are retained. Run identifiers and monotonic timestamps naturally differ on replay. Preparation, integration, adaptation and verification labor, real monetary rates and final reporting overhead remain unknown where unmeasured. All SMU figures are authored synthetic minor units, with 100 minor units per fictional SMU; no real payment or demand is established.
 
-Publication stages are separate. The source and evidence are prepared on the review branch; a branch or pull request is not a merged release. The qualification metadata and final handoff report the actual stage. Historical Harness v0.1, papers, PDFs, evidence identities and original Lab links are preserved.
+Publication stages are recorded separately from experimental qualification. The original source and evidence were prepared on the review branch; [pull request #3](https://github.com/MontrealAI/CONTINUITY/pull/3) records the subsequent integration state, and [GitHub Releases](https://github.com/MontrealAI/CONTINUITY/releases) records separately published versions. This archive alone asserts no merge, release or deployment. Historical Harness v0.1, papers, PDFs, evidence identities and original Lab links are preserved.
 
 ## Français
+
+**Qualification ultérieure :** Le [dossier après revue](../../docs/economy/REVIEW_REPAIR.fr.md) et les [preuves distinctes de correction](review-repair/README.md#français) conservent le défaut de couverture, sa correction, les contrôles réussis et la reproduction locale échouée non résolue. Cette archive initiale et son enregistrement historique de qualification restent inchangés.
 
 Ce répertoire accompagne l’expérience distincte de produit numérique. Les [métadonnées de qualification](qualification.json) identifient les sources exactes, préenregistrements, gel, commandes, résultats réellement observés et empreinte de l’archive. Les [résultats français](../../docs/economy/RESULTS.fr.md) et [anglais](../../docs/economy/RESULTS.md) distinguent résultat, faisabilité du service modélisé et avantage de méthode.
 
@@ -60,4 +64,4 @@ La comparaison de base sépare les cellules conventionnelles, du banc, sans acha
 
 La première base et la reproduction complète ultérieure sont deux tentatives distinctes conservées ; ne pas fusionner leurs durées en échantillon statistique préenregistré ni en cacher une. Empreintes des sources, calendriers/graines logiques, temps observés, interventions/reprises et limites de mesure sont conservés. Identifiants et temps monotones varient naturellement à la reproduction. Travail de préparation, intégration, adaptation et vérification, tarifs réels et coût du rapport final restent inconnus s’ils ne sont pas mesurés. Tous les montants SMU sont des hypothèses en unités mineures synthétiques, avec 100 unités mineures par SMU fictive ; aucun paiement ni demande réels ne sont établis.
 
-Les étapes de publication sont distinctes. Sources et preuves sont préparées sur la branche de revue ; une branche ou demande de fusion n’est pas une version fusionnée/publiée. Les métadonnées et la remise finale précisent l’étape réelle. Banc historique v0.1, articles, PDF, identités des preuves et liens du Lab original sont préservés.
+Les étapes de publication sont consignées séparément de la qualification expérimentale. Les sources et preuves initiales ont été préparées sur la branche de revue ; la [demande de fusion nº 3](https://github.com/MontrealAI/CONTINUITY/pull/3) consigne l’état d’intégration ultérieur, et [GitHub Releases](https://github.com/MontrealAI/CONTINUITY/releases) consigne les versions publiées séparément. Cette archive seule n’affirme aucune fusion, publication de version ou mise en production. Banc historique v0.1, articles, PDF, identités des preuves et liens du Lab original sont préservés.
