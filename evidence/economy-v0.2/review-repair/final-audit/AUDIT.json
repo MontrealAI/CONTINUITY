@@ -1,0 +1,156 @@
+[
+  {
+    "case": "coverage-tests",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_economy_suite.py",
+      "-v"
+    ],
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "exit_code": 0,
+    "elapsed_seconds": 4.698,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "2202b1209c3675c1aa3f191c0f18026e42af9ebfd90e95a7c109c37fedb8d1dd",
+    "tail": [
+      "----------------------------------------------------------------------",
+      "Ran 12 tests in 4.604s",
+      "",
+      "OK"
+    ]
+  },
+  {
+    "case": "sealed-tmp-confirmation",
+    "command": [
+      "python3",
+      "-m",
+      "continuity_economy",
+      "--language",
+      "en",
+      "verify-suite",
+      "--in-dir",
+      "/tmp/continuity-economy-review-evidence-b1d5891eb025-001/tmp-confirmation/complete"
+    ],
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "exit_code": 0,
+    "elapsed_seconds": 8.339,
+    "stdout_sha256": "bcd8dfa0e89361ce950dae99f8767b1540bcde515f4d776b1b6715d9258c3fbd",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "test_assertion": "PASSED",
+    "code": null,
+    "fresh": true,
+    "members": {
+      "base": {
+        "test_assertion": "PASSED",
+        "kind": "comparison",
+        "cohort": "base",
+        "runs": 28,
+        "failed_assertions": []
+      },
+      "challenges": {
+        "test_assertion": "PASSED",
+        "kind": null,
+        "cohort": null,
+        "runs": 26,
+        "failed_assertions": null
+      },
+      "successor": {
+        "test_assertion": "PASSED",
+        "kind": "comparison",
+        "cohort": "successor",
+        "runs": 4,
+        "failed_assertions": []
+      }
+    }
+  },
+  {
+    "case": "sealed-failed-replay",
+    "command": [
+      "python3",
+      "-m",
+      "continuity_economy",
+      "--language",
+      "en",
+      "verify-suite",
+      "--in-dir",
+      "/tmp/continuity-economy-review-evidence-b1d5891eb025-001/qualification/complete-replay-1"
+    ],
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "exit_code": 3,
+    "elapsed_seconds": 9.261,
+    "stdout_sha256": "debcb0296ec43f2a7a3567c4679fc8568615eec7b0992790d082e3c4957df6be",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "test_assertion": "FAILED",
+    "code": null,
+    "fresh": true,
+    "members": {
+      "base": {
+        "test_assertion": "FAILED",
+        "kind": "comparison",
+        "cohort": "base",
+        "runs": 28,
+        "failed_assertions": [
+          {
+            "fixture_id": "constructed-continuity",
+            "method": "conventional",
+            "assertion": {
+              "status": "FAILED",
+              "expected": {
+                "outcome": "DEMONSTRATED",
+                "service_feasibility": "DEMONSTRATED",
+                "accepted_units": 1900
+              },
+              "observed": {
+                "outcome": "NOT_ESTABLISHED",
+                "service_feasibility": "NOT_ESTABLISHED",
+                "accepted_units": 0
+              },
+              "scope": "Registered assessment assertion; not a favorable outcome or trade claim."
+            }
+          }
+        ]
+      },
+      "challenges": {
+        "test_assertion": "PASSED",
+        "kind": null,
+        "cohort": null,
+        "runs": 26,
+        "failed_assertions": null
+      },
+      "successor": {
+        "test_assertion": "PASSED",
+        "kind": "comparison",
+        "cohort": "successor",
+        "runs": 4,
+        "failed_assertions": []
+      }
+    }
+  },
+  {
+    "case": "sealed-refuse-demo",
+    "command": [
+      "python3",
+      "-m",
+      "continuity_economy",
+      "--language",
+      "en",
+      "verify-suite",
+      "--in-dir",
+      "/tmp/continuity-economy-review-evidence-b1d5891eb025-001/before/inputs/experiment-roles-alias-base-demo"
+    ],
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "exit_code": 2,
+    "elapsed_seconds": 0.045,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "d826d29add5b3227149211e03f0e234d6719663e94bb93cf99c3ccc25b4c42b4",
+    "test_assertion": null,
+    "code": "SUITE_COVERAGE",
+    "fresh": null,
+    "members": {}
+  }
+]

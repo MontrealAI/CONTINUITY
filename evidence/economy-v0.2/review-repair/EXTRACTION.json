@@ -1,0 +1,9 @@
+{
+  "schema": "continuity-economy/post-review-extraction/v1",
+  "archive_sha256": "15fa4213b47b063074f77a416d20a5c0fd2cbf1c200403da33ecac483bfe2b01",
+  "manifest_sha256": "8603045b20f284d6a423801277a721f1c58f8a1c24fa72491f75657c2eb978b2",
+  "payload_files_checked": 11200,
+  "mismatches": [],
+  "extraction_and_hash_wall_ns": 3761145362,
+  "extraction_path": "/tmp/continuity-economy-review-evidence-b1d5891eb025-001"
+}

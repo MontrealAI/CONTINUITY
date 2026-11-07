@@ -1,0 +1,17 @@
+test_all_child_versions_remain_required (test_economy_suite.ExperimentCoverageTests.test_all_child_versions_remain_required) ... ok
+test_child_metadata_does_not_replace_independent_contract_binding (test_economy_suite.ExperimentCoverageTests.test_child_metadata_does_not_replace_independent_contract_binding) ... ok
+test_complete_registered_children_are_verified_freshly_despite_saved_failed_labels (test_economy_suite.ExperimentCoverageTests.test_complete_registered_children_are_verified_freshly_despite_saved_failed_labels) ... ok
+test_experiment_requires_supported_version_and_exact_member_mapping (test_economy_suite.ExperimentCoverageTests.test_experiment_requires_supported_version_and_exact_member_mapping) ... ok
+test_failed_fresh_run_or_challenge_cannot_be_hidden_by_saved_passes (test_economy_suite.ExperimentCoverageTests.test_failed_fresh_run_or_challenge_cannot_be_hidden_by_saved_passes) ... ok
+test_member_paths_are_distinct_safe_strings_and_cannot_use_symlink_aliases (test_economy_suite.ExperimentCoverageTests.test_member_paths_are_distinct_safe_strings_and_cannot_use_symlink_aliases) ... ok
+test_missing_cell_or_challenge_cannot_be_hidden_by_saved_passes (test_economy_suite.ExperimentCoverageTests.test_missing_cell_or_challenge_cannot_be_hidden_by_saved_passes) ... ok
+test_nonobject_indexes_and_unknown_outer_fields_are_structured_refusals (test_economy_suite.ExperimentCoverageTests.test_nonobject_indexes_and_unknown_outer_fields_are_structured_refusals) ... ok
+test_passing_base_comparison_cannot_replace_successor_or_registered_challenges (test_economy_suite.ExperimentCoverageTests.test_passing_base_comparison_cannot_replace_successor_or_registered_challenges) ... ok
+test_passing_base_demo_cannot_supply_three_members_by_alias_or_distinct_copies (test_economy_suite.ExperimentCoverageTests.test_passing_base_demo_cannot_supply_three_members_by_alias_or_distinct_copies) ... ok
+test_passing_nested_experiment_cannot_replace_any_required_child (test_economy_suite.ExperimentCoverageTests.test_passing_nested_experiment_cannot_replace_any_required_child) ... ok
+test_swapped_comparison_cohorts_are_refused (test_economy_suite.ExperimentCoverageTests.test_swapped_comparison_cohorts_are_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 4.604s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "schema": "continuity-economy/post-review-archive-build/v1",
+  "archive": "/workspace/scratch/b1d5891eb025/continuity-economy/evidence/economy-v0.2/review-repair/coverage-repair.tar.xz",
+  "archive_bytes": 4534760,
+  "archive_sha256": "15fa4213b47b063074f77a416d20a5c0fd2cbf1c200403da33ecac483bfe2b01",
+  "archive_git_blob": "04f5081efea600e3109a6ea839a5c480c353d4ff",
+  "manifest_sha256": "8603045b20f284d6a423801277a721f1c58f8a1c24fa72491f75657c2eb978b2",
+  "payload_files": 11200,
+  "regular_archive_members": 11201,
+  "payload_bytes": 978022718
+}
