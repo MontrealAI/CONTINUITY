@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "welcome",
+    "lesson": "O",
+    "minutes": 3,
+    "layout": "cover",
+    "en": {
+      "title": "CONTINUITY Ω",
+      "subtitle": "MasterClass 101",
+      "body": "Keeping a customer promise through disruption",
+      "small": "A three-hour course with one fictional business case",
+      "notes": "Welcome. Say: ‘We will work through a business decision, not learn a software interface. A disruption has broken the normal route to a customer. Your job is to determine what could still deliver the accepted promise, what people must agree to, and what evidence would justify the result.’ Explain that no coding is required. Participants will use the learner guide and workbook. Every business document, amount and delivery event in the classroom case is invented. The public software experiment is a separate source of research evidence. Ask learners to keep those two settings separate throughout the session."
+    },
+    "fr": {
+      "title": "CONTINUITÉ Ω",
+      "subtitle": "Masterclass 101",
+      "body": "Tenir une promesse client malgré une perturbation",
+      "small": "Une formation de trois heures autour d’un cas fictif",
+      "notes": "Souhaitez la bienvenue. Dites : « Nous allons raisonner sur une décision d’entreprise. Une perturbation a interrompu le fonctionnement habituel. Votre tâche consiste à déterminer comment tenir la promesse acceptée, quelles personnes doivent s’entendre et quelles preuves justifieraient le résultat. » Aucun prérequis de programmation n’est nécessaire. Présentez le guide de l’apprenant et le cahier d’exercices. Tous les documents d’entreprise, montants et événements de livraison du cas sont fictifs. L’expérience logicielle publique constitue une source de recherche distincte. Invitez le groupe à garder ces deux cadres séparés pendant toute la formation."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": null,
+    "number": 1,
+    "start_minute": 0,
+    "end_minute": 3
+  },
+  {
+    "id": "baseline",
+    "lesson": "O",
+    "minutes": 7,
+    "layout": "statement",
+    "en": {
+      "title": "The decision this course teaches",
+      "lead": "A restored application opens.\nHas the customer promise been kept?",
+      "items": [
+        "Define an outcome someone can accept.",
+        "Construct a usable and authorized route.",
+        "Check participation, cost and available cash.",
+        "Match the claim to the evidence."
+      ],
+      "prompt": "Write your answer and the first observation you would request.",
+      "notes": "Allow two minutes for an individual baseline answer in w01. Ask for two contrasting responses without scoring them. Say: ‘A working application is useful evidence about one component. We still need the current order and the customer’s acceptance conditions.’ Introduce the course outputs: Promise card, Route card, Arrangement map, Cost and cash ledger, Claim and evidence record, Comparison card, and Capstone decision log. Explain the 180-minute schedule, including the ten-minute break after L4. We will return to this starting answer at the end. A revised answer can reveal learning, but a classroom response does not certify operational resilience. Keep the initial response so participants can compare their reasoning later."
+    },
+    "fr": {
+      "title": "La décision que vous apprendrez à prendre",
+      "lead": "L’application restaurée s’ouvre.\nLa promesse client est-elle tenue ?",
+      "items": [
+        "Définir un résultat que quelqu’un peut accepter.",
+        "Construire une solution utilisable et autorisée.",
+        "Vérifier les accords, les coûts et la trésorerie.",
+        "Adapter l’affirmation aux preuves."
+      ],
+      "prompt": "Écrivez votre réponse et la première observation à demander.",
+      "notes": "Accordez deux minutes pour une réponse individuelle dans w01. Demandez deux réponses différentes sans les noter. Dites : « Une application fonctionnelle renseigne sur un composant. Il faut aussi connaître la commande actuelle et les conditions d’acceptation du client. » Présentez les productions du cours : fiche Promesse, fiche Solution, carte des accords, registre des coûts et de trésorerie, fiche Affirmation et preuves, fiche Comparaison et journal de décision final. Précisez la durée de 180 minutes, dont une pause de dix minutes après L4. Les participants reprendront leur réponse initiale à la fin. Une réponse améliorée peut révéler un apprentissage, mais elle ne certifie pas la résilience opérationnelle d’une entreprise."
+    },
+    "sources": [
+      "C1",
+      "P2"
+    ],
+    "worksheet": "w01",
+    "number": 2,
+    "start_minute": 3,
+    "end_minute": 10
+  },
+  {
+    "id": "promise",
+    "lesson": "L1",
+    "minutes": 8,
+    "layout": "table",
+    "en": {
+      "title": "The promise the case requires",
+      "intro": "K0 defines P1. Every case record and event is simulated.",
+      "headers": [
+        "Requirement",
+        "Acceptance condition"
+      ],
+      "rows": [
+        [
+          "Output",
+          "10,000 packaging labels, approved artwork v3"
+        ],
+        [
+          "Specification",
+          "Matte white adhesive stock, 50 × 30 mm, ±0.5 mm; approved code legible"
+        ],
+        [
+          "Quality",
+          "Damaged labels do not count; no partial acceptance"
+        ],
+        [
+          "Time and place",
+          "12 November 2026, 16:00 America/Toronto; Montréal site M1, dock 3"
+        ],
+        [
+          "Authority",
+          "Morgan, the customer’s receiving lead"
+        ]
+      ],
+      "prompt": "Which observation would distinguish dispatch from acceptance?",
+      "notes": "Show K0 and ask a learner to read the quantity and deadline aloud. Explain that Morgan represents the named acceptance authority in this invented case. Printer A’s customer invoice is separate from the continuity-service ledger that appears later. Ask: ‘A truck leaves at 15:40. What have we learned?’ Expected answer: dispatch has occurred, but timely receipt, acceptable quality and the complete count remain to be checked. Spend three minutes writing the Promise card in w03. A useful card includes beneficiary, specification, quantity, deadline, location, acceptance authority and source. If participants negotiate a new acceptance rule, require a new version and preserve the verdict against P1. The original condition cannot be changed retroactively to rescue a short delivery."
+    },
+    "fr": {
+      "title": "La promesse exigée par le cas",
+      "intro": "K0 définit P1. Chaque document et événement du cas est simulé.",
+      "headers": [
+        "Exigence",
+        "Condition d’acceptation"
+      ],
+      "rows": [
+        [
+          "Produit",
+          "10 000 étiquettes, visuel approuvé v3"
+        ],
+        [
+          "Spécification",
+          "Support adhésif blanc mat, 50 × 30 mm, ±0,5 mm; code approuvé lisible"
+        ],
+        [
+          "Qualité",
+          "Étiquettes endommagées exclues; aucune acceptation partielle"
+        ],
+        [
+          "Délai et lieu",
+          "12 novembre 2026, 16 h, America/Toronto; site M1 à Montréal, quai 3"
+        ],
+        [
+          "Autorité",
+          "Morgan, responsable de la réception chez le client"
+        ]
+      ],
+      "prompt": "Quelle observation distingue l’expédition de l’acceptation ?",
+      "notes": "Présentez K0 et faites lire à voix haute la quantité et l’échéance. Morgan représente l’autorité d’acceptation désignée dans ce cas fictif. La facture du client d’Imprimerie A reste distincte du registre du service de continuité étudié ensuite. Demandez : « Un camion part à 15 h 40. Que savons-nous ? » Réponse attendue : l’expédition a eu lieu, mais il faut encore vérifier réception dans le délai, qualité et quantité complète. Consacrez trois minutes à la fiche Promesse de w03. Elle doit préciser bénéficiaire, spécification, quantité, échéance, lieu, autorité et sources. Si le groupe négocie une autre règle d’acceptation, exigez une nouvelle version tout en conservant le verdict relatif à P1. Une livraison incomplète ne devient pas conforme rétroactivement."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w03",
+    "number": 3,
+    "start_minute": 10,
+    "end_minute": 18
+  },
+  {
+    "id": "history",
+    "lesson": "L1",
+    "minutes": 7,
+    "layout": "table",
+    "en": {
+      "title": "The accepted history changes the quantity",
+      "intro": "K1 supplies the checkpoint, authorized amendment and custody record.",
+      "headers": [
+        "Record",
+        "What it establishes"
+      ],
+      "rows": [
+        [
+          "Checkpoint: 10 Nov., 12:00",
+          "8,000 labels in the restored record"
+        ],
+        [
+          "A-02: 10 Nov., 14:00",
+          "Authorized addition of 2,000 labels"
+        ],
+        [
+          "C-01 cutoff: 11 Nov., 12:00",
+          "Exercise record lists no later amendment or cancellation"
+        ],
+        [
+          "Promise P1",
+          "8,000 + 2,000 = 10,000 labels"
+        ]
+      ],
+      "prompt": "A matching checksum cannot establish a complete accepted history.",
+      "notes": "Ask learners to reconcile the two quantities in w02 before showing the total. The accepted amendment is part of the obligation, not a desirable extra. Explain the distinction between recovery time, recovered data point and the customer’s completion deadline. NIST contingency guidance uses recovery objectives to plan resources and recovery priorities, but those objectives alone do not prove fulfillment of P1. Ask: ‘If A-02 disappears from our available records, does 8,000 become the correct promise?’ Expected answer: the accepted state is not established from that incomplete view. A checksum establishes identity relative to a reference, not completeness or authentic business authority. Point learners to q01 and q02. Do not let the activity silently invent a cancellation or a new customer agreement."
+    },
+    "fr": {
+      "title": "L’historique accepté change la quantité",
+      "intro": "K1 fournit le point de reprise, l’amendement et le registre de garde.",
+      "headers": [
+        "Document",
+        "Ce qu’il établit"
+      ],
+      "rows": [
+        [
+          "Point de reprise : 10 nov., 12 h",
+          "8 000 étiquettes dans le dossier restauré"
+        ],
+        [
+          "A-02 : 10 nov., 14 h",
+          "Ajout autorisé de 2 000 étiquettes"
+        ],
+        [
+          "Fin de C-01 : 11 nov., 12 h",
+          "Aucun autre amendement ni annulation dans le cas"
+        ],
+        [
+          "Promesse P1",
+          "8 000 + 2 000 = 10 000 étiquettes"
+        ]
+      ],
+      "prompt": "Une empreinte identique ne prouve pas un historique complet.",
+      "notes": "Faites rapprocher les deux quantités dans w02 avant de donner le total. L’amendement accepté fait partie de l’engagement. Expliquez la différence entre durée de reprise, état des données récupérées et échéance du client. La planification de contingence du NIST utilise des objectifs de reprise pour organiser ressources et priorités. Ces objectifs ne prouvent pas à eux seuls la réalisation de P1. Demandez : « Si A-02 manque dans les pièces disponibles, 8 000 devient-il le bon engagement ? » Réponse attendue : l’état accepté n’est pas établi à partir de ce dossier incomplet. Une empreinte établit l’identité par rapport à une référence, pas l’exhaustivité ni l’autorité réelle des données. Orientez vers q01 et q02. Aucun participant ne peut inventer une annulation pour simplifier le cas."
+    },
+    "sources": [
+      "C1",
+      "N1"
+    ],
+    "worksheet": "w02",
+    "number": 4,
+    "start_minute": 18,
+    "end_minute": 25
+  },
+  {
+    "id": "routes",
+    "lesson": "L2",
+    "minutes": 6,
+    "layout": "routes",
+    "en": {
+      "title": "Different routes, the same promise",
+      "labels": [
+        "P1: 10,000 accepted labels",
+        "Restore the usual route",
+        "Construct an alternative",
+        "The same acceptance conditions"
+      ],
+      "details": [
+        "Recover usable operations",
+        "Current records, rights and capacity"
+      ],
+      "prompt": "What is the smallest missing capability that would make an alternative usable?",
+      "notes": "Say: ‘The useful target is the accepted customer result. The current route is one possible means.’ Use the diagram to distinguish primary recovery from an alternative without assuming either wins. Ask learners to name one condition the alternate printer lacks. Encourage concrete answers: a usable approved production file, permission to receive it, a reachable handoff or a genuinely available slot. Transformational intelligence questions constraints inherited from the current framing. It does not grant permission to rewrite P1. A conventional fallback may be the best route. Give pairs two minutes to describe a construction that removes one actual obstacle, then ask what test could show it works. Record the idea in the Route card, w04."
+    },
+    "fr": {
+      "title": "Plusieurs voies, une même promesse",
+      "labels": [
+        "P1 : 10 000 étiquettes acceptées",
+        "Rétablir le fonctionnement habituel",
+        "Construire une solution de remplacement",
+        "Les mêmes conditions d’acceptation"
+      ],
+      "details": [
+        "Retrouver des opérations utilisables",
+        "Données actuelles, droits et capacité"
+      ],
+      "prompt": "Quelle capacité manquante rendrait l’autre solution utilisable ?",
+      "notes": "Dites : « La cible utile est le résultat accepté par le client. Le fonctionnement habituel n’est qu’un moyen possible. » Le schéma distingue reprise du moyen initial et solution de remplacement sans présumer laquelle gagnera. Demandez ce qui manque à l’autre imprimeur. Encouragez des réponses concrètes : un fichier approuvé utilisable, l’autorisation de le recevoir, un canal accessible ou un créneau réellement disponible. L’intelligence transformationnelle examine les contraintes héritées du cadrage actuel. Elle n’autorise pas à réécrire P1. Une solution conventionnelle peut rester la meilleure. Donnez deux minutes aux binômes pour proposer une construction qui lève un obstacle réel, puis demandez quel test montrerait son utilité. Consignez l’idée dans la fiche Solution, w04."
+    },
+    "sources": [
+      "C1",
+      "F1"
+    ],
+    "worksheet": "w04",
+    "number": 5,
+    "start_minute": 25,
+    "end_minute": 31
+  },
+  {
+    "id": "construct",
+    "lesson": "L2",
+    "minutes": 7,
+    "layout": "table",
+    "en": {
+      "title": "A capability another provider can use",
+      "intro": "A plausible plan becomes useful when a recipient can act on it.",
+      "headers": [
+        "Missing condition",
+        "Construction and deciding check"
+      ],
+      "rows": [
+        [
+          "Proprietary file unusable",
+          "Validated production packet for Printer B’s process"
+        ],
+        [
+          "Shared login unavailable",
+          "Authorized release channel that does not require it"
+        ],
+        [
+          "Quantity still at 8,000",
+          "Reconciled order tied to A-02 and the cutoff"
+        ],
+        [
+          "AI proposes a route",
+          "Reviewer checks its specific claims against sources"
+        ]
+      ],
+      "prompt": "A challenger should identify a requirement, a failure and a deciding check.",
+      "notes": "Use the proprietary-file example. Printer B has equipment, yet cannot use Printer A’s file. A conversion is a candidate capability only when it preserves the approved artwork and works on B’s actual process. A preview is insufficient evidence of physical print quality. Invite one learner to play proposer and another challenger. Give the proposer P1 and the retained records. Ask the challenger to replace ‘this seems risky’ with one precise objection, such as artwork v2 instead of v3. The authorized reviewer checks the source and decides whether to repair or reject. Explain that AI can draft routes or adapters and help find omissions, but it cannot supply missing consent or observed performance. Finish by recording the capability, authorization and test in w04."
+    },
+    "fr": {
+      "title": "Une capacité utilisable par l’autre fournisseur",
+      "intro": "Un plan devient utile quand son destinataire peut agir.",
+      "headers": [
+        "Condition manquante",
+        "Construction et contrôle décisif"
+      ],
+      "rows": [
+        [
+          "Fichier propriétaire inutilisable",
+          "Dossier de production validé sur le procédé de B"
+        ],
+        [
+          "Identifiant commun inaccessible",
+          "Canal de transmission autorisé et distinct"
+        ],
+        [
+          "Quantité restée à 8 000",
+          "Commande rapprochée d’A-02 et de la date de fin"
+        ],
+        [
+          "Solution proposée par l’IA",
+          "Contrôle précis des affirmations selon les sources"
+        ]
+      ],
+      "prompt": "Une objection utile nomme l’exigence, l’échec possible et le contrôle.",
+      "notes": "Prenez l’exemple du fichier propriétaire. Imprimerie B possède la machine, mais ne peut pas utiliser le fichier de A. Une conversion n’est une capacité utile que si elle conserve le visuel approuvé et fonctionne sur le procédé de B. Un aperçu ne prouve pas la qualité physique de l’impression. Désignez une personne pour proposer une solution et une autre pour la contester. Fournissez P1 et les pièces conservées. Demandez de remplacer « cela semble risqué » par une objection précise, par exemple l’emploi de v2 au lieu de v3. L’autorité désignée examine la source et décide de corriger ou de refuser. L’IA peut préparer un dossier et rechercher des omissions. Elle ne crée ni consentement ni performance observée. Complétez w04 avec capacité, autorisation et test."
+    },
+    "sources": [
+      "C1",
+      "F1"
+    ],
+    "worksheet": "w04",
+    "number": 6,
+    "start_minute": 31,
+    "end_minute": 38
+  },
+  {
+    "id": "capacity",
+    "lesson": "L2",
+    "minutes": 7,
+    "layout": "table",
+    "en": {
+      "title": "Available capacity is a binding condition",
+      "intro": "K2 describes a shared slot. Its numbers are teaching assumptions.",
+      "headers": [
+        "Capacity claim",
+        "Labels"
+      ],
+      "rows": [
+        [
+          "Nominal alternate capacity",
+          "12,000"
+        ],
+        [
+          "Protected existing work",
+          "2,000"
+        ],
+        [
+          "Available for P1",
+          "10,000"
+        ],
+        [
+          "Additional competing request",
+          "5,000"
+        ]
+      ],
+      "prompt": "P1 plus the competing request needs 15,000. The free slot holds 10,000.",
+      "notes": "Give learners one minute to compute usable capacity before discussing the competing request. Ask: ‘Can both promises rely on this slot?’ Expected answer: no. Existing work protects 2,000 units, leaving 10,000. P1 uses the entire remainder. The competing 5,000 cannot be admitted without another authorized and usable resource or a changed agreement. Do not confiscate protected work or silently move a deadline. Ask how two apparently different suppliers could share the same failed identity service, material source or transport bottleneck. Capacity is a property of the whole route and its commitments, not merely a provider’s name. Record the bottleneck and a deciding capacity check in w04. Use q03–q04 for retrieval practice at the lesson boundary."
+    },
+    "fr": {
+      "title": "La capacité disponible impose une limite",
+      "intro": "K2 décrit un créneau partagé. Ses chiffres sont des hypothèses pédagogiques.",
+      "headers": [
+        "État de la capacité",
+        "Étiquettes"
+      ],
+      "rows": [
+        [
+          "Capacité nominale de remplacement",
+          "12 000"
+        ],
+        [
+          "Travail existant protégé",
+          "2 000"
+        ],
+        [
+          "Disponible pour P1",
+          "10 000"
+        ],
+        [
+          "Demande concurrente supplémentaire",
+          "5 000"
+        ]
+      ],
+      "prompt": "P1 et l’autre demande exigent 15 000. Le créneau libre en contient 10 000.",
+      "notes": "Laissez une minute pour calculer la capacité utilisable avant d’ajouter la demande concurrente. Demandez : « Les deux engagements peuvent-ils utiliser ce créneau ? » Réponse attendue : non. Les 2 000 unités de travail protégé laissent 10 000 disponibles. P1 utilise tout ce solde. Les 5 000 supplémentaires nécessitent une autre ressource autorisée et utilisable ou un nouvel accord. Il est interdit de prendre le créneau protégé ou de déplacer silencieusement l’échéance. Demandez comment deux fournisseurs différents pourraient dépendre du même service d’identité, matériau ou transport défaillant. La capacité appartient à une solution complète avec ses engagements. Notez dans w04 le blocage et le contrôle décisif. Utilisez q03 et q04 à la fin de la leçon."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w04",
+    "number": 7,
+    "start_minute": 38,
+    "end_minute": 45
+  },
+  {
+    "id": "arrangement",
+    "lesson": "L3",
+    "minutes": 10,
+    "layout": "arrangement",
+    "en": {
+      "title": "The continuity service is a separate exchange",
+      "labels": [
+        "Printer A",
+        "Continuity coordinator",
+        "Printer B and other providers",
+        "Morgan"
+      ],
+      "details": [
+        "Buys the continuity service",
+        "Organizes the route and bears agreed duties",
+        "Supply committed work on agreed terms",
+        "Accepts the original customer order"
+      ],
+      "prompt": "Every necessary participant needs authority, usable terms and a reason to agree.",
+      "notes": "Say: ‘Printer A already owes a customer an order. The coordinator offers Printer A a separate continuity service.’ Ask learners to map each relationship in w05. The original customer invoice does not become the coordinator’s revenue. Printer B must agree to its own production commitment, data access and payment terms. Morgan checks the original order and does not automatically authorize the service purchase. A viable arrangement requires compatible participant choices under explicit terms. A technically possible route may have no willing buyer or no fairly supported provider. Invite learners to propose one service scope and explain what each participant gives and receives. Their proposal remains a classroom design until authorized people agree and the conditions can actually be met. Use q05 to check role separation."
+    },
+    "fr": {
+      "title": "Le service de continuité est un échange distinct",
+      "labels": [
+        "Imprimerie A",
+        "Coordonnateur de continuité",
+        "Prestataires, dont l’imprimerie B",
+        "Morgan"
+      ],
+      "details": [
+        "Achète le service de continuité",
+        "Organise et assume les obligations convenues",
+        "Exécutent le travail aux conditions convenues",
+        "Accepte la commande initiale du client"
+      ],
+      "prompt": "Chaque participant doit avoir l’autorité, les conditions et une raison d’accepter.",
+      "notes": "Dites : « Imprimerie A doit déjà une commande à son client. Le coordonnateur lui propose un service de continuité distinct. » Faites cartographier les relations dans w05. La facture du client initial ne devient pas le revenu du coordonnateur. Imprimerie B doit accepter sa production, ses accès et ses modalités de paiement. Morgan vérifie la commande initiale, sans autoriser automatiquement l’achat du service. Un accord viable suppose des choix compatibles et des conditions explicites pour chacun. Une solution techniquement possible peut ne trouver aucun acheteur volontaire ou laisser un fournisseur sans compensation suffisante. Demandez au groupe de définir le périmètre du service et ce que chaque partie donne et reçoit. Il s’agit encore d’une conception pédagogique, jusqu’à l’accord des personnes autorisées et la réalisation des conditions. Utilisez q05 pour vérifier les rôles."
+    },
+    "sources": [
+      "C1",
+      "F2"
+    ],
+    "worksheet": "w05",
+    "number": 8,
+    "start_minute": 45,
+    "end_minute": 55
+  },
+  {
+    "id": "terms",
+    "lesson": "L3",
+    "minutes": 10,
+    "layout": "table",
+    "en": {
+      "title": "Permissions and failure terms make the deal concrete",
+      "intro": "K3 supplies exercise permissions. K4 supplies the proposed service terms.",
+      "headers": [
+        "Decision",
+        "Question that must be settled"
+      ],
+      "rows": [
+        [
+          "Data and artwork",
+          "Who may release which current files to whom?"
+        ],
+        [
+          "Production and capacity",
+          "Who can commit the slot and protect other work?"
+        ],
+        [
+          "Payment and advance",
+          "Who agrees, pays, receives and can use the money?"
+        ],
+        [
+          "Failure and rework",
+          "Who covers correction, cancellation and refund duties?"
+        ]
+      ],
+      "prompt": "A useful arrangement can be declined. Consent must remain meaningful.",
+      "notes": "Ask a pair to identify one permission that an apparently capable route might still lack. A supplier’s technical access is not proof of authorization. Then give the group a failure: production begins but the final order is unacceptable. Ask who pays already incurred costs and what happens to an advance. Do not accept a liability-free advance as an unstated assumption. Participants should write a concrete proposed term or mark the issue unresolved. In the teaching case, later packets can supply a stated consented revision, but the initial omission stays in the decision history. A refusal is informative evidence about the arrangement. It should trigger a changed offer, another route or a stop, not invented willingness. Complete the Arrangement map in w05 and use q06."
+    },
+    "fr": {
+      "title": "Autorisations et conditions en cas d’échec",
+      "intro": "K3 fournit les permissions du cas. K4 présente les conditions proposées.",
+      "headers": [
+        "Décision",
+        "Question à régler"
+      ],
+      "rows": [
+        [
+          "Données et visuel",
+          "Qui peut transmettre quels fichiers actuels, et à qui ?"
+        ],
+        [
+          "Production et capacité",
+          "Qui peut réserver le créneau et protéger le travail existant ?"
+        ],
+        [
+          "Paiement et acompte",
+          "Qui accepte, paie, reçoit et peut utiliser les fonds ?"
+        ],
+        [
+          "Échec et reprise",
+          "Qui assume correction, annulation et remboursement ?"
+        ]
+      ],
+      "prompt": "Un participant peut refuser l’accord. Son consentement doit rester réel.",
+      "notes": "Demandez à un binôme de repérer une autorisation qui pourrait manquer malgré une solution techniquement capable. L’accès informatique d’un fournisseur ne prouve pas son autorisation. Introduisez ensuite un échec : la production commence, mais la commande finale est inacceptable. Qui assume les coûts engagés ? Que devient l’acompte ? Refusez l’hypothèse tacite d’un acompte sans aucune obligation. Les participants doivent proposer une condition concrète ou conserver la question comme non résolue. Une pièce ultérieure peut fournir un accord révisé dans le cas fictif, mais l’omission initiale reste dans l’historique. Le refus renseigne sur l’accord. Il appelle une nouvelle offre, une autre solution ou un arrêt, et non un consentement inventé. Complétez w05, puis utilisez q06."
+    },
+    "sources": [
+      "C1",
+      "F2"
+    ],
+    "worksheet": "w05",
+    "number": 9,
+    "start_minute": 55,
+    "end_minute": 65
+  },
+  {
+    "id": "costs",
+    "lesson": "L4",
+    "minutes": 7,
+    "layout": "costs",
+    "en": {
+      "title": "The complete modeled service cost",
+      "intro": "K4. Fictional teaching amounts, CAD, on one consistent basis.",
+      "headers": [
+        "Cost item",
+        "CAD"
+      ],
+      "rows": [
+        [
+          "Alternate production",
+          "3,200"
+        ],
+        [
+          "Prepared and checked production packet",
+          "550"
+        ],
+        [
+          "Transport",
+          "400"
+        ],
+        [
+          "Coordination, including allocated case overhead",
+          "350"
+        ],
+        [
+          "Readiness test charge",
+          "200"
+        ],
+        [
+          "Final inspection",
+          "300"
+        ],
+        [
+          "Total modeled cost",
+          "5,000"
+        ]
+      ],
+      "prompt": "Fee 5,600 − cost 5,000 = projected contribution 600.",
+      "notes": "Ask participants to add all six items in w06. Confirm CAD 5,000. The service fee is CAD 5,600, so the modeled contribution is CAD 600, assuming the listed scope is complete and the fee is earned and collected as stated. Explain that ‘complete’ is an explicit teaching assumption here. A real pilot must discover its own preparation, integration, failed attempts, verification, administration and other obligations. These are fictional prices, not a market quotation. Do not include the original customer invoice in this service ledger. Ask what would happen if uncounted rework cost CAD 700: the contribution would become negative if nothing else changed. A positive projection does not establish available cash or participant consent. Those are the next checks."
+    },
+    "fr": {
+      "title": "Le coût complet du service modélisé",
+      "intro": "K4. Montants pédagogiques fictifs en CAD, sur une base cohérente.",
+      "headers": [
+        "Poste de coût",
+        "CAD"
+      ],
+      "rows": [
+        [
+          "Production de remplacement",
+          "3 200"
+        ],
+        [
+          "Dossier de production préparé et contrôlé",
+          "550"
+        ],
+        [
+          "Transport",
+          "400"
+        ],
+        [
+          "Coordination, dont frais généraux affectés au cas",
+          "350"
+        ],
+        [
+          "Test de préparation",
+          "200"
+        ],
+        [
+          "Inspection finale",
+          "300"
+        ],
+        [
+          "Coût total modélisé",
+          "5 000"
+        ]
+      ],
+      "prompt": "Prix 5 600 − coût 5 000 = contribution prévisionnelle de 600.",
+      "notes": "Faites additionner les six postes dans w06. Confirmez 5 000 CAD. Le prix du service est de 5 600 CAD, soit une contribution prévisionnelle de 600 CAD, si le périmètre est complet et si le prix est acquis et encaissé comme prévu. Le caractère complet du coût constitue ici une hypothèse pédagogique explicite. Un pilote réel doit établir ses propres coûts de préparation, intégration, tentatives échouées, vérification, administration et autres obligations. Ces prix fictifs ne constituent pas une offre commerciale. La facture du client initial n’entre pas dans ce registre. Demandez l’effet de 700 CAD de reprise oubliée : sans autre changement, la contribution deviendrait négative. Une projection positive ne prouve ni trésorerie disponible ni consentement."
+    },
+    "sources": [
+      "C1",
+      "F2"
+    ],
+    "worksheet": "w06",
+    "number": 10,
+    "start_minute": 65,
+    "end_minute": 72
+  },
+  {
+    "id": "cash_gap",
+    "lesson": "L4",
+    "minutes": 6,
+    "layout": "equation",
+    "en": {
+      "title": "A profitable projection can still be unfunded",
+      "numbers": [
+        "4,700",
+        "1,200",
+        "3,500"
+      ],
+      "labels": [
+        "Due before acceptance",
+        "Uncommitted starting cash",
+        "Initial funding gap"
+      ],
+      "intro": "Success-case cash plan: the CAD 300 inspection is paid after full acceptance.",
+      "prompt": "Which payment will arrive before the first cash shortfall?",
+      "notes": "Give learners one minute to calculate the gap in w07. The first five cost items require CAD 4,700 before acceptance. The coordinator starts with only CAD 1,200 of available, uncommitted cash. The funding gap is CAD 3,500. A future CAD 5,600 fee does not pay an earlier invoice unless its timing changes. Ask learners to propose a concrete financing revision and identify the consenting party, timing and failure terms. A promise of an advance is not cash received. A loan, different payment schedule or narrower authorized commitment might be explored, but the case does not grant them automatically. Use q07 and q08 to distinguish contribution from liquidity. Keep the initial unfunded verdict in the capstone history."
+    },
+    "fr": {
+      "title": "Une marge prévue peut rester sans financement",
+      "numbers": [
+        "4 700",
+        "1 200",
+        "3 500"
+      ],
+      "labels": [
+        "À payer avant acceptation",
+        "Trésorerie initiale libre",
+        "Besoin initial de financement"
+      ],
+      "intro": "Scénario réussi : les 300 CAD d’inspection sont payés après acceptation complète.",
+      "prompt": "Quel encaissement arrivera avant le premier manque de trésorerie ?",
+      "notes": "Laissez une minute pour calculer le besoin dans w07. Les cinq premiers postes exigent 4 700 CAD avant acceptation. Le coordonnateur dispose de 1 200 CAD libres de tout autre engagement. Il manque donc 3 500 CAD. Un futur prix de 5 600 CAD ne règle pas une facture antérieure sans changement de calendrier. Demandez une révision concrète du financement : partie qui accepte, date de réception et obligations en cas d’échec. Une promesse d’acompte n’est pas un encaissement. Un prêt, un calendrier différent ou un engagement autorisé plus limité peut être étudié, mais le cas ne les accorde pas automatiquement. Utilisez q07 et q08 pour distinguer contribution et liquidités. Conservez le verdict initial de financement insuffisant dans l’historique final."
+    },
+    "sources": [
+      "C1",
+      "F2"
+    ],
+    "worksheet": "w07",
+    "number": 11,
+    "start_minute": 72,
+    "end_minute": 78
+  },
+  {
+    "id": "cash_funded",
+    "lesson": "L4",
+    "minutes": 7,
+    "layout": "chart",
+    "en": {
+      "title": "The funded revision has conditions",
+      "intro": "Illustrative cash balance, CAD, conditional on full acceptance and collection.",
+      "categories": [
+        "Start",
+        "Advance\nreceived",
+        "Costs before\nacceptance",
+        "Balance\nreceived",
+        "Final\ninspection"
+      ],
+      "values": [
+        1200,
+        4700,
+        0,
+        2100,
+        1800
+      ],
+      "series": "Cash balance",
+      "prompt": "The 3,500 advance is part of the 5,600 fee. Ending cash includes the initial 1,200.",
+      "notes": "Walk through each balance in w07. Start at CAD 1,200. An agreed CAD 3,500 advance, actually received before the relevant outflows, raises available cash to 4,700. Pre-acceptance costs reduce it to zero. Full acceptance and receipt of the remaining CAD 2,100 raise it to 2,100. The final CAD 300 inspection leaves 1,800. The increase over starting cash is CAD 600. The advance is neither additional revenue nor a grant. It must have agreed failure and refund terms. This curve assumes the stated cost scope is complete and no other cash obligations intervene. It is not the R1 failure ledger. Ask: ‘What changes if only 9,800 labels are accepted?’ Expected answer: full-acceptance settlement cannot simply be booked. Preserve incurred costs, available cash and unresolved duties."
+    },
+    "fr": {
+      "title": "Le financement révisé reste conditionnel",
+      "intro": "Trésorerie illustrée en CAD, sous réserve d’acceptation complète et d’encaissement.",
+      "categories": [
+        "Départ",
+        "Acompte\nreçu",
+        "Dépenses avant\nacceptation",
+        "Solde\nreçu",
+        "Inspection\nfinale"
+      ],
+      "values": [
+        1200,
+        4700,
+        0,
+        2100,
+        1800
+      ],
+      "series": "Trésorerie",
+      "prompt": "L’acompte de 3 500 fait partie du prix de 5 600. Le solde final inclut les 1 200 initiaux.",
+      "notes": "Parcourez les soldes de w07. Les 1 200 CAD initiaux passent à 4 700 lorsque l’acompte convenu de 3 500 est réellement reçu avant les dépenses. Les paiements avant acceptation ramènent la trésorerie à zéro. L’acceptation complète et l’encaissement des 2 100 restants la portent à 2 100. Après l’inspection de 300, il reste 1 800. L’augmentation par rapport au départ est de 600 CAD. L’acompte n’est ni un revenu supplémentaire ni une subvention. Des conditions d’échec et de remboursement doivent être convenues. Cette courbe suppose un périmètre de coût complet et aucune autre obligation. Elle ne représente pas le registre de l’échec R1. Demandez : « Que change une acceptation de seulement 9 800 étiquettes ? » Le règlement pour acceptation complète ne peut pas être comptabilisé automatiquement. Conservez coûts, trésorerie et obligations non réglées."
+    },
+    "sources": [
+      "C1",
+      "F2"
+    ],
+    "worksheet": "w07",
+    "number": 12,
+    "start_minute": 78,
+    "end_minute": 85
+  },
+  {
+    "id": "break",
+    "lesson": "B",
+    "minutes": 10,
+    "layout": "break",
+    "en": {
+      "title": "Ten-minute break",
+      "lead": "When we return: what would justify “the promise was kept”?",
+      "small": "Keep the Promise card and Cost and cash ledger nearby.",
+      "notes": "Announce a ten-minute break and state the actual return time. The suggested course clock is now minute 85. Resume at minute 95. Invite participants to leave their workbook open to w08. If a learner asks whether the funding slide already proves success, answer briefly: it establishes a conditional arithmetic path under stated assumptions. Acceptance evidence and the consequences of failure remain to be assessed. Do not use the break to shorten the later capstone without agreeing a revised schedule with the group."
+    },
+    "fr": {
+      "title": "Pause de dix minutes",
+      "lead": "Au retour : qu’est-ce qui justifierait « la promesse a été tenue » ?",
+      "small": "Gardez la fiche Promesse et le registre de trésorerie à portée de main.",
+      "notes": "Annoncez une pause de dix minutes et donnez l’heure réelle de reprise. Le programme indicatif atteint la minute 85 et reprend à la minute 95. Invitez le groupe à ouvrir le cahier à w08 au retour. Si une personne demande si le financement prouve déjà la réussite, répondez brièvement : il établit un chemin arithmétique conditionnel selon les hypothèses du cas. Les preuves d’acceptation et les conséquences d’un échec restent à examiner. Ne réduisez pas discrètement l’exercice final pour absorber un dépassement. Toute modification du programme doit être claire pour le groupe."
+    },
+    "sources": [],
+    "worksheet": null,
+    "number": 13,
+    "start_minute": 85,
+    "end_minute": 95
+  },
+  {
+    "id": "verification",
+    "lesson": "L5",
+    "minutes": 7,
+    "layout": "verification",
+    "en": {
+      "title": "A claim needs a deciding check",
+      "labels": [
+        "Construct the route",
+        "Challenge the claim",
+        "Check retained evidence",
+        "Repair and test again",
+        "Record a scoped verdict"
+      ],
+      "prompt": "A saved “PASS” label cannot replace the records needed for a fresh check.",
+      "notes": "Restart with a precise claim: P1 was received and accepted on time. Assign the proposer, challenger and authorized checker roles. Ask the challenger to identify a consequential omission, then ask what observation could decide it. A correct objection leads to repair, refusal or a narrower claim. An unsupported objection should also face evidence. Show the repair branch and the verdict branch in the diagram. A separate check should examine retained source authority, actual output and acceptance, not merely repeat the producer’s favorable summary. Record the claim, evidence, limitation and next deciding check in w08. The process improves accountability under stated conditions; it does not make every claim true or remove every trust dependency."
+    },
+    "fr": {
+      "title": "Une affirmation exige un contrôle décisif",
+      "labels": [
+        "Construire la solution",
+        "Contester l’affirmation",
+        "Vérifier les preuves",
+        "Corriger et tester à nouveau",
+        "Consigner un verdict délimité"
+      ],
+      "prompt": "Un « RÉUSSI » sauvegardé ne remplace pas une nouvelle vérification des pièces.",
+      "notes": "Reprenez avec une affirmation précise : P1 a été reçue et acceptée dans le délai. Attribuez les rôles de proposition, contestation et contrôle autorisé. Demandez une omission qui pourrait changer la conclusion, puis l’observation permettant de trancher. Une objection fondée conduit à corriger, refuser ou restreindre l’affirmation. Une objection sans fondement doit aussi être examinée. Présentez la branche de correction et celle du verdict. Un contrôle distinct examine l’autorité des sources, le produit réel et l’acceptation, au lieu de répéter le résumé favorable du producteur. Dans w08, consignez affirmation, preuves, limite et prochain contrôle décisif. Cette démarche améliore la traçabilité sous des conditions explicites. Elle ne rend pas toutes les affirmations vraies et ne supprime pas toutes les dépendances de confiance."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w08",
+    "number": 14,
+    "start_minute": 95,
+    "end_minute": 102
+  },
+  {
+    "id": "verdicts",
+    "lesson": "L5",
+    "minutes": 6,
+    "layout": "table",
+    "en": {
+      "title": "Three verdicts prevent false certainty",
+      "intro": "The verdict always names the claim and the tested setting.",
+      "headers": [
+        "Verdict",
+        "What the record supports"
+      ],
+      "rows": [
+        [
+          "Supported within scope",
+          "The stated conditions hold in the observed exercise"
+        ],
+        [
+          "Failed",
+          "An observed condition contradicts the promise"
+        ],
+        [
+          "Not established",
+          "The available evidence cannot settle the claim"
+        ]
+      ],
+      "prompt": "A receipt for 9,800 acceptable labels contradicts P1’s required 10,000.",
+      "notes": "Present three short examples and ask learners to classify them. First, a complete mock record satisfies every simulated acceptance condition: supported within the tabletop scope. Second, the mock receipt accepts only 9,800 of the required 10,000: P1 fails. Third, the recipient’s evidence is missing: the claim is not established, even if the producer says it delivered. Explain that a successful negative test may show a checker refused an invalid case. That does not make the customer outcome successful. Ask each pair to write one falsifier for their own claim in w08: an observation that would require changing the verdict. Use q10 here. Keep q09 for the capstone after K5. Preserve failed records when a later attempt improves the result."
+    },
+    "fr": {
+      "title": "Trois verdicts pour éviter la fausse certitude",
+      "intro": "Le verdict précise toujours l’affirmation et le cadre éprouvé.",
+      "headers": [
+        "Verdict",
+        "Ce que le dossier permet de conclure"
+      ],
+      "rows": [
+        [
+          "Étayé dans ce périmètre",
+          "Les conditions énoncées tiennent dans l’exercice observé"
+        ],
+        [
+          "Échec",
+          "Une condition observée contredit la promesse"
+        ],
+        [
+          "Non établi",
+          "Les preuves disponibles ne permettent pas de trancher"
+        ]
+      ],
+      "prompt": "Un reçu de 9 800 étiquettes acceptables contredit les 10 000 exigées par P1.",
+      "notes": "Proposez trois exemples à classer. Un dossier fictif complet respecte toutes les conditions simulées : résultat étayé dans le périmètre de l’exercice. Un reçu fictif accepte seulement 9 800 des 10 000 étiquettes : P1 échoue. Les pièces du destinataire manquent : l’affirmation reste non établie, même si le producteur annonce une livraison. Expliquez qu’un test négatif réussi peut montrer que le vérificateur a refusé un cas invalide. Cela ne transforme pas le résultat client en réussite. Faites écrire dans w08 une observation qui réfuterait l’affirmation du binôme et imposerait un autre verdict. Utilisez q10 ici. Réservez q09 à l’exercice final après K5. Conservez les échecs lorsqu’une tentative ultérieure améliore le résultat."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w08",
+    "number": 15,
+    "start_minute": 102,
+    "end_minute": 108
+  },
+  {
+    "id": "repo_scope",
+    "lesson": "L5",
+    "minutes": 7,
+    "layout": "evidence",
+    "en": {
+      "title": "What the public experiment establishes",
+      "intro": "Source pin 56aa3e0c, 7 November 2026. A separate research example.",
+      "headers": [
+        "Observed or reported evidence",
+        "Boundary"
+      ],
+      "rows": [
+        [
+          "Digital content received and checked locally",
+          "Separate implementations on one trusted host"
+        ],
+        [
+          "Seven initial method comparisons tied",
+          "Both methods completed one changed successor"
+        ],
+        [
+          "A later local replay failed at evidence finalization",
+          "The affected result remains not established"
+        ],
+        [
+          "Other fresh checks passed",
+          "They do not erase that retained failure"
+        ]
+      ],
+      "prompt": "Policies and money are synthetic. AI advantage, real demand and physical delivery remain unestablished.",
+      "notes": "Keep this slide concise. The public v0.2 experiment creates substantive JSON label-job content, transfers it to a separate local receiver and checks it against retained specifications. The initial seven conventional/Harness comparisons tied, and both methods completed one changed successor. Those observations support bounded execution and scoped reuse, not a method advantage. The current publication also retains a distinct local replay that failed while finalizing evidence. Earlier receipt and settlement records did not justify a favorable final verdict when the evidence copy was inconsistent. Passing CI and another confirmation do not resolve that failure’s cause. ‘Independent’ here means separate implementations and retained authority inside the stated trust model. It is not third-party certification or real customer acceptance. The host and authored records remain trusted. No repository experiments were executed in creating this course."
+    },
+    "fr": {
+      "title": "Ce que l’expérience publique établit",
+      "intro": "Source figée 56aa3e0c, 7 novembre 2026. Un exemple de recherche distinct.",
+      "headers": [
+        "Preuve observée ou rapportée",
+        "Limite"
+      ],
+      "rows": [
+        [
+          "Contenu numérique reçu et contrôlé localement",
+          "Implémentations distinctes sur un hôte de confiance"
+        ],
+        [
+          "Sept comparaisons initiales à égalité",
+          "Les deux méthodes réalisent un nouveau cas"
+        ],
+        [
+          "Une reproduction locale échoue à finaliser les preuves",
+          "Le résultat concerné reste non établi"
+        ],
+        [
+          "D’autres vérifications réussissent",
+          "Elles n’effacent pas cet échec conservé"
+        ]
+      ],
+      "prompt": "Politiques et montants synthétiques. Avantage de l’IA, demande réelle et livraison physique non établis.",
+      "notes": "Restez concis. L’expérience publique v0.2 produit un contenu substantiel d’étiquettes en JSON, le transmet à un destinataire local distinct et le contrôle selon des spécifications conservées. Les sept comparaisons initiales entre méthode conventionnelle et banc d’essai sont à égalité. Les deux méthodes réalisent un nouveau cas. Ces observations étayent une exécution bornée et une réutilisation précise, sans établir un avantage de méthode. La publication conserve aussi une reproduction locale échouée lors de la finalisation des preuves. Réception et règlement enregistrés plus tôt ne suffisaient pas lorsque la copie probante était incohérente. Des contrôles CI et une autre confirmation réussis n’expliquent pas la cause de cet échec. « Indépendant » désigne ici des implémentations et contrôles distincts dans un modèle de confiance explicite, pas une certification tierce. L’hôte et les documents rédigés pour l’expérience restent de confiance. Aucune expérience du dépôt n’a été exécutée pour créer ce cours."
+    },
+    "sources": [
+      "R20",
+      "R21",
+      "R22",
+      "R23",
+      "R46",
+      "R47"
+    ],
+    "worksheet": "w08",
+    "number": 16,
+    "start_minute": 108,
+    "end_minute": 115
+  },
+  {
+    "id": "fair_comparison",
+    "lesson": "L6",
+    "minutes": 7,
+    "layout": "table",
+    "en": {
+      "title": "A capable alternative deserves a fair comparison",
+      "intro": "Compare the simplest capable option with the proposed construction.",
+      "headers": [
+        "Hold comparable",
+        "Observe separately"
+      ],
+      "rows": [
+        [
+          "Promise, information and permissions",
+          "Accepted outcome and delivery time"
+        ],
+        [
+          "Available resources and opportunities",
+          "Complete cost and cash timing"
+        ],
+        [
+          "Preparation and integration scope",
+          "Adaptation and verification effort"
+        ],
+        [
+          "Acceptance checks and retained records",
+          "Failures, exclusions and unresolved facts"
+        ]
+      ],
+      "prompt": "Success answers “did it work?” Advantage asks “what did it add?”",
+      "notes": "Ask participants to propose the strongest ordinary alternative in w09: restore the main route, use an existing backup or hire a capable coordinator. The alternative must receive the same relevant information and permissions. Do not compare a carefully prepared construction with an artificially helpless baseline. Ask which cost or effort could make the proposed method lose. Include preparation, integration, verification and adaptation, not only runtime. A result may be useful without beating the alternative. Repeated measurements may be needed before interpreting timing differences. The classroom can design this comparison, but has not run a physical experiment. Use q11 to check that a tie does not establish superiority and that the conventional option remains eligible to win."
+    },
+    "fr": {
+      "title": "Une solution compétente mérite une comparaison équitable",
+      "intro": "Comparer la solution capable la plus simple à la construction proposée.",
+      "headers": [
+        "Rendre comparable",
+        "Observer séparément"
+      ],
+      "rows": [
+        [
+          "Promesse, informations et autorisations",
+          "Résultat accepté et délai"
+        ],
+        [
+          "Ressources et possibilités disponibles",
+          "Coût complet et calendrier de trésorerie"
+        ],
+        [
+          "Préparation et intégration",
+          "Effort d’adaptation et de vérification"
+        ],
+        [
+          "Contrôles et pièces conservées",
+          "Échecs, exclusions et faits non résolus"
+        ]
+      ],
+      "prompt": "La réussite demande « cela a-t-il fonctionné ? » L’avantage demande « quel apport ? »",
+      "notes": "Dans w09, faites proposer la meilleure solution ordinaire : reprendre le moyen initial, utiliser un secours existant ou recourir à une coordination compétente. Elle doit disposer des mêmes informations et autorisations pertinentes. Il serait trompeur de comparer une construction préparée avec soin à une référence artificiellement démunie. Demandez quels coûts ou efforts pourraient faire perdre la méthode proposée. Incluez préparation, intégration, vérification et adaptation, au-delà du temps d’exécution. Un résultat peut être utile sans dépasser l’autre solution. Des mesures répétées peuvent être nécessaires pour interpréter un écart de durée. Le cours permet de concevoir cette comparaison, pas de prétendre avoir exécuté un essai physique. Utilisez q11 : l’égalité n’établit pas la supériorité et la solution conventionnelle doit pouvoir gagner."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w09",
+    "number": 17,
+    "start_minute": 115,
+    "end_minute": 122
+  },
+  {
+    "id": "comparison_result",
+    "lesson": "L6",
+    "minutes": 8,
+    "layout": "statement",
+    "en": {
+      "title": "Completion and advantage are separate claims",
+      "lead": "Both methods can succeed.\nThe added value can still be unknown.",
+      "items": [
+        "The reported initial comparisons tied.",
+        "The changed successor supports one scoped reuse result.",
+        "AI performance is marked NOT RUN.",
+        "Untimed human work prevents a complete-cost advantage claim."
+      ],
+      "prompt": "Name one observation that would justify choosing the conventional route.",
+      "notes": "Use the repository as a worked distinction, not a product ranking. Conventional enumeration and Harness pruning operate within the same authored bounded domain. The initial seven comparisons had the same outcomes and modeled prices. Both completed the specified successor. Later regression replays are not new held-out successors and must not be pooled as independent comparative discoveries. A separate conventional-method cell’s evidence-finalization failure does not establish Harness superiority. Ask learners to specify a decisive comparison result for their fictional route: for example, the conventional option delivers the same accepted result with lower measured complete cost and no compensating disadvantage. Do not supply invented measurements. Give three minutes to finish w09, including what remains unknown and the observation that could change the decision."
+    },
+    "fr": {
+      "title": "Réalisation et avantage sont deux affirmations",
+      "lead": "Les deux méthodes peuvent réussir.\nL’apport peut rester inconnu.",
+      "items": [
+        "Les comparaisons initiales rapportées sont à égalité.",
+        "Le nouveau cas étaye une réutilisation délimitée.",
+        "La performance de l’IA est marquée NON EXÉCUTÉE.",
+        "Le travail humain non mesuré limite la comparaison du coût complet."
+      ],
+      "prompt": "Quelle observation vous ferait choisir la solution conventionnelle ?",
+      "notes": "Utilisez le dépôt pour montrer une distinction, sans en faire un classement de produits. Énumération conventionnelle et recherche du banc d’essai utilisent le même domaine borné et rédigé pour l’expérience. Les sept comparaisons initiales obtiennent les mêmes résultats et prix modélisés. Les deux méthodes réalisent le cas suivant prévu. Les reproductions de régression ultérieures ne sont pas de nouveaux cas tenus à l’écart et ne doivent pas être fusionnées comme découvertes indépendantes. L’échec de finalisation d’une cellule conventionnelle distincte ne prouve pas la supériorité du banc. Demandez un résultat comparatif décisif pour la solution fictive : par exemple, le même résultat accepté à un coût complet mesuré inférieur, sans autre désavantage compensatoire. N’inventez aucune mesure. Accordez trois minutes pour compléter w09 avec inconnues et observation susceptible de changer la décision."
+    },
+    "sources": [
+      "R21",
+      "R22",
+      "R23",
+      "R46"
+    ],
+    "worksheet": "w09",
+    "number": 18,
+    "start_minute": 122,
+    "end_minute": 130
+  },
+  {
+    "id": "capstone_brief",
+    "lesson": "L7",
+    "minutes": 4,
+    "layout": "statement",
+    "en": {
+      "title": "The capstone decision",
+      "lead": "Can this arrangement satisfy P1?\nWhat can you honestly claim now?",
+      "items": [
+        "Use K0–K4 to inspect the initial route.",
+        "Record every revision and its deciding evidence.",
+        "Wait for K5 before judging the outcome.",
+        "Keep a later K6 attempt separate."
+      ],
+      "prompt": "Workbook w10–w12: histories, decision log and scoped Passport.",
+      "notes": "Start the 35-minute capstone at course minute 130. Assign roles if working in groups: coordinator, buyer, provider and checker. In smaller groups, one learner may hold two roles but must record conflicts. Say: ‘Your objective is a defensible decision, not a favorable answer.’ The outputs are the two-history record w10, decision log w11 and scoped Passport w12. Explain that packets arrive in stages. K0–K4 describe the promise, history, capacity, permissions and money. K5 later supplies the R1 mock receipt. Optional K6 is a distinct R2 attempt. Do not reveal the outcome early. All sources and events are simulated, and every verdict remains a tabletop verdict. Point to the facilitator rubric: authority, route, participation, complete economics, evidence and honest scope."
+    },
+    "fr": {
+      "title": "La décision de l’exercice final",
+      "lead": "Cet accord peut-il satisfaire P1 ?\nQue pouvez-vous affirmer maintenant ?",
+      "items": [
+        "Examiner la solution initiale avec K0 à K4.",
+        "Consigner chaque révision et sa preuve décisive.",
+        "Attendre K5 avant de juger le résultat.",
+        "Garder la tentative K6 distincte."
+      ],
+      "prompt": "Cahier w10 à w12 : historiques, journal de décision et passeport délimité.",
+      "notes": "Commencez les 35 minutes de l’exercice final à la minute 130. En groupe, attribuez les rôles de coordination, achat, fourniture et contrôle. Une personne peut cumuler deux rôles, à condition d’en consigner les conflits. Dites : « Votre objectif est une décision défendable, pas une réponse favorable. » Les productions sont le dossier des deux historiques w10, le journal de décision w11 et le passeport délimité w12. Les pièces arrivent par étapes. K0 à K4 décrivent promesse, historique, capacité, autorisations et argent. K5 fournit ensuite le reçu fictif de R1. K6, facultatif, décrit une tentative R2 distincte. Ne révélez pas le résultat trop tôt. Tout événement est simulé et tout verdict reste celui d’un exercice sur table. Présentez les critères : autorité, solution, participation, économie complète, preuves et portée honnête."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w10–w12",
+    "number": 19,
+    "start_minute": 130,
+    "end_minute": 134
+  },
+  {
+    "id": "capstone_packets",
+    "lesson": "L7",
+    "minutes": 11,
+    "layout": "table",
+    "en": {
+      "title": "The evidence packet changes the decision",
+      "intro": "K0–K4. Use the complete exhibits in the workbook.",
+      "headers": [
+        "Packet",
+        "Decision it informs"
+      ],
+      "rows": [
+        [
+          "K0: promise and specification",
+          "What Morgan can accept"
+        ],
+        [
+          "K1: checkpoint, A-02 and C-01",
+          "Why the obligation is 10,000"
+        ],
+        [
+          "K2: capacity and competing work",
+          "Why another 5,000 cannot share the slot"
+        ],
+        [
+          "K3: permissions and roles",
+          "Who may act and authorize"
+        ],
+        [
+          "K4: costs, funding and terms",
+          "Whether the revised route can be funded"
+        ]
+      ],
+      "prompt": "Record the initial problem, the revision, the evidence and the remaining uncertainty.",
+      "notes": "Use capstone minutes 4–10 for K1–K3 and minutes 10–15 for K4. Give groups time to complete the initial decision log before checking their funding answer. The initial route is unfunded: it needs CAD 4,700 before acceptance but has CAD 1,200. A later consented CAD 3,500 advance can fill that modeled gap only if received and available before payment, with explicit failure terms. The total fee stays CAD 5,600. Capacity remains limited to the free 10,000; the competing request is not silently accepted. Ask each group to name one condition still awaiting outcome evidence. Expected answers include acceptable full receipt by Morgan and the resulting settlement obligations. Do not let a revised plan become a claimed delivery. Before the next slide, distribute K5 and ask learners to inspect its quantity, time and authority."
+    },
+    "fr": {
+      "title": "Les pièces font évoluer la décision",
+      "intro": "K0 à K4. Consultez les pièces complètes du cahier.",
+      "headers": [
+        "Pièce",
+        "Décision éclairée"
+      ],
+      "rows": [
+        [
+          "K0 : promesse et spécification",
+          "Ce que Morgan peut accepter"
+        ],
+        [
+          "K1 : point de reprise, A-02 et C-01",
+          "Pourquoi l’engagement porte sur 10 000"
+        ],
+        [
+          "K2 : capacité et travail concurrent",
+          "Pourquoi 5 000 de plus dépassent le créneau"
+        ],
+        [
+          "K3 : permissions et rôles",
+          "Qui peut agir et autoriser"
+        ],
+        [
+          "K4 : coûts, financement et conditions",
+          "Si la solution révisée peut être financée"
+        ]
+      ],
+      "prompt": "Consignez problème initial, révision, preuve et incertitude restante.",
+      "notes": "Utilisez les minutes 4 à 10 pour K1 à K3, puis les minutes 10 à 15 pour K4. Laissez compléter le journal initial avant la mise au point sur le financement. La solution initiale n’est pas financée : 4 700 CAD sont nécessaires avant acceptation, pour 1 200 disponibles. Un acompte ultérieur convenu de 3 500 peut combler cet écart seulement s’il est reçu et disponible à temps, avec des conditions explicites en cas d’échec. Le prix total reste 5 600 CAD. La capacité libre demeure 10 000, sans acceptation tacite de l’autre demande. Chaque groupe doit nommer une condition qui attend encore les preuves du résultat. Réponses possibles : réception complète et conforme par Morgan et obligations de règlement qui en découlent. Un plan révisé ne devient pas une livraison revendiquée. Avant la prochaine diapositive, distribuez K5 et faites examiner quantité, heure et autorité."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w11",
+    "number": 20,
+    "start_minute": 134,
+    "end_minute": 145
+  },
+  {
+    "id": "capstone_failure",
+    "lesson": "L7",
+    "minutes": 7,
+    "layout": "failure",
+    "en": {
+      "title": "R1 keeps its failed verdict",
+      "lead": "9,800 accepted / 10,000 required",
+      "body": "K5 leaves 200 labels missing from P1.",
+      "items": [
+        "Preserve the failed receipt and the original promise.",
+        "Cash is zero. The K5 inspection invoice of CAD 300 is due.",
+        "Do not book the conditional success cash balance."
+      ],
+      "prompt": "The tabletop outcome fails. Actual physical delivery remains unestablished.",
+      "notes": "Let groups read K5 and write a verdict before discussion. The mock receipt accepts 9,800 labels; P1 requires 10,000 acceptable labels with no partial acceptance. Therefore R1 fails P1 inside the tabletop. Even if delivery timing and every other condition were favorable, the shortage is decisive. Ask: ‘Does the funding revision rescue this verdict?’ No. Funding supports a route, not acceptance of missing output. Ask what belongs in the ledger now. Incurred costs, cash actually received, unresolved balance and agreed failure/refund duties remain visible. Do not reuse the CAD 1,800 success balance unless its full-acceptance conditions hold in a distinct record. K5 explicitly makes the CAD 300 inspection charge due after failure. The CAD 2,100 balance is neither due nor received, and no repair agreement is supplied. Use capstone minutes 15–22 to record R1 and its unfunded invoice in w11–w12. Reward an honest failed or not-established verdict when the record requires it. Preserve R1 before offering the optional rerun."
+    },
+    "fr": {
+      "title": "R1 conserve son verdict d’échec",
+      "lead": "9 800 acceptées / 10 000 exigées",
+      "body": "K5 laisse 200 étiquettes manquantes pour P1.",
+      "items": [
+        "Conserver le reçu d’échec et la promesse initiale.",
+        "Trésorerie nulle. La facture K5 de 300 CAD est exigible.",
+        "Ne pas reprendre le solde conditionnel de réussite."
+      ],
+      "prompt": "Le résultat sur table échoue. La livraison physique réelle reste non établie.",
+      "notes": "Laissez les groupes lire K5 et rédiger leur verdict avant l’échange. Le reçu fictif accepte 9 800 étiquettes, alors que P1 en exige 10 000 conformes sans acceptation partielle. R1 échoue donc à P1 dans l’exercice. Même avec une heure et toutes les autres conditions favorables, le manque suffit. Demandez : « La révision du financement sauve-t-elle le verdict ? » Non. Le financement soutient la solution, pas l’acceptation d’un produit absent. Que faut-il conserver au registre ? Coûts engagés, fonds réellement reçus, solde non résolu et obligations convenues d’échec ou de remboursement. Le solde de réussite de 1 800 CAD ne s’applique que si ses conditions tiennent dans un dossier distinct. K5 rend explicitement les 300 CAD d’inspection exigibles après échec. Le solde de 2 100 CAD n’est ni dû ni reçu, et aucun accord de reprise n’est fourni. Consacrez les minutes 15 à 22 à R1 et à sa facture non financée dans w11 et w12. Valorisez le verdict honnête imposé par les pièces. Conservez R1 avant de proposer une nouvelle tentative."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w10–w12",
+    "number": 21,
+    "start_minute": 145,
+    "end_minute": 152
+  },
+  {
+    "id": "capstone_rerun",
+    "lesson": "L7",
+    "minutes": 13,
+    "layout": "table",
+    "en": {
+      "title": "The positive control is a separate branch",
+      "intro": "K6 starts from a separate fresh assumed state. It does not repair or settle R1.",
+      "headers": [
+        "Record",
+        "Permitted conclusion"
+      ],
+      "rows": [
+        [
+          "R1 with K5: 9,800 accepted",
+          "P1 failed in this tabletop attempt"
+        ],
+        [
+          "R2 with K6: 10,000 accepted under stated conditions",
+          "P1 supported in the new tabletop attempt"
+        ],
+        [
+          "Physical delivery or real market",
+          "Not established by either classroom record"
+        ]
+      ],
+      "prompt": "What changed? Which evidence establishes it? What remains outside scope?",
+      "notes": "Distribute K6 only after R1 is recorded. Use capstone minutes 22–28 for this optional positive-control branch from a fresh assumed starting state, minutes 28–34 for the Passport and peer rubric, then minute 34–35 for q09 and a one-sentence debrief. If the session omits the optional rerun, use this slide as a debrief rather than pretending it occurred. In the new simulated R2 packet, all 10,000 labels meet the stated conditions. Learners may record tabletop support for P1 in R2, with its separate evidence identity. R1 stays failed, with its unpaid invoice. Do not use R2 money to settle it. This is not evidence that R1 was physically repaired or rerun. The full-acceptance cash arithmetic is conditional on the corresponding receipts and payment assumptions, and belongs to the applicable record. Ask groups to explain why two histories are better than editing one favorable story. Expected answer: they preserve what failed, what changed and the basis for the later verdict. End the capstone at minute 165. Invite each group to state its next real-world observation without claiming that the exercise performed it."
+    },
+    "fr": {
+      "title": "Le contrôle positif reste une branche distincte",
+      "intro": "K6 part d’un état initial distinct supposé. Il ne répare ni ne règle R1.",
+      "headers": [
+        "Dossier",
+        "Conclusion permise"
+      ],
+      "rows": [
+        [
+          "R1 avec K5 : 9 800 acceptées",
+          "P1 échoue dans cette tentative sur table"
+        ],
+        [
+          "R2 avec K6 : 10 000 acceptées selon les conditions",
+          "P1 est étayée dans la nouvelle tentative"
+        ],
+        [
+          "Livraison physique ou marché réel",
+          "Ni l’un ni l’autre n’est établi par ces dossiers"
+        ]
+      ],
+      "prompt": "Qu’est-ce qui a changé ? Quelle preuve l’établit ? Quelle limite demeure ?",
+      "notes": "Distribuez K6 après la consignation de R1. Utilisez les minutes 22 à 28 pour ce contrôle positif facultatif depuis un état initial distinct supposé, 28 à 34 pour le passeport et l’évaluation entre pairs, puis 34 à 35 pour q09 et une phrase de bilan. Si la nouvelle tentative n’est pas réalisée, utilisez cette diapositive pour le retour d’expérience sans prétendre l’avoir exécutée. Dans le dossier simulé R2, les 10 000 étiquettes satisfont aux conditions indiquées. Les apprenants peuvent étayer P1 sur table dans R2 avec ses propres pièces. R1 reste en échec avec sa facture impayée. L’argent hypothétique de R2 ne règle pas R1. Il ne s’agit pas d’une reprise physique de R1. Le calcul financier de réussite dépend des encaissements et hypothèses applicables au dossier concerné. Demandez pourquoi conserver deux historiques vaut mieux que réécrire une histoire favorable. Réponse attendue : cela préserve l’échec, les changements et le fondement du nouveau verdict. Terminez l’exercice final à la minute 165. Chaque groupe peut nommer sa prochaine observation réelle, sans prétendre que le cours l’a effectuée."
+    },
+    "sources": [
+      "C1"
+    ],
+    "worksheet": "w10–w12",
+    "number": 22,
+    "start_minute": 152,
+    "end_minute": 165
+  },
+  {
+    "id": "reuse",
+    "lesson": "L8",
+    "minutes": 10,
+    "layout": "reuse",
+    "en": {
+      "title": "A retained capability needs a different next test",
+      "labels": [
+        "One assessed case",
+        "Retained capability",
+        "A changed next case",
+        "Comparison with and without it"
+      ],
+      "details": [
+        "Outcome, costs and failures",
+        "Tools, knowledge and usable relationships",
+        "New recipient, terms or dependencies",
+        "Measure benefit and adaptation effort"
+      ],
+      "prompt": "Retention is useful when it helps the next case under its own conditions.",
+      "notes": "Move to w13. Ask learners to retain one concrete capability: a validated packet format, an authorized release procedure, an acceptance checklist or a working relationship. Require a different next case, such as a new recipient, material, deadline or dependency. Then specify a comparison with and without the retained capability. Measure the adaptation and checking effort as well as the outcome. The research flywheel is an ambition to compound useful capabilities across different work. One success or one unchanged repeat does not establish that broader claim. Failed records can also be worth retaining when they prevent a repeated mistake. Give four minutes for the Reuse test and two minutes for peer feedback. Use q12. Ask each learner to name the observation that would show the retained item did not earn its place."
+    },
+    "fr": {
+      "title": "Une capacité conservée appelle un nouveau test",
+      "labels": [
+        "Un cas évalué",
+        "Une capacité conservée",
+        "Un cas suivant différent",
+        "Comparaison avec et sans elle"
+      ],
+      "details": [
+        "Résultat, coûts et échecs",
+        "Outils, savoirs et relations utilisables",
+        "Nouveau destinataire, conditions ou dépendances",
+        "Mesurer apport et effort d’adaptation"
+      ],
+      "prompt": "La capacité conservée vaut par son apport au prochain cas, selon ses conditions.",
+      "notes": "Passez à w13. Faites choisir une capacité concrète à conserver : format de dossier validé, procédure de transmission autorisée, grille d’acceptation ou relation utilisable. Exigez un cas différent, avec nouveau destinataire, matériau, délai ou dépendance. Définissez ensuite une comparaison avec et sans cette capacité. Mesurez l’effort d’adaptation et de contrôle, en plus du résultat. La boucle de recherche vise à accumuler des capacités utiles pour des travaux différents. Une réussite ou une répétition inchangée ne suffit pas à établir cette ambition. Les échecs peuvent aussi être utiles s’ils évitent de répéter une erreur. Accordez quatre minutes au test de réutilisation et deux minutes de retour entre pairs. Utilisez q12. Demandez quelle observation montrerait que l’élément conservé ne mérite pas sa place."
+    },
+    "sources": [
+      "C1",
+      "F3"
+    ],
+    "worksheet": "w13",
+    "number": 23,
+    "start_minute": 165,
+    "end_minute": 175
+  },
+  {
+    "id": "closing",
+    "lesson": "L8",
+    "minutes": 5,
+    "layout": "closing",
+    "en": {
+      "title": "Your next useful action",
+      "lead": "Choose one real promise.\nName one missing condition.\nDesign one deciding observation.",
+      "body": "Return to your baseline answer. Explain what changed and why.",
+      "small": "The course demonstrates classroom reasoning. A real rehearsal needs authentic authority and observed evidence.",
+      "notes": "Return to the answer written at the beginning. Ask learners to revise it and identify the evidence that now matters most. Allow two minutes for a next-action commitment: one real promise, named owner, missing condition and a bounded authorized observation. This is planning, not permission to access data or commit suppliers. Recommend a later check of whether the learner actually applied the method; satisfaction alone does not establish training effectiveness. Direct participants to the quick reference, workbook, facilitator answers and twelve-question learning check. The quiz is an unvalidated learning tool, not a certification. Close by asking for one remaining uncertainty that would change a real decision. Thank the group and preserve their failed and improved classroom records. The next step is a specific observed rehearsal with the relevant people."
+    },
+    "fr": {
+      "title": "Votre prochaine action utile",
+      "lead": "Choisir une promesse réelle.\nNommer une condition manquante.\nConcevoir une observation décisive.",
+      "body": "Reprenez votre réponse initiale. Expliquez ce qui a changé et pourquoi.",
+      "small": "Le cours montre un raisonnement sur table. Un exercice réel exige autorité authentique et preuves observées.",
+      "notes": "Revenez à la réponse rédigée au début. Faites-la réviser et demandez quelle preuve importe désormais le plus. Accordez deux minutes pour une action suivante : promesse réelle, responsable nommé, condition manquante et observation bornée et autorisée. Ce travail de planification n’autorise ni accès aux données ni engagement d’un fournisseur. Proposez une vérification ultérieure de l’application de la méthode. La satisfaction ne suffit pas à établir l’efficacité d’une formation. Orientez vers l’aide-mémoire, le cahier, les corrigés d’animation et le questionnaire de douze questions. Ce questionnaire non validé soutient l’apprentissage, sans certifier une compétence opérationnelle. Terminez par une incertitude qui pourrait changer une vraie décision. Remerciez le groupe et conservez les dossiers d’échec et d’amélioration. La suite est un exercice concret observé avec les personnes concernées."
+    },
+    "sources": [
+      "C1",
+      "N2",
+      "P2"
+    ],
+    "worksheet": "w01 / w13",
+    "number": 24,
+    "start_minute": 175,
+    "end_minute": 180
+  }
+]

@@ -1,0 +1,1486 @@
+{
+  "document": "learner",
+  "lang": "en",
+  "title": "CONTINUITY Ω MasterClass 101",
+  "subtitle": "Learn to preserve a customer promise and construct a viable way to deliver",
+  "sources": [
+    "C1",
+    "F1",
+    "F2",
+    "F3",
+    "R21",
+    "R22",
+    "R23",
+    "R46",
+    "R47"
+  ],
+  "pages": [
+    {
+      "id": "o01",
+      "lesson": "O",
+      "kicker": "Orientation · 5 min",
+      "title": "What you will be able to do",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**CONTINUITY Ω is a project for helping a business keep a defined customer promise when its usual way of delivering is disrupted.** It investigates the missing conditions, helps construct a usable alternative, and asks whether people can voluntarily support the complete arrangement. Its research ambition includes learning which retained capabilities make different future work possible. [C1, pp. 5–8, 17–21]"
+        },
+        {
+          "type": "p",
+          "text": "This course turns that idea into decisions you can practise without writing code. By the end, you should be able to define an authoritative promise; build a route from records, rights and resources; check its cost and funding; separate what a test established from what it did not; and choose a useful next step."
+        },
+        {
+          "type": "callout",
+          "label": "Your starting answer",
+          "text": "A printer restores its order application after an outage. The screen opens and the backup loads. Has the customer promise been preserved? Write a one-sentence answer and the first piece of evidence you would request. Keep it for the end of the course."
+        },
+        {
+          "type": "callout",
+          "label": "How to learn here",
+          "text": "Read the worked example, make your own decision, then consult the feedback. Work alone or with a partner. A useful answer names a reason and the observation that could change it."
+        },
+        {
+          "type": "p",
+          "text": "**Output:** your baseline answer. **Next:** meet the case that will accumulate decisions throughout the course. The 180-minute live schedule includes a ten-minute break; self-study may take longer."
+        }
+      ]
+    },
+    {
+      "id": "o02",
+      "lesson": "O",
+      "kicker": "Orientation · 5 min",
+      "title": "Meet the order and the people",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Every company, record, price and event in this case is invented for teaching. Printer A owes its customer a packaging-label order. Its usual production route is disrupted. Printer B could provide an alternate route; a continuity coordinator offers to organize the separate continuity service. Printer A would buy that service. The customer’s original invoice is outside our service ledger."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Role",
+            "What the role controls"
+          ],
+          "rows": [
+            [
+              "Printer A",
+              "The original order, permitted disclosure and service purchase."
+            ],
+            [
+              "Printer B",
+              "Its process, materials, usable slot and production commitment."
+            ],
+            [
+              "Coordinator",
+              "The proposed route, service ledger and handoffs."
+            ],
+            [
+              "Morgan",
+              "Customer receiving lead authorized to judge acceptance."
+            ]
+          ],
+          "widths": [
+            0.24,
+            0.76
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The accepted order is 10,000 labels, artwork v3, received and accepted by Thursday 12 November 2026 at 16:00, America/Toronto, at the fictional Montréal warehouse, dock 3, site M1. No short shipment or quality substitution is authorized. The next lesson supplies the full specification."
+        },
+        {
+          "type": "callout",
+          "label": "Find the difference",
+          "text": "“The server is restored,” “Printer B can open the file,” and “Morgan accepts the complete order on time” are different claims. Identify which one directly answers the customer’s requirement."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "Only the last claim reaches customer acceptance. The first two may be necessary steps; neither establishes the complete result. Our classroom can establish what you reasoned from the printed exhibits, not a real delivery or a real market."
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a role map and one sentence naming the customer result. **Next:** make that result precise enough to test."
+        }
+      ]
+    },
+    {
+      "id": "l1_01",
+      "lesson": "L1",
+      "kicker": "Lesson 1 · 4 min",
+      "title": "Write a promise someone can accept",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Given an order and its authorized amendments, write one promise card that another person can use to accept or reject the result."
+        },
+        {
+          "type": "p",
+          "text": "A promise is more than an aspiration such as “keep the business running.” It identifies a beneficiary, an output, quantity and quality, a deadline and place, and the authority entitled to accept. The source of those terms matters: a convenient reconstruction cannot replace the customer’s actual agreement. [C1, pp. 7–10]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "P1: the teaching promise",
+            "Acceptance condition"
+          ],
+          "rows": [
+            [
+              "Output and quantity",
+              "10,000 packaging labels; approved artwork v3."
+            ],
+            [
+              "Specification",
+              "Matte white self-adhesive stock; 50 × 30 mm, tolerance ±0.5 mm; approved code legible."
+            ],
+            [
+              "Quality and completeness",
+              "Damaged labels do not count; no partial acceptance."
+            ],
+            [
+              "Deadline and place",
+              "12 November 2026, 16:00, America/Toronto; site M1, dock 3."
+            ],
+            [
+              "Authority",
+              "Morgan, customer receiving lead, checks count, specification, quality and time."
+            ]
+          ],
+          "widths": [
+            0.29,
+            0.71
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "“Send about 10,000 labels Thursday” cannot settle a dispute about quantity, time or receipt. P1 can: a dispatch notice at 15:50 is insufficient without timely receipt and acceptance."
+        },
+        {
+          "type": "p",
+          "text": "An authorized new agreement can change the future commitment. Record that as a new version. It does not retroactively make an earlier short shipment or missed deadline conform to P1. **Next:** find which order version actually carries that promise."
+        }
+      ]
+    },
+    {
+      "id": "l1_02",
+      "lesson": "L1",
+      "kicker": "Lesson 1 · 5 min",
+      "title": "Recover the accepted history",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The restored checkpoint covers Tuesday 10 November at 12:00 and shows 8,000 labels. Amendment A-02, authorized at 14:00 that Tuesday, adds 2,000. For this exercise, custodian log C-01 covers through the frozen cutoff—Wednesday 11 November at 12:00—and lists no other amendment or cancellation. These are printed teaching assumptions, not authenticated real records."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "8,000 + 2,000 = 10,000. The extra 2,000 are part of the accepted order. They are not optional spare production. Reconciliation must include the accepted events through the agreed cutoff, including cancellations that could reduce an obligation."
+        },
+        {
+          "type": "p",
+          "text": "A recovered application can be technically usable while its order is wrong. A file’s matching checksum can show that its bytes have not changed relative to a reference; it cannot establish that the reference contains every accepted event. If no available evidence distinguishes the two histories, asking another AI cannot recover the missing fact. [C1, pp. 9–10]"
+        },
+        {
+          "type": "callout",
+          "label": "Two different clocks",
+          "text": "Recovery time asks when a service can work again. The customer deadline asks when the agreed result must be received and accepted. A recovery point describes the recovered state; accepted changes after that point still need attention."
+        },
+        {
+          "type": "callout",
+          "label": "Check yourself",
+          "text": "If A-02 is missing, is 8,000 now the right answer? No. The accepted quantity is not established from the incomplete view; the missing evidence remains a task to resolve."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** use the authoritative history to complete your promise card."
+        }
+      ]
+    },
+    {
+      "id": "l1_03",
+      "lesson": "L1",
+      "kicker": "Lesson 1 · 6 min",
+      "title": "Make the first acceptance decision",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use P1 and the teaching history to write a compact Promise card. You are not creating a new offer. You are preserving the commitment that the case says was already accepted."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "State the beneficiary, 10,000-label quantity, artwork and material/quality rules.",
+            "Bind the deadline to the date, time zone and receiving location. Name Morgan and the acceptance checks.",
+            "List the checkpoint, A-02 and C-01 as the exercise sources. Mark their cutoff and simulated status."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "A message says: “We produced 10,000 labels. Of these, 200 are damaged. The truck left at 15:40.” Decide whether this proves P1. Name two observations you still need or conditions that fail."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "It does not prove P1. Only 9,800 undamaged labels remain, so the stated quantity condition fails unless valid replacements arrive within P1. Dispatch does not establish timely receipt or Morgan’s acceptance. A larger production count cannot make damaged labels acceptable."
+        },
+        {
+          "type": "callout",
+          "label": "Misconception to retire",
+          "text": "“Close enough is continuity.” Close enough is a different acceptance rule. A customer may voluntarily agree to it, but the original verdict and the new agreement must remain separate. [C1, pp. 8, 13–14]"
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a Promise card with its sources and acceptance rule. **Self-check:** could someone reject a late, damaged or short delivery using only this card? **Next:** search for a route that can satisfy it."
+        }
+      ]
+    },
+    {
+      "id": "l2_01",
+      "lesson": "L2",
+      "kicker": "Lesson 2 · 4 min",
+      "title": "Change the means with a clear purpose",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Identify a missing condition, propose a concrete capability that could supply it, and keep the authoritative customer promise intact."
+        },
+        {
+          "type": "p",
+          "text": "Before choosing a commitment, transformational intelligence can search jointly for a more valuable outcome, workable means and a cooperative arrangement. A continuity exercise then freezes the authoritative promise it tests. Within P1, invent different means or arrangements; changing the customer promise requires a new explicitly accepted version. That version cannot retroactively rescue an earlier failure. [F1, pp. 2–3; C1, pp. 5, 10–11]"
+        },
+        {
+          "type": "figure",
+          "name": "promise_routes",
+          "caption": "Different routes may compete to satisfy the same authoritative promise. The diagram describes a design choice, not a completed delivery."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "The narrow question is “Can this plant restart in time?” A broader useful question is “Can an authorized route deliver and obtain acceptance of P1 by Thursday at 16:00?” An alternate printer helps only if the information, rights, capacity and delivery path also work."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** turn an attractive alternative into something another provider can actually use."
+        }
+      ]
+    },
+    {
+      "id": "l2_02",
+      "lesson": "L2",
+      "kicker": "Lesson 2 · 5 min",
+      "title": "Construct something the next provider can use",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A missing capability is a specific ability the complete route needs. It might be a current order package, a permitted release channel, an adapter for the alternate equipment, or a method that reconciles receipts with the original order. Its value comes from what it enables under known conditions. [C1, pp. 11–12]"
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "Printer B has a suitable machine, but its operator cannot use Printer A’s proprietary production file. A proposed construction converts the approved design into B’s accepted format, preserves artwork v3 and the specification, and produces a checkable proof. The conversion needs validation on B’s process; a plausible preview alone is insufficient."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Build",
+            "What makes it usable"
+          ],
+          "rows": [
+            [
+              "Production packet",
+              "Current quantity, artwork, specification, destination and stable order ID."
+            ],
+            [
+              "Authorized handoff",
+              "Permitted recipient, permitted information, release authority and reachable channel."
+            ],
+            [
+              "Closure record",
+              "Acknowledgment, amendments, cancellation and acceptance records that help prevent duplicates."
+            ]
+          ],
+          "widths": [
+            0.27,
+            0.73
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Both printers require the same unavailable login to retrieve the approved artwork. Propose one authorized construction that could remove that dependence. State its test."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "A protected current package and separately reachable release channel are plausible candidates. Test that the authorized recipient can obtain and use the right version without the failed login. Another supplier name or a copied stale file does not establish that capability."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** use AI to help discover and challenge such constructions, while keeping authority with the named people."
+        }
+      ]
+    },
+    {
+      "id": "l2_03",
+      "lesson": "L2",
+      "kicker": "Lesson 2 · 5 min",
+      "title": "Give AI a useful job and a check",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "AI can help propose routes, assemble a draft production packet, identify dependencies or generate a candidate adapter. Give it the promise, relevant source records, permissions and the decision you need. A second model can search for consequential omissions. Neither model’s confidence settles whether the proposed route works. [C1, pp. 5–6, 10–11]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Role",
+            "A useful instruction"
+          ],
+          "rows": [
+            [
+              "Proposer",
+              "“Draft a route for P1. List required inputs, authority, capacity and evidence for every handoff.”"
+            ],
+            [
+              "Challenger",
+              "“Find an omission that could change acceptance. Identify the affected requirement and the source or test that would decide it.”"
+            ],
+            [
+              "Authorized reviewer",
+              "Check the allegation against sources or observations; accept, reject or leave it unresolved."
+            ]
+          ],
+          "widths": [
+            0.22,
+            0.78
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "A challenger notices that the proposal prints 8,000 labels. A-02 supports the objection. The coordinator updates the quantity and checks capacity, price and timing again. Finding the missing 2,000 is the beginning of a repair, not proof that the repaired service can deliver."
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Improve this critique: “The plan is risky and the AI might be wrong.” Give one precise requirement, possible failure and deciding check."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "For example: “P1 requires artwork v3; the packet names v2. Compare the authorized artwork record and validate the released file on B’s process.” A concrete objection can lead to construction or rejection. Unsupported pessimism should also be challenged."
+        },
+        {
+          "type": "p",
+          "text": "Use only authorized data and operations. AI does not supply missing consent, source history or real production evidence. **Next:** choose the smallest useful construction and its test."
+        }
+      ]
+    },
+    {
+      "id": "l2_04",
+      "lesson": "L2",
+      "kicker": "Lesson 2 · 6 min",
+      "title": "Complete a Route card",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose one obstacle from the case: a stale order, an unusable file, or a shared failed login. Describe a route that removes it without silently changing P1. A route may combine ordinary services, human expertise and AI-assisted work. The simplest capable option remains eligible. [C1, pp. 10–12, 19–20]"
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Name the blocking condition and the P1 requirement it threatens.",
+            "Specify what you would construct, who must authorize it and who will use it.",
+            "Name the observation that would show it works and the failure that would stop the claim.",
+            "List the next unresolved condition: perhaps capacity, payment timing or transport."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Complete: “We need ___ so that ___ can ___ under ___. We will test it by ___. Until then, ___ remains unestablished.”"
+        },
+        {
+          "type": "callout",
+          "label": "Model feedback",
+          "text": "“We need a current, permitted production packet so that Printer B can make P1 without the failed login. We will test retrieval, version, format and a process proof through the separate channel. Until then, alternate production readiness remains unestablished.” This names an artifact and a test rather than merely requesting resilience."
+        },
+        {
+          "type": "callout",
+          "label": "Misconception to retire",
+          "text": "“Changing the means means changing the promise.” You may redesign a route within the original terms. If a particular site, material or approval is mandatory, it remains mandatory unless an authorized new agreement changes it."
+        },
+        {
+          "type": "p",
+          "text": "**Output:** one Route card with a construction, owner and test. **Next:** determine whether the people who must supply that route can and will commit to it."
+        }
+      ]
+    },
+    {
+      "id": "l3_01",
+      "lesson": "L3",
+      "kicker": "Lesson 3 · 6 min",
+      "title": "Make cooperation worth choosing",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Build an arrangement map that names each required participant, contribution, consent and reason to participate."
+        },
+        {
+          "type": "p",
+          "text": "Invent the Economy asks how a technically possible activity could become a voluntary, viable exchange. The missing construction may be economic: a useful service boundary, a reservation offer, payment timing or a way to share preparation work. No participant’s agreement follows automatically from a model. [F2, pp. 2–3; C1, pp. 17–19]"
+        },
+        {
+          "type": "figure",
+          "name": "market_arrangement",
+          "caption": "Usable capability, participants’ commitments, verification and timely funding must fit together. This is a proposed arrangement, not evidence of an existing market."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "A reusable method for preparing and checking production packets could reduce repeated setup work. That might make smaller continuity jobs worth offering. The provider still needs funded, non-conflicting capacity; buyers must value and actually choose the service."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** identify what each party would commit, then check whether the same scarce resources have been promised twice."
+        }
+      ]
+    },
+    {
+      "id": "l3_02",
+      "lesson": "L3",
+      "kicker": "Lesson 3 · 6 min",
+      "title": "Turn willingness into usable commitments",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Printer B says, “We are interested.” That is useful information, but it does not reserve a window or authorize disclosure. The arrangement must say who supplies what, under which conditions, and what happens if a required contribution becomes unavailable. Compare each participant’s position with its credible alternatives. [C1, pp. 11–13, 17–18]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Participant",
+            "A usable commitment"
+          ],
+          "rows": [
+            [
+              "Printer A",
+              "Accept service scope and price; authorize the permitted packet, activation and payment."
+            ],
+            [
+              "Printer B",
+              "Acknowledge a qualified process, materials, slot and release conditions; state expiry and withdrawal terms."
+            ],
+            [
+              "Morgan / customer",
+              "Confirm applicable specification, permissions and the acceptance authority."
+            ],
+            [
+              "Coordinator / checker",
+              "Own handoffs, evidence, fees and remaining duties; disclose relevant relationships."
+            ]
+          ],
+          "widths": [
+            0.27,
+            0.73
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked capacity example",
+          "text": "The window contains 12,000 usable units. Protected prior work uses 2,000. P1 needs the remaining 10,000. An additional simultaneous 5,000-unit job would raise total claims to 17,000: it does not fit."
+        },
+        {
+          "type": "p",
+          "text": "A second supplier can share the same failed login, material source, carrier or approver. Check the complete route and relevant time window. A local reservation table cannot reveal bookings that the provider has not disclosed."
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Repair the overloaded proposal without assuming you may displace protected work or change P1. Name one construction and the new evidence it needs."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "Qualify additional capacity, find an actually feasible non-overlapping window, or offer a conditional arrangement the affected parties explicitly accept. Record the unresolved need until the required commitments and capacity are established."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** turn the chosen repair into an Arrangement map."
+        }
+      ]
+    },
+    {
+      "id": "l3_03",
+      "lesson": "L3",
+      "kicker": "Lesson 3 · 8 min",
+      "title": "Build your Arrangement map",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use your Route card. For every essential contribution, identify its owner, the benefit or compensation that makes participation worthwhile, the commitment needed, and its present evidence. A good arrangement joins these contributions; it does not treat everyone except the buyer as a free input. [C1, pp. 17–19]"
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Printer A accepts a price; Printer B has capacity; the approved artwork can be accessed only through the failed login. Which construction comes next? Identify a permitted release solution, who must consent, and the condition under which the offer becomes usable."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "The signed price and available slot do not remove the information dependency. An authorized current package and a separately reachable release channel could do so. Qualify them with the relevant rights holder and B’s operator, then update the complete arrangement. Do not spend a reservation fee on the assumption that access will resolve itself."
+        },
+        {
+          "type": "callout",
+          "label": "Misconception to retire",
+          "text": "“A good simulation means there is a market.” A modeled arrangement shows consequences of supplied assumptions. Accepted terms, actual exchange and repeat demand require different observations. Even a real payment for preparation establishes only that purchased stage. [F2, p. 3; C1, pp. 8, 19]"
+        },
+        {
+          "type": "p",
+          "text": "**Output:** an Arrangement map with accepted, proposed and missing contributions visibly separated. **Self-check:** can a participant decline, and does the proposal still respect its obligations and alternatives? **Next:** ask what the complete service costs and whether its bills can be paid when due."
+        }
+      ]
+    },
+    {
+      "id": "l4_01",
+      "lesson": "L4",
+      "kicker": "Lesson 4 · 5 min",
+      "title": "Count the complete service cost",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Calculate projected contribution, identify the largest cash shortfall, and explain the conditions of a funded revision."
+        },
+        {
+          "type": "p",
+          "text": "All amounts in this lesson are invented Canadian dollars from the coordinator’s perspective. Printer A proposes to buy the separate continuity service for CAD 5,600. The end customer’s original order invoice is excluded. This course’s model assumes the following cost scope is complete and on one consistent basis."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Modeled cost",
+            "CAD",
+            "Payment"
+          ],
+          "rows": [
+            [
+              "Alternate production",
+              "3,200",
+              "Before acceptance"
+            ],
+            [
+              "Prepared and checked packet",
+              "550",
+              "Before acceptance"
+            ],
+            [
+              "Transport",
+              "400",
+              "Before acceptance"
+            ],
+            [
+              "Coordination, including overhead allocation",
+              "350",
+              "Before acceptance"
+            ],
+            [
+              "Readiness test charge",
+              "200",
+              "Before acceptance"
+            ],
+            [
+              "Final inspection",
+              "300",
+              "After acceptance"
+            ],
+            [
+              "Total",
+              "5,000",
+              "4,700 before; 300 after"
+            ]
+          ],
+          "widths": [
+            0.58,
+            0.14,
+            0.28
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "5,600 − 5,000 = CAD 600 projected contribution. That calculation is conditional on the modeled scope, execution, acceptance and payment. It is not collected revenue, a bank balance or realized profit."
+        },
+        {
+          "type": "p",
+          "text": "A real ledger must establish its own complete boundary: staff time, acquisition and failed attempts, preparation, AI or technical resources, financing, retries, aftercare and remaining duties where applicable. Do not add a resource twice, or hide it outside the boundary. [C1, pp. 17–19; F2, p. 6]"
+        },
+        {
+          "type": "p",
+          "text": "The inspection row states when its bill is paid; it does not postpone required quality checks until after acceptance. **Next:** place the bills and receipts on a timeline."
+        }
+      ]
+    },
+    {
+      "id": "l4_02",
+      "lesson": "L4",
+      "kicker": "Lesson 4 · 5 min",
+      "title": "A positive contribution cannot pay an early bill",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The initial offer pays the coordinator only after full acceptance. The coordinator starts with CAD 1,200 available after its protected obligations. Before acceptance, CAD 4,700 must be paid. The promised later fee cannot fund an earlier obligation. [C1, pp. 18–19; F2, p. 6]"
+        },
+        {
+          "type": "figure",
+          "name": "cash_timing",
+          "caption": "Initial plan: 1,200 available against 4,700 due before acceptance creates a 3,500 gap. The revised success path requires a 3,500 advance included in the 5,600 fee, then 2,100 collected and 300 paid after acceptance."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "Early funding gap = 4,700 − 1,200 = CAD 3,500. Do not activate on the initial payment plan. Construct a different sequence that the parties can accept, obtain authorized working capital, or qualify a less costly complete route."
+        },
+        {
+          "type": "callout",
+          "label": "Check yourself",
+          "text": "Would a higher fee payable only after acceptance remove the early gap? No. It can change projected contribution without changing money available before the bills fall due."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** test a voluntary advance as one possible repair."
+        }
+      ]
+    },
+    {
+      "id": "l4_03",
+      "lesson": "L4",
+      "kicker": "Lesson 4 · 4 min",
+      "title": "Repair the timing without counting revenue twice",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the funded teaching extension, Printer A voluntarily agrees to advance CAD 3,500 as part of the CAD 5,600 fee. The exercise assumes it is received, cleared and authorized for documented, nonrecoverable preacceptance costs; unused funds are refundable. The remaining CAD 2,100 is payable only on full acceptance. These terms do not erase other failure duties."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Conditional success path",
+            "Cash balance, CAD"
+          ],
+          "rows": [
+            [
+              "Opening uncommitted cash",
+              "1,200"
+            ],
+            [
+              "Receive advance +3,500",
+              "4,700"
+            ],
+            [
+              "Pay preacceptance costs −4,700",
+              "0"
+            ],
+            [
+              "Full acceptance; collect balance +2,100",
+              "2,100"
+            ],
+            [
+              "Pay final inspection −300",
+              "1,800"
+            ]
+          ],
+          "widths": [
+            0.71,
+            0.29
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked reconciliation",
+          "text": "Total receipts remain 3,500 + 2,100 = 5,600. Ending cash of 1,800 contains the original 1,200 plus the modeled 600 contribution. Calling the advance extra revenue would count part of the fee twice."
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Suppose full acceptance does not occur. Can you still enter the 2,100 receipt and claim the same 1,800 ending cash? Explain your answer in one sentence."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "No. The success-path receipt depends on full acceptance and collection. Preserve actual or simulated observed balances, unpaid charges and refund/rework obligations instead of borrowing the favorable branch’s result."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** record both the funded success path and the failure questions that the offer must still resolve. [C1, pp. 18–20]"
+        }
+      ]
+    },
+    {
+      "id": "l4_04",
+      "lesson": "L4",
+      "kicker": "Lesson 4 · 6 min",
+      "title": "Make the funding decision inspectable",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use the Cost and cash ledger to separate the proposed fee, complete modeled costs, receipts, paid amounts and duties still outstanding. Mark every entry as assumed, agreed or observed in the exercise. A deposit shown on a draft invoice is not a cleared receipt."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Reproduce the CAD 600 contribution and CAD 3,500 initial gap.",
+            "Record the revised advance inside the total fee, with its permitted use and refund terms.",
+            "Reproduce the successful path to CAD 1,800, including the original CAD 1,200.",
+            "Write what changes when acceptance fails or the balance arrives late."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "A colleague says, “The revised route is ready because its early cash balance never becomes negative.” Give the strongest correction without discarding the useful repair."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "The advance repairs the modeled success-path timing. Readiness still requires the agreed funds to be available, the permission/capacity route to work, and failure and delayed-payment duties to be handled. A zero balance immediately before acceptance also leaves no unmodeled buffer. The constructive next task is to resolve those conditions, not simply repeat “too risky.”"
+        },
+        {
+          "type": "callout",
+          "label": "Misconception to retire",
+          "text": "“Margin, cash and profit are interchangeable.” They answer different questions: the modeled difference, money available at a moment, and the eventual result after the applicable costs and duties. [F2, p. 6; C1, pp. 17–19]"
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a reconciled ledger and a specific funding decision. **Now take the ten-minute break. Next:** decide what evidence would justify claiming the route worked."
+        }
+      ]
+    },
+    {
+      "id": "l5_01",
+      "lesson": "L5",
+      "kicker": "Lesson 5 · 5 min",
+      "title": "Say exactly what was established",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Assign a supported verdict to a precise claim, explain the evidence boundary, and identify the next decisive observation."
+        },
+        {
+          "type": "p",
+          "text": "Three achievements can grow together without being interchangeable. The customer outcome concerns the accepted result. Service feasibility concerns the complete arrangement under its stated conditions. Commercial evidence concerns what real participants chose, received and paid for. A result in one column does not fill the others automatically. [C1, pp. 8, 13–14, 17–20; F2, p. 3]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Claim",
+            "Question to answer"
+          ],
+          "rows": [
+            [
+              "Outcome",
+              "Did the specified result meet the original acceptance conditions?"
+            ],
+            [
+              "Service feasibility",
+              "Did permissions, capacity, funding and duties permit the complete service?"
+            ],
+            [
+              "Commercial evidence",
+              "Were actual terms accepted, value delivered and payment collected, with complete costs and remaining duties recorded?"
+            ]
+          ],
+          "widths": [
+            0.28,
+            0.72
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "A correct production packet can be demonstrated while actual delivery remains unestablished. A short received order can establish failure against P1 even if the software and transport ran correctly."
+        },
+        {
+          "type": "callout",
+          "label": "Use three verdicts",
+          "text": "DEMONSTRATED: stated requirements met within the stated exercise. FAILED: an applicable requirement violated. NOT ESTABLISHED: decisive evidence absent or outside scope. An unrun method is NOT RUN; that is not evidence of its failure."
+        },
+        {
+          "type": "p",
+          "text": "**Practice:** classify “the plan looks complete” and “the authorized receipt records fewer than P1 requires.” The first is a proposal needing evidence; the second supports an outcome failure within that receipt’s scope. **Next:** examine who checked and what they relied on."
+        }
+      ]
+    },
+    {
+      "id": "l5_02",
+      "lesson": "L5",
+      "kicker": "Lesson 5 · 5 min",
+      "title": "Check the checker and its sources",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "“Independent” needs an object. Separate source custody protects the reference; a separately implemented checker can expose a shared coding mistake; an outside assessor adds organizational separation. These address different risks. Another model in the same project does not automatically supply any of them. [C1, pp. 9–10, 13, 22–23]"
+        },
+        {
+          "type": "figure",
+          "name": "verification_loop",
+          "caption": "An objection becomes useful when evidence settles it and an authorized repair is rechecked against the original promise. A correct objection may also establish an obstruction."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "Two reviewers reading the same incomplete checkpoint can agree on the wrong order. Give the checker C-01 and A-02, then test whether it detects a packet that deliberately omits the amendment in the isolated exercise."
+        },
+        {
+          "type": "callout",
+          "label": "Practice and feedback",
+          "text": "What is the positive control? A correct complete packet that the checker should accept. A checker that rejects everything is not a useful acceptance test."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** apply these distinctions to the project’s published software evidence."
+        }
+      ]
+    },
+    {
+      "id": "l5_03",
+      "lesson": "L5",
+      "kicker": "Lesson 5 · 5 min",
+      "title": "Read the software evidence at its own scope",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The course’s pinned v0.2 repository record reports substantive digital label-job content produced and transferred to a separate local receiving process. The receiver imports the content, checks it against its retained specification and records acceptance. This is stronger than a producer merely declaring completion. It remains a bounded digital-product exercise. [R21; R22]"
+        },
+        {
+          "type": "p",
+          "text": "A separate local replay failed while finalizing evidence and remains unqualified; later passing checks do not erase that failure. [R46; R47]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Evidence in that record",
+            "What it supports or leaves open"
+          ],
+          "rows": [
+            [
+              "Imported and checked digital content",
+              "A specified software outcome; no physical labels, print quality or authentic customer acceptance."
+            ],
+            [
+              "Modeled policies and money",
+              "Results under authored participant and financial assumptions; no real consent, demand or payment."
+            ],
+            [
+              "Separate receiver and verifier",
+              "Distinct local checking under shared authorship and host assumptions; no third-party certification."
+            ],
+            [
+              "AI marked NOT RUN",
+              "No observed AI performance or AI advantage from those records."
+            ]
+          ],
+          "widths": [
+            0.37,
+            0.63
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Rewrite “The tests prove a market for independently certified physical continuity” into one defensible sentence."
+        },
+        {
+          "type": "callout",
+          "label": "Model feedback",
+          "text": "“The reported local experiment exercises and separately checks specified digital completion and modeled arrangements; it does not establish physical delivery, real demand or third-party certification.” A useful narrower statement preserves the technical achievement instead of inflating or dismissing it. [R21; R22; R23]"
+        },
+        {
+          "type": "p",
+          "text": "A saved Passport summarizes an assessment. Fresh verification checks the retained evidence and original reference again; it does not create absent real-world observations. Source custody and the declared trust assumptions still matter. **Next:** write your own claim-and-evidence record."
+        }
+      ]
+    },
+    {
+      "id": "l5_04",
+      "lesson": "L5",
+      "kicker": "Lesson 5 · 5 min",
+      "title": "Turn a finding into a useful next move",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "For one claim, record the requirement, source or observation, checker and method, result, limitation and next action. Include the version and conditions that would require rechecking. This is the practical purpose of a Continuity Passport: a reader can understand what was established and decide what can be relied on now. [C1, pp. 13–14]"
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "A permitted receiver refuses an obsolete artwork file. The refusal test behaves as designed, but no correct labels arrive by P1’s deadline. Write two separate verdicts and one constructive next action."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "The refusal control can be DEMONSTRATED for that test. P1’s complete delivery outcome is FAILED. The next action could be to construct and qualify the current packet and a distinct funded production attempt; it cannot convert the missed original deadline into success."
+        },
+        {
+          "type": "callout",
+          "label": "A useful challenge",
+          "text": "Ask: “Which requirement could this evidence contradict?” Then ask: “What permitted construction or observation would resolve the issue?” Preserve adverse observations and check the repaired version. A generic warning produces neither a clear verdict nor a repair."
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a Claim and evidence record with a scoped verdict and a next decision. **Self-check:** have you separated a component test, complete outcome, service conditions and commercial evidence? Have you named the actual independence and the missing observation?"
+        },
+        {
+          "type": "p",
+          "text": "**Next:** even a working arrangement must earn its place against capable alternatives."
+        }
+      ]
+    },
+    {
+      "id": "l6_01",
+      "lesson": "L6",
+      "kicker": "Lesson 6 · 5 min",
+      "title": "Compare routes that could really win",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Design a fair comparison and distinguish useful completion from evidence that one method adds value."
+        },
+        {
+          "type": "p",
+          "text": "A capable conventional team may reconcile the same amendment, construct a production packet and arrange alternate capacity. Give it the relevant records, authority and opportunities needed to do so. CONTINUITY Ω should earn a decision through the complete result, effort saved or newly enabled work—not through an artificially weak rival. [C1, pp. 18–20]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Candidate",
+            "Keep the comparison credible"
+          ],
+          "rows": [
+            [
+              "Conventional or existing service",
+              "Permit competent recovery, coordination, alternate production and checking."
+            ],
+            [
+              "Direct AI-assisted route",
+              "Where available and authorized, provide equivalent inputs, tools and total resource opportunities."
+            ],
+            [
+              "Explicit challenge and construction",
+              "Count the extra critique, adjudication, repair and verification effort as well as any benefit."
+            ]
+          ],
+          "widths": [
+            0.34,
+            0.66
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Keep P1, source access, permissions, acceptance rules and relevant resource budgets comparable. Record the method before execution; distinguish quoted offers, actual rehearsals and unavailable candidates. The buyer may also reasonably choose no purchase."
+        },
+        {
+          "type": "callout",
+          "label": "Worked example",
+          "text": "If only the new method receives A-02, its better quantity does not isolate a method advantage. Supply the same relevant amendment to the conventional route and repeat the comparison within the agreed scope."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** decide which observations could actually change the choice."
+        }
+      ]
+    },
+    {
+      "id": "l6_02",
+      "lesson": "L6",
+      "kicker": "Lesson 6 · 5 min",
+      "title": "A tie is information",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "In the reported v0.2 qualification, the conventional and Harness procedures obtained the same base outcomes and modeled prices. Both also completed one specified changed successor. These observations support bounded execution and transfer claims; they do not establish incremental method or AI advantage. The AI comparison was not run. [R22]"
+        },
+        {
+          "type": "callout",
+          "label": "Worked comparison",
+          "text": "Suppose two authorized rehearsal routes meet the same acceptance conditions. One adds a useful evidence trail but also requires more staff time. Do not announce a winner from delivery alone. Measure the complete burden and ask whether the additional evidence changes a decision the buyer values."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Observe",
+            "Why it can matter"
+          ],
+          "rows": [
+            [
+              "Accepted correct output by the deadline",
+              "The complete customer result."
+            ],
+            [
+              "Omissions, defects and unresolved claims",
+              "Limits hidden by an aggregate pass."
+            ],
+            [
+              "Human work, retries and verification",
+              "The actual effort needed to make the route work."
+            ],
+            [
+              "Complete costs, cash and duties",
+              "What participants must fund and carry."
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "An AI route has no accessible authorized model and is marked NOT RUN. May you count it as slower, more costly or unsuccessful?"
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "No. Its performance is unobserved. Likewise, one bounded run and a small timing difference do not establish reliable speed superiority. Unknown preparation or adaptation effort prevents a complete-cost conclusion. [R21; R22; R23]"
+        },
+        {
+          "type": "p",
+          "text": "**Next:** write a comparison that could select an existing service, the constructed route, or no purchase."
+        }
+      ]
+    },
+    {
+      "id": "l6_03",
+      "lesson": "L6",
+      "kicker": "Lesson 6 · 5 min",
+      "title": "Make a Comparison card",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose the strongest credible alternative for the Route card you created. State what a matched observation would need to show before you would prefer one option. The purpose is a better decision, including discovering that an ordinary service already does the job well."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Name the customer promise and the complete competing routes.",
+            "Give each route the same relevant records, permissions, acceptance conditions and declared opportunities.",
+            "Choose the measurements that matter to the decision, including total effort, cost and funding.",
+            "Mark each result as quoted, run, simulated or NOT RUN. Name remaining gaps."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "A proposal claims “20% better” because its software step is faster, while it omits two hours of manual preparation and does not measure accepted delivery. What should the comparison card say?"
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "Record the measured software step at its actual scope. Complete improvement is NOT ESTABLISHED. Include preparation and acceptance work, define the comparison boundary, and collect matched observations. Do not silently turn an incomplete cost or time figure into a whole-service advantage. [C1, pp. 19–20]"
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a Comparison card with a predeclared decision rule. **Self-check:** could the conventional option genuinely win under that rule? Would a tie remain visible? Would an unrun candidate stay unrun?"
+        },
+        {
+          "type": "p",
+          "text": "**Next:** combine the promise, constructed route, arrangement, ledger, evidence and comparison in one tabletop capstone."
+        }
+      ]
+    },
+    {
+      "id": "l7_01",
+      "lesson": "L7",
+      "kicker": "Lesson 7 · 5 min",
+      "title": "Run the tabletop capstone",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Produce a defensible Capstone Passport: preserve P1, construct the missing route, reconcile the ledger, and report separate outcome, feasibility and commercial verdicts."
+        },
+        {
+          "type": "p",
+          "text": "This is a tabletop exercise using staged exhibits K0–K6. No company is contacted, no goods are manufactured and no money moves. Read each exhibit as a supplied assumption or simulated observation. Your task is to reason consistently from it, including when it contradicts a favorable proposal."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Assign the roles of coordinator, Printer A, Printer B and customer/checker. With fewer people, combine roles but state the overlap.",
+            "Open K0–K3 first. Complete the promise, source, route and arrangement decisions.",
+            "Open K4 for the payment plan, then K5 for the first outcome. Record the first run, R1, without rewriting it.",
+            "If time permits, open K6 as a separate positive-control tabletop branch, R2. It starts from a fresh assumed state; it is not a free repair of R1."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Before opening the outcome",
+          "text": "Write the claim you expect to test and the result that would force you to revise it. This makes the receipt evidence, rather than your preference, decide the verdict."
+        },
+        {
+          "type": "p",
+          "text": "**Output for the capstone:** the Promise card, Route card, Arrangement map and ledger feed one Passport. Be ready to explain a failure and a constructive next decision in two minutes. **Next:** establish the order and the permitted route."
+        }
+      ]
+    },
+    {
+      "id": "l7_02",
+      "lesson": "L7",
+      "kicker": "Lesson 7 · 7 min",
+      "title": "Decide the order and the route",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use K0–K3. K0 defines P1 and Morgan’s authority. K1 supplies the checkpoint, A-02 and C-01. K2 supplies the capacity window and the additional simultaneous request. K3 supplies the permission and production commitments to inspect."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Reconstruct the quantity through the frozen cutoff. Identify the source that includes the amendment and the source coverage you are assuming.",
+            "Identify the route construction needed to deliver a current, usable packet through the authorized channel. List any remaining missing permission.",
+            "Calculate available capacity and decide what to do about the additional 5,000-unit request.",
+            "Name the observation that would establish the route’s readiness and the one that would establish customer acceptance."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Model feedback — read after your decision",
+          "text": "The accepted quantity is 10,000, from 8,000 + 2,000. In the printed case, C-01 supplies coverage through Wednesday noon with no other change. The capacity arithmetic is 12,000 − 2,000 = 10,000. P1 fits; admitting the additional 5,000 unconditionally would overbook the same window."
+        },
+        {
+          "type": "callout",
+          "label": "Constructive repair",
+          "text": "Find additional qualified capacity, a genuinely feasible different window, or a consented conditional offer. Do not quietly displace protected work. Do not treat a permitted file share as automatic authority to activate production: read the commitments separately."
+        },
+        {
+          "type": "p",
+          "text": "**Checkpoint:** your route names the actual packet, authority and capacity—not just “use Printer B.” Retain unresolved conditions. **Next:** determine whether the coordinator can fund the agreed route."
+        }
+      ]
+    },
+    {
+      "id": "l7_03",
+      "lesson": "L7",
+      "kicker": "Lesson 7 · 8 min",
+      "title": "Reconcile the funded proposal",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Open K4. Work from the coordinator’s service ledger. The original customer invoice remains outside it. First retain the initial offer; then add the voluntary advance revision as a separate proposal version."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Your calculation",
+            "Expected value, CAD"
+          ],
+          "rows": [
+            [
+              "Fee less complete modeled cost",
+              "5,600 − 5,000 = 600"
+            ],
+            [
+              "Initial preacceptance gap",
+              "4,700 − 1,200 = 3,500"
+            ],
+            [
+              "Opening cash plus included advance",
+              "1,200 + 3,500 = 4,700"
+            ],
+            [
+              "After preacceptance outflows",
+              "4,700 − 4,700 = 0"
+            ],
+            [
+              "Balance still conditional on full acceptance",
+              "5,600 − 3,500 = 2,100"
+            ]
+          ],
+          "widths": [
+            0.69,
+            0.31
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Explain why the revised timeline is useful, then name two facts it does not establish. Record the advance’s permitted use, any unused-funds refund duty and the remaining inspection charge."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "It removes the initial gap on the supplied success path because the advance is received and available before the bills. It does not establish actual delivery or a real purchase. It also does not establish that every failure path is funded. The balance is conditional, not money already available."
+        },
+        {
+          "type": "p",
+          "text": "A successful fully paid branch would end at CAD 1,800 after the CAD 300 final payment. That balance includes the initial CAD 1,200. Do not enter the favorable ending balance until the branch’s acceptance and collection conditions are supplied."
+        },
+        {
+          "type": "p",
+          "text": "**Checkpoint:** preserve both plan versions and their different funding verdicts. **Next:** open the first receipt and use it to update the proposal honestly."
+        }
+      ]
+    },
+    {
+      "id": "l7_04",
+      "lesson": "L7",
+      "kicker": "Lesson 7 · 8 min",
+      "title": "Keep the failure and its unpaid bill visible",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Open K5. In R1, the mock receipt records 9,800 conforming labels by the deadline. P1 requires 10,000 with no partial acceptance; Morgan rejects the complete order. The CAD 2,100 acceptance-dependent balance is withheld. K5 also supplies an inspection invoice of CAD 300 that is due despite the failed count."
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "Write the outcome verdict, current cash, unpaid obligation and commercial-evidence verdict. Then propose one useful next decision. Do not erase the first run or assume that a later branch pays its bills."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "R1 record",
+            "Defensible conclusion"
+          ],
+          "rows": [
+            [
+              "P1 outcome in the tabletop",
+              "FAILED: 9,800 does not meet 10,000."
+            ],
+            [
+              "Cash and debt",
+              "Cash remains 0; the due inspection charge leaves 300 unfunded."
+            ],
+            [
+              "Complete modeled service",
+              "FAILED for this run: no full acceptance; the CAD 300 due bill is unfunded."
+            ],
+            [
+              "Actual delivery and real market",
+              "NOT ESTABLISHED: all exhibits and events are simulated."
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "A successful failure-detection check can coexist with a failed customer outcome. Preserve the receipt, incurred costs, unpaid inspection invoice and any rework/refund duties. Decide whether an authorized, funded repair is possible; if P1’s deadline cannot be met, a new agreement cannot make R1 succeed retroactively."
+        },
+        {
+          "type": "p",
+          "text": "**Checkpoint:** the Passport records a useful failure, not a softened success. **Next:** use an optional positive control to test the distinction between a new branch and rewritten history."
+        }
+      ]
+    },
+    {
+      "id": "l7_05",
+      "lesson": "L7",
+      "kicker": "Lesson 7 · 7 min",
+      "title": "Close the Passport without overclaiming",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "K6 is a **separate positive-control tabletop branch from a fresh assumed starting state**. It supplies its own authority and mock receipt for 10,000 conforming labels accepted by Morgan within P1. It is not a physical reprint, free retry, source of money for R1 or replacement for R1’s record."
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "If you run R2, record the supplied full acceptance, simulated CAD 2,100 collection and CAD 300 payment. Reconcile the ending CAD 1,800. If you do not run it, mark R2 NOT RUN and make no outcome claim for it."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "R2 can demonstrate the specified tabletop success path under its supplied assumptions. Actual goods delivered, real participant consent, real payment and a viable market remain NOT ESTABLISHED. R1 still failed and retains its costs, CAD 300 debt and unresolved duties."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Promise: did you retain P1 and its authoritative version?",
+            "Construction: did you identify a usable permitted route and resolve or expose capacity conflicts?",
+            "Economics: did you distinguish the included advance, conditional balance, original cash and failed-run debt?",
+            "Evidence: did every verdict name its scope and preserve the first failure?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a Capstone Passport, with R1 and any R2 separately identified, plus a two-minute explanation of the next decision. These are learning artifacts, not certification of an operating business."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** decide which capability from this work would be worth retaining for a different promise. [C1, pp. 13–14, 20–21]"
+        }
+      ]
+    },
+    {
+      "id": "l8_01",
+      "lesson": "L8",
+      "kicker": "Lesson 8 · 4 min",
+      "title": "Retain a capability, then test its contribution",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Goal",
+          "text": "Choose one reusable capability, state where it may transfer, and design a fair test on a different next task."
+        },
+        {
+          "type": "p",
+          "text": "ALPHA GENESIS FLYWHEEL Ω asks whether validated work leaves more than a one-time result. It may leave tools, knowledge, relationships or earned resources that help construct a different next capability. Retention is a hypothesis of usefulness until the next task supplies evidence. [F3, pp. 3, 8, 20; C1, p. 21]"
+        },
+        {
+          "type": "figure",
+          "name": "successor_loop",
+          "caption": "Retain the capability with its conditions, compare its contribution on different fresh work, and preserve the result—including failed transfer."
+        },
+        {
+          "type": "callout",
+          "label": "Keep three claims separate",
+          "text": "Earned resources can fund continuation. An inherited capability can improve a new task. An improved discovery method can perform better across fresh campaigns. Each needs its own evidence; a second invoice alone establishes none of these broader claims."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** define what is reusable and what must be qualified again."
+        }
+      ]
+    },
+    {
+      "id": "l8_02",
+      "lesson": "L8",
+      "kicker": "Lesson 8 · 4 min",
+      "title": "A useful inheritance has boundaries",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Suppose a real accepted job eventually yields a maintained method for reconciling approved order changes and preparing a checked production packet. A new customer then needs packaging inserts made through a different production process. The reconciliation and packet method might help; the old labels, receipt and customer permission cannot simply be reused as answers."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Retain if authorized",
+            "Re-establish for the new task"
+          ],
+          "rows": [
+            [
+              "Method, schema and checks",
+              "New authoritative promise and complete source history."
+            ],
+            [
+              "Known prerequisites and failure examples",
+              "New materials, equipment, quality and acceptance tests."
+            ],
+            [
+              "Permitted relationships and operating knowledge",
+              "Current rights, provider consent, capacity and funding."
+            ]
+          ],
+          "widths": [
+            0.44,
+            0.56
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Worked comparison",
+          "text": "Give the capable conventional route equivalent relevant records and resource opportunities. Compare the new task with and without the retained method. Measure accepted outcome and complete preparation, adaptation and checking effort. A familiar template that saves no useful work has not earned an advantage."
+        },
+        {
+          "type": "p",
+          "text": "A reusable preparation method could lower the cost of serving smaller jobs. Turning that possibility into a service still requires maintained non-conflicting capacity, a worthwhile offer and real buyers. A second customer choosing a similar offer tests repeat demand; it is not automatically evidence that a different task became possible. [C1, p. 21; F3, pp. 8, 20]"
+        },
+        {
+          "type": "p",
+          "text": "**Next:** write a Reuse test that could show either a useful transfer or a failed one."
+        }
+      ]
+    },
+    {
+      "id": "l8_03",
+      "lesson": "L8",
+      "kicker": "Lesson 8 · 4 min",
+      "title": "Design the next-use test",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choose one item from your capstone: the source-reconciliation method, a permitted packet format, the capacity check, or the cash-and-verdict record. State the new problem it could help solve and what must change."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Name a different beneficiary, product or process and its authorized outcome.",
+            "Identify the retained capability, its version, permissions and prerequisites. Preserve known failures.",
+            "Define a capable comparison without that inheritance, with equivalent relevant starting information and resources.",
+            "Choose the decisive outcome and effort measures; identify the next observation and responsible person."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Practice",
+          "text": "A team reused the same template for a second sale and reports a “self-improving continuity economy.” Write a narrower supported claim and the additional test required."
+        },
+        {
+          "type": "callout",
+          "label": "Feedback",
+          "text": "If the sale and collection are real, they can support a repeat-purchase observation at that scope. To support useful inheritance, show that the retained capability contributes to a distinct task. To support better discovery, compare fresh campaigns with equally equipped strong alternatives. Preserve adaptation costs and failures. [C1, p. 21; F3, pp. 3, 8, 20]"
+        },
+        {
+          "type": "p",
+          "text": "**Output:** a Reuse test with a falsifiable contribution claim. Do not count the capstone’s invented CAD 600 as money available for a real next project. A real funding decision needs collected unrestricted resources after remaining obligations."
+        },
+        {
+          "type": "p",
+          "text": "**Next:** choose one practical action for your own context."
+        }
+      ]
+    },
+    {
+      "id": "l8_04",
+      "lesson": "L8",
+      "kicker": "Lesson 8 · 3 min",
+      "title": "Choose your next action",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Return to your opening answer: “The application opens and the backup loads. Has the customer promise been preserved?” Improve it using a precise promise, evidence requirement and next action."
+        },
+        {
+          "type": "callout",
+          "label": "A strong final answer",
+          "text": "“The restored application is one component. We still need to establish the complete accepted order, a permitted usable route, capacity and funding, then actual receipt and acceptance under the original terms. I would first inspect the authoritative order history through the agreed cutoff.”"
+        },
+        {
+          "type": "p",
+          "text": "Choose one important promise in your own setting. Keep the first exercise small enough to decide something useful. You might clarify the acceptance rule, construct a missing authorized handoff, or run a matched rehearsal with named participants. Do not begin by promising a broad guarantee."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Name the real outcome and the person who can authorize or accept it.",
+            "Identify the most consequential unresolved condition.",
+            "Choose one construction or observation that could change the decision.",
+            "Name an owner, date and authorized scope. Preserve the result and its limits."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Your completion check",
+          "text": "Can you explain why 10,000 is authoritative, why the extra 5,000 overbooks, why the advance is inside the fee, why R1 owes 300, why R2 does not erase it, and what a useful successor must demonstrate? Revisit any lesson where the reasoning is unclear."
+        },
+        {
+          "type": "p",
+          "text": "**Output:** your Next action and revised baseline answer. The course succeeds when you can make and explain a better concrete decision—whether that means constructing a missing capability, choosing an existing service or stopping an unsupported plan."
+        }
+      ]
+    }
+  ]
+}

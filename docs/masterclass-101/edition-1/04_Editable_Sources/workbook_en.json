@@ -1,0 +1,989 @@
+{
+  "document": "workbook",
+  "lang": "en",
+  "title": "Build a continuity route",
+  "subtitle": "A practical workbook for CONTINUITY Ω MasterClass 101",
+  "sources": [
+    "C1"
+  ],
+  "pages": [
+    {
+      "id": "w01",
+      "lesson": "O",
+      "kicker": "Orientation · 10 minutes",
+      "title": "Choose a promise worth keeping",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "By the end, you will have a usable promise card, a constructed alternative, a cost and cash ledger, and a bounded decision. Work in pairs or a small team. No coding is needed."
+        },
+        {
+          "type": "callout",
+          "label": "Working rule",
+          "text": "Every printed case record, approval, receipt and payment is fictional. Use the case for the exercises. For your own business, enter fresh evidence references or NOT ESTABLISHED. Completing this workbook gives no permission to activate a service."
+        },
+        {
+          "type": "field",
+          "label": "Which customer result matters in your work?",
+          "prompt": "Name one beneficiary, result and deadline. Keep confidential details in their authorized location.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What is your starting hypothesis?",
+          "prompt": "How might the usual route fail? What would you need to construct so the customer still receives the promised result?",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "Who will do what in the exercise?",
+          "prompt": "Choose coordinator, customer/Morgan, provider and reviewer roles. One person may hold two roles; disclose that overlap.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Keep facts, assumptions and missing evidence visible. Record FAILED when evidence shows the scoped claim failed; NOT ESTABLISHED when decisive evidence is missing. Preserve earlier attempts. [C1, pp. 7–8, 13–14]"
+        }
+      ]
+    },
+    {
+      "id": "w02",
+      "lesson": "L1",
+      "kicker": "Case file · K0 and K1",
+      "title": "The promise and its source records",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "K0 · Frozen promise P1",
+          "text": "Printer A owes 10,000 packaging labels to its customer. They must be received and accepted by Thursday 12 November 2026, 16:00, America/Toronto, at the fictional Montréal warehouse, dock 3, site M1. Morgan is the customer’s named acceptance lead. No short shipment or quality substitution is authorized."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Acceptance item",
+            "Printed teaching specification"
+          ],
+          "rows": [
+            [
+              "Artwork / material",
+              "Approved artwork v3; matte white self-adhesive stock."
+            ],
+            [
+              "Dimensions / quality",
+              "50 × 30 mm, tolerance ±0.5 mm; approved readable code; damaged labels do not count."
+            ],
+            [
+              "Receipt / decision",
+              "Morgan checks count, specification, quality, place and receipt/acceptance times."
+            ],
+            [
+              "Disruption",
+              "Printer A’s order system and production are unavailable; its normal artwork login is also unavailable."
+            ]
+          ],
+          "widths": [
+            0.28,
+            0.72
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "K1 · Reconstruct the obligation",
+          "text": "The restored checkpoint covers Tuesday 10 November, 12:00 and shows 8,000 labels. Authorized amendment A-02, recorded Tuesday at 14:00, adds 2,000. Custodian log C-01 covers through the frozen cutoff: Wednesday 11 November, 12:00, America/Toronto. It lists no cancellation or further amendment. The supplied log is separately accessible from the affected system."
+        },
+        {
+          "type": "p",
+          "text": "Treat these printed records as exercise assumptions. A real use would need authenticated origin, authority and coverage through the cutoff. A checksum alone cannot establish completeness. The original customer invoice is outside the continuity-service ledger. [C1, pp. 9–11]"
+        }
+      ]
+    },
+    {
+      "id": "w03",
+      "lesson": "L1",
+      "kicker": "Practice · Promise card",
+      "title": "Write what must remain true",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use K0–K1. Write the customer’s result before discussing technology or suppliers. A server restart and a dispatched shipment are intermediate events. [C1, pp. 7–8]"
+        },
+        {
+          "type": "field",
+          "label": "What exactly must be received and accepted?",
+          "prompt": "Quantity, artwork/material, dimensions, quality and permitted partial delivery. Cite P1 and the amendment.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "When, where and by whose decision?",
+          "prompt": "Calendar date, time zone, receipt and acceptance deadline, site and named authority.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Which conditions define this exercise?",
+          "prompt": "Unavailable systems, permitted actions and data, stop authority and excluded interventions.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "What evidence would establish this result?",
+          "prompt": "Receipt, counts, quality check, authority and times. Name what a tabletop can establish and what requires actual goods.",
+          "lines": 3
+        },
+        {
+          "type": "callout",
+          "label": "Check with a partner",
+          "text": "Could your partner reject 9,800 labels, an old artwork version or a late delivery using only this card? If not, sharpen the acceptance rule. Then answer Q01–Q02."
+        }
+      ]
+    },
+    {
+      "id": "w04",
+      "lesson": "L2",
+      "kicker": "Practice · Route card",
+      "title": "Construct the missing means",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "K2 · Capacity facts",
+          "text": "Printer B can make 12,000 qualified units in the relevant window. Existing protected work uses 2,000. P1 needs 10,000. Another buyer now asks for 5,000 in the same window. These figures cover qualified materials, people, setup and transport in this fictional case; a real provider must evidence them."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Needed means",
+            "Available evidence / missing part",
+            "Construction or decision"
+          ],
+          "rows": [
+            [
+              "Current obligation",
+              "",
+              ""
+            ],
+            [
+              "Approved production packet",
+              "",
+              ""
+            ],
+            [
+              "Usable capacity window",
+              "",
+              ""
+            ],
+            [
+              "Rights and release channel",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.25,
+            0.4,
+            0.35
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What will you build, obtain or change?",
+          "prompt": "Name an owner, usable output and completion check. Include the work and cost of creating the alternative.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What could disable both routes?",
+          "prompt": "The shared artwork login is unavailable. Describe a permitted alternative and how you would check it.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "What happens to the extra 5,000-unit request?",
+          "prompt": "Calculate total simultaneous demand. Choose an honest reservation, additional qualified capacity or a refusal.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "A useful route joins the missing complements; identifying the vulnerability alone has not built them. Answer Q03–Q04. [C1, pp. 11–13]"
+        }
+      ]
+    },
+    {
+      "id": "w05",
+      "lesson": "L3",
+      "kicker": "Practice · Arrangement map",
+      "title": "Make the exchange usable for each party",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "K3 · Initial position and update",
+          "text": "Initially B expresses interest only; no reservation or data permission exists. In the update, simulated records CONS-A, CONS-M and RES-B authorize P1 activation, limited sharing and B’s 10,000-unit slot. The custodian releases the current packet through a separately accessible channel. No extra 5,000-unit reservation is accepted."
+        },
+        {
+          "type": "p",
+          "text": "CONS-M permits artwork, specification, quantity and destination to B and the coordinator for P1 only; no onward sharing. Keep copies until case closure plus seven days, then delete them. Morgan retains acceptance authority. These are fictional terms for discussion, not recommended terms for every business."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Participant",
+            "Contribution and return",
+            "Evidence / unresolved term"
+          ],
+          "rows": [
+            [
+              "Printer A · service buyer",
+              "",
+              ""
+            ],
+            [
+              "Printer B · provider",
+              "",
+              ""
+            ],
+            [
+              "Customer / Morgan",
+              "",
+              ""
+            ],
+            [
+              "Coordinator · seller",
+              "",
+              ""
+            ],
+            [
+              "Reviewer",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.28,
+            0.36,
+            0.36
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Which term would you accept, refuse or counteroffer?",
+          "prompt": "Consider price, capacity, permissions, activation, failure and refund duties. Explain why another party would voluntarily agree.",
+          "lines": 3
+        },
+        {
+          "type": "p",
+          "text": "Interest is different from commitment; commitment is different from usable capacity or received money. Disclose overlapping roles and reviewer incentives. Answer Q05–Q06. [C1, pp. 11–13, 17–18]"
+        }
+      ]
+    },
+    {
+      "id": "w06",
+      "lesson": "L4",
+      "kicker": "Practice · Cost and cash ledger, part 1",
+      "title": "Price the complete teaching case",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "All amounts are invented CAD on one consistent basis. The coordinator sells the continuity service to Printer A for 5,600. The original customer invoice is excluded. For this exercise only, the six rows are assumed to cover the complete scope and overhead; no other cash duties are initially assumed."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Modeled cost",
+            "CAD",
+            "Payment timing"
+          ],
+          "rows": [
+            [
+              "Alternate production",
+              "3,200",
+              "Before acceptance"
+            ],
+            [
+              "Prepared and checked packet",
+              "550",
+              "Before acceptance"
+            ],
+            [
+              "Transport",
+              "400",
+              "Before acceptance"
+            ],
+            [
+              "Coordination and allocated overhead",
+              "350",
+              "Before acceptance"
+            ],
+            [
+              "Readiness test",
+              "200",
+              "Before acceptance"
+            ],
+            [
+              "Final inspection",
+              "300",
+              "After acceptance; see K5 for failure trigger"
+            ]
+          ],
+          "widths": [
+            0.56,
+            0.12,
+            0.32
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Calculate",
+            "Your amount"
+          ],
+          "rows": [
+            [
+              "Complete modeled cost",
+              ""
+            ],
+            [
+              "Projected fee minus complete cost",
+              ""
+            ],
+            [
+              "Preacceptance outflows",
+              ""
+            ],
+            [
+              "Gap with 1,200 uncommitted cash",
+              ""
+            ]
+          ],
+          "widths": [
+            0.7,
+            0.3
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What would a real complete-cost record still need?",
+          "prompt": "Identify costs, duties or uncertainty you would investigate: acquisition, internal time, failed attempts, insurance, financing, refunds or support. Do not invent amounts.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "A positive projected contribution does not make each payment date fundable. A quoted price is not collected money. Answer Q07. [C1, pp. 17–19]"
+        }
+      ]
+    },
+    {
+      "id": "w07",
+      "lesson": "L4",
+      "kicker": "Practice · Cost and cash ledger, part 2",
+      "title": "Fund the route before committing",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "K4 · Funding extension and failure terms",
+          "text": "Opening uncommitted cash is 1,200. Printer A voluntarily accepts a simulated 3,500 advance, included in the 5,600 fee. It is received and available before costs. It may offset authorized, documented nonrecoverable preacceptance costs; any unspent amount is refundable. The remaining 2,100 is due only after full acceptance. A real buyer may reject or renegotiate these terms."
+        },
+        {
+          "type": "p",
+          "text": "Complete the favorable modeled path below. The full 5,000 cost must leave the ledger. No deposit is automatically unrestricted, and a promised receipt is not available cash. [C1, pp. 18–19]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Stage",
+            "In",
+            "Out",
+            "Cash after stage"
+          ],
+          "rows": [
+            [
+              "Opening state",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Advance received",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Preacceptance work paid",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Full acceptance + balance received",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Inspection paid",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.46,
+            0.16,
+            0.16,
+            0.22
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What blocks the original plan without the advance?",
+          "prompt": "Name the amount, decision point and a possible voluntary repair. Preserve the original unfunded plan.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "What must be checked before using an advance?",
+          "prompt": "Authority, actual cleared funds, restrictions, eligible costs, refund duties and the next due payment.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "K5 later changes the outcome and triggers the failure invoice. Keep that failed branch separate. Answer Q08."
+        }
+      ]
+    },
+    {
+      "id": "w08",
+      "lesson": "L5",
+      "kicker": "Practice · Claim and evidence record",
+      "title": "Give each claim the evidence it needs",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use DEMONSTRATED, FAILED or NOT ESTABLISHED for each precise claim. Add “within the tabletop” wherever the evidence is simulated. An accepted plan, an exercise result and actual accepted goods are different claims. [C1, pp. 7–8, 13–14]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Claim",
+            "Evidence / missing evidence",
+            "Scoped status"
+          ],
+          "rows": [
+            [
+              "Obligation reconstructed",
+              "",
+              ""
+            ],
+            [
+              "Complete route ready",
+              "",
+              ""
+            ],
+            [
+              "Customer outcome accepted",
+              "",
+              ""
+            ],
+            [
+              "Whole-service feasibility",
+              "",
+              ""
+            ],
+            [
+              "Commercial value established",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.31,
+            0.44,
+            0.25
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Who checks, and how independently?",
+          "prompt": "Method, raw sources, custody, execution control, organizational relationships and incentives. Identify what the checker must trust.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "Which observation could overturn your preferred answer?",
+          "prompt": "State a concrete challenge and the record or measurement that would settle it.",
+          "lines": 2
+        },
+        {
+          "type": "callout",
+          "label": "A useful boundary",
+          "text": "A separate program is not automatically an independent institution. A saved favorable report is not necessarily a fresh check. The result applies only to its stated promise, conditions and evidence. Answer Q09–Q10 when the relevant facts have been discussed."
+        }
+      ]
+    },
+    {
+      "id": "w09",
+      "lesson": "L6",
+      "kicker": "Practice · Comparison card",
+      "title": "Let a capable alternative win",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The baseline is a competent operations team using the same approved packet, Printer B, capacity and financial terms. Compare it with the proposed CONTINUITY Ω method. A direct AI-assisted route is another candidate only if actually executed; otherwise mark NOT RUN. [C1, pp. 19–20]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Candidate",
+            "Outcome and complete-cost measures",
+            "Evidence / status"
+          ],
+          "rows": [
+            [
+              "Competent conventional route",
+              "",
+              ""
+            ],
+            [
+              "CONTINUITY Ω route",
+              "",
+              ""
+            ],
+            [
+              "Direct AI-assisted route",
+              "",
+              ""
+            ],
+            [
+              "No purchase / self-provision",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.31,
+            0.42,
+            0.27
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What must be equal for a fair comparison?",
+          "prompt": "Promise, records, permissions, provider, capacity, starting resources, difficulty and access to human help.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "What would change the buying decision?",
+          "prompt": "Define a useful improvement and the full effort/cost to measure. Distinguish a quote, estimate and observed result.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What if the conventional route wins?",
+          "prompt": "Record the stronger option and the evidence. Identify any remaining reason to buy or choose not to buy.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "No observed comparative performance is supplied in this course. Do not turn an attractive design into a measured advantage. Answer Q11."
+        }
+      ]
+    },
+    {
+      "id": "w10",
+      "lesson": "L7",
+      "kicker": "Capstone · 35 minutes · release K5 and K6 in sequence",
+      "title": "Two records, two separate histories",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Use K0–K4 from this workbook. Cover K5–K6 until requested. Agree on a route, its terms and funding first; then release K5. Your outputs are the decision log and Capstone Passport."
+        },
+        {
+          "type": "callout",
+          "label": "K5 · R1 receipt and failure invoice",
+          "text": "At 15:40 on 12 November, mock receipt R1 records 9,800 conforming v3 labels at M1. Morgan acknowledges those units but does not give P1 full acceptance. The 4,700 preacceptance costs were paid; the 3,500 advance was applied to documented eligible nonrecoverable costs. The simulated inspector invoices 300, due now even after failure: this explicit failure trigger supplements K4. No 2,100 balance payment or repair agreement is supplied. Any unused advance would remain refundable."
+        },
+        {
+          "type": "callout",
+          "label": "K6 · Optional separate positive control",
+          "text": "R2 is a separate positive-control tabletop branch from a fresh assumed starting state, with its own simulated approval and the same K0–K4 resources. Its new mock receipt records all 10,000 conforming labels received and accepted by Morgan at M1 at 15:40. A separate learner checks the records. Simulated settlement records receipt of the 2,100 balance and payment of the 300 inspection charge."
+        },
+        {
+          "type": "p",
+          "text": "Do not replace R1 or use R2’s modeled money to settle it. Preserve R1 costs, debts and unresolved repair duties. Neither branch establishes actual manufacturing, actual payment or a real market. A physical rerun would require new authorization, resources and treatment of prior obligations."
+        }
+      ]
+    },
+    {
+      "id": "w11",
+      "lesson": "L7",
+      "kicker": "Capstone · Decision log",
+      "title": "Show what changed each decision",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Stage",
+            "Proceed / hold / stop and reason",
+            "Owner / evidence"
+          ],
+          "rows": [
+            [
+              "K0–K1 · original obligation",
+              "",
+              ""
+            ],
+            [
+              "K2–K3 · capacity and consent",
+              "",
+              ""
+            ],
+            [
+              "K4 · funding terms",
+              "",
+              ""
+            ],
+            [
+              "K5 · failed R1 record",
+              "",
+              ""
+            ],
+            [
+              "K6 · separate R2, if used",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.31,
+            0.45,
+            0.24
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Which complete arrangement are you proposing?",
+          "prompt": "Buyer, seller, provider, beneficiary; missing means constructed; permissions; capacity; voluntary price and failure terms.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What is due after R1, and what funds it?",
+          "prompt": "Available cash, conditional receipts excluded, inspection invoice, refund basis, unresolved repair duties and the next authorized decision.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What is your strongest alternative?",
+          "prompt": "Same promise and resources. Explain why the chosen route, a revision or no purchase is reasonable; name any comparison not run.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "A constructive stop records the exact obstacle and a viable next proposal. Do not repair the worksheet by changing the original quantity or deadline."
+        }
+      ]
+    },
+    {
+      "id": "w12",
+      "lesson": "L7",
+      "kicker": "Capstone · Passport and peer feedback",
+      "title": "State the result you can defend",
+      "blocks": [
+        {
+          "type": "table",
+          "headers": [
+            "Claim",
+            "Verdict",
+            "Evidence / boundary"
+          ],
+          "rows": [
+            [
+              "P1 obligation reconstructed",
+              "",
+              ""
+            ],
+            [
+              "Modeled route readiness",
+              "",
+              ""
+            ],
+            [
+              "R1 tabletop outcome",
+              "",
+              ""
+            ],
+            [
+              "R2 tabletop outcome, if used",
+              "",
+              ""
+            ],
+            [
+              "Actual physical delivery",
+              "",
+              ""
+            ],
+            [
+              "Real commercial value",
+              "",
+              ""
+            ]
+          ],
+          "widths": [
+            0.39,
+            0.22,
+            0.39
+          ]
+        },
+        {
+          "type": "field",
+          "label": "What can the next reader rely on?",
+          "prompt": "Promise/version, scope, record IDs, reviewer and relationship, remaining uncertainty, expiry or recheck trigger.",
+          "lines": 3
+        },
+        {
+          "type": "p",
+          "text": "Peer feedback uses six criteria: promise; constructed means/capacity; voluntary arrangement; full cost/cash; evidence and bounded verdicts; fair comparison and useful next step. Score each 0 = missing/wrong, 1 = partial, 2 = supported. This 12-point teaching rubric is not validated and is not business certification."
+        },
+        {
+          "type": "field",
+          "label": "What is the most useful revision?",
+          "prompt": "Record total /12, the specific evidence supporting it and one change to improve the work. The facilitator guide contains anchors.",
+          "lines": 2
+        },
+        {
+          "type": "callout",
+          "label": "Before submitting",
+          "text": "Retain the R1 failure. Do not count the conditional 2,100 after rejection. Do not describe mock goods or simulated payments as real. Rework those errors regardless of score."
+        }
+      ]
+    },
+    {
+      "id": "w13",
+      "lesson": "L8",
+      "kicker": "Practice · Reuse test and next action",
+      "title": "Give the next use its own test",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "A useful retained capability might be the approved obligation format, source-review method or reservation procedure. A second label sale tests repeat demand. A different task needs its own promise and evidence. [C1, p. 21]"
+        },
+        {
+          "type": "field",
+          "label": "What capability is worth retaining?",
+          "prompt": "Name the artifact or method, rights, costs, known failures and what must be updated.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "Which different promise could it help fulfill?",
+          "prompt": "For example, a tool-rental business honoring bookings after a scheduling outage. Specify the new beneficiary and accepted result.",
+          "lines": 2
+        },
+        {
+          "type": "field",
+          "label": "How will you test its contribution?",
+          "prompt": "Compare with and without the retained capability under equivalent resources. Include adaptation, requalification, human effort and full cost; mark unrun work NOT RUN.",
+          "lines": 3
+        },
+        {
+          "type": "field",
+          "label": "What will you do next in your own setting?",
+          "prompt": "One reversible preparation step, owner, evidence needed and a review date. Any activation requires fresh authority, consent, capacity and funds.",
+          "lines": 2
+        },
+        {
+          "type": "p",
+          "text": "Complete Q12, then revisit your starting hypothesis. State what changed your judgment and what remains unknown. Course completion is a learning milestone, not evidence of an operational continuity service."
+        }
+      ]
+    },
+    {
+      "id": "quiz_1",
+      "lesson": "REF",
+      "kicker": "Learning check",
+      "title": "Choose one answer per question · 1–4",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Q01 · Which event meets the frozen promise P1?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Printer B restarts its equipment.",
+            "B · 10,000 labels leave Printer B by 16:00.",
+            "C · Morgan receives and accepts 10,000 conforming v3 labels at site M1 by the deadline."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q02 · P1 forbids partial acceptance. Only 9,800 conforming labels arrive on time. How should the original result be recorded?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Failed against P1; record any new agreement separately.",
+            "B · Change P1 to 9,800 and mark it passed.",
+            "C · Passed, because 98% arrived on time."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q03 · The checkpoint says 8,000. An authorized amendment adds 2,000 before the cutoff. What quantity should the reconstructed obligation use?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · 8,000, because the restored database is working.",
+            "B · 10,000, after checking the amendment’s authority and coverage through the cutoff.",
+            "C · 12,000, because that is the alternate printer’s capacity."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q04 · Both printers need the same unavailable login to obtain approved artwork. What directly addresses the missing means?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Describe Printer B as independent and proceed.",
+            "B · Build and test an authorized, separately accessible current packet and release channel.",
+            "C · Send whatever artwork someone remembers."
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Your choices and one uncertainty",
+          "prompt": "Write the four letters. Mark any answer you want to discuss. This checks learning, not certification.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz_2",
+      "lesson": "REF",
+      "kicker": "Learning check",
+      "title": "Choose one answer per question · 5–8",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Q05 · Capacity is 12,000; protected work is 2,000; P1 needs 10,000. Another simultaneous request needs 5,000. What follows?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Both requests fit because each is below 12,000.",
+            "B · There are 5,000 units left for the new request.",
+            "C · Total demand is 17,000 against 12,000; both cannot receive unconditional coverage."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q06 · Printer B says, “We could probably help.” What has this established?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Interest; a usable reservation and its terms still need confirmation.",
+            "B · A binding, usable reservation for P1.",
+            "C · Collected commercial value for the coordinator."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q07 · The modeled fee is CAD 5,600 and complete modeled cost is CAD 5,000. What is the projected contribution?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · CAD 1,800.",
+            "B · CAD 600.",
+            "C · CAD 5,600."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q08 · CAD 4,700 is due before acceptance; CAD 1,200 is available. A CAD 3,500 advance is included in the CAD 5,600 fee. Which statement is correct?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · The total service revenue becomes CAD 9,100.",
+            "B · A proposed advance is automatically available cash.",
+            "C · The gap is CAD 3,500; CAD 2,100 remains conditional on full acceptance."
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Your choices and one uncertainty",
+          "prompt": "Write the four letters. Mark any answer you want to discuss. This checks learning, not certification.",
+          "lines": 2
+        }
+      ]
+    },
+    {
+      "id": "quiz_3",
+      "lesson": "REF",
+      "kicker": "Learning check",
+      "title": "Choose one answer per question · 9–12",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**Q09 · The mock R1 receipt records 9,800 conforming units. Cash is zero after the modeled preacceptance costs. What is the sound next record?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · P1 failed in the tabletop; do not count the conditional CAD 2,100; record the unpaid inspection and next decision.",
+            "B · P1 passed and the full CAD 5,600 fee is earned.",
+            "C · Actual physical delivery is independently certified."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q10 · A reviewer is paid by the supplier. Which description of independence is defensible?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · A separate software checker proves complete institutional independence.",
+            "B · Disclose the relationship, method, source custody and limits; assess independence for the particular claim.",
+            "C · A favorable report guarantees all future deliveries."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q11 · Which comparison could support a useful buying decision?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · Give only CONTINUITY Ω the approved amendment and alternate printer.",
+            "B · Compare only software execution time.",
+            "C · Use the same promise, usable records and resources; count complete costs and human work; allow a conventional winner."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Q12 · What would support the claim that a retained capability enabled a different next use?**"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "A · A fresh distinct task compared with and without that capability under equivalent resources, including adaptation costs.",
+            "B · Another description of the same successful label order.",
+            "C · Keeping a file and calling it a flywheel."
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Your choices and one uncertainty",
+          "prompt": "Write the four letters. Mark any answer you want to discuss. This checks learning, not certification.",
+          "lines": 2
+        }
+      ]
+    }
+  ]
+}

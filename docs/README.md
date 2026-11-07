@@ -6,6 +6,7 @@
 
 ### Read and plan
 
+- [MasterClass 101, edition 1.0](masterclass-101/README.md): eight lessons, bilingual courses, workbooks, slides and an offline notebook.
 - [Bilingual collection, edition 2](collection/README.md): five volumes, complete PDFs, editable Word sources, fillable workbooks, offline reader, diagrams and original papers.
 - [Collection status and preservation](collection/STATUS.md#english): the dated snapshot, later merged qualifications and reuse boundary.
 - [Research paper, edition 1.1.1](continuity-omega-paper/README.md): original manuscript, citations, build and reproduction instructions.
@@ -27,6 +28,7 @@
 
 ### Lire et préparer
 
+- [Masterclass 101, édition 1.0](masterclass-101/README.fr.md) : huit leçons, cours bilingues, cahiers, diapositives et carnet hors ligne.
 - [Collection bilingue, édition 2](collection/README.fr.md) : cinq volumes, PDF complets, sources Word modifiables, cahiers à remplir, lecteur hors ligne, schémas et articles originaux.
 - [État et conservation de la collection](collection/STATUS.md#français) : instantané daté, qualifications fusionnées ultérieurement et périmètre des droits.
 - [Article de recherche, édition 1.1.1](continuity-omega-paper/README.fr.md) : manuscrit original, citations, compilation et reproduction.

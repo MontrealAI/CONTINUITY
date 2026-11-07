@@ -1,0 +1,490 @@
+{
+  "schema": "continuity-economy/post-review-qualification-summary/v1",
+  "titles": {
+    "en": "CONTINUITY Ω — Post-review evidence qualification",
+    "fr": "CONTINUITÉ Ω — Qualification des preuves après revue"
+  },
+  "scope": "Bounded aggregate-verifier repair qualification. Separate observations retain their own verdicts; no all-attempts PASSED claim.",
+  "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+  "source_tree": "43f690dc3b8f3c1932bf04bdaba8745bae45b44e",
+  "reviewed_source_commit": "46c2e0b2123cb56f24dd956b2dbfb79a7f7fbecd",
+  "review_record": "REVIEW.json",
+  "archive": {
+    "path": "coverage-repair.tar.xz",
+    "archive_bytes": 4534760,
+    "archive_sha256": "15fa4213b47b063074f77a416d20a5c0fd2cbf1c200403da33ecac483bfe2b01",
+    "archive_git_blob": "04f5081efea600e3109a6ea839a5c480c353d4ff",
+    "manifest_sha256": "8603045b20f284d6a423801277a721f1c58f8a1c24fa72491f75657c2eb978b2",
+    "payload_files": 11200,
+    "regular_archive_members": 11201,
+    "payload_bytes": 978022718
+  },
+  "original_records": {
+    "build": "BUILD.json",
+    "extraction": "EXTRACTION.json",
+    "preservation": "Byte-for-byte copies of the original records, including their historical absolute paths."
+  },
+  "counterexamples": {
+    "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+    "before": {
+      "source_commit": "46c2e0b2123cb56f24dd956b2dbfb79a7f7fbecd",
+      "checker_qualification": "FAILED",
+      "outer_test_assertion": "PASSED",
+      "cases": [
+        {
+          "assessment": {
+            "claim_status": "FAILED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "PASSED",
+            "test_assertion": "PASSED"
+          },
+          "checker_qualification": "FAILED",
+          "id": "experiment-roles-alias-base-demo",
+          "target_exit_code": 0
+        },
+        {
+          "assessment": {
+            "claim_status": "FAILED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "PASSED",
+            "test_assertion": "PASSED"
+          },
+          "checker_qualification": "FAILED",
+          "id": "experiment-roles-alias-base-comparison",
+          "target_exit_code": 0
+        }
+      ]
+    },
+    "initial_after": {
+      "source": {
+        "committed": false,
+        "head": "46c2e0b2123cb56f24dd956b2dbfb79a7f7fbecd",
+        "new_test_sha256": "d2233e52761e043a36e7637b95c2bfd1fbc443b6ee9023fc8d66ff87ddebe245",
+        "published": false,
+        "source_state": "UNCOMMITTED_WORKTREE_REPAIR",
+        "suite_py_sha256": "0243538787725a393b2839be6d88b032cb641f041b347994390d27f09476060f",
+        "worktree_status": " M continuity_economy/suite.py\n?? evidence/economy-v0.2/review-repair/\n?? tests/test_economy_suite.py\n"
+      },
+      "input_files_checked": 1955,
+      "input_files_unchanged": true,
+      "test_assertion": "PASSED",
+      "cases": [
+        {
+          "case_id": "experiment-roles-alias-base-demo",
+          "language": "en",
+          "target_exit_code": 2,
+          "target_error": {
+            "code": "SUITE_COVERAGE",
+            "detail": "SUITE_COVERAGE: distinct experiment members",
+            "message": "The command did not complete. No favorable assessment is established; retain any incomplete attempt and consult --help."
+          },
+          "assessment": {
+            "claim_status": "DEMONSTRATED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "REFUSED",
+            "test_assertion": "PASSED"
+          }
+        },
+        {
+          "case_id": "experiment-roles-alias-base-demo",
+          "language": "fr",
+          "target_exit_code": 2,
+          "target_error": {
+            "code": "SUITE_COVERAGE",
+            "detail": "SUITE_COVERAGE: distinct experiment members",
+            "message": "La commande n’a pas abouti. Aucune appréciation favorable n’est établie ; conserver toute tentative incomplète et consulter --help."
+          },
+          "assessment": {
+            "claim_status": "DEMONSTRATED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "REFUSED",
+            "test_assertion": "PASSED"
+          }
+        },
+        {
+          "case_id": "experiment-roles-alias-base-comparison",
+          "language": "en",
+          "target_exit_code": 2,
+          "target_error": {
+            "code": "SUITE_COVERAGE",
+            "detail": "SUITE_COVERAGE: distinct experiment members",
+            "message": "The command did not complete. No favorable assessment is established; retain any incomplete attempt and consult --help."
+          },
+          "assessment": {
+            "claim_status": "DEMONSTRATED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "REFUSED",
+            "test_assertion": "PASSED"
+          }
+        },
+        {
+          "case_id": "experiment-roles-alias-base-comparison",
+          "language": "fr",
+          "target_exit_code": 2,
+          "target_error": {
+            "code": "SUITE_COVERAGE",
+            "detail": "SUITE_COVERAGE: distinct experiment members",
+            "message": "La commande n’a pas abouti. Aucune appréciation favorable n’est établie ; conserver toute tentative incomplète et consulter --help."
+          },
+          "assessment": {
+            "claim_status": "DEMONSTRATED",
+            "evidence_stage": "COPIED_HISTORICAL_EVIDENCE_ROLE_BINDING_CHALLENGE",
+            "target_verdict": "REFUSED",
+            "test_assertion": "PASSED"
+          }
+        }
+      ]
+    },
+    "clean_source_rechecks": [
+      {
+        "name": "refuse-demo",
+        "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "source_clean": true,
+        "exit_code": 2,
+        "target_verdict": "SUITE_COVERAGE",
+        "test_assertion": "PASSED",
+        "record": "refuse-demo"
+      },
+      {
+        "name": "refuse-comparison",
+        "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "source_clean": true,
+        "exit_code": 2,
+        "target_verdict": "SUITE_COVERAGE",
+        "test_assertion": "PASSED",
+        "record": "refuse-comparison"
+      }
+    ],
+    "interpretation": "Admission refusals only; no new production or comparative execution, and no universal checker qualification."
+  },
+  "regression": {
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "tests": 436,
+    "reported_test_seconds": 76.716,
+    "exit_code": 0,
+    "test_assertion": "PASSED",
+    "record": "full-regression",
+    "log": "regression_log"
+  },
+  "hosted_checks": {
+    "schema": "continuity-economy/ci-observation/v1",
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "runs": [
+      {
+        "id": 42319948196,
+        "name": "Harness evidence / Preuves du banc d’essai",
+        "event": "pull_request",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319948196"
+      },
+      {
+        "id": 42319948327,
+        "name": "Validate bilingual repository / Valider le dépôt bilingue",
+        "event": "pull_request",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319948327"
+      },
+      {
+        "id": 42319948182,
+        "name": "Economy of continuity / Économie de la continuité",
+        "event": "pull_request",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319948182"
+      },
+      {
+        "id": 42319942394,
+        "name": "Harness evidence / Preuves du banc d’essai",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319942394"
+      },
+      {
+        "id": 42319942428,
+        "name": "Validate bilingual repository / Valider le dépôt bilingue",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319942428"
+      },
+      {
+        "id": 42319942290,
+        "name": "Economy of continuity / Économie de la continuité",
+        "event": "push",
+        "status": "completed",
+        "conclusion": "success",
+        "head_sha": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+        "html_url": "https://github.com/MontrealAI/CONTINUITY/actions/runs/42319942290"
+      }
+    ]
+  },
+  "positive_evidence": {
+    "fresh_historical_complete": {
+      "exit_code": 0,
+      "test_assertion": "PASSED",
+      "target_verdict": "PASSED",
+      "record": "fresh-original",
+      "input_location": "Original historical archive; not duplicated in this repair archive."
+    },
+    "downloaded_ci": {
+      "schema": "continuity-economy/downloaded-ci-fresh-verification/v1",
+      "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+      "source_clean": true,
+      "command": "python3 -m continuity_economy --language en verify-suite --in-dir /workspace/scratch/b1d5891eb025/economy-review-repair/ci-positive/extracted/complete",
+      "test_assertion": "PASSED",
+      "fresh": true,
+      "stdout_sha256": "45b15ff2ecf536df7af169d00a35a9d64aaa11efe491c939b4d2f31a30147de0",
+      "stderr_bytes": 0,
+      "base_records": 28,
+      "successor_records": 4,
+      "challenge_records": 26
+    },
+    "one_bounded_tmp_confirmation": {
+      "schema": "continuity-economy/bounded-confirmation-result/v1",
+      "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+      "actual_complete_executions": 1,
+      "execution_exit_code": 0,
+      "execution_test_assertion": "PASSED",
+      "fresh_exit_code": 0,
+      "fresh_test_assertion": "PASSED",
+      "fresh": true,
+      "base_records": 28,
+      "successor_records": 4,
+      "challenge_records": 26,
+      "source_clean": true,
+      "historical_failure_reclassified": false,
+      "earlier_stale_wal_origin": "NOT_ESTABLISHED",
+      "method_advantage": "NOT_ESTABLISHED",
+      "closed_copy_files": 3024,
+      "closed_copy_all_hashes_match": true,
+      "predeclaration_sha256": "facc5079134daccbc55b0e19a0c417b9cb453ca193562e891a31f56a44d33bd3",
+      "stdout_sha256": "763255b5b2503c1db4635ef0f7cb5e18c18fb10140dfc8e0e5d04d6ad4d44f70",
+      "fresh_stdout_sha256": "5bc8b12665a4ef13180519b0a2db9bd462daf1a85b29a92df163771571a775ab",
+      "copy_manifest_sha256": "cb2e55e1584bc0e958b41a82fc7de417812f11378cd1a53b3c748a7d66dfbfc9"
+    }
+  },
+  "failed_local_replay": {
+    "complete_execution": {
+      "exit_code": 3,
+      "expected_exit_code": 0,
+      "test_assertion": "FAILED"
+    },
+    "fresh_verification": {
+      "exit_code": 3,
+      "expected_exit_code": 0,
+      "test_assertion": "FAILED"
+    },
+    "archive_input": "qualification/complete-replay-1",
+    "failed_cell": {
+      "fixture_id": "constructed-continuity",
+      "method": "conventional",
+      "outcome": "NOT_ESTABLISHED",
+      "service_feasibility": "NOT_ESTABLISHED",
+      "qualified_accepted_units": 0
+    },
+    "main_wal_observation": {
+      "established_mechanism": "A retained stale WAL overlays an older state on the newer checkpointed main database.",
+      "not_established": "Why the old WAL is present after the recorded successful TRUNCATE checkpoint and worker close; lifecycle/filesystem diagnosis is separate.",
+      "lost_in_wal_view": {
+        "capacity_key": "proposal-002.DL-100.L003.A1",
+        "quantity": 100,
+        "transitions": [
+          "RESERVED",
+          "COMMITTED",
+          "FULFILLED"
+        ],
+        "history_sequences": [
+          8,
+          9,
+          10
+        ],
+        "reserve_tick": 24,
+        "commit_and_fulfill_tick": 25
+      }
+    },
+    "single_bounded_probe": {
+      "result": "ANOMALY_NOT_REPRODUCED_IN_ONE_BOUNDED_PROBE",
+      "errors": [],
+      "paths_are_distinct": true,
+      "single_attempt": true
+    },
+    "failure_reclassified": false,
+    "cause_resolved": false
+  },
+  "historical_freeze": {
+    "historical_frozen_files": 42,
+    "frozen_files_still_identical": 41,
+    "post_successor_changes": {
+      "continuity_economy/suite.py": {
+        "frozen_sha256": "1661bc015fef9569cacdbbea36aedddc94adee3b2e9b15ecda5a32d4a477e0c3",
+        "current_sha256": "0243538787725a393b2839be6d88b032cb641f041b347994390d27f09476060f"
+      }
+    },
+    "historical_archive_sha256": "a96c6b7c25e0e17ed1c1f7d0fcf13b70c338159ae9c10c5f825699b9e186db25"
+  },
+  "independent_final_audit": {
+    "record": "final-audit/AUDIT.json",
+    "record_sha256": "76d90242778879ebc4b877b76045b21a3767e6825e928e4434e5e4582fc41b21",
+    "stream_hashes": "final-audit/SHA256SUMS",
+    "source_commit": "f9e56c7dd9627b322406e05c53b4f6537d434262",
+    "retained_separately_from_archive": true,
+    "cases": [
+      {
+        "case": "coverage-tests",
+        "exit_code": 0
+      },
+      {
+        "case": "sealed-tmp-confirmation",
+        "exit_code": 0,
+        "test_assertion": "PASSED",
+        "code": null,
+        "fresh": true
+      },
+      {
+        "case": "sealed-failed-replay",
+        "exit_code": 3,
+        "test_assertion": "FAILED",
+        "code": null,
+        "fresh": true
+      },
+      {
+        "case": "sealed-refuse-demo",
+        "exit_code": 2,
+        "test_assertion": null,
+        "code": "SUITE_COVERAGE",
+        "fresh": null
+      }
+    ]
+  },
+  "claim_boundaries": {
+    "method_advantage": "NOT_ESTABLISHED",
+    "commercial_demand": "NOT_ESTABLISHED",
+    "new_held_out_successor": false,
+    "pooled_comparative_timings": false,
+    "scope": {
+      "en": "Post-successor aggregate-verifier repair and regression replay. No new held-out successor, new discovery claim, or pooled timing comparison. Historical contracts, policies, freeze and evidence remain unchanged.",
+      "fr": "Correction après le successeur du vérificateur agrégé et reproduction de régression. Aucun nouveau successeur tenu à l’écart, avantage de découverte ni comparaison de durées fusionnées. Contrats, politiques, gel et preuves historiques demeurent inchangés."
+    },
+    "verification_vs_outcome": "PASSED denotes the stated assertion. Refusing incomplete coverage is a successful negative assertion, not a favorable production outcome. The failed local replay remains FAILED."
+  },
+  "evidence_refs": {
+    "qualification_plan": {
+      "archive_member": "qualification/PREDECLARATION.json",
+      "bytes": 1560,
+      "sha256": "f17b7c881287200262e1caffeb8735592f4794c17622bd20da0bb3fa117da95b"
+    },
+    "hosted_checks": {
+      "archive_member": "qualification/CI.json",
+      "bytes": 2188,
+      "sha256": "9cc9d4b4dbf4fcabebcac12c567c960d49db9abff5aea7b34752d98ce688521b"
+    },
+    "before_plan": {
+      "archive_member": "before/PREDECLARATION.json",
+      "bytes": 4361,
+      "sha256": "8b76b7382debeea56d1cad5e9527477a8f957ec93c0d252604b5225c0ae32395"
+    },
+    "before_summary": {
+      "archive_member": "before/SUMMARY.json",
+      "bytes": 1406,
+      "sha256": "40a9290ab8e39db2afa1c028b2ac596870ca7e2faf0789c480e19bc52913d854"
+    },
+    "before_inventory": {
+      "archive_member": "before/input-inventory-before.json",
+      "bytes": 451864,
+      "sha256": "c71eb51247bdd51c97b32952c5e2ae2beeadc3b10b09b28a1738d7a6a37aa6df"
+    },
+    "after_before_inventory": {
+      "archive_member": "before/input-inventory-after.json",
+      "bytes": 451864,
+      "sha256": "c71eb51247bdd51c97b32952c5e2ae2beeadc3b10b09b28a1738d7a6a37aa6df"
+    },
+    "initial_after_summary": {
+      "archive_member": "after/unchanged-inputs-uncommitted-attempt-1/SUMMARY.json",
+      "bytes": 7050,
+      "sha256": "66c38c37e5ddb993f21d867e517c5e338d7d6daeb9959a73a869d48a9bcec7f6"
+    },
+    "regression_log": {
+      "archive_member": "qualification/logs/full-regression.stderr.log",
+      "bytes": 74090,
+      "sha256": "2b1765c49a056c84143361db4ef3c9d0e99f5510411c5ca58b3f3e46e2bb6b2a"
+    },
+    "ci_download": {
+      "archive_member": "ci-positive/DOWNLOAD.json",
+      "bytes": 407,
+      "sha256": "4aec46a903d1fad4955489c630357f8a939820cab5461a6f07687a1eaac0f451"
+    },
+    "ci_fresh": {
+      "archive_member": "ci-positive/VERIFICATION.json",
+      "bytes": 557,
+      "sha256": "41ca53e882aa256dd651f753a6971f8427ca5430377149e26fea2f8f50fa89c3"
+    },
+    "tmp_plan": {
+      "archive_member": "tmp-confirmation/PREDECLARATION.json",
+      "bytes": 1934,
+      "sha256": "facc5079134daccbc55b0e19a0c417b9cb453ca193562e891a31f56a44d33bd3"
+    },
+    "tmp_result": {
+      "archive_member": "tmp-confirmation/RESULT.json",
+      "bytes": 982,
+      "sha256": "92452c3ac3c4edcda89bfc67377314771408cc3c122fef8aefd466e107b5df09"
+    },
+    "tmp_copy_manifest": {
+      "archive_member": "tmp-confirmation/COPY-MANIFEST.json",
+      "bytes": 592558,
+      "sha256": "cb2e55e1584bc0e958b41a82fc7de417812f11378cd1a53b3c748a7d66dfbfc9"
+    },
+    "main_wal_finding": {
+      "archive_member": "digest-investigation/retained-views-1/FINDING.json",
+      "bytes": 3214,
+      "sha256": "ad1c6b43ab9c9ca495c2d2ff935a750d5c5b7bda68388f956a5a5a61a4b9a3ae"
+    },
+    "bounded_probe": {
+      "archive_member": "finalization-investigation/lifecycle-probe-1/RESULT.json",
+      "bytes": 86168,
+      "sha256": "190ccff26d021a5373d4dfb6c37e13016bef684b340d2c9a2c552c5ec46e0636"
+    },
+    "failed_cell_result": {
+      "archive_member": "finalization-investigation/RESULT.json",
+      "bytes": 16622,
+      "sha256": "1a758875630e4ab2136d77496d980ce0cf3ea91f9f215ba5b360226ee6d3774e"
+    },
+    "full-regression": {
+      "archive_member": "qualification/logs/full-regression.execution.json",
+      "bytes": 814,
+      "sha256": "dc0d078132982d6d01c64c8513445498e46ae547f108f758a7fae8e3b7995e7f"
+    },
+    "complete-replay": {
+      "archive_member": "qualification/logs/complete-replay.execution.json",
+      "bytes": 900,
+      "sha256": "07d65c442aaa35284590be43200f0cecdb25332aa1910cd56ab7f32a0f5c4f9b"
+    },
+    "fresh-replay": {
+      "archive_member": "qualification/logs/fresh-replay.execution.json",
+      "bytes": 901,
+      "sha256": "23f76f8c672ac92bbe163b89a757378ad88dddca4c73f2729f4e25da90192f04"
+    },
+    "fresh-original": {
+      "archive_member": "qualification/logs/fresh-original.execution.json",
+      "bytes": 940,
+      "sha256": "c74e361ba94f306278211d4932a4c363f7656e60c20da8f854e439311edcdc60"
+    },
+    "refuse-demo": {
+      "archive_member": "qualification/logs/refuse-demo.execution.json",
+      "bytes": 951,
+      "sha256": "82274e9236e15fa427ef335efb4b3c56bb409b0553f7830264f3c096b78ac202"
+    },
+    "refuse-comparison": {
+      "archive_member": "qualification/logs/refuse-comparison.execution.json",
+      "bytes": 963,
+      "sha256": "9cb46e23419de014774500d3473734dcee45f74b623e5912c759dfcf6811b7c7"
+    }
+  }
+}

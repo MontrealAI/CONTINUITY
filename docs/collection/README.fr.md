@@ -53,3 +53,5 @@ python3 scripts/verify_collection.py --language fr
 Exécuter depuis la racine du dépôt, avec Python 3.10 ou ultérieur, sans dépendance supplémentaire. Le contrôle vérifie le ZIP, les 106 fichiers extraits, les empreintes sources, les références de l’index, les liens locaux du lecteur et des volumes modifiables. Il ne réexécute pas une expérience et ne certifie pas les affirmations scientifiques ou commerciales.
 
 [Manifeste d’import](IMPORT_MANIFEST.json) · [Empreintes fournies](edition-2/CHECKSUMS.sha256) · [État, droits et limites](STATUS.md#français)
+
+[Apprendre avec la Masterclass 101 distincte en huit leçons](../masterclass-101/README.fr.md).

@@ -6,6 +6,10 @@
 
 **CONTINUITY Ω: Keep the promise.** Research, local execution, evidence and bilingual publications by Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
 
+### MasterClass 101, edition 1.0
+
+[Learn through eight lessons](docs/masterclass-101/README.md): complete bilingual courses, fillable workbooks, facilitator guides, slides and an interactive offline notebook. All 164 files and the original ZIP are preserved. Fictional exercises and formative quizzes do not establish operational or commercial results. Read the [status and privacy guidance](docs/masterclass-101/README.md#offline-use-and-privacy).
+
 ### Bilingual document collection, edition 2
 
 [Browse all five volumes](docs/collection/README.md) · [Complete English PDF](docs/collection/edition-2/CONTINUITY_OMEGA_Complete_Collection_EN.pdf) · [Complete French PDF](docs/collection/edition-2/CONTINUITE_OMEGA_Collection_Complete_FR.pdf) · [Download the bilingual ZIP](docs/collection/CONTINUITY_OMEGA_Complete_Bilingual_Collection.zip?raw=true) · [Documentation map](docs/README.md#english)
@@ -98,6 +102,10 @@ No new license is asserted: the source snapshot contains no root license, and ex
 ## Français
 
 **CONTINUITÉ Ω : Tenir parole.** Recherche, exécution locale, preuves et publications bilingues de Vincent Boucher, MONTREAL.AI / QUEBEC.AI.
+
+### Masterclass 101, édition 1.0
+
+[Apprendre en huit leçons](docs/masterclass-101/README.fr.md) : cours bilingues complets, cahiers à remplir, guides d’animation, diapositives et carnet interactif hors ligne. Les 164 fichiers et le ZIP original sont conservés. Les exercices fictifs et questionnaires formatifs n’établissent aucun résultat opérationnel ou commercial. Consulter les [conseils de confidentialité](docs/masterclass-101/README.fr.md#utilisation-hors-ligne-et-confidentialité).
 
 ### Collection documentaire bilingue, édition 2
 

@@ -55,9 +55,15 @@ class BilingualRepositoryTests(unittest.TestCase):
         # original pinned repository paths. They are archival records, not local
         # navigation pages; test_document_collection verifies their exact bytes.
         snapshots = ROOT / 'docs/collection/edition-2/05_Repository_Snapshot'
+        course_snapshots = ROOT / 'docs/masterclass-101/edition-1/05_Source_Evidence/repository'
+        # Exact-byte coverage is enforced by test_masterclass_documents.
+        course_audit = ROOT / 'docs/masterclass-101/edition-1/05_Source_Evidence/audit.md'
+        prior_course = ROOT / 'docs/masterclass-101/edition-1/05_Source_Evidence/versions/175cbff2016ad0648853f176ff1ce68e622a3d31'
         for page in ROOT.rglob('*.md'):
             if '.git' in page.parts: continue
             if page.is_relative_to(snapshots): continue
+            if page.is_relative_to(course_snapshots) or page == course_audit: continue
+            if page.is_relative_to(prior_course / 'repository') or page == prior_course / 'audit.md': continue
             for href in re.findall(r'\]\(([^)]+)\)', page.read_text()):
                 target = urlsplit(href)
                 if target.scheme or target.netloc or not target.path: continue

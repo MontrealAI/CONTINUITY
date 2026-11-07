@@ -1,0 +1,90 @@
+{
+  "schema": "continuity-economy/reuse-freeze/v1",
+  "version": "0.2.0",
+  "frozen_source_commit": "080a5484d1ff26fe04aac32078d9ea9ef2f739f4",
+  "frozen_source_tree": "3cd539623fff2564d76e13f5201edc5e8d53dbf1",
+  "created_after_first_base_experiment": true,
+  "first_base": {
+    "test_assertion": "PASSED",
+    "fresh_test_assertion": "PASSED",
+    "executed_method_records": 21,
+    "ai_not_run_records": 7,
+    "functional_ties": 7,
+    "index_sha256": "6b119767870d2db65f370cfd3373c65c18ab1fd430e11f9afa6e0a9c98baaf6e",
+    "summary_sha256": "ef3052d3fa0c0d6e883dd09b7cedf4e5280a6f420f5743665594a0c1c1733ac3",
+    "fresh_verification_sha256": "684b7330a001dffd84ff3626db8be112c127892e90e406fe9d6e87e4e03d99e9"
+  },
+  "files": {
+    "continuity_economy/__init__.py": "d5cfaccc245c8493d1de11e260ca35436bda8e20145487d7ddf9beabab69bb72",
+    "continuity_economy/__main__.py": "e46ca0167c2eb914cac9bb03028708b98f7f49896809893c18f77ac7023fabaf",
+    "continuity_economy/adapters.py": "61daa443a313a13caaec039060603123ae584065a38eaf7debd3414d29d45d39",
+    "continuity_economy/candidate.py": "ca0f6a1bb5a3ef8e8c2ba7971d4bd668c726c55d556aad7edbee94d3b4f038ee",
+    "continuity_economy/challenges.py": "559d75beb55a5e14c84fd63ed6187114f629363342bbec84db9f1f79659a6e85",
+    "continuity_economy/controller.py": "5c6b45367f6dde220b039a0f67f309f14e72007bcd96a28a48e811c782a6cff9",
+    "continuity_economy/fixtures.py": "e71d4177550e8653c1609f7e48e4840e1d0e1116e7c4586c496269ef17452c71",
+    "continuity_economy/participants.py": "372ad6d4902d739b0ff962f29a58f605967067920b4dec5a99542bf8d241087b",
+    "continuity_economy/planning.py": "61f1cef3848b0a69ef793254aedab5625febcd245d912e4a9efa8ae8e00fadbc",
+    "continuity_economy/policy_schema.py": "42667fead619a1681c10f59aff38e78f25559c935b3d64763057cd707b2f17a6",
+    "continuity_economy/producer.py": "3172126b675c232aba49999ea6c2adc68efdb04ff9854000d871a351afcc248a",
+    "continuity_economy/receiver.py": "9783bb2320a1a2cea82e1a8ca80434e1ad1cb6dfdd169ea8e8f393ed1a924b5f",
+    "continuity_economy/reporting.py": "fc8efdcd61915a62e52d0cff4d4cb74f41850615631b024f26c492cec74046ea",
+    "continuity_economy/schema.py": "2c09cbe30439abb941cf2aa079bb7c49e90dcfb4c036d5def2f74dde748a46f7",
+    "continuity_economy/suite.py": "1661bc015fef9569cacdbbea36aedddc94adee3b2e9b15ecda5a32d4a477e0c3",
+    "continuity_economy/verifier.py": "59bed9a68a14c8e5000638a8727c0abd236e7e12dfc017548f77395614e7b3de",
+    "continuity_harness/__init__.py": "577ece33903d70ce17189e594370916b485efec1e66ee07f099b4f62ebd4219e",
+    "continuity_harness/__main__.py": "c89523d1e0bbfc47bdcef086a06fabefacde32b7aca6be132e79d78b11e003c8",
+    "continuity_harness/adapters.py": "ba0be575481384b74dfbc407c4e575bb8f561c50f1235fdf51f0b4b9c19865b0",
+    "continuity_harness/candidate.py": "f473520ad15f71642f461b9e373fa32e524937bd041c9e8279f99101b04e9fe9",
+    "continuity_harness/challenges.py": "d14ec02a127eaab94bf440ccb76b38aa735983f393d6ccae80eb6fcdb1215a5d",
+    "continuity_harness/controller.py": "6586232940b9a0ec7ae1044d24ece90be87859188884fbbb2f465ca1fa1857d4",
+    "continuity_harness/fixtures.py": "4464f7c9b151300858703f2332049f83c2df429684326b5be3f4e45e7da11b9e",
+    "continuity_harness/reporting.py": "e89eee75a923f9489112e243f140f17adba916627d3c02ff6ac2b58e9a1f8645",
+    "continuity_harness/rpc.py": "36e48a53bd6c99a51f85fe1183f6e6e3ff9b0c3f3501c3d8c080ab1ff099b745",
+    "continuity_harness/sandbox.py": "7ae5423afd96847b1c38c746a7c417f938624e32acf97273c27757b46e3d556f",
+    "continuity_harness/schema.py": "4ad738e4b1ef001d039d92ffad897241be7605189b579abd69e38cfe3660427c",
+    "continuity_harness/service.py": "6b2c1816e71b6d0768024ed2a2273d98929fd42c223853eff7f7ccd63108055c",
+    "continuity_harness/suite.py": "bac676e2886e2ca434b775fe58a0f87b33c4c97f32badd5d2c63659323a5c4dc",
+    "continuity_harness/verifier.py": "2177652f986f9a305d7d3c90e808ba15651a58280c4a6bfd3f37da028542df38",
+    "docs/economy/AMENDMENTS.md": "1c87ced7ba9415f2a461774044b352b78f18bf0c3a9498658150e4a0d8a719e1",
+    "docs/economy/ARCHITECTURE.fr.md": "5b729c68a359ead22a0e24d589534fc6023ba80863357d850287b60f10213253",
+    "docs/economy/ARCHITECTURE.md": "f622283f010446f1fe0b12f1dcd91cf58f078fcd76fc781367d11abfcbe554d1",
+    "docs/economy/EXPERIMENT.md": "f48aff159057e0c3e062c8379eee1ff4013844dd382cdc25ae8caf1f8b5ed228",
+    "docs/economy/PRODUCT.fr.md": "c4bce8b839d4b702dc42b79eba88714838deec1bafe90e077c42806fc4c8d2d3",
+    "docs/economy/PRODUCT.md": "8e3a5ce9647aee68e1cd08de11c1daa1d242e27ffece78cb7b52c795c50bdb58",
+    "docs/economy/README.fr.md": "fd1db0234e70a4b1c7b95790266d5d7ea8ffef1dd353f522c20d39d69e2d31cd",
+    "docs/economy/README.md": "70181fb7f2e01f1970acdf33d55c9d72a8bce6b8d003cfae323d30fa13062b62",
+    "docs/economy/REQUIREMENTS.fr.md": "ba50d6d419789f2b861943851dc1816d7129a035216f59b3bc5f1ee30f73bbcb",
+    "docs/economy/REQUIREMENTS.md": "f0a9a8e69c486ec1bcf717fbcf639ff29166d57f251c2564eb6386ebfed49614",
+    "docs/economy/THREAT_MODEL.fr.md": "cde51dcdedbb580e2ee4dbed700e9828193415813990f42a3a5ab879cb0912b1",
+    "docs/economy/THREAT_MODEL.md": "afe49ea852f77e3c0e1b13a84a2871603ec6bace75b697dc6e620549cbb840d1"
+  },
+  "permitted_reuse": {
+    "en": [
+      "The unchanged executable implementation, neutral interfaces and schemas, reusable transaction/retry/reconciliation methods and listed documentation.",
+      "Equal candidate-visible new contract, policies and tool observations for conventional and Harness methods.",
+      "General knowledge that base tests exposed defects already repaired before this freeze; no successor-specific repair has been made."
+    ],
+    "fr": [
+      "L’implémentation exécutable inchangée, les interfaces et schémas neutres, les méthodes réutilisables de transaction/reprise/rapprochement et la documentation répertoriée.",
+      "Le même contrat, les mêmes politiques et observations d’outils du successeur visibles des méthodes conventionnelle et du banc.",
+      "La connaissance générale de défauts de base déjà corrigés avant ce gel ; aucune correction propre au successeur n’a été apportée."
+    ]
+  },
+  "excluded_material": {
+    "en": [
+      "Completed products, receiver databases, acceptance references and hidden expected answers.",
+      "Successor-specific executor modifications before the first successor assessment.",
+      "Additional candidate-only resources, tools or permissions."
+    ],
+    "fr": [
+      "Produits achevés, bases du destinataire, références d’acceptation et réponses attendues cachées.",
+      "Modifications de l’exécuteur propres au successeur avant sa première évaluation.",
+      "Ressources, outils ou autorisations supplémentaires réservés à un candidat."
+    ]
+  },
+  "measurement": {
+    "en": "Record implementation hash equality, changed input files, requests, execution/verification CPU and wall time, storage, retries, corrections and modeled cash flows. Fixture authoring and adaptation labor have not been instrumented; those costs remain unknown. One successor cannot establish general autonomy or discovery advantage.",
+    "fr": "Consigner l’égalité des empreintes d’implémentation, les fichiers d’entrée changés, requêtes, calcul/durée d’exécution et de vérification, stockage, reprises, corrections et flux modélisés. Le travail de rédaction et d’adaptation n’est pas instrumenté ; ces coûts restent inconnus. Un successeur n’établit ni autonomie générale ni avantage de découverte."
+  },
+  "successor_authored": false
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "Q01",
+    "lesson": "L1",
+    "question": {
+      "en": "Which event meets the frozen promise P1?",
+      "fr": "Quel événement respecte la promesse fixée P1?"
+    },
+    "options": {
+      "en": [
+        "Printer B restarts its equipment.",
+        "10,000 labels leave Printer B by 16:00.",
+        "Morgan receives and accepts 10,000 conforming v3 labels at site M1 by the deadline."
+      ],
+      "fr": [
+        "L’imprimeur B redémarre son équipement.",
+        "10 000 étiquettes quittent B avant 16 h.",
+        "Morgan reçoit et accepte 10 000 étiquettes v3 conformes au site M1 avant l’échéance."
+      ]
+    },
+    "correct_index": 2,
+    "explanation": {
+      "en": "The promise concerns the customer’s accepted result: quantity, specification, place and time. A restart or dispatch may support the route but does not establish receipt and acceptance. In this course, even a matching mock receipt establishes only the tabletop result.",
+      "fr": "La promesse porte sur le résultat accepté par le client : quantité, spécification, lieu et heure. Un redémarrage ou une expédition aide la réalisation sans établir la réception et l’acceptation. Dans ce cours, même une réception fictive conforme établit seulement le résultat de simulation."
+    }
+  },
+  {
+    "id": "Q02",
+    "lesson": "L1",
+    "question": {
+      "en": "P1 forbids partial acceptance. Only 9,800 conforming labels arrive on time. How should the original result be recorded?",
+      "fr": "P1 interdit l’acceptation partielle. Seules 9 800 étiquettes conformes arrivent à temps. Comment consigner le résultat initial?"
+    },
+    "options": {
+      "en": [
+        "Failed against P1; record any new agreement separately.",
+        "Change P1 to 9,800 and mark it passed.",
+        "Passed, because 98% arrived on time."
+      ],
+      "fr": [
+        "Échec par rapport à P1; consigner séparément tout nouvel accord.",
+        "Ramener P1 à 9 800 et déclarer la réussite.",
+        "Réussite, puisque 98 % sont arrivés à temps."
+      ]
+    },
+    "correct_index": 0,
+    "explanation": {
+      "en": "The original acceptance conditions remain authoritative. A later compromise or a new run may be useful, but it cannot change the historical result. The shortfall is 200 labels.",
+      "fr": "Les conditions d’acceptation initiales restent la référence. Un compromis ultérieur ou un nouvel essai peut être utile, sans modifier le résultat historique. Il manque 200 étiquettes."
+    }
+  },
+  {
+    "id": "Q03",
+    "lesson": "L2",
+    "question": {
+      "en": "The checkpoint says 8,000. An authorized amendment adds 2,000 before the cutoff. What quantity should the reconstructed obligation use?",
+      "fr": "Le point de reprise indique 8 000. Une modification autorisée ajoute 2 000 avant la borne. Quelle quantité retenir pour l’engagement reconstitué?"
+    },
+    "options": {
+      "en": [
+        "8,000, because the restored database is working.",
+        "10,000, after checking the amendment’s authority and coverage through the cutoff.",
+        "12,000, because that is the alternate printer’s capacity."
+      ],
+      "fr": [
+        "8 000, puisque la base restaurée fonctionne.",
+        "10 000, après contrôle de l’autorité de la modification et de la couverture jusqu’à la borne.",
+        "12 000, puisque c’est la capacité de l’autre imprimeur."
+      ]
+    },
+    "correct_index": 1,
+    "explanation": {
+      "en": "8,000 + 2,000 = 10,000. The amendment matters because it changes what is owed. Source origin, authority and completeness through the agreed cutoff still need checking; a matching checksum does not establish those facts.",
+      "fr": "8 000 + 2 000 = 10 000. La modification change ce qui est dû. Il faut encore contrôler origine, autorité et couverture jusqu’à la borne convenue; une empreinte concordante ne démontre pas ces faits."
+    }
+  },
+  {
+    "id": "Q04",
+    "lesson": "L2",
+    "question": {
+      "en": "Both printers need the same unavailable login to obtain approved artwork. What directly addresses the missing means?",
+      "fr": "Les deux imprimeurs dépendent du même accès indisponible pour obtenir le visuel approuvé. Qu’est-ce qui comble directement ce manque?"
+    },
+    "options": {
+      "en": [
+        "Describe Printer B as independent and proceed.",
+        "Build and test an authorized, separately accessible current packet and release channel.",
+        "Send whatever artwork someone remembers."
+      ],
+      "fr": [
+        "Déclarer B indépendant et poursuivre.",
+        "Construire et éprouver un dossier à jour et un canal de lancement autorisés, accessibles séparément.",
+        "Transmettre le visuel dont quelqu’un se souvient."
+      ]
+    },
+    "correct_index": 1,
+    "explanation": {
+      "en": "A second supplier does not remove a shared dependency. The useful intervention creates a permitted, current and usable way to obtain and release the right work. Its construction, rights and cost belong in the service.",
+      "fr": "Un second fournisseur ne supprime pas une dépendance commune. L’intervention utile crée un moyen autorisé, à jour et utilisable d’obtenir puis de lancer le bon travail. Sa construction, ses droits et son coût font partie du service."
+    }
+  },
+  {
+    "id": "Q05",
+    "lesson": "L3",
+    "question": {
+      "en": "Capacity is 12,000; protected work is 2,000; P1 needs 10,000. Another simultaneous request needs 5,000. What follows?",
+      "fr": "La capacité est de 12 000; 2 000 sont protégées; P1 en exige 10 000. Une autre demande simultanée exige 5 000. Quelle conclusion tirer?"
+    },
+    "options": {
+      "en": [
+        "Both requests fit because each is below 12,000.",
+        "There are 5,000 units left for the new request.",
+        "Total demand is 17,000 against 12,000; both cannot receive unconditional coverage."
+      ],
+      "fr": [
+        "Les deux demandes tiennent, car chacune est inférieure à 12 000.",
+        "Il reste 5 000 unités pour la nouvelle demande.",
+        "La demande totale atteint 17 000 pour 12 000 disponibles; les deux ne peuvent être couvertes sans condition."
+      ]
+    },
+    "correct_index": 2,
+    "explanation": {
+      "en": "Protected work and simultaneous promises share the same resource. The new request adds a 5,000-unit shortfall. A qualified additional slot, a voluntarily agreed priority rule or a declined request may solve it; silently double-booking does not.",
+      "fr": "Le travail protégé et les promesses simultanées partagent la même ressource. La nouvelle demande crée un manque de 5 000 unités. Un créneau supplémentaire qualifié, une priorité librement convenue ou un refus peut le résoudre; une double réservation cachée ne le peut pas."
+    }
+  },
+  {
+    "id": "Q06",
+    "lesson": "L3",
+    "question": {
+      "en": "Printer B says, “We could probably help.” What has this established?",
+      "fr": "L’imprimeur B dit : « Nous pourrions probablement aider. » Qu’est-ce que cela établit?"
+    },
+    "options": {
+      "en": [
+        "Interest; a usable reservation and its terms still need confirmation.",
+        "A binding, usable reservation for P1.",
+        "Collected commercial value for the coordinator."
+      ],
+      "fr": [
+        "Un intérêt; la réservation utilisable et ses conditions restent à confirmer.",
+        "Une réservation ferme et utilisable pour P1.",
+        "Une valeur commerciale encaissée par le coordinateur."
+      ]
+    },
+    "correct_index": 0,
+    "explanation": {
+      "en": "Willingness, authorized commitment, usable capacity and collected payment are different evidence states. The parties must voluntarily settle the product, window, rights, price, activation and failure terms.",
+      "fr": "Volonté, engagement autorisé, capacité utilisable et paiement encaissé correspondent à des preuves différentes. Les parties doivent convenir librement du produit, du créneau, des droits, du prix, du lancement et des conditions d’échec."
+    }
+  },
+  {
+    "id": "Q07",
+    "lesson": "L4",
+    "question": {
+      "en": "The modeled fee is CAD 5,600 and complete modeled cost is CAD 5,000. What is the projected contribution?",
+      "fr": "Le prix modélisé est de 5 600 CAD et le coût complet modélisé de 5 000 CAD. Quelle est la contribution prévue?"
+    },
+    "options": {
+      "en": [
+        "CAD 1,800.",
+        "CAD 600.",
+        "CAD 5,600."
+      ],
+      "fr": [
+        "1 800 CAD.",
+        "600 CAD.",
+        "5 600 CAD."
+      ]
+    },
+    "correct_index": 1,
+    "explanation": {
+      "en": "5,600 − 5,000 = 600. Ending cash of 1,800 on the favorable teaching branch includes 1,200 of starting money. Neither calculation is observed profit or real market evidence.",
+      "fr": "5 600 − 5 000 = 600. La trésorerie finale de 1 800 dans le scénario pédagogique favorable comprend 1 200 de fonds initiaux. Aucun calcul ne constitue un bénéfice observé ou une preuve de marché réelle."
+    }
+  },
+  {
+    "id": "Q08",
+    "lesson": "L4",
+    "question": {
+      "en": "CAD 4,700 is due before acceptance; CAD 1,200 is available. A CAD 3,500 advance is included in the CAD 5,600 fee. Which statement is correct?",
+      "fr": "4 700 CAD sont exigibles avant acceptation; 1 200 sont disponibles. L’avance de 3 500 est comprise dans le prix de 5 600. Quelle affirmation est correcte?"
+    },
+    "options": {
+      "en": [
+        "The total service revenue becomes CAD 9,100.",
+        "A proposed advance is automatically available cash.",
+        "The gap is CAD 3,500; CAD 2,100 remains conditional on full acceptance."
+      ],
+      "fr": [
+        "Le revenu total du service devient 9 100 CAD.",
+        "Une avance proposée constitue automatiquement des fonds disponibles.",
+        "Le manque est de 3 500 CAD; le solde de 2 100 dépend de l’acceptation complète."
+      ]
+    },
+    "correct_index": 2,
+    "explanation": {
+      "en": "The advance closes this modeled gap only when received and available under the agreed terms. It is part of the fee, not extra revenue. Restrictions, refund duties and payment conditions remain relevant.",
+      "fr": "L’avance comble ce manque modélisé seulement lorsqu’elle est reçue et disponible selon les conditions convenues. Elle fait partie du prix; ce n’est pas un revenu supplémentaire. Restrictions, remboursements et conditions de paiement restent à considérer."
+    }
+  },
+  {
+    "id": "Q09",
+    "lesson": "L5",
+    "question": {
+      "en": "The mock R1 receipt records 9,800 conforming units. Cash is zero after the modeled preacceptance costs. What is the sound next record?",
+      "fr": "La réception fictive R1 consigne 9 800 unités conformes. La trésorerie est nulle après les coûts modélisés préalables. Que consigner ensuite?"
+    },
+    "options": {
+      "en": [
+        "P1 failed in the tabletop; do not count the conditional CAD 2,100; record the unpaid inspection and next decision.",
+        "P1 passed and the full CAD 5,600 fee is earned.",
+        "Actual physical delivery is independently certified."
+      ],
+      "fr": [
+        "Échec de P1 dans la simulation; ne pas compter les 2 100 conditionnels; consigner l’inspection impayée et la décision suivante.",
+        "P1 a réussi et le prix complet de 5 600 est acquis.",
+        "La livraison physique réelle est certifiée indépendamment."
+      ]
+    },
+    "correct_index": 0,
+    "explanation": {
+      "en": "A mock receipt of 9,800 does not meet the 10,000-unit promise. K5 makes the CAD 300 inspection charge due despite failure; its funding is missing. Actual goods, actual payment and real commercial value remain not established.",
+      "fr": "Une réception fictive de 9 800 ne respecte pas la promesse de 10 000. K5 rend les 300 CAD d’inspection exigibles malgré l’échec; leur financement manque. Biens réels, paiement réel et valeur commerciale réelle restent non établis."
+    }
+  },
+  {
+    "id": "Q10",
+    "lesson": "L5",
+    "question": {
+      "en": "A reviewer is paid by the supplier. Which description of independence is defensible?",
+      "fr": "Un évaluateur est rémunéré par le fournisseur. Quelle description de son indépendance est défendable?"
+    },
+    "options": {
+      "en": [
+        "A separate software checker proves complete institutional independence.",
+        "Disclose the relationship, method, source custody and limits; assess independence for the particular claim.",
+        "A favorable report guarantees all future deliveries."
+      ],
+      "fr": [
+        "Un logiciel distinct démontre une indépendance institutionnelle complète.",
+        "Déclarer le lien, la méthode, la garde des sources et les limites; apprécier l’indépendance pour l’affirmation précise.",
+        "Un rapport favorable garantit toutes les livraisons futures."
+      ]
+    },
+    "correct_index": 1,
+    "explanation": {
+      "en": "Independent checking has several dimensions. Separate code, protected source evidence, control of execution and organizational incentives are not interchangeable. A reviewer’s report must identify what was checked and what remains trusted or unknown.",
+      "fr": "L’indépendance de la vérification comporte plusieurs dimensions. Code distinct, sources protégées, contrôle de l’exécution et intérêts organisationnels ne sont pas interchangeables. Le rapport doit préciser les contrôles, les hypothèses de confiance et les inconnues."
+    }
+  },
+  {
+    "id": "Q11",
+    "lesson": "L6",
+    "question": {
+      "en": "Which comparison could support a useful buying decision?",
+      "fr": "Quelle comparaison pourrait étayer une décision d’achat utile?"
+    },
+    "options": {
+      "en": [
+        "Give only CONTINUITY Ω the approved amendment and alternate printer.",
+        "Compare only software execution time.",
+        "Use the same promise, usable records and resources; count complete costs and human work; allow a conventional winner."
+      ],
+      "fr": [
+        "Donner seulement à CONTINUITY Ω la modification approuvée et l’autre imprimeur.",
+        "Comparer uniquement le temps d’exécution du logiciel.",
+        "Garder la même promesse, les mêmes sources et ressources utilisables; compter coûts complets et travail humain; accepter un gagnant conventionnel."
+      ]
+    },
+    "correct_index": 2,
+    "explanation": {
+      "en": "A capable conventional route is the relevant baseline. An AI-assisted route must actually run before its performance is claimed. Quote, modeled estimate and measured result must remain distinguishable; no purchase can be the rational choice.",
+      "fr": "Une voie conventionnelle compétente constitue la référence utile. Une voie assistée par IA doit être exécutée avant qu’on affirme ses performances. Devis, estimation modélisée et résultat mesuré restent distincts; ne pas acheter peut être rationnel."
+    }
+  },
+  {
+    "id": "Q12",
+    "lesson": "L8",
+    "question": {
+      "en": "What would support the claim that a retained capability enabled a different next use?",
+      "fr": "Qu’est-ce qui pourrait étayer l’affirmation qu’une capacité conservée a permis un nouvel usage distinct?"
+    },
+    "options": {
+      "en": [
+        "A fresh distinct task compared with and without that capability under equivalent resources, including adaptation costs.",
+        "Another description of the same successful label order.",
+        "Keeping a file and calling it a flywheel."
+      ],
+      "fr": [
+        "Une tâche nouvelle et distincte comparée avec et sans cette capacité, à ressources équivalentes, coûts d’adaptation compris.",
+        "Une autre description de la même commande d’étiquettes réussie.",
+        "Conserver un fichier et l’appeler un cercle vertueux."
+      ]
+    },
+    "correct_index": 0,
+    "explanation": {
+      "en": "Retention creates a candidate capability, not proof of its contribution. The next use needs its own promise, rights, funding and evidence. Repeat demand, successor enablement and improvement of the discovery process are different claims.",
+      "fr": "La conservation crée une capacité candidate, pas la preuve de son apport. L’usage suivant exige sa propre promesse, ses droits, son financement et ses preuves. Demande répétée, apport au successeur et amélioration du processus de découverte sont des affirmations différentes."
+    }
+  }
+]

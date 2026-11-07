@@ -1,0 +1,1486 @@
+{
+  "document": "learner",
+  "lang": "fr",
+  "title": "CONTINUITÉ Ω Masterclass 101",
+  "subtitle": "Apprendre à préserver un engagement client et à construire une solution viable",
+  "sources": [
+    "C2",
+    "F1",
+    "F2",
+    "F3",
+    "R21",
+    "R22",
+    "R23",
+    "R46",
+    "R47"
+  ],
+  "pages": [
+    {
+      "id": "o01",
+      "lesson": "O",
+      "kicker": "Orientation · 5 min",
+      "title": "Ce que vous saurez faire",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "**CONTINUITÉ Ω est un projet visant à aider une entreprise à tenir un engagement client précis lorsque sa manière habituelle de livrer est perturbée.** Il examine les conditions manquantes, aide à construire une solution utilisable et cherche un arrangement complet auquel les participants peuvent adhérer volontairement. Son ambition de recherche comprend l’apprentissage des capacités conservées qui rendent possibles d’autres travaux. [C2, pp. 5–9, 18–23]"
+        },
+        {
+          "type": "p",
+          "text": "Ce cours transforme cette idée en décisions à pratiquer sans programmer. À la fin, vous devriez pouvoir définir une promesse faisant autorité; réunir informations, droits et ressources dans une solution; vérifier ses coûts et son financement; distinguer ce qu’un essai établit de ce qu’il laisse ouvert; et choisir une prochaine étape utile."
+        },
+        {
+          "type": "callout",
+          "label": "Votre réponse de départ",
+          "text": "Après une panne, une imprimerie rétablit son application de commandes. L’écran s’ouvre et la sauvegarde se charge. La promesse au client est-elle préservée? Écrivez une phrase et nommez la première preuve que vous demanderiez. Conservez cette réponse pour la fin."
+        },
+        {
+          "type": "callout",
+          "label": "Comment apprendre ici",
+          "text": "Lisez l’exemple, prenez votre propre décision, puis consultez le retour. Travaillez seul ou à deux. Une réponse utile donne une raison et l’observation qui pourrait modifier la décision."
+        },
+        {
+          "type": "p",
+          "text": "**Production attendue :** votre réponse initiale. **Suite :** découvrez le cas qui accompagnera le cours. L’horaire animé de 180 minutes comprend une pause de dix minutes; l’autoformation peut demander davantage de temps."
+        }
+      ]
+    },
+    {
+      "id": "o02",
+      "lesson": "O",
+      "kicker": "Orientation · 5 min",
+      "title": "La commande et les participants",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Toutes les entreprises, pièces, sommes et observations de ce cas sont inventées. L’imprimeur A doit livrer des étiquettes d’emballage à son client. Sa voie de production habituelle est perturbée. L’imprimeur B pourrait assurer la relève; un coordonnateur propose d’organiser un service de continuité distinct, acheté par A. La facture initiale du client reste hors du registre financier de ce service."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Rôle",
+            "Ce que ce rôle maîtrise"
+          ],
+          "rows": [
+            [
+              "Imprimeur A",
+              "Commande initiale, divulgation permise et achat du service."
+            ],
+            [
+              "Imprimeur B",
+              "Procédé, matières, créneau utilisable et engagement de production."
+            ],
+            [
+              "Coordonnateur",
+              "Solution proposée, registre du service et transmissions."
+            ],
+            [
+              "Morgan",
+              "Responsable de la réception du client, autorisé à statuer sur l’acceptation."
+            ]
+          ],
+          "widths": [
+            0.24,
+            0.76
+          ]
+        },
+        {
+          "type": "p",
+          "text": "La commande acceptée porte sur 10 000 étiquettes, visuel v3, reçues et acceptées au plus tard le jeudi 12 novembre 2026 à 16 h, America/Toronto, à l’entrepôt montréalais fictif, quai 3, site M1. Aucune livraison incomplète ni substitution de qualité n’est autorisée. La prochaine leçon précise la spécification."
+        },
+        {
+          "type": "callout",
+          "label": "Repérez la différence",
+          "text": "« Le serveur fonctionne », « B peut ouvrir le fichier » et « Morgan accepte toute la commande à temps » sont des affirmations distinctes. Laquelle répond directement à l’exigence du client?"
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Seule la dernière atteint l’acceptation client. Les deux premières peuvent être nécessaires sans établir le résultat complet. La classe établit votre raisonnement à partir des pièces fournies, pas une livraison réelle ni un marché réel."
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une carte des rôles et une phrase décrivant le résultat client. **Suite :** rendre ce résultat vérifiable."
+        }
+      ]
+    },
+    {
+      "id": "l1_01",
+      "lesson": "L1",
+      "kicker": "Leçon 1 · 4 min",
+      "title": "Écrire une promesse que l’on peut accepter",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "À partir d’une commande et de ses modifications autorisées, rédiger une fiche permettant à une autre personne d’accepter ou de refuser le résultat."
+        },
+        {
+          "type": "p",
+          "text": "Une promesse dépasse une aspiration comme « maintenir l’activité ». Elle précise bénéficiaire, résultat, quantité, qualité, échéance, lieu et autorité d’acceptation. L’origine de ces conditions compte : une reconstitution commode ne remplace pas l’entente véritable du client. [C2, pp. 7–10]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "P1 : promesse pédagogique",
+            "Condition d’acceptation"
+          ],
+          "rows": [
+            [
+              "Résultat et quantité",
+              "10 000 étiquettes d’emballage; visuel v3 approuvé."
+            ],
+            [
+              "Spécification",
+              "Support autoadhésif blanc mat; 50 × 30 mm, tolérance ±0,5 mm; code approuvé lisible."
+            ],
+            [
+              "Qualité et intégralité",
+              "Les étiquettes endommagées ne comptent pas; aucune acceptation partielle."
+            ],
+            [
+              "Échéance et lieu",
+              "12 novembre 2026, 16 h, America/Toronto; site M1, quai 3."
+            ],
+            [
+              "Autorité",
+              "Morgan, responsable de la réception client, vérifie quantité, spécification, qualité et heure."
+            ]
+          ],
+          "widths": [
+            0.29,
+            0.71
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "« Envoyer environ 10 000 étiquettes jeudi » ne tranche pas un différend sur la quantité, l’heure ou la réception. P1 le permet : un avis d’expédition à 15 h 50 ne suffit pas sans réception et acceptation dans le délai."
+        },
+        {
+          "type": "p",
+          "text": "Une nouvelle entente autorisée peut modifier l’engagement futur. Consignez-en une nouvelle version. Elle ne rend pas rétroactivement conforme à P1 une livraison antérieure incomplète ou tardive. **Suite :** trouver l’historique qui fait autorité."
+        }
+      ]
+    },
+    {
+      "id": "l1_02",
+      "lesson": "L1",
+      "kicker": "Leçon 1 · 5 min",
+      "title": "Retrouver l’historique accepté",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Le point de reprise couvre le mardi 10 novembre à 12 h et indique 8 000 étiquettes. La modification A-02, autorisée ce mardi à 14 h, en ajoute 2 000. Pour cet exercice, le registre de garde C-01 couvre jusqu’à la limite figée — mercredi 11 novembre à 12 h — et ne mentionne aucune autre modification ni annulation. Ce sont des hypothèses pédagogiques imprimées, pas des pièces réelles authentifiées."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "8 000 + 2 000 = 10 000. Les 2 000 supplémentaires appartiennent à la commande acceptée; elles ne sont pas facultatives. Le rapprochement doit couvrir les événements acceptés jusqu’à la limite convenue, y compris les annulations susceptibles de réduire l’obligation."
+        },
+        {
+          "type": "p",
+          "text": "Une application récupérée peut fonctionner tout en contenant la mauvaise commande. Une empreinte concordante peut montrer que les octets correspondent à une référence; elle n’établit pas que cette référence comprend tous les événements acceptés. Si les preuves disponibles ne permettent pas de distinguer les deux historiques, une autre IA ne peut retrouver le fait absent. [C2, pp. 9–10]"
+        },
+        {
+          "type": "callout",
+          "label": "Deux horloges différentes",
+          "text": "Le délai de reprise concerne le moment où le service fonctionne de nouveau. L’échéance client concerne la réception et l’acceptation du résultat. Le point de reprise décrit l’état récupéré; les modifications acceptées ensuite demandent encore un traitement."
+        },
+        {
+          "type": "callout",
+          "label": "Vérifiez votre compréhension",
+          "text": "Sans A-02, 8 000 devient-il le bon résultat? Non. La quantité acceptée reste non établie à partir de cette vue incomplète."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** remplir la Fiche de promesse avec l’historique qui fait autorité."
+        }
+      ]
+    },
+    {
+      "id": "l1_03",
+      "lesson": "L1",
+      "kicker": "Leçon 1 · 6 min",
+      "title": "Prendre la première décision d’acceptation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Utilisez P1 et l’historique pédagogique pour rédiger une Fiche de promesse concise. Vous ne créez pas une nouvelle offre : vous préservez l’engagement déjà accepté selon le cas."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Indiquez bénéficiaire, quantité de 10 000, visuel, matière et règles de qualité.",
+            "Associez l’échéance à la date, au fuseau horaire et au lieu de réception. Nommez Morgan et les contrôles d’acceptation.",
+            "Inscrivez le point de reprise, A-02 et C-01 comme sources de l’exercice, avec leur limite temporelle et leur statut simulé."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Un message annonce : « Nous avons produit 10 000 étiquettes, dont 200 endommagées. Le camion est parti à 15 h 40. » Cela prouve-t-il P1? Nommez deux observations manquantes ou conditions non respectées."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Cela ne prouve pas P1. Il reste seulement 9 800 étiquettes intactes : la quantité manque, sauf remplacement conforme reçu dans les conditions de P1. L’expédition n’établit ni la réception à temps ni l’acceptation de Morgan. Un total produit plus élevé ne rend pas les étiquettes endommagées acceptables."
+        },
+        {
+          "type": "callout",
+          "label": "Idée reçue à corriger",
+          "text": "« À peu près suffit pour la continuité. » Cela constitue une autre règle d’acceptation. Le client peut l’accepter volontairement; le verdict initial et la nouvelle entente doivent rester distincts. [C2, pp. 8, 14–15]"
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une Fiche de promesse avec sources et règle d’acceptation. **Autocontrôle :** permet-elle de refuser une livraison tardive, endommagée ou incomplète? **Suite :** chercher une solution qui puisse la respecter."
+        }
+      ]
+    },
+    {
+      "id": "l2_01",
+      "lesson": "L2",
+      "kicker": "Leçon 2 · 4 min",
+      "title": "Changer les moyens avec un objectif clair",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Repérer une condition manquante, proposer une capacité concrète pour la fournir et préserver l’engagement client faisant autorité."
+        },
+        {
+          "type": "p",
+          "text": "Avant de choisir un engagement, l’intelligence transformationnelle peut chercher conjointement un résultat plus utile, des moyens réalisables et un arrangement coopératif. L’exercice de continuité fige ensuite la promesse qu’il teste. Dans P1, inventez d’autres moyens ou arrangements; modifier la promesse exige une nouvelle version explicitement acceptée. Celle-ci ne peut effacer un échec antérieur. [F1, pp. 2–3; C2, pp. 5, 10–12]"
+        },
+        {
+          "type": "figure",
+          "name": "promise_routes",
+          "caption": "Plusieurs voies peuvent viser le même engagement faisant autorité. Ce schéma présente un choix de conception, pas une livraison accomplie."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "La question étroite est : « L’usine redémarrera-t-elle à temps? » La question élargie devient : « Une voie autorisée peut-elle livrer P1 et obtenir son acceptation jeudi à 16 h? » Un autre imprimeur aide seulement si informations, droits, capacité et livraison fonctionnent aussi."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** transformer une solution séduisante en moyens réellement utilisables."
+        }
+      ]
+    },
+    {
+      "id": "l2_02",
+      "lesson": "L2",
+      "kicker": "Leçon 2 · 5 min",
+      "title": "Construire ce que le prestataire peut utiliser",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Une capacité manquante est une aptitude précise nécessaire à la solution complète : dossier actuel, canal de transmission permis, adaptateur pour l’équipement de relève ou rapprochement entre réception et commande initiale. Sa valeur vient de ce qu’elle permet dans des conditions connues. [C2, pp. 11–12]"
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "B possède une machine adaptée, mais ne peut utiliser le fichier propriétaire de A. Une construction proposée convertit le dessin approuvé au format de B, préserve le visuel v3 et la spécification, puis produit une épreuve vérifiable. Il faut valider cette conversion sur le procédé de B; un aperçu plausible ne suffit pas."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Construire",
+            "Ce qui rend le résultat utilisable"
+          ],
+          "rows": [
+            [
+              "Dossier de production",
+              "Quantité actuelle, visuel, spécification, destination et identifiant stable."
+            ],
+            [
+              "Transmission autorisée",
+              "Destinataire et informations permis, autorité de diffusion et canal joignable."
+            ],
+            [
+              "Dossier de clôture",
+              "Accusés, modifications, annulations et acceptations aidant à éviter les doublons."
+            ]
+          ],
+          "widths": [
+            0.27,
+            0.73
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Les deux imprimeurs dépendent du même accès indisponible pour obtenir le visuel approuvé. Proposez une construction autorisée qui supprime cette dépendance et nommez son test."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Un dossier actuel protégé et un canal de diffusion distinct sont des candidats plausibles. Vérifiez que le destinataire autorisé obtient et utilise la bonne version sans l’accès défaillant. Un nouveau nom de fournisseur ou une copie périmée n’établit pas cette capacité."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** confier à l’IA des tâches de proposition et de critique, en conservant l’autorité des personnes désignées."
+        }
+      ]
+    },
+    {
+      "id": "l2_03",
+      "lesson": "L2",
+      "kicker": "Leçon 2 · 5 min",
+      "title": "Donner à l’IA une tâche et un contrôle utiles",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’IA peut proposer des voies, assembler un dossier provisoire, repérer des dépendances ou générer un adaptateur candidat. Fournissez promesse, sources pertinentes, permissions et décision recherchée. Un second modèle peut chercher les omissions importantes. L’assurance d’aucun modèle ne décide si la solution fonctionne. [C2, pp. 5–6, 10–12]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Rôle",
+            "Consigne utile"
+          ],
+          "rows": [
+            [
+              "Proposition",
+              "« Prépare une voie pour P1. Précise entrées, autorité, capacité et preuves à chaque transmission. »"
+            ],
+            [
+              "Critique",
+              "« Repère une omission qui pourrait changer l’acceptation. Nomme l’exigence touchée et la source ou le test décisif. »"
+            ],
+            [
+              "Examen autorisé",
+              "Contrôler l’allégation à partir des sources ou observations; la confirmer, la rejeter ou la laisser ouverte."
+            ]
+          ],
+          "widths": [
+            0.22,
+            0.78
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Le modèle critique remarque que le plan imprime 8 000 étiquettes. A-02 confirme l’objection. Le coordonnateur corrige la quantité, puis revérifie capacité, prix et délais. Trouver les 2 000 manquantes commence une réparation; cela ne prouve pas que le service corrigé livrera."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Améliorez cette critique : « Le plan est risqué et l’IA peut se tromper. » Donnez une exigence précise, une défaillance possible et un contrôle décisif."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Exemple : « P1 exige v3; le dossier indique v2. Comparons la référence autorisée et validons le fichier diffusé sur le procédé de B. » Une objection précise permet une construction ou un refus. Le pessimisme non étayé mérite aussi examen."
+        },
+        {
+          "type": "p",
+          "text": "Utilisez uniquement données et opérations autorisées. L’IA ne fournit ni consentement manquant, ni historique absent, ni preuve réelle de production. **Suite :** choisir une construction utile et son test."
+        }
+      ]
+    },
+    {
+      "id": "l2_04",
+      "lesson": "L2",
+      "kicker": "Leçon 2 · 6 min",
+      "title": "Remplir une Fiche de réalisation",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choisissez un obstacle : commande périmée, fichier inutilisable ou accès défaillant partagé. Décrivez une solution qui l’élimine sans modifier P1 en silence. Elle peut combiner services ordinaires, expertise humaine et travail assisté par l’IA. L’option compétente la plus simple reste admissible. [C2, pp. 10–13, 21–22]"
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Nommez la condition bloquante et l’exigence de P1 qu’elle menace.",
+            "Précisez la construction, la personne qui doit l’autoriser et celle qui l’utilisera.",
+            "Nommez l’observation prouvant son fonctionnement et l’échec qui arrêterait l’affirmation.",
+            "Indiquez la condition suivante encore ouverte : capacité, financement ou transport, par exemple."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Complétez : « Il nous faut ___ pour que ___ puisse ___ dans les conditions ___. Nous le vérifierons par ___. D’ici là, ___ reste non établi. »"
+        },
+        {
+          "type": "callout",
+          "label": "Retour modèle",
+          "text": "« Il faut un dossier de production actuel et permis pour que B réalise P1 sans l’accès défaillant. Nous testerons récupération, version, format et épreuve sur le procédé par le canal distinct. D’ici là, la préparation de la relève reste non établie. » La réponse nomme un résultat utilisable et un test plutôt qu’une simple demande de résilience."
+        },
+        {
+          "type": "callout",
+          "label": "Idée reçue à corriger",
+          "text": "« Changer les moyens signifie changer la promesse. » Une voie peut être repensée dans les conditions initiales. Un site, une matière ou une approbation obligatoire le reste sans nouvelle entente autorisée."
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une Fiche de réalisation avec construction, responsable et test. **Suite :** déterminer si les participants nécessaires peuvent et veulent s’engager."
+        }
+      ]
+    },
+    {
+      "id": "l3_01",
+      "lesson": "L3",
+      "kicker": "Leçon 3 · 6 min",
+      "title": "Une coopération acceptable",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Construire une carte indiquant chaque participant nécessaire, sa contribution, son consentement et sa raison de participer."
+        },
+        {
+          "type": "p",
+          "text": "Invent the Economy demande comment une activité techniquement possible peut devenir un échange volontaire et viable. La construction manquante peut être économique : périmètre de service utile, offre de réservation, calendrier de paiement ou partage du travail préparatoire. Aucun modèle ne crée automatiquement l’accord des participants. [F2, pp. 2–3; C2, pp. 18–20]"
+        },
+        {
+          "type": "figure",
+          "name": "market_arrangement",
+          "caption": "Capacité utilisable, engagements, vérification et financement à temps doivent s’articuler. Il s’agit d’un arrangement proposé, pas de la preuve d’un marché existant."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Une méthode réutilisable de préparation et de contrôle des dossiers pourrait réduire les efforts répétés. De petits mandats de continuité pourraient alors devenir intéressants à offrir. Le prestataire doit encore financer une capacité sans engagements incompatibles; les acheteurs doivent apprécier et choisir réellement le service."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** préciser ce que chacun s’engagerait à fournir, puis vérifier qu’une ressource rare n’est pas promise deux fois."
+        }
+      ]
+    },
+    {
+      "id": "l3_02",
+      "lesson": "L3",
+      "kicker": "Leçon 3 · 6 min",
+      "title": "Transformer l’intérêt en engagements utilisables",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "B dit : « Cela nous intéresse. » C’est utile, mais cela ne réserve aucun créneau et n’autorise aucune divulgation. L’arrangement précise qui fournit quoi, sous quelles conditions, et ce qui arrive lorsqu’une contribution devient indisponible. Comparez la situation de chacun à ses solutions de rechange crédibles. [C2, pp. 11–14, 18–19]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Participant",
+            "Engagement utilisable"
+          ],
+          "rows": [
+            [
+              "Imprimeur A",
+              "Accepter périmètre et prix; autoriser dossier permis, activation et paiement."
+            ],
+            [
+              "Imprimeur B",
+              "Confirmer procédé, matières, créneau et déclenchement; préciser expiration et retrait."
+            ],
+            [
+              "Morgan / client",
+              "Confirmer spécification, permissions et autorité d’acceptation."
+            ],
+            [
+              "Coordonnateur / vérificateur",
+              "Assumer transmissions, preuves, frais et devoirs restants; divulguer les liens pertinents."
+            ]
+          ],
+          "widths": [
+            0.27,
+            0.73
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exemple de capacité",
+          "text": "Le créneau offre 12 000 unités utilisables. Le travail antérieur protégé en consomme 2 000. P1 exige les 10 000 restantes. Une autre demande simultanée de 5 000 porterait les engagements à 17 000 : elle ne tient pas."
+        },
+        {
+          "type": "p",
+          "text": "Un second fournisseur peut partager le même accès défaillant, approvisionnement, transporteur ou approbateur. Examinez la voie complète et le créneau pertinent. Un tableau local ne révèle pas les réservations non divulguées."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Réparez la proposition surchargée sans supposer que vous pouvez déplacer le travail protégé ou modifier P1. Nommez une construction et sa preuve nécessaire."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Qualifiez une capacité supplémentaire, trouvez un créneau réellement compatible ou proposez un arrangement conditionnel explicitement accepté. Gardez le besoin ouvert tant que capacité et engagements requis ne sont pas établis."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** inscrire la solution choisie dans la Carte de l’arrangement."
+        }
+      ]
+    },
+    {
+      "id": "l3_03",
+      "lesson": "L3",
+      "kicker": "Leçon 3 · 8 min",
+      "title": "Construire votre Carte de l’arrangement",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reprenez votre Fiche de réalisation. Pour chaque contribution essentielle, nommez son responsable, le bénéfice ou la rémunération justifiant sa participation, l’engagement nécessaire et les preuves actuelles. Un bon arrangement relie ces contributions; il ne traite pas tous les intervenants autres que l’acheteur comme des ressources gratuites. [C2, pp. 18–20]"
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "A accepte un prix; B possède une capacité; le visuel approuvé reste accessible uniquement par l’accès défaillant. Que construire maintenant? Précisez une diffusion autorisée, les consentements nécessaires et la condition rendant l’offre utilisable."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Le prix accepté et le créneau disponible n’éliminent pas cette dépendance informationnelle. Un dossier actuel autorisé et un canal joignable distinct pourraient le faire. Qualifiez-les avec le titulaire des droits et l’opérateur de B, puis actualisez l’arrangement complet. Ne payez pas la réservation en supposant que l’accès se réglera seul."
+        },
+        {
+          "type": "callout",
+          "label": "Idée reçue à corriger",
+          "text": "« Une bonne simulation signifie qu’il existe un marché. » Un modèle montre les conséquences des hypothèses fournies. Conditions acceptées, échange réalisé et demande répétée exigent d’autres observations. Même un véritable paiement pour la préparation établit uniquement l’achat de cette étape. [F2, p. 3; C2, pp. 8, 20]"
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une Carte de l’arrangement distinguant contributions acceptées, proposées et manquantes. **Autocontrôle :** chacun peut-il refuser, et la proposition respecte-t-elle ses obligations et ses autres options? **Suite :** calculer le coût complet et vérifier le paiement des factures à leur échéance."
+        }
+      ]
+    },
+    {
+      "id": "l4_01",
+      "lesson": "L4",
+      "kicker": "Leçon 4 · 5 min",
+      "title": "Compter le coût complet du service",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Calculer la contribution projetée, repérer le manque de trésorerie maximal et expliquer les conditions d’une révision financée."
+        },
+        {
+          "type": "p",
+          "text": "Tous les montants sont fictifs, en dollars canadiens, du point de vue du coordonnateur. A propose d’acheter le service de continuité distinct pour 5 600 $. La facture initiale du client final est exclue. Le modèle suppose ce périmètre de coûts complet et exprimé sur une base cohérente."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Coût modélisé",
+            "CAD",
+            "Paiement"
+          ],
+          "rows": [
+            [
+              "Production de relève",
+              "3 200",
+              "Avant acceptation"
+            ],
+            [
+              "Dossier préparé et contrôlé",
+              "550",
+              "Avant acceptation"
+            ],
+            [
+              "Transport",
+              "400",
+              "Avant acceptation"
+            ],
+            [
+              "Coordination, frais généraux répartis compris",
+              "350",
+              "Avant acceptation"
+            ],
+            [
+              "Frais d’essai de préparation",
+              "200",
+              "Avant acceptation"
+            ],
+            [
+              "Inspection finale",
+              "300",
+              "Après acceptation"
+            ],
+            [
+              "Total",
+              "5 000",
+              "4 700 avant; 300 après"
+            ]
+          ],
+          "widths": [
+            0.58,
+            0.14,
+            0.28
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "5 600 − 5 000 = 600 $ de contribution projetée. Ce calcul dépend du périmètre, de l’exécution, de l’acceptation et du paiement modélisés. Ce n’est ni une recette encaissée, ni un solde bancaire, ni un bénéfice réalisé."
+        },
+        {
+          "type": "p",
+          "text": "Un registre réel doit établir son périmètre complet : travail humain, acquisition et tentatives échouées, préparation, ressources techniques ou d’IA, financement, reprises, suivi et devoirs restants, selon le cas. Ne comptez pas deux fois une ressource et ne la dissimulez pas hors du périmètre. [C2, pp. 18–20; F2, p. 6]"
+        },
+        {
+          "type": "p",
+          "text": "La ligne d’inspection indique quand sa facture est payée; elle ne reporte pas les contrôles de qualité requis après l’acceptation. **Suite :** placer factures et encaissements dans le temps."
+        }
+      ]
+    },
+    {
+      "id": "l4_02",
+      "lesson": "L4",
+      "kicker": "Leçon 4 · 5 min",
+      "title": "Une marge ne suffit pas à payer à temps",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "L’offre initiale prévoit le paiement après acceptation complète. Le coordonnateur dispose de 1 200 $ après ses obligations protégées. Il doit payer 4 700 $ avant l’acceptation. Le prix promis pour plus tard ne finance pas une obligation antérieure. [C2, pp. 19–20; F2, p. 6]"
+        },
+        {
+          "type": "figure",
+          "name": "cash_timing",
+          "caption": "Plan initial : 1 200 disponibles contre 4 700 exigibles avant acceptation, soit 3 500 manquants. La branche favorable révisée exige une avance de 3 500 comprise dans les 5 600, puis 2 100 encaissés et 300 payés après acceptation."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Manque initial = 4 700 − 1 200 = 3 500 $. N’activez pas ce plan de paiement. Construisez un autre calendrier accepté, obtenez un fonds de roulement autorisé ou qualifiez une solution complète moins coûteuse."
+        },
+        {
+          "type": "callout",
+          "label": "Vérifiez votre compréhension",
+          "text": "Un prix plus élevé, toujours payable après acceptation, supprime-t-il ce manque? Non. Il peut améliorer la contribution projetée sans changer les fonds disponibles avant l’échéance des factures."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** tester une avance volontaire comme réparation possible."
+        }
+      ]
+    },
+    {
+      "id": "l4_03",
+      "lesson": "L4",
+      "kicker": "Leçon 4 · 4 min",
+      "title": "Réparer le calendrier sans compter deux fois",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dans la variante financée, A accepte volontairement une avance de 3 500 $, comprise dans le prix de 5 600 $. L’exercice la suppose reçue, encaissée et autorisée pour les coûts préalables non récupérables documentés; les fonds inutilisés sont remboursables. Les 2 100 $ restants deviennent payables seulement après acceptation complète. Ces conditions n’effacent pas les autres devoirs en cas d’échec."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Branche favorable conditionnelle",
+            "Trésorerie, CAD"
+          ],
+          "rows": [
+            [
+              "Fonds initiaux non engagés",
+              "1 200"
+            ],
+            [
+              "Recevoir l’avance +3 500",
+              "4 700"
+            ],
+            [
+              "Payer les coûts préalables −4 700",
+              "0"
+            ],
+            [
+              "Acceptation complète; encaisser +2 100",
+              "2 100"
+            ],
+            [
+              "Payer l’inspection −300",
+              "1 800"
+            ]
+          ],
+          "widths": [
+            0.71,
+            0.29
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Rapprochement résolu",
+          "text": "Les recettes totales restent 3 500 + 2 100 = 5 600. Le solde de 1 800 comprend les 1 200 initiaux et la contribution modélisée de 600. Traiter l’avance comme recette supplémentaire compterait deux fois une partie du prix."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Si l’acceptation complète n’arrive pas, pouvez-vous inscrire l’encaissement de 2 100 et annoncer le même solde final? Expliquez en une phrase."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Non. Cette recette dépend de l’acceptation complète et de l’encaissement. Conservez les soldes observés, réels ou simulés, les factures impayées et les obligations de remboursement ou de reprise."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** consigner la branche favorable financée et les questions d’échec encore à résoudre. [C2, pp. 19–22]"
+        }
+      ]
+    },
+    {
+      "id": "l4_04",
+      "lesson": "L4",
+      "kicker": "Leçon 4 · 6 min",
+      "title": "Rendre la décision de financement vérifiable",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dans le Tableau des coûts et des fonds, séparez prix proposé, coûts complets modélisés, encaissements, paiements et devoirs restants. Marquez chaque entrée comme supposée, convenue ou observée dans l’exercice. Une avance inscrite sur une facture provisoire n’est pas un encaissement."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Retrouvez la contribution de 600 $ et le manque initial de 3 500 $.",
+            "Inscrivez l’avance dans le prix total, avec utilisation permise et conditions de remboursement.",
+            "Retrouvez le solde favorable de 1 800 $, dont les 1 200 $ initiaux.",
+            "Précisez ce qui change si l’acceptation échoue ou si le solde arrive tard."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Une collègue dit : « La solution est prête : sa trésorerie préalable ne devient jamais négative. » Corrigez cette conclusion sans rejeter la réparation utile."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "L’avance répare le calendrier modélisé de la branche favorable. Il faut encore des fonds réellement disponibles, une solution autorisée avec une capacité utilisable, et un traitement des obligations d’échec ou de paiement tardif. Un solde nul avant acceptation n’offre aucune réserve pour un élément non modélisé. La prochaine tâche constructive consiste à résoudre ces conditions, pas à répéter « trop risqué »."
+        },
+        {
+          "type": "callout",
+          "label": "Idée reçue à corriger",
+          "text": "« Marge, trésorerie et bénéfice sont interchangeables. » Ils décrivent respectivement une différence modélisée, l’argent disponible à un instant et le résultat final après les coûts et obligations applicables. [F2, p. 6; C2, pp. 18–20]"
+        },
+        {
+          "type": "p",
+          "text": "**Production :** un registre rapproché et une décision précise. **Prenez maintenant la pause de dix minutes. Suite :** déterminer les preuves justifiant une affirmation de réussite."
+        }
+      ]
+    },
+    {
+      "id": "l5_01",
+      "lesson": "L5",
+      "kicker": "Leçon 5 · 5 min",
+      "title": "Dire exactement ce qui est établi",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Attribuer un verdict étayé à une affirmation précise, expliquer son périmètre de preuve et nommer la prochaine observation décisive."
+        },
+        {
+          "type": "p",
+          "text": "Trois réalisations peuvent progresser ensemble sans devenir interchangeables. Le résultat client concerne l’engagement accepté. La faisabilité du service concerne l’arrangement complet dans ses conditions déclarées. La preuve commerciale concerne ce que de vrais participants ont choisi, reçu et payé. Une colonne ne remplit pas automatiquement les autres. [C2, pp. 8, 14–15, 18–22; F2, p. 3]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Affirmation",
+            "Question à trancher"
+          ],
+          "rows": [
+            [
+              "Résultat",
+              "Le résultat respecte-t-il les conditions d’acceptation initiales?"
+            ],
+            [
+              "Faisabilité du service",
+              "Permissions, capacité, financement et obligations permettent-ils le service complet?"
+            ],
+            [
+              "Preuve commerciale",
+              "De vraies conditions ont-elles été acceptées, la valeur livrée et le paiement encaissé, avec coûts complets et devoirs restants consignés?"
+            ]
+          ],
+          "widths": [
+            0.28,
+            0.72
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Un dossier correct peut être démontré alors que la livraison réelle reste non établie. Une commande reçue incomplète peut établir l’échec de P1 même si logiciel et transport ont fonctionné."
+        },
+        {
+          "type": "callout",
+          "label": "Trois verdicts",
+          "text": "DÉMONTRÉ : exigences annoncées satisfaites dans l’exercice déclaré. ÉCHEC : exigence applicable violée. NON ÉTABLI : preuve décisive absente ou hors périmètre. Une méthode non exécutée reste NON EXÉCUTÉE; cela ne prouve pas son échec."
+        },
+        {
+          "type": "p",
+          "text": "**Exercice :** classez « le plan semble complet » et « le reçu autorisé indique moins que P1 ». Le premier demande des preuves; le second étaye un échec dans le périmètre du reçu. **Suite :** examiner qui a vérifié, et sur quoi."
+        }
+      ]
+    },
+    {
+      "id": "l5_02",
+      "lesson": "L5",
+      "kicker": "Leçon 5 · 5 min",
+      "title": "Contrôler le vérificateur et ses sources",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Il faut préciser l’objet de l’« indépendance ». Une garde distincte protège la référence; un contrôle programmé séparément peut révéler une erreur commune; un évaluateur externe ajoute une séparation organisationnelle. Ces mesures répondent à des risques différents. Un autre modèle du même projet ne les procure pas automatiquement. [C2, pp. 9–10, 14, 24–25]"
+        },
+        {
+          "type": "figure",
+          "name": "verification_loop",
+          "caption": "L’objection devient utile lorsque les preuves la tranchent et qu’une réparation autorisée est revérifiée contre la promesse initiale. Une objection correcte peut aussi établir un obstacle."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Deux examinateurs lisant le même point de reprise incomplet peuvent s’accorder sur la mauvaise commande. Fournissez C-01 et A-02, puis vérifiez la détection d’un dossier omettant volontairement la modification dans l’exercice isolé."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice et retour",
+          "text": "Quel est le témoin positif? Un dossier complet et correct que le contrôle devrait accepter. Un vérificateur qui refuse tout n’est pas un test d’acceptation utile."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** appliquer ces distinctions aux preuves logicielles publiées du projet."
+        }
+      ]
+    },
+    {
+      "id": "l5_03",
+      "lesson": "L5",
+      "kicker": "Leçon 5 · 5 min",
+      "title": "Lire les preuves logicielles à leur juste portée",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Le dossier v0.2 du dépôt, fixé pour ce cours, rapporte un contenu numérique substantiel de travaux d’étiquetage produit puis transféré à un processus récepteur local distinct. Celui-ci importe le contenu, le contrôle contre sa spécification conservée et consigne l’acceptation. Cela dépasse une simple déclaration du producteur, tout en restant un exercice numérique borné. [R21; R22]"
+        },
+        {
+          "type": "p",
+          "text": "Une réexécution locale distincte a échoué pendant la finalisation des preuves et reste non qualifiée; des contrôles ultérieurs réussis n’effacent pas cet échec. [R46; R47]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Preuve du dossier",
+            "Ce qu’elle établit ou laisse ouvert"
+          ],
+          "rows": [
+            [
+              "Contenu importé et contrôlé",
+              "Résultat logiciel précis; aucune étiquette physique, qualité d’impression ni acceptation d’un client authentique."
+            ],
+            [
+              "Règles et monnaie modélisées",
+              "Résultats sous hypothèses rédigées; aucun consentement, paiement ou demande réels."
+            ],
+            [
+              "Récepteur et vérificateur distincts",
+              "Contrôles locaux sous auteurs et hôte partagés; aucune certification tierce."
+            ],
+            [
+              "IA NON EXÉCUTÉE",
+              "Aucune performance ni supériorité d’IA observée dans ces dossiers."
+            ]
+          ],
+          "widths": [
+            0.37,
+            0.63
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Réécrivez : « Les tests prouvent un marché de continuité physique certifiée indépendamment. »"
+        },
+        {
+          "type": "callout",
+          "label": "Retour modèle",
+          "text": "« L’expérience locale rapportée exerce et vérifie séparément un résultat numérique et des arrangements modélisés; elle n’établit ni livraison physique, ni demande réelle, ni certification tierce. » Cette formulation préserve l’acquis technique sans l’amplifier ni le nier. [R21; R22; R23]"
+        },
+        {
+          "type": "p",
+          "text": "Un Passeport sauvegardé résume une évaluation. Une nouvelle vérification réexamine preuves et référence originale; elle ne crée pas les observations réelles absentes. Garde des sources et hypothèses de confiance restent pertinentes. **Suite :** rédiger votre propre fiche de preuves."
+        }
+      ]
+    },
+    {
+      "id": "l5_04",
+      "lesson": "L5",
+      "kicker": "Leçon 5 · 5 min",
+      "title": "Transformer le constat en prochaine action",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pour une affirmation, consignez exigence, source ou observation, vérificateur, méthode, résultat, limite et prochaine action. Ajoutez la version et les conditions imposant un nouveau contrôle. Le Passeport de continuité sert à cela : permettre au lecteur de comprendre l’acquis et ce sur quoi il peut compter maintenant. [C2, pp. 14–15]"
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Un récepteur autorisé refuse un visuel périmé. Le test de refus fonctionne, mais aucune étiquette correcte n’arrive dans le délai de P1. Écrivez deux verdicts distincts et une prochaine action constructive."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Le contrôle de refus peut être DÉMONTRÉ dans ce test. La livraison complète de P1 est en ÉCHEC. L’action suivante pourrait construire et qualifier le dossier actuel et une production distincte financée; elle ne peut transformer l’échéance initiale manquée en réussite."
+        },
+        {
+          "type": "callout",
+          "label": "Une critique utile",
+          "text": "Demandez : « Quelle exigence cette preuve pourrait-elle contredire? » Puis : « Quelle construction ou observation permise réglerait le problème? » Conservez les observations défavorables et contrôlez la version réparée. Un avertissement général ne produit ni verdict précis ni réparation."
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une Fiche des affirmations et des preuves, avec verdict délimité et prochaine décision. **Autocontrôle :** avez-vous séparé test d’un composant, résultat complet, conditions du service et preuve commerciale? Avez-vous nommé l’indépendance réelle et l’observation manquante?"
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** même un arrangement fonctionnel doit justifier son choix face à des solutions compétentes."
+        }
+      ]
+    },
+    {
+      "id": "l6_01",
+      "lesson": "L6",
+      "kicker": "Leçon 6 · 5 min",
+      "title": "Comparer des solutions capables de gagner",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Concevoir une comparaison équitable et distinguer un résultat utile de la preuve qu’une méthode apporte un avantage."
+        },
+        {
+          "type": "p",
+          "text": "Une équipe conventionnelle compétente peut rapprocher la même modification, construire un dossier et organiser la relève. Donnez-lui les informations, l’autorité et les possibilités pertinentes. CONTINUITÉ Ω doit justifier son choix par le résultat complet, le travail économisé ou une activité rendue possible, sans rival artificiellement affaibli. [C2, pp. 19–22]"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Candidat",
+            "Rendre la comparaison crédible"
+          ],
+          "rows": [
+            [
+              "Service conventionnel ou existant",
+              "Permettre reprise, coordination, production de relève et contrôle compétents."
+            ],
+            [
+              "Voie directement assistée par l’IA",
+              "Si disponible et autorisée, fournir entrées, outils et possibilités de ressources équivalents."
+            ],
+            [
+              "Critique et construction explicites",
+              "Compter critique, arbitrage, réparation et vérification supplémentaires, ainsi que leurs bénéfices."
+            ]
+          ],
+          "widths": [
+            0.34,
+            0.66
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Conservez P1, accès aux sources, permissions, règles d’acceptation et budgets pertinents comparables. Fixez la méthode avant l’exécution. Distinguez devis, exercices réalisés et candidats indisponibles. L’acheteur peut aussi choisir raisonnablement de ne rien acheter."
+        },
+        {
+          "type": "callout",
+          "label": "Exemple résolu",
+          "text": "Si seule la nouvelle méthode reçoit A-02, sa meilleure quantité n’isole pas un avantage de méthode. Fournissez la même modification pertinente à la voie conventionnelle et refaites la comparaison dans le périmètre convenu."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** choisir les observations susceptibles de modifier réellement le choix."
+        }
+      ]
+    },
+    {
+      "id": "l6_02",
+      "lesson": "L6",
+      "kicker": "Leçon 6 · 5 min",
+      "title": "Une égalité est une information",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Dans la qualification v0.2 rapportée, les procédures conventionnelle et Harness ont obtenu les mêmes résultats de base et prix modélisés. Les deux ont aussi réalisé un successeur modifié précis. Cela étaye des affirmations bornées d’exécution et de transfert, sans établir un avantage supplémentaire de méthode ou d’IA. La comparaison avec l’IA n’a pas été exécutée. [R22]"
+        },
+        {
+          "type": "callout",
+          "label": "Comparaison résolue",
+          "text": "Deux voies autorisées respectent les mêmes conditions d’acceptation. L’une fournit une trace de preuves utile, mais demande davantage de travail humain. La livraison seule ne désigne pas un gagnant. Mesurez l’effort complet et demandez si les preuves supplémentaires changent une décision valorisée par l’acheteur."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Observer",
+            "Pourquoi cela compte"
+          ],
+          "rows": [
+            [
+              "Résultat correct accepté à temps",
+              "Le résultat client complet."
+            ],
+            [
+              "Omissions, défauts et questions ouvertes",
+              "Les limites cachées par une réussite globale."
+            ],
+            [
+              "Travail humain, reprises et vérification",
+              "L’effort réellement nécessaire au fonctionnement."
+            ],
+            [
+              "Coûts complets, trésorerie et devoirs",
+              "Ce que les participants doivent financer et assumer."
+            ]
+          ],
+          "widths": [
+            0.4,
+            0.6
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Faute de modèle autorisé accessible, une voie d’IA est NON EXÉCUTÉE. Peut-on la compter comme plus lente, plus chère ou infructueuse?"
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Non : sa performance est inconnue. De même, un essai borné et un faible écart de temps n’établissent pas une supériorité fiable. Une préparation ou adaptation non mesurée empêche une conclusion de coût complet. [R21; R22; R23]"
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** rédiger une comparaison pouvant choisir un service existant, la solution construite ou aucun achat."
+        }
+      ]
+    },
+    {
+      "id": "l6_03",
+      "lesson": "L6",
+      "kicker": "Leçon 6 · 5 min",
+      "title": "Rédiger une Fiche de comparaison",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choisissez la meilleure solution de rechange crédible à votre Fiche de réalisation. Précisez ce qu’une observation comparable devrait montrer pour préférer l’une des options. Le but est une meilleure décision, y compris découvrir qu’un service ordinaire fait déjà bien le travail."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Nommez la promesse client et les solutions complètes en concurrence.",
+            "Donnez à chacune les mêmes sources pertinentes, permissions, conditions d’acceptation et possibilités déclarées.",
+            "Choisissez les mesures utiles, dont effort total, coûts et financement.",
+            "Marquez chaque résultat : devis, exécuté, simulé ou NON EXÉCUTÉ. Nommez les lacunes restantes."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Une proposition annonce « 20 % de mieux » grâce à une étape logicielle plus rapide, mais omet deux heures de préparation manuelle et ne mesure pas la livraison acceptée. Que doit indiquer la fiche?"
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Consignez l’étape mesurée à sa portée réelle. L’amélioration complète est NON ÉTABLIE. Ajoutez préparation et acceptation, définissez le périmètre, puis recueillez des observations comparables. Un coût ou temps incomplet ne devient pas silencieusement un avantage du service entier. [C2, pp. 21–22]"
+        },
+        {
+          "type": "p",
+          "text": "**Production :** une Fiche de comparaison avec règle de décision définie d’avance. **Autocontrôle :** l’option conventionnelle peut-elle vraiment gagner? Une égalité resterait-elle visible? Un candidat non exécuté garderait-il ce statut?"
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** réunir promesse, construction, arrangement, finances, preuves et comparaison dans une mise en situation sur table."
+        }
+      ]
+    },
+    {
+      "id": "l7_01",
+      "lesson": "L7",
+      "kicker": "Leçon 7 · 5 min",
+      "title": "Réaliser la mise en situation",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Produire un Passeport défendable : préserver P1, construire la solution manquante, rapprocher les finances et séparer verdicts de résultat, de faisabilité et de preuve commerciale."
+        },
+        {
+          "type": "p",
+          "text": "Cet exercice sur table utilise les pièces K0–K6, dévoilées progressivement. Aucune entreprise n’est contactée; aucun produit n’est fabriqué; aucun argent ne circule. Lisez chaque pièce comme une hypothèse fournie ou une observation simulée. Votre tâche est de raisonner de façon cohérente, même quand une pièce contredit une proposition favorable."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Attribuez les rôles de coordonnateur, imprimeur A, imprimeur B et client/vérificateur. Si vous cumulez des rôles, rendez ce cumul explicite.",
+            "Ouvrez d’abord K0–K3. Réglez les décisions concernant promesse, sources, solution et arrangement.",
+            "Ouvrez K4 pour le financement, puis K5 pour le premier résultat. Consignez R1 sans le réécrire.",
+            "Si le temps le permet, ouvrez K6 comme branche témoin positive distincte, R2. Elle part d’un nouvel état supposé; ce n’est pas une réparation gratuite de R1."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Avant de découvrir le résultat",
+          "text": "Écrivez l’affirmation à tester et le résultat qui vous obligerait à la réviser. Le reçu décidera ainsi du verdict, plutôt que votre préférence."
+        },
+        {
+          "type": "p",
+          "text": "**Production attendue :** promesse, réalisation, arrangement et finances alimentent un Passeport. Préparez une explication de deux minutes sur l’échec et la prochaine décision constructive. **Suite :** établir la commande et la voie permise."
+        }
+      ]
+    },
+    {
+      "id": "l7_02",
+      "lesson": "L7",
+      "kicker": "Leçon 7 · 7 min",
+      "title": "Décider de la commande et de la solution",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Utilisez K0–K3. K0 définit P1 et l’autorité de Morgan. K1 fournit le point de reprise, A-02 et C-01. K2 donne le créneau et la demande simultanée supplémentaire. K3 fournit les permissions et engagements à examiner."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Reconstituez la quantité jusqu’à la limite figée. Nommez la source comprenant la modification et la couverture supposée.",
+            "Repérez la construction permettant de transmettre un dossier actuel et utilisable par le canal autorisé. Indiquez toute permission encore absente.",
+            "Calculez la capacité disponible et traitez la demande supplémentaire de 5 000.",
+            "Nommez l’observation établissant la préparation de la voie et celle établissant l’acceptation client."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Retour modèle — après votre décision",
+          "text": "La quantité acceptée est 10 000 : 8 000 + 2 000. C-01 fournit, dans le cas imprimé, la couverture jusqu’à mercredi midi sans autre changement. Le calcul de capacité est 12 000 − 2 000 = 10 000. P1 tient; ajouter inconditionnellement 5 000 surchargerait le créneau."
+        },
+        {
+          "type": "callout",
+          "label": "Réparation constructive",
+          "text": "Trouvez une capacité qualifiée supplémentaire, un autre créneau réellement compatible ou une offre conditionnelle acceptée. Ne déplacez pas silencieusement le travail protégé. Une permission de partager le fichier n’autorise pas automatiquement la production : examinez séparément ces engagements."
+        },
+        {
+          "type": "p",
+          "text": "**Point de contrôle :** votre solution nomme dossier réel, autorité et capacité, au-delà de « utiliser B ». Conservez les conditions ouvertes. **Suite :** vérifier si le coordonnateur peut financer la voie convenue."
+        }
+      ]
+    },
+    {
+      "id": "l7_03",
+      "lesson": "L7",
+      "kicker": "Leçon 7 · 8 min",
+      "title": "Rapprocher la proposition financée",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ouvrez K4. Travaillez dans le registre du service du coordonnateur; la facture initiale du client reste exclue. Conservez d’abord l’offre initiale, puis ajoutez la révision avec avance volontaire comme version distincte."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Votre calcul",
+            "Résultat attendu, CAD"
+          ],
+          "rows": [
+            [
+              "Prix moins coût complet modélisé",
+              "5 600 − 5 000 = 600"
+            ],
+            [
+              "Manque préalable initial",
+              "4 700 − 1 200 = 3 500"
+            ],
+            [
+              "Fonds initiaux et avance comprise",
+              "1 200 + 3 500 = 4 700"
+            ],
+            [
+              "Après les paiements préalables",
+              "4 700 − 4 700 = 0"
+            ],
+            [
+              "Solde conditionnel à l’acceptation complète",
+              "5 600 − 3 500 = 2 100"
+            ]
+          ],
+          "widths": [
+            0.69,
+            0.31
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Expliquez l’utilité du calendrier révisé, puis nommez deux faits qu’il n’établit pas. Consignez utilisation permise de l’avance, remboursement des fonds inutilisés et inspection restant à payer."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Il supprime le manque initial dans la branche favorable fournie parce que l’avance est reçue et disponible avant les factures. Il n’établit ni livraison réelle ni véritable achat. Il n’établit pas davantage le financement de chaque scénario d’échec. Le solde demeure conditionnel, pas déjà disponible."
+        },
+        {
+          "type": "p",
+          "text": "Une branche réussie et entièrement payée terminerait à 1 800 $ après le paiement final de 300 $. Ces fonds comprennent les 1 200 $ initiaux. N’inscrivez pas le solde favorable avant que les conditions d’acceptation et d’encaissement de la branche soient fournies."
+        },
+        {
+          "type": "p",
+          "text": "**Point de contrôle :** conservez les deux versions et leurs verdicts de financement distincts. **Suite :** découvrir le premier reçu et actualiser honnêtement la proposition."
+        }
+      ]
+    },
+    {
+      "id": "l7_04",
+      "lesson": "L7",
+      "kicker": "Leçon 7 · 8 min",
+      "title": "Conserver l’échec et sa facture impayée",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ouvrez K5. Dans R1, le reçu fictif rapporte 9 800 étiquettes conformes dans le délai. P1 en exige 10 000 sans acceptation partielle; Morgan refuse la commande complète. Le solde de 2 100 $, conditionnel à l’acceptation, est retenu. K5 ajoute une facture d’inspection de 300 $, exigible malgré la quantité insuffisante."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Écrivez le verdict de résultat, les fonds disponibles, l’obligation impayée et le verdict commercial. Proposez une décision utile. N’effacez pas R1 et ne supposez pas qu’une branche ultérieure paie ses factures."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dossier R1",
+            "Conclusion défendable"
+          ],
+          "rows": [
+            [
+              "Résultat P1 sur table",
+              "ÉCHEC : 9 800 ne respecte pas 10 000."
+            ],
+            [
+              "Trésorerie et dette",
+              "Fonds à 0; facture exigible de 300 non financée."
+            ],
+            [
+              "Service complet modélisé",
+              "ÉCHEC pour cet essai : pas d’acceptation complète; facture exigible de 300 non financée."
+            ],
+            [
+              "Livraison et marché réels",
+              "NON ÉTABLIS : pièces et événements sont simulés."
+            ]
+          ],
+          "widths": [
+            0.32,
+            0.68
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "La détection correcte d’un échec peut coexister avec l’échec du résultat client. Conservez reçu, coûts engagés, inspection impayée et devoirs de reprise ou remboursement. Décidez si une réparation autorisée et financée est possible. Si le délai de P1 ne peut être respecté, une nouvelle entente ne rend pas R1 réussi rétroactivement."
+        },
+        {
+          "type": "p",
+          "text": "**Point de contrôle :** le Passeport consigne un échec utile, pas une réussite atténuée. **Suite :** distinguer une nouvelle branche témoin d’une histoire réécrite."
+        }
+      ]
+    },
+    {
+      "id": "l7_05",
+      "lesson": "L7",
+      "kicker": "Leçon 7 · 7 min",
+      "title": "Clore le Passeport sans dépasser les preuves",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "K6 est une **branche témoin positive sur table, distincte, partant d’un nouvel état initial supposé**. Elle possède sa propre autorisation et un reçu fictif de 10 000 étiquettes conformes acceptées par Morgan dans les conditions de P1. Ce n’est ni une réimpression physique, ni une reprise gratuite, ni un financement ou remplacement de R1."
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Si vous exécutez R2, consignez acceptation complète, encaissement simulé de 2 100 $ et paiement de 300 $. Retrouvez le solde de 1 800 $. Sinon, marquez R2 NON EXÉCUTÉE, sans affirmation de résultat."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "R2 peut démontrer la branche favorable sur table sous les hypothèses fournies. Livraison physique, consentement véritable, paiement réel et marché viable restent NON ÉTABLIS. R1 conserve son échec, ses coûts, sa dette de 300 $ et ses obligations ouvertes."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Promesse : avez-vous conservé P1 et sa version faisant autorité?",
+            "Construction : la voie est-elle utilisable, permise et compatible avec les autres demandes?",
+            "Économie : avance comprise, solde conditionnel, fonds initiaux et dette d’échec sont-ils distincts?",
+            "Preuves : chaque verdict précise-t-il son périmètre en conservant le premier échec?"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "**Production :** un Passeport distinguant R1 et, le cas échéant, R2, puis deux minutes d’explication de la prochaine décision. Ce sont des productions d’apprentissage, pas une certification d’entreprise."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** choisir une capacité à conserver pour un autre engagement. [C2, pp. 14–15, 22–23]"
+        }
+      ]
+    },
+    {
+      "id": "l8_01",
+      "lesson": "L8",
+      "kicker": "Leçon 8 · 4 min",
+      "title": "Conserver une capacité, puis tester son apport",
+      "blocks": [
+        {
+          "type": "callout",
+          "label": "Objectif",
+          "text": "Choisir une capacité réutilisable, préciser son domaine de transfert et concevoir un test équitable sur une autre tâche."
+        },
+        {
+          "type": "p",
+          "text": "ALPHA GENESIS FLYWHEEL Ω demande si le travail validé laisse plus qu’un résultat ponctuel : outils, savoir, relations ou ressources gagnées pouvant aider à construire une capacité différente. Leur utilité conservée reste une hypothèse jusqu’aux preuves de la prochaine tâche. [F3, pp. 3, 8, 20; C2, p. 23]"
+        },
+        {
+          "type": "figure",
+          "name": "successor_loop",
+          "caption": "Conserver une capacité avec ses conditions, comparer son apport sur un travail nouveau et différent, puis garder le résultat, y compris un transfert échoué."
+        },
+        {
+          "type": "callout",
+          "label": "Trois affirmations distinctes",
+          "text": "Les ressources gagnées peuvent financer la suite. Une capacité héritée peut améliorer une nouvelle tâche. Une méthode de découverte améliorée peut mieux réussir dans de nouvelles campagnes. Chacune demande ses preuves; une seconde facture n’établit pas ces affirmations générales."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** définir ce qui est réutilisable et ce qu’il faut qualifier de nouveau."
+        }
+      ]
+    },
+    {
+      "id": "l8_02",
+      "lesson": "L8",
+      "kicker": "Leçon 8 · 4 min",
+      "title": "Un héritage utile a des conditions",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Supposons qu’un travail réel accepté produise une méthode maintenue pour rapprocher les modifications approuvées et préparer un dossier contrôlé. Un nouveau client demande ensuite des encarts d’emballage fabriqués par un autre procédé. La méthode pourrait aider; les anciennes étiquettes, l’ancien reçu et la permission de l’ancien client ne deviennent pas les réponses du nouveau cas."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Conserver si autorisé",
+            "Rétablir pour la nouvelle tâche"
+          ],
+          "rows": [
+            [
+              "Méthode, structure et contrôles",
+              "Nouvelle promesse faisant autorité et historique complet."
+            ],
+            [
+              "Prérequis et exemples d’échecs connus",
+              "Nouvelles matières, équipements, qualités et acceptations à tester."
+            ],
+            [
+              "Relations permises et savoir opérationnel",
+              "Droits actuels, consentements, capacité et financement."
+            ]
+          ],
+          "widths": [
+            0.44,
+            0.56
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Comparaison résolue",
+          "text": "Donnez à une voie conventionnelle compétente des informations et possibilités de ressources équivalentes. Comparez la nouvelle tâche avec et sans la méthode conservée. Mesurez résultat accepté et effort complet de préparation, adaptation et contrôle. Un modèle familier qui n’économise aucun travail utile n’a pas démontré son avantage."
+        },
+        {
+          "type": "p",
+          "text": "Une méthode préparatoire réutilisable pourrait réduire le coût des petits mandats. En faire un service exige encore capacité maintenue sans conflits, offre intéressante et vrais acheteurs. Un second client choisissant une offre semblable teste la demande répétée; cela ne prouve pas automatiquement qu’une tâche différente est devenue possible. [C2, p. 23; F3, pp. 8, 20]"
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** concevoir un Test de réutilisation pouvant révéler un transfert utile ou échoué."
+        }
+      ]
+    },
+    {
+      "id": "l8_03",
+      "lesson": "L8",
+      "kicker": "Leçon 8 · 4 min",
+      "title": "Concevoir le test du prochain usage",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Choisissez un acquis de votre mise en situation : méthode de rapprochement des sources, format autorisé, contrôle de capacité ou registre financier et de verdicts. Nommez le nouveau problème qu’il pourrait aider à résoudre et les changements nécessaires."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Nommez un autre bénéficiaire, produit ou procédé et son résultat autorisé.",
+            "Identifiez capacité conservée, version, permissions et prérequis. Préservez les échecs connus.",
+            "Définissez une comparaison compétente sans cet héritage, avec informations initiales pertinentes et ressources équivalentes.",
+            "Choisissez les mesures décisives de résultat et d’effort, la prochaine observation et son responsable."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Exercice",
+          "text": "Une équipe réemploie le même formulaire pour une deuxième vente et annonce une « économie de continuité qui s’améliore elle-même ». Formulez une affirmation plus limitée et le test supplémentaire nécessaire."
+        },
+        {
+          "type": "callout",
+          "label": "Retour",
+          "text": "Une vente et un encaissement réels peuvent étayer une observation de nouvel achat à ce périmètre. Pour démontrer un héritage utile, montrez l’apport à une tâche distincte. Pour démontrer une meilleure découverte, comparez de nouvelles campagnes avec des alternatives fortes également équipées. Conservez coûts d’adaptation et échecs. [C2, p. 23; F3, pp. 3, 8, 20]"
+        },
+        {
+          "type": "p",
+          "text": "**Production :** un Test de réutilisation dont l’apport annoncé peut être infirmé. Les 600 $ inventés de la mise en situation ne financent aucun projet réel. Il faut des ressources encaissées, libres d’usage après les obligations restantes."
+        },
+        {
+          "type": "p",
+          "text": "**Suite :** choisir une action concrète dans votre contexte."
+        }
+      ]
+    },
+    {
+      "id": "l8_04",
+      "lesson": "L8",
+      "kicker": "Leçon 8 · 3 min",
+      "title": "Choisir votre prochaine action",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reprenez votre réponse initiale : « L’application s’ouvre et la sauvegarde se charge. La promesse au client est-elle préservée? » Améliorez-la avec un engagement précis, une preuve nécessaire et une prochaine action."
+        },
+        {
+          "type": "callout",
+          "label": "Une réponse finale solide",
+          "text": "« L’application rétablie est un composant. Il faut encore établir la commande acceptée complète, une voie autorisée utilisable, capacité et financement, puis réception et acceptation réelles selon les conditions initiales. Je commencerais par examiner l’historique faisant autorité jusqu’à la limite convenue. »"
+        },
+        {
+          "type": "p",
+          "text": "Choisissez un engagement important dans votre contexte. Limitez le premier exercice pour qu’il tranche une question utile : préciser l’acceptation, construire une transmission autorisée manquante ou mener un exercice comparatif avec des participants désignés. Ne commencez pas par promettre une garantie générale."
+        },
+        {
+          "type": "numbered",
+          "items": [
+            "Nommez le résultat réel et la personne pouvant l’autoriser ou l’accepter.",
+            "Repérez la condition ouverte la plus déterminante.",
+            "Choisissez une construction ou observation susceptible de changer la décision.",
+            "Nommez responsable, date et périmètre autorisé. Conservez résultat et limites."
+          ]
+        },
+        {
+          "type": "callout",
+          "label": "Votre vérification finale",
+          "text": "Pouvez-vous expliquer pourquoi 10 000 fait autorité, pourquoi 5 000 de plus surcharge le créneau, pourquoi l’avance est comprise dans le prix, pourquoi R1 doit 300, pourquoi R2 ne l’efface pas, et ce qu’un successeur utile doit démontrer? Reprenez toute leçon dont le raisonnement demeure flou."
+        },
+        {
+          "type": "p",
+          "text": "**Production :** votre Prochaine action et votre réponse initiale révisée. Le cours réussit lorsque vous savez prendre et expliquer une meilleure décision concrète : construire une capacité manquante, choisir un service existant ou arrêter un plan non étayé."
+        }
+      ]
+    }
+  ]
+}

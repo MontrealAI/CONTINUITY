@@ -53,3 +53,5 @@ python3 scripts/verify_collection.py --language en
 Run from the repository root with Python 3.10+ and no additional dependencies. The check verifies the ZIP, all 106 extracted files, source hashes, index references, and local links in the reader and editable volumes. It does not rerun an experiment or certify scientific or commercial claims.
 
 [Import manifest](IMPORT_MANIFEST.json) · [Supplied checksums](edition-2/CHECKSUMS.sha256) · [Status, rights and limitations](STATUS.md#english)
+
+[Learn with the separate eight-lesson MasterClass 101](../masterclass-101/README.md).
